@@ -1,5 +1,5 @@
 # R.HydroBogota
-Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS`
+Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `DAM-Branching` `Newtonian` `Non-Newtonian`
 
 R.HydroBogota, es un proyecto de investigación colaborativa para el estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia.
 
