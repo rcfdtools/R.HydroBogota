@@ -4,11 +4,11 @@ Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `
 
 ## Objetivos
 
-El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos extremos en la cuenca del Río Bogotá, tales como:
+El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos y fenómenos extremos en la cuenca del Río Bogotá, tales como:
 
 * Crecientes súbitas generadas por lluvias extremas.
 * Descargas súbitas por colapso de embalses debidas a fallos estructurales o por ocurrencia de eventos sísmicos de gran magnitud.
-* Descargas súbitas por fallo en estructuras de control hidráulico: obstrucción de compuertas, rompimiento de diques, zonas de amortiguación y descarga, colapso de canales. 
+* Descargas súbitas por fallo en estructuras de control hidráulico: obstrucción de compuertas, rompimiento de diques, bloqueo o descarga de zonas de amortiguación, colapso de canales. 
 
 
 ### A corto plazo
@@ -17,6 +17,9 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Localizar las intersecciones de pasos de vía con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en el área urbana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en el área urbana de Bogotá.
 * Complementar la red de drenaje urbana y rural de la cuenca del Río Bogotá, incluyendo las conexiones de descarga de los sistemas de embalses reguladores a los drenajes principales receptores de la red hídrica.
+* Homologar el mapa IGAC de suelos de Cundinamarca a los grupos hidrológicos del SCS y establecer las tasas de infiltración.
+* Homologar el mapa de vocaciones de uso del IGAC a tipos de cobertura estableciendo valores asociados de rugosidad de Manning y porcentajes de impermeabilidad.
+* Digitalizar coronas de diques en canales para obtener las líneas de refinamiento (Breaklines) del mallado 2D.
 * Crear un prototipo hidráulico funcional Newtoniano 2D en HEC-RAS, simulando descargas súbitas por colapso de los embalses Neusa, Tominé y Sisga.
 
 
@@ -28,6 +31,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Incorporar al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios ubicados en las llanuras de inundación del Río Bogotá, Neusa, Tominé y Sisga. 
 * Localizar las intersecciones de intersección de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
+* Inclusión de estructuras y equipos hidráulicos: diques, culverts, compuertas, bombeos, zonas de amortiguación.
 * A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, generar eventos extremos con diferentes periodos de recurrencia.
 * A partir de la simulación hidráulica Newtoniana de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
 
