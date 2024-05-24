@@ -1,16 +1,16 @@
 # R.HydroBogota
 Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `DAM-Branching` `Newtonian` `Non-Newtonian`
 
-R.HydroBogota, es un proyecto de investigación colaborativa para el estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia.
+**_Proyecto de investigación colaborativa para el estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia._**
 
 
 ## Objetivos
 
-El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala que permita representar las inundaciones producidas por eventos extremos en la cuenca del Río Bogotá, tales como:
+El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos extremos en la cuenca del Río Bogotá, tales como:
 
 * Crecientes súbitas generadas por lluvias extremas.
-* Descargas súbitas por colapso de embalses por falla estructural o por eventos sísmicos de gran magnitud.
-* Descargas súbitas por fallo en estructuras de control hidráulico: obstrucción de compuertas, rompimiento de diques. 
+* Descargas súbitas por colapso de embalses debidas a fallos estructurales o por ocurrencia de eventos sísmicos de gran magnitud.
+* Descargas súbitas por fallo en estructuras de control hidráulico: obstrucción de compuertas, rompimiento de diques, zonas de amortiguación y descarga, colapso de canales. 
 
 
 ### A corto plazo
@@ -24,6 +24,9 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 ### A mediano plazo
 
+* Calibrar el modelo numérico construído a partir de información de eventos documentados.
+* Fomentar la participación de entidades gubernamentales locales (Alcaldías, Corporaciones Autónomas, cuerpos de atención de emergencias) y áreas adscritas a centros de educación superior (Centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
+* Desarrollar casos de estudios específicos dentro de la zona de estudio (trabajos de grado, investigación de semilleros).
 * Incorporar al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios ubicados en las llanuras de inundación del Río Bogotá, Neusa, Tominé y Sisga. 
 * Localizar las intersecciones de intersección de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
