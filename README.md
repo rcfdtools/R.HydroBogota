@@ -1,7 +1,5 @@
-# R.HydroBogota
+# Proyecto de investigación colaborativa para el estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
 Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `DAM-Branching` `Newtonian` `Non-Newtonian`
-
-**_Proyecto de investigación colaborativa para el estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia._**
 
 
 ## Objetivos
@@ -31,7 +29,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Localizar las intersecciones de intersección de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
 * A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, generar eventos extremos con diferentes periodos de recurrencia.
-* A partir de la simulación hidráulica de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
+* A partir de la simulación hidráulica Newtoniana de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
 
 
 ### A largo plazo
