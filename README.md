@@ -19,7 +19,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Localizar las intersecciones de pasos de vía con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en el área urbana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en el área urbana de Bogotá.
 * Complementar la red de drenaje urbana y rural de la cuenca del Río Bogotá, incluyendo las conexiones de descarga de los sistemas de embalses reguladores a los drenajes principales receptores de la red hídrica.
-* Crear un prototipo funcional 2D en HEC-RAS 2D simulando descarga súbita por colapso de los embalses Neusa, Tominé y Sisga.
+* Crear un prototipo hidráulico funcional Newtoniano 2D en HEC-RAS, simulando descargas súbitas por colapso de los embalses Neusa, Tominé y Sisga.
 
 
 ### A mediano plazo
@@ -27,6 +27,18 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Incorporar al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios ubicados en las llanuras de inundación del Río Bogotá, Neusa, Tominé y Sisga. 
 * Localizar las intersecciones de intersección de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
+* A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, generar eventos extremos con diferentes periodos de recurrencia.
+* A partir de la simulación hidráulica de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
 
 
 ### A largo plazo
+
+* Simulación 2D Newtoniana y comparación de mapas de amenazas usando las herramientas de simulación numérica [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
+* Simulación Newtoniana 2D de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca.
+* Simulación 2D de sedimentos transportados en la cuenca.
+* Simulación 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de los embalses reguladores incluyendo transporte de los materiales que conforman sus estructuras. 
+
+
+## Referencias
+
+* [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/raster-calculator)
