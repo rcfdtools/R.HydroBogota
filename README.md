@@ -25,7 +25,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 ### A mediano plazo
 
-* Calibrar el modelo numérico construído a partir de información de eventos documentados.
+* Calibrar el modelo numérico construído a partir de información de eventos hidráulicos documentados.
 * Fomentar la participación de entidades gubernamentales locales (Alcaldías, Corporaciones Autónomas, cuerpos de atención de emergencias) y áreas adscritas a centros de educación superior (Centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
 * Desarrollar casos de estudios específicos dentro de la zona de estudio (trabajos de grado, investigación de semilleros).
 * Incorporar al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios ubicados en las llanuras de inundación del Río Bogotá, Neusa, Tominé y Sisga. 
@@ -38,7 +38,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 ### A largo plazo
 
-* Simulación hidráulica 2D Newtoniana y comparación de mapas de amenazas usando las herramientas de simulación numérica [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
+* Simulación hidráulica 2D Newtoniana y comparación de mapas de amenazas usando las herramientas de simulación numérica [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
 * Simulación hidráulica 2D Newtoniana de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca debida a fenómenos de erosión.
 * Simulación hidráulica 2D de sedimentos transportados en la cuenca.
 * Simulación hidráulica 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de los embalses reguladores incluyendo transporte de los materiales que conforman sus estructuras.
