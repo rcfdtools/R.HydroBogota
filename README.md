@@ -20,7 +20,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Digitalizar las coronas de diques en canales (en zonas con cobertura Lidar), para utilizarlas como las líneas de refinamiento (Breaklines) del mallado 2D.
 * Homologar el [Mapa de Suelos del Territorio Colombiano a escala 1:100.000 con cubrimiento a Cundinamarca](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) , a los grupos hidrológicos del SCS de la [USDA](https://www.usda.gov/) o departamento de Agricultura de los Estados Unidos de América y establecer tasas de infiltración.
 * Homologar el [Mapa de Clasificación de las Tierras por su Vocación de Uso a escala 1:100.000](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) a tipos de cobertura estableciendo valores asociados de rugosidad de Manning y porcentajes de impermeabilidad.
-* Crear un prototipo hidráulico funcional Newtoniano 2D en HEC-RAS, simulando descargas súbitas por colapso de los embalses Neusa, Tominé y Sisga.
+* Crear un prototipo funcional de simulación hidráulica 2D en HEC-RAS, que permita evaluar descargas súbitas por colapso de los embalses Neusa, Tominé y Sisga.
 
 
 ### A mediano plazo
@@ -33,13 +33,13 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
 * Inclusión de estructuras y equipos hidráulicos: diques, culverts, compuertas, bombeos, zonas de amortiguación.
 * A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, generar eventos extremos con diferentes periodos de recurrencia.
-* A partir de la simulación hidráulica 2D Newtoniana de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
+* A partir de la simulación hidráulica 2D de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
 
 
 ### A largo plazo
 
-* Simulación hidráulica 2D Newtoniana y comparación de mapas de amenazas usando las herramientas de simulación numérica [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
-* Simulación hidráulica 2D Newtoniana de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca debida a fenómenos de erosión.
+* Simulación hidráulica 2D y comparación de mapas de amenazas usando las herramientas de simulación numérica [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
+* Simulación hidráulica 2D de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca debida a fenómenos de erosión.
 * Simulación hidráulica 2D de sedimentos transportados en la cuenca.
 * Simulación hidráulica 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de los embalses reguladores incluyendo transporte de los materiales que conforman sus estructuras.
 * Simulación hidráulica 2D de operación de los embalses reguladores de la cuenca.
