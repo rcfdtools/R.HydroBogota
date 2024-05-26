@@ -7,19 +7,19 @@ Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `
 El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos y fenómenos extremos en la cuenca del Río Bogotá, tales como:
 
 * Crecientes súbitas generadas por lluvias extremas.
-* Descargas súbitas por colapso de embalses debidas a fallos estructurales o por ocurrencia de eventos sísmicos de gran magnitud.
+* Descargas súbitas por colapso de embalses, debidas a fallos estructurales o por ocurrencia de eventos sísmicos de gran magnitud.
 * Descargas súbitas por fallo en estructuras de control hidráulico: obstrucción de compuertas, rompimiento de diques, bloqueo o descarga de zonas de amortiguación, colapso de canales. 
 
 
 ### A corto plazo
 
-* Integrar un modelo digital de elevación híbrido (DEM) combinando información de sensores remotos satelitales (ALOS PALSAR 12.5m), levantamientos Lidar Bogotá (5m y 0.5m) y bloques de obstrucción generados a partir del catastro de construcciones urbanas y rurales.
-* Localizar las intersecciones de pasos de vía con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en el área urbana de Bogotá.
+* Integrar un modelo digital de elevación híbrido (DEM) combinando información de sensores remotos satelitales (ALOS PALSAR 12.5m con ajuste de elevaciones a partir de información Lidar), levantamientos Lidar Bogotá (5m y 0.5m) y bloques de obstrucción generados a partir del catastro de construcciones urbanas y rurales en zonas con información Lidar.
+* Localizar las intersecciones de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en el área urbana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en el área urbana de Bogotá.
-* Complementar la red de drenaje urbana y rural de la cuenca del Río Bogotá, incluyendo las conexiones de descarga de los sistemas de embalses reguladores a los drenajes principales receptores de la red hídrica.
-* Homologar el mapa IGAC de suelos de Cundinamarca a los grupos hidrológicos del SCS y establecer las tasas de infiltración.
-* Homologar el mapa de vocaciones de uso del IGAC a tipos de cobertura estableciendo valores asociados de rugosidad de Manning y porcentajes de impermeabilidad.
-* Digitalizar coronas de diques en canales para obtener las líneas de refinamiento (Breaklines) del mallado 2D.
+* Complementar la red de drenaje urbana y rural de la cuenca del Río Bogotá, incluyendo las conexiones de descarga de los sistemas de embalses reguladores, a los drenajes principales receptores de la red hídrica. La red de drenaje se utiliza como elemento de refinamiento (Breaklines) del mallado 2D.
+* Digitalizar las coronas de diques en canales (en zonas con cobertura Lidar), para utilizarlas como las líneas de refinamiento (Breaklines) del mallado 2D.
+* Homologar el [Mapa de Suelos del Territorio Colombiano a escala 1:100.000 con cubrimiento a Cundinamarca](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) , a los grupos hidrológicos del SCS de la [USDA](https://www.usda.gov/) o departamento de Agricultura de los Estados Unidos de América y establecer tasas de infiltración.
+* Homologar el [Mapa de Clasificación de las Tierras por su Vocación de Uso a escala 1:100.000](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) a tipos de cobertura estableciendo valores asociados de rugosidad de Manning y porcentajes de impermeabilidad.
 * Crear un prototipo hidráulico funcional Newtoniano 2D en HEC-RAS, simulando descargas súbitas por colapso de los embalses Neusa, Tominé y Sisga.
 
 
