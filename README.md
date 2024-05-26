@@ -33,16 +33,16 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
 * Inclusión de estructuras y equipos hidráulicos: diques, culverts, compuertas, bombeos, zonas de amortiguación.
 * A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, generar eventos extremos con diferentes periodos de recurrencia.
-* A partir de la simulación hidráulica Newtoniana de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
+* A partir de la simulación hidráulica 2D Newtoniana de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
 
 
 ### A largo plazo
 
-* Simulación 2D Newtoniana y comparación de mapas de amenazas usando las herramientas de simulación numérica [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
-* Simulación 2D Newtoniana de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca debida a fenómenos de erosión.
-* Simulación 2D de sedimentos transportados en la cuenca.
-* Simulación 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de los embalses reguladores incluyendo transporte de los materiales que conforman sus estructuras.
-* Simulación 2D de la operación de los embalses reguladores de la cuenca.
+* Simulación hidráulica 2D Newtoniana y comparación de mapas de amenazas usando las herramientas de simulación numérica [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
+* Simulación hidráulica 2D Newtoniana de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca debida a fenómenos de erosión.
+* Simulación hidráulica 2D de sedimentos transportados en la cuenca.
+* Simulación hidráulica 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de los embalses reguladores incluyendo transporte de los materiales que conforman sus estructuras.
+* Simulación hidráulica 2D de operación de los embalses reguladores de la cuenca.
 
 
 ## Referencias
