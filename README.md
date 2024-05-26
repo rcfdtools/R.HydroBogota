@@ -39,9 +39,10 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 ### A largo plazo
 
 * Simulación 2D Newtoniana y comparación de mapas de amenazas usando las herramientas de simulación numérica [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
-* Simulación Newtoniana 2D de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca.
+* Simulación 2D Newtoniana de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca debida a fenómenos de erosión.
 * Simulación 2D de sedimentos transportados en la cuenca.
-* Simulación 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de los embalses reguladores incluyendo transporte de los materiales que conforman sus estructuras. 
+* Simulación 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de los embalses reguladores incluyendo transporte de los materiales que conforman sus estructuras.
+* Simulación 2D de la operación de los embalses reguladores de la cuenca.
 
 
 ## Referencias
