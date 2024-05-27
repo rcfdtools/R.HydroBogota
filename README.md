@@ -20,15 +20,17 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Digitalizar las coronas de diques en canales (en zonas con cobertura Lidar), para utilizarlas como las líneas de refinamiento (Breaklines) del mallado 2D.
 * Homologar el [Mapa de Suelos del Territorio Colombiano a escala 1:100.000 con cubrimiento a Cundinamarca](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) , a los grupos hidrológicos del SCS de la [USDA](https://www.usda.gov/) o departamento de Agricultura de los Estados Unidos de América y establecer tasas de infiltración.
 * Homologar el [Mapa de Clasificación de las Tierras por su Vocación de Uso a escala 1:100.000](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) a tipos de cobertura estableciendo valores asociados de rugosidad de Manning y porcentajes de impermeabilidad.
-* Crear un prototipo funcional de simulación hidráulica 2D en HEC-RAS, que permita evaluar descargas súbitas por colapso de los embalses Neusa, Tominé y Sisga.
+* Crear un prototipo funcional de simulación hidráulica 2D en HEC-RAS, que permita evaluar descargas súbitas por colapso o fallo estructural de los embalses Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera.
+
+> En esta etapa no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales, debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya transportado, reduce su capacidad hidráulica.
 
 
 ### A mediano plazo
 
-* Calibrar el modelo numérico construído a partir de información de eventos hidráulicos documentados.
-* Fomentar la participación de entidades gubernamentales locales (Alcaldías, Corporaciones Autónomas, cuerpos de atención de emergencias) y áreas adscritas a centros de educación superior (Centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
+* Calibrar el modelo numérico construído a partir de información de eventos históricos documentados.
+* Fomentar la participación de entidades gubernamentales locales (Alcaldías, Empresas de Servicios Públicos, Corporaciones Autónomas, cuerpos de atención de emergencias y desastres) y áreas adscritas a centros de educación superior (Centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
 * Desarrollar casos de estudios específicos dentro de la zona de estudio (trabajos de grado, investigación de semilleros).
-* Incorporar al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios ubicados en las llanuras de inundación del Río Bogotá, Neusa, Tominé y Sisga. 
+* Incorporar al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios y zonas ubicadas en las llanuras de inundación del Río Bogotá, Río Neusa, Río Tominé, Río Sisga, Río Teusacá (desde el Embalse San Rafael), Río Chisacá y Río Tunjuelo. 
 * Localizar las intersecciones de intersección de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
 * Inclusión de estructuras y equipos hidráulicos: diques, culverts, compuertas, bombeos, zonas de amortiguación.
@@ -38,6 +40,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 ### A largo plazo
 
+* Ajuste de secciones en canales a partir de levantamientos topo-batimétricos. Requerido debido a que a partir de levantamientos Lidar, las secciones representan el fondo a partir de la lámina de agua presente en el momento de la captura de puntos.
 * Simulación hidráulica 2D y comparación de mapas de amenazas usando las herramientas de simulación numérica [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
 * Simulación hidráulica 2D de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca debida a fenómenos de erosión.
 * Simulación hidráulica 2D de sedimentos transportados en la cuenca.
