@@ -7,8 +7,8 @@ Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `
 El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos y fenómenos extremos en la cuenca del Río Bogotá, tales como:
 
 * Crecientes súbitas generadas por lluvias extremas.
-* Descargas súbitas por colapso de embalses, debidas a fallos estructurales o por ocurrencia de eventos sísmicos de gran magnitud.
-* Descargas súbitas por fallo en estructuras de control hidráulico: obstrucción de compuertas, rompimiento de diques, bloqueo o descarga de zonas de amortiguación, colapso de canales. 
+* Descargas súbitas por colapso de embalses debidas a fallos estructurales o por ocurrencia de eventos sísmicos de gran magnitud.
+* Descargas súbitas por fallo en estructuras hidráulicas y canales: obstrucción de compuertas, rompimiento de diques, bloqueo o descarga de zonas de amortiguación, colapso de canales. 
 
 
 ### A corto plazo
@@ -45,6 +45,8 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 2D de operación de los embalses reguladores de la cuenca.
 
 
+
 ## Referencias
 
+* https://damfailures.org/
 * [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/raster-calculator)
