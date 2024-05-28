@@ -1,5 +1,7 @@
-# Proyecto de investigación colaborativa para el estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
+# Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
 Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `DAM-Branching` `Newtonian` `Non-Newtonian`
+
+R.HydroBogotá es un proyecto de investigación colaborativa que busca integrar y generar conocimiento alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía.
 
 
 ## Objetivos
@@ -7,8 +9,8 @@ Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `
 El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos y fenómenos extremos en la cuenca del Río Bogotá, tales como:
 
 * Crecientes súbitas generadas por lluvias extremas.
-* Descargas súbitas por colapso de embalses debidas a fallos estructurales o por ocurrencia de eventos sísmicos de gran magnitud.
-* Descargas súbitas por fallo en estructuras hidráulicas y canales: obstrucción de compuertas, rompimiento de diques, bloqueo o descarga de zonas de amortiguación, colapso de canales. 
+* Descargas súbitas por colapso de embalses debidas a fallos estructurales debidas a fenómenos de erosión, o por ocurrencia de eventos sísmicos de gran magnitud.
+* Descargas no controladas por fallo en estructuras hidráulicas y canales: colapso de vertederos y túneles de excesos y de emergencia, obstrucción de compuertas, rompimiento de diques, bloqueo o descargas no controladas desde zonas de amortiguación, colapso de canales. 
 
 
 ### A corto plazo
@@ -48,8 +50,24 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 2D de operación de los embalses reguladores de la cuenca.
 
 
+## Fuentes de información
+
+La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación.
+
+> Tablas de datos y clases de entidad, incluyen un campo numérico entero largo denominado `DSourceID` que contiene el código de la fuente de datos.
+
+| DSourceID | Descripción | Enlace                       |
+|:---------:|:------------|:-----------------------------|
+|     1     | r.cfdtools  | https://github.com/rcfdtools |
+|     2     |             |                              |
+|     3     |             |                              |
+|     4     |             |                              |
+
+
 
 ## Referencias
 
 * https://damfailures.org/
 * [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/raster-calculator)
+* https://www.usgs.gov/faqs/what-liquefaction
+* https://damfailures.org/wp-content/uploads/2021/11/conduits_embankment_dams.pdf
