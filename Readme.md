@@ -60,11 +60,11 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 
 | DSourceID | DSourceNam | Descripción                                                                                                                                                                                                                    |
 |:---------:|:-----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     1     | r.cfdtools | [r.cfdtools](https://github.com/rcfdtools): digitalización de entidades, homologación de atributos, ensamble de modelos.                                                                                                       |
+|     1     | r.cfdtools | [r.cfdtools](https://github.com/rcfdtools): digitalización de entidades, homologación de atributos, ensamble de modelos                                                                                                        |
 |     2     | NASA       | [The National Aeronautics and Space Administration](https://www.nasa.gov/): modelo digital de elevación - DEM                                                                                                                  |
-|     3     | IGAC       | [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/): mapas base, mapa de suelos, mapa de vocaciones de uso.                                                                                                       |
+|     3     | IGAC       | [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/): mapas base, mapa de suelos, mapa de vocaciones de uso                                                                                                        |
 |     4     | EAAB       | [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/): redes de drenaje, cuerpos de agua, Lidar                                                                                                     |
-|     5     | IDECA      | [Unidad Administrativa Especial de Catastro Distrital](https://www.catastrobogota.gov.co/) - [Infraestructura de Datos Espaciales para el Distrito Capital](https://www.ideca.gov.co/), construcciones, puentes y pasos de vía |
+|     5     | IDECA      | [Unidad Administrativa Especial de Catastro Distrital](https://www.catastrobogota.gov.co/) - [Infraestructura de Datos Espaciales para el Distrito Capital](https://www.ideca.gov.co/): construcciones, puentes y pasos de vía |
 
 > Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio
 
