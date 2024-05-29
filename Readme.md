@@ -3,7 +3,7 @@ Keywords: `Case-Study` `Colombia` `Bogota-River` `Sudden-Discharge` `HEC-RAS` `H
 
 **_R.HydroBogota_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
-_**Descargos de responsabilidad:** r.cfdtools y los demás investigadores asociados este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y herramientas o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, objetos aplicados y los resultados obtenidos, cumplen con las metodologías y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
+_**Descargos de responsabilidad:** r.cfdtools y los demás investigadores asociados este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y herramientas o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, objetos aplicados y los resultados, cumplen con las metodologías y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
 
 
 ## Objetivos
@@ -84,7 +84,7 @@ de la resolución 471 de 2020, los cuales pueden configurarse en software especi
 
 `PROJCS["MAGNA_Colombia_Origen_Unico",GEOGCS["GCS_MAGNA",DATUM["D_MAGNA",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",5000000.0],PARAMETER["False_Northing",2000000.0],PARAMETER["Central_Meridian",-73.0],PARAMETER["Scale_Factor",0.9992],PARAMETER["Latitude_Of_Origin",4.0],UNIT["Meter",1.0]]`
 
-> :lady_beetle:Nota: para la correcta asociación de las clases de entidad o vectores utilizados para la construcción del modelo hidráulico utilizando RAS Mapper en HEC-RAS, todos los archivos deberán utilizar un sistema de proyección único.
+> :lady_beetle:Nota: para la correcta asociación de las clases de entidad o vectores utilizados para la construcción del modelo hidráulico utilizando RAS Mapper en HEC-RAS, todos los archivos deberán utilizar el sistema de proyección único 9377.
 
 
 ## Referencias
