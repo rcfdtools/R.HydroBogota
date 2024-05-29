@@ -65,7 +65,7 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 |     3     | IGAC       | [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/), mapas base, mapa de suelos, mapa de vocaciones de uso. |
 |     4     | EAAB       |                                                                                                                          |
 |     5     |            |                                                                                                                          |
-|    6     |            |                                                                                                                          |
+|     6     |            |                                                                                                                          |
 
 > Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio
 
