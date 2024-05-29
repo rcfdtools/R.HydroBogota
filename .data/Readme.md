@@ -68,8 +68,10 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 * Resolución: 50 centímetros
 * Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-terreno-de-la-zona-urbana-bogota-bogota-dc-ano-2020, https://datosabiertos.bogota.gov.co/dataset/dtm-bogota, https://serviciosgis.catastrobogota.gov.co/arcgis/services/topografia/modelodigitalterrenobogotaurbano/MapServer/WCSServer?request=GetCapabilities&service=WCS
 * Fuente / Autor: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
-* Fecha de actualización: 2022/11/30
+* Fecha de actualización: 2020
 * Licencia: CC BY-NC-SA 4.0 DEED
+
+> Nota: para reducir el tamaño del archivo originalmente descargado de 16GB, los valores nulos han sido almacenados como -9999 obteniendo un archivo de 6GB. 
 
 
 ## Modelo Digital de Elevación NASA ALOS-PALSAR (12.5m)
@@ -83,3 +85,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 * Fecha de actualización: 2011
 
 > Nota: no se incluyen los archivos independientes descargados sino el mosaico integrado con cobertura sobre la cuenca del río Bogotá, re-proyección al CRS 9377 y con valor medio en pixeles coincidentes. 
+
+
+## Red de drenaje EAAB de la Cuenca del Río Bogotá
+
