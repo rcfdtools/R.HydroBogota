@@ -1,7 +1,7 @@
 # Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
-Keywords: `Case-study` `Colombia` `Bogotá-River` `Sudden-Discharge` `HEC-RAS` `DAM-Branching` `Newtonian` `Non-Newtonian`
+Keywords: `Case-Study` `Colombia` `Bogota-River` `Sudden-Discharge` `HEC-RAS` `Hydraulic-Modeling` `2D-Modeling` `DAM-Branching` `Newtonian` `Non-Newtonian`
 
-R.HydroBogotá es un proyecto de investigación colaborativa que busca integrar y generar conocimiento alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía.
+**_R.HydroBogota_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía.
 
 
 ## Objetivos

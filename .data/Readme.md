@@ -2,7 +2,7 @@
 
 Esta carpeta contiene los archivos fuente y mapas base recopilados desde diferentes fuentes de información.
 
-> La fecha indicada al final de los archivos y en formato aaaammdd, corresponde a la fecha de descarga e incorporación en este repositorio.
+> La fecha indicada al final de los archivos (en formato aaaammdd), corresponde a la fecha de descarga e incorporación en este repositorio.
 
 
 ## Mapa Digital de Clasificación de las Tierras por su Vocación de Uso, República de Colombia, Escala 1:100.000. Año 2013
