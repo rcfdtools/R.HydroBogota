@@ -12,6 +12,8 @@ El objetivo principal de la vocación es la determinación del uso más apropiad
 * Archivo local: ag_100k_vocacion_uso_2017_20240507.rar
 * Enlace descarga: https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia
 * Extensión espacial: nacional sobre Colombia - Suramérica
+* Escala: 1:100000
+* Sistema de referencia de coordenadas: 3116
 * Fuente / Autor: Instituto Geográfico Agustín Codazzi- Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 * Licencia: este producto adopta la licencia pública internacional de Reconocimiento-CompartirIgual 4.0 de Creative Commons, Creative Commons attribution – ShareAlike 4.0 Internacional. Por tal razón, nuevos productos y servicios derivados de su reutilización deben ser también licenciados bajo las mismas condiciones de uso y disponibilidad que habilitó la licencia antes mencionada. Lo anterior, sin perjuicio de los derechos de autor y propiedad intelectual del Instituto Geográfico Agustín Codazzi, con base en la Ley 23 de 1982 y demás normas concordantes. 
 
@@ -25,6 +27,8 @@ Los Levantamientos Generales de Suelos de los departamentos del Territorio Colom
 * Archivo local: CUNDINAMARCA_SUELOS_VF_20240507.zip
 * Enlace descarga: https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia
 * Extensión espacial: Departamento de Cundinamarca - Colombia - Suramérica
+* Escala: 1:100000
+* Sistema de referencia de coordenadas: 3116
 * Fuente / Autor: Instituto Geográfico Agustín Codazzi- Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 * Licencia: este producto adopta la licencia pública internacional de Reconocimiento-CompartirIgual 4.0 de Creative Commons, Creative Commons attribution – ShareAlike 4.0 Internacional. Por tal razón, nuevos productos y servicios derivados de su reutilización deben ser también licenciados bajo las mismas condiciones de uso y disponibilidad que habilitó la licencia antes mencionada. Lo anterior, sin perjuicio de los derechos de autor y propiedad intelectual del Instituto Geográfico Agustín Codazzi, con base en la Ley 23 de 1982 y demás normas concordantes.
 
