@@ -46,7 +46,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 * Archivo local: DTM_Bogota_2014_4326.zip
 * Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-de-terreno-bogota-dc-2014
-* Fuente / Autor: [IDE de Bogotá](https://ideca.gov.co/)
+* Fuente / Autor: [IDE de Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
 * Fecha de actualización: 2014/08/08
 * Fuente: Datos Abiertos Bogotá
 * Licencia: CC BY 4.0
