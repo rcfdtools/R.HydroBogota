@@ -64,7 +64,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
-* Archivo local: DTM_Bogota_2020_4326.rar (comprimido en 59 partes de 96Mb)
+* Archivo local: DTM_Bogota_2020_4326.rar (comprimido en 3 partes de 2GB y disponible en Release como [DTM_Bogota_2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota_2020_4326_v1.0.0))
 * Resolución: 50 centímetros
 * Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-terreno-de-la-zona-urbana-bogota-bogota-dc-ano-2020, https://datosabiertos.bogota.gov.co/dataset/dtm-bogota, https://serviciosgis.catastrobogota.gov.co/arcgis/services/topografia/modelodigitalterrenobogotaurbano/MapServer/WCSServer?request=GetCapabilities&service=WCS
 * Fuente / Autor: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
