@@ -99,7 +99,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 Corriente de agua de origen natural o artificial de forma permanente o periódica que debido a la escala de su visualización es representada a través de geometrías tipo línea. Tiene como categorías; Canal sencillo: Cauce artificial abierto cuya sección transversal tiene una forma generalmente constante, claramente diferenciado, que contiene agua en movimiento, de forma permanente o periódica. Quebrada: Curso de agua de origen natural, de primer o segundo orden, con un caudal intermitente o permanente y un comportamiento generalmente torrencial. Las quebradas canalizadas continúan considerándose como quebradas. Río sencillo: Corriente natural de agua que fluye con continuidad, de tercer orden o superior, posee un caudal determinado y desemboca en el mar, en un lago o en otro río, en cuyo caso se denomina afluente. Los tramos de ríos que han sido revestidos y o rectificados, continúan considerándose ríos y no canales. Caño: Conductos que sirven para conducir fluidos. Drenaje: Todo aquel cauce o curso de agua no clasificado dentro de los otros tipos de drenaje. Cascada: Cauce donde el agua fluye rápidamente perdiendo elevación mientras discurre por una región con fuerte desnivel o por un acantilado.
 
-* Archivo local: drenaje_20240601.rar
+* Archivo local: Drenaje_20240601.rar
 * Fuente: https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc
 * Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
 * Escala: no indicada
@@ -125,7 +125,7 @@ Corriente de agua de origen natural o artificial de forma permanente o periódic
 | Embalse   | Emplazamiento natural o artificial, usado para el almacenamiento la generación de energía eléctrica, regulación o control de recursos hídricos, abastecimiento de agua, riego o fines turísticos.                                                                                                                  | Léntico / Lótico                                                                             |
 | Pantano   | Capa de aguas estancadas y poco profundas en la cual crece una vegetación acuática a veces muy densa.                                                                                                                                                                                                              | Léntico                                                                                      |
 
-* Archivo local: cuerpoagua_20240601.rar
+* Archivo local: CuerpoAgua_20240601.rar
 * Fuente: https://www.ideca.gov.co/recursos/mapas/cuerpo-de-agua-bogota-dc
 * Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
 * Escala: no indicada
@@ -136,7 +136,7 @@ Corriente de agua de origen natural o artificial de forma permanente o periódic
 
 ## Construcción, Bogotá D.C
 
-**Aplicación en esta investigación**: generación de superficies elevadas para integración al modelo híbrido de elevación, también utilizadas como bloques de obstrucción en modelo hidráulico con casos de estudio utilizando modelos unidimensionales.
+**Aplicación en esta investigación**: generación de superficies elevadas para integración al modelo híbrido de elevación, también utilizadas como bloques de obstrucción en casos de estudio que requieran de modelos hidráulicos unidimensionales.
 
 **Autor**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
 
@@ -147,5 +147,22 @@ Nivel de información que delimita las áreas edificadas con cubierta de caráct
 * Extensión espacial: Bogotá D.C
 * Escala: no indicada
 * Fecha de actualización: 2024/03/03
+* Sistema de referencia de coordenadas: 4686
+* Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
+
+
+## Puente, Bogotá D.C
+
+**Aplicación en esta investigación**: generación de superficies elevadas para integración al modelo híbrido de elevación, también utilizadas como bloques de obstrucción en casos de estudio que requieran de modelos hidráulicos unidimensionales.
+
+**Autor**: [Instituto de Desarrollo Urbano - IDU](https://www.idu.gov.co/)
+
+Estructura que se construye principalmente en obstáculos naturales como ríos, quebradas, depresiones del terreno y en obstáculos artificiales: canales, vías, infraestructura urbana; con el fin de comunicar dos puntos. Tiene como categorías; Vehicular: Infraestructura vial conectante destinada principalmente al uso de vehículos. Peatonal: espacio urbano donde el tránsito vehicular está prohibido, prevaleciendo la circulación de peatones.
+
+* Archivo local: Puente_20240517.zip
+* Fuente: https://datosabiertos.bogota.gov.co/dataset/puente-bogota-d-c
+* Extensión espacial: Bogotá D.C
+* Escala: no indicada
+* Fecha de actualización: 2023/11/14
 * Sistema de referencia de coordenadas: 4686
 * Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
