@@ -48,12 +48,14 @@ Los Levantamientos Generales de Suelos de los departamentos del Territorio Colom
 
 **Aplicación en esta investigación**: complementación corredor Río Bogotá en límite geográfico del Distrito Capital, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
 
+**Fuente / Autor**: [[Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90,
+
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
 * Archivo local: DTM_Bogota_2014_4326.zip
 * Resolución: 5 metros
 * Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-de-terreno-bogota-dc-2014
-* Fuente / Autor: [[Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
+ Torre B Piso 2
 * Fecha de actualización: 2014/08/08
 * Licencia: CC BY 4.0
 
@@ -62,12 +64,13 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Aplicación en esta investigación**: modelo de terreno principal para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
 
+**Fuente / Autor**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
+
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
 * Archivo local: DTM_Bogota_2020_4326.rar (comprimido en 3 partes de 2GB y disponible en Release como [DTM_Bogota_2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota_2020_4326_v1.0.0))
 * Resolución: 50 centímetros
 * Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-terreno-de-la-zona-urbana-bogota-bogota-dc-ano-2020, https://datosabiertos.bogota.gov.co/dataset/dtm-bogota, https://serviciosgis.catastrobogota.gov.co/arcgis/services/topografia/modelodigitalterrenobogotaurbano/MapServer/WCSServer?request=GetCapabilities&service=WCS
-* Fuente / Autor: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
 * Fecha de actualización: 2020
 * Licencia: CC BY-NC-SA 4.0 DEED
 
@@ -78,14 +81,29 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Aplicación en esta investigación**: modelo de terreno base con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
 
+**Fuente / Autor**: [The National Aeronautics and Space Administration](https://www.nasa.gov/)
+
 * Archivo local: DSM_AlosPalsar_9377.rar (comprimido en 2 partes de 96Mb)
 * Resolución: 12.5 metros
 * Enlace de descarga: https://www.earthdata.nasa.gov/ (ALOS_PALSAR_RTC_HIGH_RES)
-* Fuente / Autor: [The National Aeronautics and Space Administration](https://www.nasa.gov/)
 * Fecha de actualización: 2011
 
 > Nota: no se incluyen los archivos independientes descargados sino el mosaico integrado con cobertura sobre la cuenca del río Bogotá, re-proyección al CRS 9377 y con valor medio en pixeles coincidentes. 
 
 
-## Red de drenaje EAAB de la Cuenca del Río Bogotá
+## Corriente de Agua, Bogotá D.C
+
+**Aplicación en esta investigación**: alineamientos para refinamiento de mallado en RAS Mapper. Requiere verificación y digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales...), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía. 
+
+**Fuente / Autor**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/), [Datos Abiertos Bogotá](https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc)
+
+Corriente de agua de origen natural o artificial de forma permanente o periódica que debido a la escala de su visualización es representada a través de geometrías tipo línea. Tiene como categorías; Canal sencillo: Cauce artificial abierto cuya sección transversal tiene una forma generalmente constante, claramente diferenciado, que contiene agua en movimiento, de forma permanente o periódica. Quebrada: Curso de agua de origen natural, de primer o segundo orden, con un caudal intermitente o permanente y un comportamiento generalmente torrencial. Las quebradas canalizadas continúan considerándose como quebradas. Río sencillo: Corriente natural de agua que fluye con continuidad, de tercer orden o superior, posee un caudal determinado y desemboca en el mar, en un lago o en otro río, en cuyo caso se denomina afluente. Los tramos de ríos que han sido revestidos y o rectificados, continúan considerándose ríos y no canales. Caño: Conductos que sirven para conducir fluidos. Drenaje: Todo aquel cauce o curso de agua no clasificado dentro de los otros tipos de drenaje. Cascada: Cauce donde el agua fluye rápidamente perdiendo elevación mientras discurre por una región con fuerte desnivel o por un acantilado.
+
+* Archivo local: ag_100k_vocacion_uso_2017_20240507.rar (comprimido en 3 partes de 96Mb)
+* Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc
+* Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
+* Escala: no indicada
+* Fecha de actualización: 2021/06/30
+* Sistema de referencia de coordenadas: 4686
+* Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
 
