@@ -93,13 +93,13 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 ## Corriente de Agua, Bogotá D.C
 
-**Aplicación en esta investigación**: alineamientos para refinamiento de mallado en RAS Mapper. Requiere verificación y digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales...), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía. 
+**Aplicación en esta investigación**: alineamientos para refinamiento de mallado en RAS Mapper. Requiere verificación y digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales...), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores. 
 
 **Fuente / Autor**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/), [Datos Abiertos Bogotá](https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc)
 
 Corriente de agua de origen natural o artificial de forma permanente o periódica que debido a la escala de su visualización es representada a través de geometrías tipo línea. Tiene como categorías; Canal sencillo: Cauce artificial abierto cuya sección transversal tiene una forma generalmente constante, claramente diferenciado, que contiene agua en movimiento, de forma permanente o periódica. Quebrada: Curso de agua de origen natural, de primer o segundo orden, con un caudal intermitente o permanente y un comportamiento generalmente torrencial. Las quebradas canalizadas continúan considerándose como quebradas. Río sencillo: Corriente natural de agua que fluye con continuidad, de tercer orden o superior, posee un caudal determinado y desemboca en el mar, en un lago o en otro río, en cuyo caso se denomina afluente. Los tramos de ríos que han sido revestidos y o rectificados, continúan considerándose ríos y no canales. Caño: Conductos que sirven para conducir fluidos. Drenaje: Todo aquel cauce o curso de agua no clasificado dentro de los otros tipos de drenaje. Cascada: Cauce donde el agua fluye rápidamente perdiendo elevación mientras discurre por una región con fuerte desnivel o por un acantilado.
 
-* Archivo local: ag_100k_vocacion_uso_2017_20240507.rar (comprimido en 3 partes de 96Mb)
+* Archivo local: drenaje.rar
 * Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc
 * Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
 * Escala: no indicada
