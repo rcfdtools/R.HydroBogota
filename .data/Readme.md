@@ -9,7 +9,7 @@ Esta carpeta contiene los archivos fuente y mapas base recopilados desde diferen
 
 **Aplicación en esta investigación**: asociación de coeficientes de rugosidad de Manning y porcentajes de impermeabilidad
 
-**Autor / Fuente:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
+**Autor:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 
 El objetivo principal de la vocación es la determinación del uso más apropiado que puede soportar cada uno de los suelos del país, propendiendo por una producción sostenible y sin deterioro de los recursos naturales. Son dos niveles categóricos los tenidos en cuenta en el presente estudio; el primero corresponde a la vocación general de uso de la tierra y, el segundo, como subdivisión del primero, hace referencia a los usos principales recomendados.
 
@@ -28,7 +28,7 @@ El objetivo principal de la vocación es la determinación del uso más apropiad
 
 **Aplicación en esta investigación**: asociación de grupos hidrológicos y tasas de infiltración
 
-**Autor / Fuente:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
+**Autor:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 
 Mapa temático que representa la distribución de las características del suelo, determinadas mediante el levantamiento general de suelos del departamento de Cundinamarca a escala 1:100.000, publicado el año 2001. Suministra información importante acerca del recurso suelo, a través de la descripción e interpretación de sus ambientes edafogenéticos, sus características físicas, químicas, mineralógicas y morfológicas, su taxonomía y distribución espacial, como base para la determinación de sus potenciales productivos, describiendo las limitantes de uso.
 
@@ -37,7 +37,7 @@ Los Levantamientos Generales de Suelos de los departamentos del Territorio Colom
 **Estirpe**: la generación del Mapa Digital de Suelos, para el levantamiento general de suelos, escala 1:100.000, se realizó a partir de los parámetros definidos por la Subdirección de Agrología del Instituto Geográfico Agustín Codazzi, para el objeto: Suelos. Para la elaboración del levantamiento, el GIT de Levantamientos de Suelos y Aplicaciones Agrológicas, en la etapa de precampo recopiló información secundaria proveniente de estudios de suelos anteriores, e investigaciones sobre los factores formadores del suelo, tales como clima, geología y geomorfología, los cuales se interpretan con el apoyo de insumos de cartografía, sensores remotos y fotointerpretación. Posteriormente, en la etapa de campo se realiza la descripción de las observaciones tipo cajuelas o barrenaje, y calicatas, ajuste a las líneas de interpretación y recolección de muestras que serán analizadas por el Laboratorio Nacional de Suelos. La sistematización y georreferenciación de esta información sirve de apoyo fundamental para el trazo de las líneas de suelos, que son digitalizadas sobre cartografía base, imágenes de sensores remotos, modelos digitales de elevación, entre otros. Finalmente en la etapa de poscampo se consolidó la leyenda de suelos del estudio, la cartografía temática con sus diferentes atributos y la memoria técnica respectiva. 
 
 * Archivo local: Cundinamarca_Suelos_VF_20240507.zip
-* Enlace de descarga: https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia
+* Fuente: https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia
 * Extensión espacial: Departamento de Cundinamarca - Colombia - Suramérica
 * Escala: 1:100000
 * Sistema de referencia de coordenadas: 3116
@@ -48,13 +48,13 @@ Los Levantamientos Generales de Suelos de los departamentos del Territorio Colom
 
 **Aplicación en esta investigación**: complementación corredor Río Bogotá en límite geográfico del Distrito Capital, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
 
-**Autor / Fuente**: [[Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90,
+**Autor**: [[Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90,
 
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
 * Archivo local: DTM_Bogota_2014_4326.zip
 * Resolución: 5 metros
-* Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-de-terreno-bogota-dc-2014
+* Fuente: https://www.ideca.gov.co/recursos/mapas/modelo-digital-de-terreno-bogota-dc-2014
  Torre B Piso 2
 * Fecha de actualización: 2014/08/08
 * Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
@@ -64,13 +64,13 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Aplicación en esta investigación**: modelo de terreno principal para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
 
-**Autor / Fuente**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
+**Autor**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
 
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
 * Archivo local: DTM_Bogota_2020_4326.rar (comprimido en 3 partes de 2GB y disponible en Release como [DTM_Bogota_2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota_2020_4326_v1.0.0))
 * Resolución: 50 centímetros
-* Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-terreno-de-la-zona-urbana-bogota-bogota-dc-ano-2020, https://datosabiertos.bogota.gov.co/dataset/dtm-bogota, https://serviciosgis.catastrobogota.gov.co/arcgis/services/topografia/modelodigitalterrenobogotaurbano/MapServer/WCSServer?request=GetCapabilities&service=WCS
+* Fuente: https://www.ideca.gov.co/recursos/mapas/modelo-digital-terreno-de-la-zona-urbana-bogota-bogota-dc-ano-2020, https://datosabiertos.bogota.gov.co/dataset/dtm-bogota, https://serviciosgis.catastrobogota.gov.co/arcgis/services/topografia/modelodigitalterrenobogotaurbano/MapServer/WCSServer?request=GetCapabilities&service=WCS
 * Fecha de actualización: 2020
 * Licencia: [CC BY-NC-SA 4.0 DEED](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -81,11 +81,11 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Aplicación en esta investigación**: modelo de terreno base con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
 
-**Autor / Fuente**: [The National Aeronautics and Space Administration](https://www.nasa.gov/)
+**Autor**: [The National Aeronautics and Space Administration](https://www.nasa.gov/)
 
 * Archivo local: DSM_AlosPalsar_9377.rar (comprimido en 2 partes de 96Mb)
 * Resolución: 12.5 metros
-* Enlace de descarga: https://www.earthdata.nasa.gov/ (ALOS_PALSAR_RTC_HIGH_RES)
+* Fuente: https://www.earthdata.nasa.gov/ (ALOS_PALSAR_RTC_HIGH_RES)
 * Fecha de actualización: 2011
 
 > Nota: no se incluyen los archivos independientes descargados sino el mosaico integrado con cobertura sobre la cuenca del río Bogotá, re-proyección al CRS 9377 y con valor medio en pixeles coincidentes. 
@@ -95,12 +95,12 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Aplicación en esta investigación**: alineamientos para refinamiento de mallado en RAS Mapper. Requiere verificación y digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales...), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores. 
 
-**Autor / Fuente**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/), [Datos Abiertos Bogotá](https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc)
+**Autor**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/)
 
 Corriente de agua de origen natural o artificial de forma permanente o periódica que debido a la escala de su visualización es representada a través de geometrías tipo línea. Tiene como categorías; Canal sencillo: Cauce artificial abierto cuya sección transversal tiene una forma generalmente constante, claramente diferenciado, que contiene agua en movimiento, de forma permanente o periódica. Quebrada: Curso de agua de origen natural, de primer o segundo orden, con un caudal intermitente o permanente y un comportamiento generalmente torrencial. Las quebradas canalizadas continúan considerándose como quebradas. Río sencillo: Corriente natural de agua que fluye con continuidad, de tercer orden o superior, posee un caudal determinado y desemboca en el mar, en un lago o en otro río, en cuyo caso se denomina afluente. Los tramos de ríos que han sido revestidos y o rectificados, continúan considerándose ríos y no canales. Caño: Conductos que sirven para conducir fluidos. Drenaje: Todo aquel cauce o curso de agua no clasificado dentro de los otros tipos de drenaje. Cascada: Cauce donde el agua fluye rápidamente perdiendo elevación mientras discurre por una región con fuerte desnivel o por un acantilado.
 
 * Archivo local: drenaje_20240601.rar
-* Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc
+* Fuente: https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc
 * Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
 * Escala: no indicada
 * Fecha de actualización: 2021/06/30
@@ -112,7 +112,7 @@ Corriente de agua de origen natural o artificial de forma permanente o periódic
 
 **Aplicación en esta investigación**: localización visual de cuerpos de agua principal en RAS Mapper y polígono guía para digitalización de líneas conectoras del sistema de drenaje.
 
-**Autor / Fuente**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/), [Datos Abiertos Bogotá](https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc)
+**Autor**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/)
 
 Área o extensión de agua sobre la tierra, de origen natural o artificial que debido a la escala de su visualización es representada a través de geometrías tipo polígono. Tiene como categorías:
 
@@ -126,10 +126,26 @@ Corriente de agua de origen natural o artificial de forma permanente o periódic
 | Pantano   | Capa de aguas estancadas y poco profundas en la cual crece una vegetación acuática a veces muy densa.                                                                                                                                                                                                              | Léntico                                                                                      |
 
 * Archivo local: cuerpoagua_20240601.rar
-* Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/cuerpo-de-agua-bogota-dc
+* Fuente: https://www.ideca.gov.co/recursos/mapas/cuerpo-de-agua-bogota-dc
 * Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
 * Escala: no indicada
 * Fecha de actualización: 2021/06/30
 * Sistema de referencia de coordenadas: 4686
 * Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
 
+
+## Construcción, Bogotá D.C
+
+**Aplicación en esta investigación**: generación de superficies elevadas para integración al modelo híbrido de elevación, también utilizadas como bloques de obstrucción en modelo hidráulico con casos de estudio utilizando modelos unidimensionales.
+
+**Autor**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
+
+Nivel de información que delimita las áreas edificadas con cubierta de carácter permanente asociada a un lote, destinada a proteger contra la intemperie a personas, animales o bienes. Su extensión geográfica es el área urbana y rural del Distrito Capital.
+
+* Archivo local: Const_20240601 (comprimido en 3 partes de 96MB)
+* Fuente: https://www.ideca.gov.co/recursos/mapas/construccion
+* Extensión espacial: Bogotá D.C
+* Escala: no indicada
+* Fecha de actualización: 2024/03/03
+* Sistema de referencia de coordenadas: 4686
+* Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
