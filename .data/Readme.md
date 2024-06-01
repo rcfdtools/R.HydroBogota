@@ -153,7 +153,7 @@ Nivel de información que delimita las áreas edificadas con cubierta de caráct
 
 ## Puente, Bogotá D.C
 
-**Aplicación en esta investigación**: identificación de intersección de puentes con líneas de drenaje; en cada localización es necesario evaluar si el modelo digital de terreno aún contiene la interferencia por el paso de vía para luego ser eliminado y permitir el flujo.
+**Aplicación en esta investigación**: identificación de intersección de puentes con líneas de drenaje; en cada localización es necesario evaluar si el modelo digital de terreno aún contiene la interferencia del paso de vía, que debe ser eliminado para permitir el flujo por el canal.
 
 **Autor**: [Instituto de Desarrollo Urbano - IDU](https://www.idu.gov.co/)
 
