@@ -153,7 +153,7 @@ Nivel de información que delimita las áreas edificadas con cubierta de caráct
 
 ## Puente, Bogotá D.C
 
-**Aplicación en esta investigación**: generación de superficies elevadas para integración al modelo híbrido de elevación, también utilizadas como bloques de obstrucción en casos de estudio que requieran de modelos hidráulicos unidimensionales.
+**Aplicación en esta investigación**: identificación de intersección de puentes con líneas de drenaje; en cada localización es necesario evaluar si el modelo digital de terreno aún contiene la interferencia por el paso de vía para luego ser eliminado y permitir el flujo.
 
 **Autor**: [Instituto de Desarrollo Urbano - IDU](https://www.idu.gov.co/)
 
