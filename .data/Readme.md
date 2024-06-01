@@ -21,7 +21,7 @@ El objetivo principal de la vocación es la determinación del uso más apropiad
 * Escala: 1:100000
 * Fecha de actualización: 2013
 * Sistema de referencia de coordenadas: 3116
-* Licencia: este producto adopta la licencia pública internacional de Reconocimiento-CompartirIgual 4.0 de Creative Commons, Creative Commons attribution – ShareAlike 4.0 Internacional. Por tal razón, nuevos productos y servicios derivados de su reutilización deben ser también licenciados bajo las mismas condiciones de uso y disponibilidad que habilitó la licencia antes mencionada. Lo anterior, sin perjuicio de los derechos de autor y propiedad intelectual del Instituto Geográfico Agustín Codazzi, con base en la Ley 23 de 1982 y demás normas concordantes.
+* Licencia: este producto adopta la licencia pública internacional de Reconocimiento-CompartirIgual 4.0 de Creative Commons, Creative Commons attribution – ShareAlike 4.0 Internacional. Por tal razón, nuevos productos y servicios derivados de su reutilización deben ser también licenciados bajo las mismas condiciones de uso y disponibilidad que habilitó la licencia antes mencionada. Lo anterior, sin perjuicio de los derechos de autor y propiedad intelectual del Instituto Geográfico Agustín Codazzi, con base en la Ley 23 de 1982 y demás normas concordantes. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
 
 
 ## Mapa Digital de Suelos del Departamento de Cundinamarca, República de Colombia. Escala 1:100.000. Año 2001
@@ -41,7 +41,7 @@ Los Levantamientos Generales de Suelos de los departamentos del Territorio Colom
 * Extensión espacial: Departamento de Cundinamarca - Colombia - Suramérica
 * Escala: 1:100000
 * Sistema de referencia de coordenadas: 3116
-* Licencia: este producto adopta la licencia pública internacional de Reconocimiento-CompartirIgual 4.0 de Creative Commons, Creative Commons attribution – ShareAlike 4.0 Internacional. Por tal razón, nuevos productos y servicios derivados de su reutilización deben ser también licenciados bajo las mismas condiciones de uso y disponibilidad que habilitó la licencia antes mencionada. Lo anterior, sin perjuicio de los derechos de autor y propiedad intelectual del Instituto Geográfico Agustín Codazzi, con base en la Ley 23 de 1982 y demás normas concordantes.
+* Licencia: este producto adopta la licencia pública internacional de Reconocimiento-CompartirIgual 4.0 de Creative Commons, Creative Commons attribution – ShareAlike 4.0 Internacional. Por tal razón, nuevos productos y servicios derivados de su reutilización deben ser también licenciados bajo las mismas condiciones de uso y disponibilidad que habilitó la licencia antes mencionada. Lo anterior, sin perjuicio de los derechos de autor y propiedad intelectual del Instituto Geográfico Agustín Codazzi, con base en la Ley 23 de 1982 y demás normas concordantes. [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
 
 
 ## Modelo Digital de Terreno, Bogotá D.C. 2014 (5m)
@@ -57,7 +57,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 * Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-de-terreno-bogota-dc-2014
  Torre B Piso 2
 * Fecha de actualización: 2014/08/08
-* Licencia: CC BY 4.0
+* Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
 
 
 ## Modelo Digital de Terreno, Bogotá D.C. 2020 (0.5m)
@@ -72,7 +72,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 * Resolución: 50 centímetros
 * Enlace de descarga: https://www.ideca.gov.co/recursos/mapas/modelo-digital-terreno-de-la-zona-urbana-bogota-bogota-dc-ano-2020, https://datosabiertos.bogota.gov.co/dataset/dtm-bogota, https://serviciosgis.catastrobogota.gov.co/arcgis/services/topografia/modelodigitalterrenobogotaurbano/MapServer/WCSServer?request=GetCapabilities&service=WCS
 * Fecha de actualización: 2020
-* Licencia: CC BY-NC-SA 4.0 DEED
+* Licencia: [CC BY-NC-SA 4.0 DEED](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 > Nota: para reducir el tamaño del archivo originalmente descargado de 16GB, los valores nulos han sido almacenados como -9999 obteniendo un archivo de 6GB. 
 
