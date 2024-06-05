@@ -9,16 +9,20 @@ Esta carpeta contiene los archivos vectoriales procesados para el ensamble y val
 
 ## Construcciones
 
-* Archivo local: [Construccion_9377.shp](Construccion_9377.zip)
-* Entidades: 2.391.355
+Las construcciones son utilizadas para la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción. Complementariamente, las construcciones son utilizadas para el ajuste del mapa general de rugosidades debido 
+
+Archivo local: [Construccion_9377.shp](Construccion_9377.zip)
+
 
 > Para el cálculo correcto de la altura de cada construcción y para generar la grilla de elevaciones, es necesario primero ejecutar el geo-proceso _Multipart to Singlepart Conversion_.
+> 
+> Se han eliminado las edificaciones con áreas inferiores a 1 m².
 
 **Construcciones incorporadas**
 
-| Fuente                                             | Descripción                                                |
-|----------------------------------------------------|------------------------------------------------------------|
-| Construcciones Bogotá D.C a 2024.03.03 desde IDECA | Solo construcciones dentro de la subzona hidrográfica 2120 |
+| Fuente                                             | Descripción                                                | Entidades |
+|----------------------------------------------------|------------------------------------------------------------|-----------|
+| Construcciones Bogotá D.C a 2024.03.03 desde IDECA | Solo construcciones dentro de la subzona hidrográfica 2120 | 2.391.355 |
 
 **Catálogo de objetos**
 
@@ -31,9 +35,8 @@ Esta carpeta contiene los archivos vectoriales procesados para el ensamble y val
 | CZDEM      | Cota en el centroide del polígono a partir del modelo digital de elevación | Double       |
 | BuildElevm | Cota + altura total de la edificación                                     | Double       |
 
+Para el cálculo de la cota superior de cada edificación, se utiliza como valor de referencia 3 metros de entrepiso y es multiplicado por el número de pisos más la mitad de la altura de entrepiso pasa construcciones con semisótano. No se incluyen los sótanos debido a que solo se considera la elevación de la construcción por encima del terreno natural. `Expresión: !CZDEM!+(!CONNPISOS!*3+!CONTSEMIS!*1.5)`
+
+![R.HydroBogota](../.graph/ArcGISPro_CalculateField_BuildElevm.png)
 
 > Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general _LandUse_.
-> 
-> Para el cálculo de la cota superior de cada edificación, se utiliza como valor de referencia 3 metros de entrepiso y es multiplicado por el número de pisos más la mitad de la altura de entrepiso pasa construcciones con semisótano. No se incluyen los sótanos debido a que solo se considera la elevación de la construcción por encima del terreno natural. `Expresión: !CZDEM!+(!CONNPISOS!*3+!CONTSEMIS!*1.5)`
-> 
-> Se han eliminado las edificaciones con áreas inferiores a 1 m².
