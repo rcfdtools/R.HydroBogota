@@ -32,8 +32,8 @@ Esta carpeta contiene los archivos vectoriales procesados para el ensamble y val
 | BuildElevm | Cota + altura total de la edificación                                     | Double       |
 
 
-> Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general LandUse.
+> Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general _LandUse_.
 > 
-> Para el cálculo de la altura total de cada edificación se utiliza como valor de referencia 3 metros de entrepiso y es multiplicado por el número de pisos más la mitad de la altura de entrepiso pasa construcciones con semisótano. No se incluyen los sótanos debido a que solo se considera la elevación de la construcción por encima del terreno natural. `Expresión: !CZDEM!+(!CONNPISOS!*3+!CONTSEMIS!*1.5)`
+> Para el cálculo de la cota superior de cada edificación, se utiliza como valor de referencia 3 metros de entrepiso y es multiplicado por el número de pisos más la mitad de la altura de entrepiso pasa construcciones con semisótano. No se incluyen los sótanos debido a que solo se considera la elevación de la construcción por encima del terreno natural. `Expresión: !CZDEM!+(!CONNPISOS!*3+!CONTSEMIS!*1.5)`
 > 
 > Se han eliminado las edificaciones con áreas inferiores a 1 m².
