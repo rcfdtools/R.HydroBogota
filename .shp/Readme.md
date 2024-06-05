@@ -2,7 +2,7 @@
 
 Esta carpeta contiene los archivos vectoriales procesados para el ensamble y validación del modelo hidráulico. Todos los archivos han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional.
 
-> Para conocer los archivo fuentes diríjase a la sección [.data](../.data) de este repositorio.
+> Para conocer los archivo fuentes a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [.data](../.data) de este repositorio.
 > 
 > Para incorporar construcciones adicionales de otros municipios o actualizaciones de construcciones existentes, es necesario incluir los atributos definidos en el catálogo de objetos de cada capa o clase de entidad.
 
@@ -14,7 +14,7 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 Archivo local: [Construccion_9377.shp](Construccion_9377.zip)
 
 
-> Para el cálculo correcto de la altura de cada construcción y para generar la grilla de elevaciones, es necesario primero ejecutar el geo-proceso _Multipart to Singlepart Conversion_.
+> Para el cálculo correcto de la altura de cada construcción y para generar la grilla de elevaciones, es necesario primero ejecutar el geo-proceso _Multipart to Singlepart Conversion_ que permite separar las entidades multiparte.
 > 
 > Se han eliminado las edificaciones con áreas inferiores a 1 m².
 
@@ -22,7 +22,7 @@ Archivo local: [Construccion_9377.shp](Construccion_9377.zip)
 
 | Fuente                                             | Descripción                                                | Entidades |
 |----------------------------------------------------|------------------------------------------------------------|-----------|
-| Construcciones Bogotá D.C a 2024.03.03 desde IDECA | Solo construcciones dentro de la subzona hidrográfica 2120 | 2.391.355 |
+| Construcciones Bogotá D.C a 2024.03.03 desde IDECA | Solo construcciones dentro de la subzona hidrográfica 2120 | 2391355   |
 
 **Catálogo de objetos**
 
@@ -30,8 +30,8 @@ Archivo local: [Construccion_9377.shp](Construccion_9377.zip)
 |------------|----------------------------------------------------------------------------|--------------|
 | CONNPISOS  | Número de pisos                                                            | Long         |
 | CONTSEMIS  | Semisótano 1-Sí, 0-No                                                      | Long         |
-| ManningN   | Coeficiente de rugosidad de Manning. Valor por defecto: 99                 | Double       |
-| PercImperv | Porcentaje de impermeabilidad. Valor por defecto: 0                        | Double       |
+| ManningN   | Coeficiente de rugosidad de Manning, valor por defecto: 99                 | Double       |
+| PercImperv | Porcentaje de impermeabilidad, valor por defecto: 0                        | Double       |
 | CZDEM      | Cota en el centroide del polígono a partir del modelo digital de elevación | Double       |
 | BuildElevm | Cota + altura total de la edificación                                      | Double       |
 
