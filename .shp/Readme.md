@@ -9,7 +9,7 @@ Esta carpeta contiene los archivos vectoriales procesados para el ensamble y val
 
 ## Construcciones
 
-Las construcciones son utilizadas para la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción. Complementariamente, las construcciones son utilizadas para el ajuste del mapa general de rugosidades debido 
+Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción, también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o SUDS).
 
 Archivo local: [Construccion_9377.shp](Construccion_9377.zip)
 
@@ -26,16 +26,16 @@ Archivo local: [Construccion_9377.shp](Construccion_9377.zip)
 
 **Catálogo de objetos**
 
-| Nombre     | Definición                                                                | Tipo de dato |
-|------------|---------------------------------------------------------------------------|--------------|
-| CONNPISOS  | Número de pisos                                                           | Long         |
-| CONTSEMIS  | Semisótano 1-Sí, 0-No                                                     | Long         |
-| ManningN   | Coeficiente de rugosidad de Manning                                       | Double       |
-| PercImperv | Porcentaje de impermeabilidad                                             | Double       |
+| Nombre     | Definición                                                                 | Tipo de dato |
+|------------|----------------------------------------------------------------------------|--------------|
+| CONNPISOS  | Número de pisos                                                            | Long         |
+| CONTSEMIS  | Semisótano 1-Sí, 0-No                                                      | Long         |
+| ManningN   | Coeficiente de rugosidad de Manning. Valor por defecto: 99                 | Double       |
+| PercImperv | Porcentaje de impermeabilidad. Valor por defecto: 0                        | Double       |
 | CZDEM      | Cota en el centroide del polígono a partir del modelo digital de elevación | Double       |
-| BuildElevm | Cota + altura total de la edificación                                     | Double       |
+| BuildElevm | Cota + altura total de la edificación                                      | Double       |
 
-Para el cálculo de la cota superior de cada edificación, se utiliza como valor de referencia 3 metros de entrepiso y es multiplicado por el número de pisos más la mitad de la altura de entrepiso pasa construcciones con semisótano. No se incluyen los sótanos debido a que solo se considera la elevación de la construcción por encima del terreno natural. `Expresión: !CZDEM!+(!CONNPISOS!*3+!CONTSEMIS!*1.5)`
+Para el cálculo de la cota superior de cada edificación, se utiliza como valor de referencia 3 metros de entrepiso y es multiplicado por el número de pisos más la mitad de la altura de entrepiso pasa construcciones con semisótano. No se incluyen los sótanos debido a que solo se considera la elevación de la construcción por encima del terreno natural. `Expresión ArcGIS Pro: !CZDEM!+(!CONNPISOS!*3+!CONTSEMIS!*1.5)`
 
 ![R.HydroBogota](../.graph/ArcGISPro_CalculateField_BuildElevm.png)
 
