@@ -175,7 +175,7 @@ Estructura que se construye principalmente en obstáculos naturales como ríos, 
 
 ## Subzonas hidrográficas IDEAM
 
-**Aplicación en esta investigación**: delimitación cuenca Río Bogotá, correspondiente a la subzona hidrográfica 2120, polígono envolvente con buffer de 250 metros para recorte de grillas y vectores.
+**Aplicación en esta investigación**: delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 2120, utilizada como máscara de recorte de grillas y vectores.
 
 **Autor**: [Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM de Colombia](http://www.ideam.gov.co/)
 
@@ -185,7 +185,7 @@ La zonificación de cuencas hidrográficas corresponde a tres niveles de jerarqu
 
 Las cuencas hidrográficas que entregan o desembocan sus aguas superficiales directamente de una área hidrográfica se denominaran zonas hidrográficas. Agrupan varias cuencas que se presentan como un subsistema hídrico con características de relieve y drenaje homogéneo y sus aguas tributan a través de un afluente principal hacia un área hidrográfica. Están integradas por cuencas de las partes altas, medias o bajas de una zona hidrográfica que captan agua y sedimentos de los tributarios de diferente orden tales como nacimientos de agua, arroyos, quebradas y ríos. Las cuencas que tributan sus aguas a su vez a las zonas hidrográficas se denomina subzonas hidrográficas. Ahora bien, respecto a la toponimia con que se identifican zonas y subzonas hidrográficas, a estas unidades se les asignó la toponimia de acuerdo con el nombre de la corriente más representativa o río principal o con el nombre heredado de la zonificación del HIMAT, que puede corresponder al espacio geográfico o región a la cual drenan las aguas superficiales.[^2]
 
-* Archivo local: Zonificacion_Hidrografica_2013.rar
+* Archivo local: [Zonificacion_Hidrografica_2013.rar](Zonificacion_Hidrografica_2013.rar)
 * Fuente: http://www.ideam.gov.co/en/capas-geo
 * Extensión espacial: Colombia - Suramérica
 * Escala: 1:100000
