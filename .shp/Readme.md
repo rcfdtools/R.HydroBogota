@@ -11,8 +11,8 @@ Esta carpeta contiene los archivos vectoriales procesados para el ensamble y val
 
 Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o SUDS) en este tipo de elementos.
 
-Archivo local de construcciones: [Construccion_9377.shp](Construccion_9377.zip)
-Archivo local de centroides en construcciones: [Construccion_9377.shp](Construccion_9377.zip)
+* Archivo local de construcciones: Construccion_9377.rar
+* Archivo local de centroides en construcciones: Construccion_9377_Point.rar
 
 > Para el cálculo correcto de la altura de cada construcción y para generar la grilla de elevaciones, es necesario primero ejecutar el geo-proceso _Multipart to Singlepart Conversion_ que permite separar las entidades multiparte.
 > 
