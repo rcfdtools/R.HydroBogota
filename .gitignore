@@ -11,9 +11,7 @@
 .venv/
 .git/
 .github/
-.venvArcGISDesktop10.2.2/
-.venvPython3.10.5/
-.venvPython311/
+.venvPython312/
 Lib/
 #.refs/GitHubRefs/
 # Grid pyramid

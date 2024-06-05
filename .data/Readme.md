@@ -157,7 +157,12 @@ Nivel de información que delimita las áreas edificadas con cubierta de caráct
 
 **Autor**: [Instituto de Desarrollo Urbano - IDU](https://www.idu.gov.co/)
 
-Estructura que se construye principalmente en obstáculos naturales como ríos, quebradas, depresiones del terreno y en obstáculos artificiales: canales, vías, infraestructura urbana; con el fin de comunicar dos puntos. Tiene como categorías; Vehicular: Infraestructura vial conectante destinada principalmente al uso de vehículos. Peatonal: espacio urbano donde el tránsito vehicular está prohibido, prevaleciendo la circulación de peatones.
+Estructura que se construye principalmente en obstáculos naturales como ríos, quebradas, depresiones del terreno y en obstáculos artificiales: canales, vías, infraestructura urbana; con el fin de comunicar dos puntos. Tiene como categorías; Vehicular:  : .
+
+| Categoría | Descripción                                                                                          |
+|-----------|------------------------------------------------------------------------------------------------------|
+| Vehicular | Infraestructura vial conectante destinada principalmente al uso de vehículos.                        |
+| Peatonal  | Espacio urbano donde el tránsito vehicular está prohibido, prevaleciendo la circulación de peatones. |
 
 * Archivo local: Puente_20240517.zip
 * Fuente: https://datosabiertos.bogota.gov.co/dataset/puente-bogota-d-c
@@ -166,3 +171,28 @@ Estructura que se construye principalmente en obstáculos naturales como ríos, 
 * Fecha de actualización: 2023/11/14
 * Sistema de referencia de coordenadas: 4686
 * Licencia: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es)
+
+
+## Subzonas hidrográficas IDEAM
+
+**Aplicación en esta investigación**: delimitación cuenca Río Bogotá, correspondiente a la subzona hidrográfica 2120, polígono envolvente con buffer de 250 metros para recorte de grillas y vectores.
+
+**Autor**: [Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM de Colombia](http://www.ideam.gov.co/)
+
+La zonificación hidrográfica de Colombia desde el punto de vista hidrológico, tiene sus inicios en el HIMAT mediante la Resolución 0337 del 1978, la cual establece que el país está conformado por cinco Áreas hidrográficas (1-Caribe, 2- Magdalena - Cauca, 3- Orinoco, 4- Amazonas y 5-Pacífico) que a su vez están divididas en Zonas Hidrográficas y subdivididas en Subzonas Hidrográficas. En ese entonces, el propósito de la zonificación fue de adoptar un sistema de codificación para estaciones Hidrometerológicas. Posteriormente, el IDEAM introduce esta zonificación para otros fines, tales como estudios y análisis hidrológicos relacionados con los informes ambientales, p. ej. el Índice de Aridez, el Escurrimiento y el Rendimiento Hídrico.[^1]
+
+La zonificación de cuencas hidrográficas corresponde a tres niveles de jerarquía: áreas, zonas y subzonas hidrográficas. Las áreas hidrográficas corresponden a las regiones hidrográficas o vertientes que, en sentido estricto, son las grandes cuencas que agrupan un conjunto de ríos con sus afluentes que desembocan en un mismo mar. Ahora bien, en Colombia se distinguen cuatro vertientes, dos de ellas asociadas a ríos de importancia continental (vertiente del Orinoco y vertiente del Amazonas) y las vertientes del Atlántico y del Pacífico. Se delimita adicionalmente como áea hidrográfica la cuenca Magdalena-Cauca, que aunque tributa y forma parte de la vertiente del Atlántico, tiene importancia socioeconómica por su alto poblamiento y aporte al producto interno bruto.[^2]
+
+Las cuencas hidrográficas que entregan o desembocan sus aguas superficiales directamente de una área hidrográfica se denominaran zonas hidrográficas. Agrupan varias cuencas que se presentan como un subsistema hídrico con características de relieve y drenaje homogéneo y sus aguas tributan a través de un afluente principal hacia un área hidrográfica. Están integradas por cuencas de las partes altas, medias o bajas de una zona hidrográfica que captan agua y sedimentos de los tributarios de diferente orden tales como nacimientos de agua, arroyos, quebradas y ríos. Las cuencas que tributan sus aguas a su vez a las zonas hidrográficas se denomina subzonas hidrográficas. Ahora bien, respecto a la toponimia con que se identifican zonas y subzonas hidrográficas, a estas unidades se les asignó la toponimia de acuerdo con el nombre de la corriente más representativa o río principal o con el nombre heredado de la zonificación del HIMAT, que puede corresponder al espacio geográfico o región a la cual drenan las aguas superficiales.[^2]
+
+* Archivo local: Zonificacion_Hidrografica_2013.rar
+* Fuente: http://www.ideam.gov.co/en/capas-geo
+* Extensión espacial: Colombia - Suramérica
+* Escala: 1:100000
+* Fecha de actualización: 2013/11/19
+* Sistema de referencia de coordenadas: 4686
+* Licencia: desconocida
+
+
+[^1]: http://www.ideam.gov.co/web/agua/zonificacion-hidrografica
+[^2]: http://documentacion.ideam.gov.co/openbiblio/bvirtual/022655/MEMORIASMAPAZONIFICACIONHIDROGRAFICA.pdf
