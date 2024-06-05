@@ -46,6 +46,7 @@ Lib/
 .dem/*.rar
 .dem/*.7z
 HECRAS_v0/
+.shp/Construccion_9377*.*
 
 # Some samples
 # http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
