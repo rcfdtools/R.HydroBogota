@@ -28,16 +28,16 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 
 **Catálogo de objetos**
 
-| Campo     | Definición                                                                 | Tipo de dato |
-|------------|----------------------------------------------------------------------------|--------------|
-| CONNPISOS  | Número de pisos                                                            | Long         |
-| CONTSEMIS  | Semisótano: 1-Sí, 0-No                                                     | Long         |
-| ManningN   | Coeficiente de rugosidad de Manning, valor por defecto: 99                 | Double       |
-| PercImperv | Porcentaje de impermeabilidad, valor por defecto: 0                        | Double       |
-| CZDEM      | Cota en el centroide del polígono a partir del modelo digital de elevación | Double       |
-| BuildElevm | Cota + altura total de la edificación                                      | Double       |
-| ZoneDEM    | Zona modelo digital de elevación (aplica solo a centroides)                | Long         |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)               | Short        |
+| Campo      | Definición                                                                  | Tipo   |
+|------------|-----------------------------------------------------------------------------|--------|
+| CONNPISOS  | Número de pisos                                                             | Long   |
+| CONTSEMIS  | Semisótano: 1-Sí, 0-No                                                      | Long   |
+| ManningN   | Coeficiente de rugosidad de Manning, valor por defecto: 99                  | Double |
+| PercImperv | Porcentaje de impermeabilidad, valor por defecto: 0                         | Double |
+| CZDEM      | Cota en el centroide del polígono a partir del modelo digital de elevación  | Double |
+| BuildElevm | Cota + altura total de la edificación                                       | Double |
+| ZoneDEM    | Zona modelo digital de elevación (aplica solo a centroides)                 | Long   |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                | Short  |
 
 > Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general _LandUse_.
 
@@ -65,10 +65,10 @@ Archivo local: CuerpoAgua_9377.shp
 
 **Catálogo de objetos**
 
-| Campo    | Definición                                                   | Tipo de dato |
-|-----------|--------------------------------------------------------------|--------------|
-| Nombre    | Nombre del cuerpo de agua                                    | Text (100)   |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
+| Campo     | Definición                                                   | Tipo       |
+|-----------|--------------------------------------------------------------|------------|
+| Nombre    | Nombre del cuerpo de agua                                    | Text (100) |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short      |
 
 
 ## Drenajes (línea)
@@ -81,11 +81,11 @@ Archivo local: Drenaje_9377.shp
 
 **Catálogo de objetos**
 
-| Campo     | Definición                                                   | Tipo de dato |
-|-----------|--------------------------------------------------------------|--------------|
-| Nombre    | Nombre del cuerpo de agua                                    | Text (100)   |
-| Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Short        |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
+| Campo     | Definición                                                   | Tipo       |
+|-----------|--------------------------------------------------------------|------------|
+| Nombre    | Nombre del cuerpo de agua                                    | Text (100) |
+| Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Short      |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short      |
 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
 
@@ -109,12 +109,12 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 
 **Catálogo de objetos**
 
-| Campo      | Definición                                                   | Tipo de dato |
-|------------|--------------------------------------------------------------|--------------|
-| LandUse    | Uso principal del suelo                                      | Text (254)   |
-| ManningN   | Coeficiente de rugosidad de Manning                          | Double       |
-| PercImperv | Porcentaje de impermeabilidad                                | Double       |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
+| Campo      | Definición                                                   | Tipo       |
+|------------|--------------------------------------------------------------|------------|
+| LandUse    | Uso principal del suelo                                      | Text (254) |
+| ManningN   | Coeficiente de rugosidad de Manning                          | Double     |
+| PercImperv | Porcentaje de impermeabilidad                                | Double     |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short      |
 
 
 ## Cundinamarca - Suelos (polígono)
@@ -127,11 +127,11 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 
 **Catálogo de objetos**
 
-| Campo      | Definición                                                   | Tipo de dato |
-|------------|--------------------------------------------------------------|--------------|
-| HydroGroup | Grupo hidrológico de la USDA (SCS)                           | Text (2)     |
-| Infiltmmhr | Coeficiente de rugosidad de Manning                          | Double       |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
+| Campo      | Definición                                                   | Tipo     |
+|------------|--------------------------------------------------------------|----------|
+| HydroGroup | Grupo hidrológico de la USDA (SCS)                           | Text (2) |
+| Infiltmmhr | Coeficiente de rugosidad de Manning                          | Double   |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short    |
 
 
 ## Delimitación modelos digitales de elevación DEM (polígono)
@@ -153,3 +153,29 @@ Delimitación para recorte e integración de modelos digitales de elevación. Es
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit.png)
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_BufferIn5m.png)
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_2020_9377_Limit.png)
+
+
+## Red de muestreo para ajuste del DSM NASA ALOS PALSAR
+
+A partir del límite geográfico del modelo digital de terreno Lidar DTM_Bogota2020_9377_Limit.shp, se ha creado una red de muestreo regular con nodos cada 100 metros; su objetivo principal es obtener las elevaciones del modelo Lidar (0.5m) y las elevaciones del modelo digital de superficie satelital NASA ALOS PALSAR (12.5m) que permitirá a partir de una correlación lineal, ajustar las elevaciones del modelo digital satelital. También se han incluído las elevaciones de los demás modelos digitales de elevación utilizados en este estudio.
+
+Archivo local: DTM_Bogota2020_9377_Limit_Fishnet100m.shp
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_Fishnet100m.png)
+
+**Catálogo de objetos**
+
+| Campo     | Definición                                                                | Tipo  |
+|-----------|---------------------------------------------------------------------------|-------|
+| CZDTM2014 | Cota en DTM Lidar Bogotá 2014                                             | Float |
+| CZDTM2020 | Cota en DTM Lidar Bogotá 2020                                             | Float |
+| CZAlos    | Cota en DSM NASA ALOS PALSAR 2011                                         | Float |
+| CZAlosFil | Cota en DSM NASA ALOS PALSAR 2011 con relleno de sumideros                | Float |
+| CZAlosFit | Cota en DSM NASA ALOS PALSAR 2011 con ajuste a partir de regresión lineal | Float |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información)              | Short |
+
+**Geoprocesos utilizados en ArcGIS Pro**
+
+* Data Management Tools / Sampling / Create Fishnet
+* Spatial Analyst Tools / Extraction / Extract Multi Values to Points
+* Spatial Analyst Tools / Hydrology / Fill
