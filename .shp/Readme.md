@@ -37,7 +37,7 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 | CZDEM      | Cota en el centroide del polígono a partir del modelo digital de elevación  | Double |
 | BuildElevm | Cota + altura total de la edificación                                       | Double |
 | ZoneDEM    | Zona modelo digital de elevación (aplica solo a centroides)                 | Long   |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                | Short  |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                | Long   |
 
 > Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general _LandUse_.
 
@@ -68,7 +68,7 @@ Archivo local: CuerpoAgua_9377.shp
 | Campo     | Definición                                                   | Tipo       |
 |-----------|--------------------------------------------------------------|------------|
 | Nombre    | Nombre del cuerpo de agua                                    | Text (100) |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short      |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
 
 
 ## Drenajes (línea)
@@ -83,9 +83,9 @@ Archivo local: Drenaje_9377.shp
 
 | Campo     | Definición                                                   | Tipo       |
 |-----------|--------------------------------------------------------------|------------|
-| RiverName | Nombre del drenaje (río, canal, conducto, corriente)         | Text (100) |
-| Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Short      |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short      |
+| RiverName | Nombre del drenaje (río, canal, conducto, corriente...)      | Text (100) |
+| Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Long       |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
 
@@ -114,7 +114,7 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 | LandUse    | Uso principal del suelo                                      | Text (254) |
 | ManningN   | Coeficiente de rugosidad de Manning                          | Double     |
 | PercImperv | Porcentaje de impermeabilidad                                | Double     |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short      |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
 
 
 ## Cundinamarca - Suelos (polígono)
@@ -131,7 +131,7 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 |------------|--------------------------------------------------------------|----------|
 | HydroGroup | Grupo hidrológico de la USDA (SCS)                           | Text (2) |
 | Infiltmmhr | Coeficiente de rugosidad de Manning                          | Double   |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short    |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Long     |
 
 
 ## Delimitación modelos digitales de elevación DEM (polígono)
@@ -169,7 +169,11 @@ Archivo local: DTM_Bogota2020_9377_Limit_Fishnet100m.shp
 | CZAlos    | Cota en DSM NASA ALOS PALSAR 2011                                         | Float |
 | CZAlosFil | Cota en DSM NASA ALOS PALSAR 2011 con relleno de sumideros                | Float |
 | CZAlosFit | Cota en DSM NASA ALOS PALSAR 2011 con ajuste a partir de regresión lineal | Float |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información)              | Short |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información)              | Long  |
+
+Ecuación de ajuste modelo NASA ALOS PALSAR: `y = -21.4726885762 + 0.9993012271 * x` donde x corresponde a la elevación de cada celda o pixel de la grilla DSM_AlosPalsar_9377.tif.
+
+> Durante el proceso de revisión y ajuste del modelo digital de elevación DEM ALOS PALSAR, se obtuvieron las elevaciones (Alos y Lidar 2020) en los nodos del perímetro del DTM Lidar Bogotá 2020 (con aferencia o buffer interno de 5 metros), a partir de la regresión lineal obtenida se ajustó y válido el modelo Alos obteniendo que en general el ajuste no permitía empalmar correctamente el modelo DTM Lidar con el DSM.
 
 **Geoprocesos utilizados en ArcGIS Pro**
 
@@ -187,18 +191,16 @@ Archivo local: Drenaje_PasoVia_9377.shp
 
 **Catálogo de objetos**
 
-| Campo     | Definición                                                                | Tipo  |
-|-----------|---------------------------------------------------------------------------|-------|
-| CZDTM2014 | Cota en DTM Lidar Bogotá 2014                                             | Float |
-| CZDTM2020 | Cota en DTM Lidar Bogotá 2020                                             | Float |
-| CZAlos    | Cota en DSM NASA ALOS PALSAR 2011                                         | Float |
-| CZAlosFil | Cota en DSM NASA ALOS PALSAR 2011 con relleno de sumideros                | Float |
-| CZAlosFit | Cota en DSM NASA ALOS PALSAR 2011 con ajuste a partir de regresión lineal | Float |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información)              | Short |
+| Campo      | Definición                                                                                         | Tipo       |
+|------------|----------------------------------------------------------------------------------------------------|------------|
+| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                                            | Text (100) |
+| BridgeName | Nombre o localización del paso de vía o puente (vehicular, peatonal)                               | Text (254) |
+| ReadyDEM   | Paso de vía verificado en modelo digital de terreno DTM: 0-Pendiente, 1-Verificado, 2-NoVerificado | Long       |
+| ReadyRAS   | Corredor paso de vía río o canal generado en RAS Mapper: 0-Pendiente, 1-Generado, 2-NoGenerado     | Long       |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                                       | Long       |
 
 **Geoprocesos utilizados en ArcGIS Pro**
 
-* Data Management Tools / Sampling / Create Fishnet
-* Spatial Analyst Tools / Extraction / Extract Multi Values to Points
+* Analysis Tools / Overlay / Intersect
 
 
