@@ -45,6 +45,8 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 
 ![R.HydroBogota](../.graph/ArcGISPro_CalculateField_BuildElevm.png)
 
+> La altura de las construcciones también puede ser obtenida a partir de la diferencia de elevación entre el modelo digital de superficie Lidar DSM y el modelo digital de terreno Lidat DTM. 
+
 **Zonas DEM**
 
 | ZoneDEM | Descripción                           | DEM                            |
@@ -57,7 +59,7 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 
 Localización visual de cuerpos de agua principal en RAS Mapper y polígonos guía para digitalización de líneas conectoras del sistema de drenaje.
 
-
+![](../.graph/ArcGISPro_Layer_CuerpoAgua.png)
 
 
 
