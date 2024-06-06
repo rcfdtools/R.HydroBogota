@@ -204,3 +204,18 @@ Archivo local: Drenaje_PasoVia_9377.shp
 * Analysis Tools / Overlay / Intersect
 
 
+## Subzona hidrográfica 2120 - Río Bogotá (polígono)
+
+Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 2120, utilizada como máscara de recorte de grillas y vectores. Al rededor de la subzona se ha creado un polígono envolvente con aferencia de 250 metros para el recorte del modelo digital de elevación. Esta capa no requiere de atributos complementarios.
+
+> Tenga en cuenta que en modelos bidimensionales, la frontera de la región a partir de la cual se crea el mallado, no debe coincidir con el límite del modelo de terreno, lo anterior debido a que para el cálculo de las propiedades geométricas, es necesario disponer de valores contínuos a lo largo de toda las caras en cada celda.
+
+Archivo local de SZH: SZH2120_9377.shp
+Archivo local de envolvente SZH: SZH2120_9377_Envelope_Buffer250m.shp
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_SZH.png)
+
+**Geoprocesos utilizados en ArcGIS Pro**
+
+* Data Management Tools / Features / Feature Envelope To Polygon
+* Analysis Tools / Proximity / Buffer
