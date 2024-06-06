@@ -83,7 +83,7 @@ Archivo local: Drenaje_9377.shp
 
 | Campo     | Definición                                                   | Tipo       |
 |-----------|--------------------------------------------------------------|------------|
-| Nombre    | Nombre del cuerpo de agua                                    | Text (100) |
+| RiverName | Nombre del drenaje (río, canal, conducto, corriente)         | Text (100) |
 | Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Short      |
 | DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short      |
 
@@ -142,12 +142,9 @@ Delimitación para recorte e integración de modelos digitales de elevación. Es
 |------------------------------------------|---------------------------------------|
 | DTM_Bogota2014_9377_Limit.shp            | DTM_Bogota2014_9377.tif (5m)          |
 | DTM_Bogota2020_9377_Limit.shp            | DTM_Bogota2020_9377.tif (0.5m)        |
-| DTM_Bogota2020_9377_Limit_BufferIn5m.shp | DTM_Bogota2020_9377_Limit.shp         |
 | DTM_Bogota2014_2020_9377_Limit.shp       | DTM_Bogota2020_9377_Extent.tif (0.5m) |
 
 > El modelo digital de terreno _DTM_Bogota2020_9377_Extent.tif_ corresponde a la combinación de los modelos _DTM_Bogota2014_9377_Limit.shp_ y _DTM_Bogota2020_9377_Limit.shp_.
-> 
-> La capa _DTM_Bogota2020_9377_Limit_BufferIn5m.shp_ que corresponde a un buffer interno a 5 metros a partir de la capa _DTM_Bogota2020_9377_Limit.shp_, ha sido utilizada para obtener los nodos perimetrales y elevaciones para el ajuste del modelo digital de superficie NASA ALOS PALSAR.
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_9377_Limit.png)
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit.png)
@@ -155,7 +152,7 @@ Delimitación para recorte e integración de modelos digitales de elevación. Es
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_2020_9377_Limit.png)
 
 
-## Red de muestreo para ajuste del DSM NASA ALOS PALSAR
+## Red de muestreo para ajuste de DSM NASA ALOS PALSAR
 
 A partir del límite geográfico del modelo digital de terreno Lidar DTM_Bogota2020_9377_Limit.shp, se ha creado una red de muestreo regular con nodos cada 100 metros; su objetivo principal es obtener las elevaciones del modelo Lidar (0.5m) y las elevaciones del modelo digital de superficie satelital NASA ALOS PALSAR (12.5m) que permitirá a partir de una correlación lineal, ajustar las elevaciones del modelo digital satelital. También se han incluído las elevaciones de los demás modelos digitales de elevación utilizados en este estudio.
 
@@ -178,4 +175,30 @@ Archivo local: DTM_Bogota2020_9377_Limit_Fishnet100m.shp
 
 * Data Management Tools / Sampling / Create Fishnet
 * Spatial Analyst Tools / Extraction / Extract Multi Values to Points
-* Spatial Analyst Tools / Hydrology / Fill
+
+
+## Intersección Drenaje - Vía
+
+A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacial para la identificación de puntos donde es necesario revisar, validar y ajustar el modelo digital de terreno.
+
+Archivo local: Drenaje_PasoVia_9377.shp
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje_PasoVia.png)
+
+**Catálogo de objetos**
+
+| Campo     | Definición                                                                | Tipo  |
+|-----------|---------------------------------------------------------------------------|-------|
+| CZDTM2014 | Cota en DTM Lidar Bogotá 2014                                             | Float |
+| CZDTM2020 | Cota en DTM Lidar Bogotá 2020                                             | Float |
+| CZAlos    | Cota en DSM NASA ALOS PALSAR 2011                                         | Float |
+| CZAlosFil | Cota en DSM NASA ALOS PALSAR 2011 con relleno de sumideros                | Float |
+| CZAlosFit | Cota en DSM NASA ALOS PALSAR 2011 con ajuste a partir de regresión lineal | Float |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información)              | Short |
+
+**Geoprocesos utilizados en ArcGIS Pro**
+
+* Data Management Tools / Sampling / Create Fishnet
+* Spatial Analyst Tools / Extraction / Extract Multi Values to Points
+
+
