@@ -117,7 +117,7 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 
 ## Cundinamarca - Suelos (polígono)
 
-Asociación del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrológicos y tasas de infiltración.
+Asociación del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrológicos y asignación de tasas de infiltración.
 
 Archivo local: Cundinamarca_Suelos_VF_9377.shp
 
@@ -130,4 +130,12 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
 
 
-## 
+## Delimitación modelos digitales de elevación DEM (polígono)
+
+Delimitación para recorte e integración de modelos digitales de elevación.
+
+| Archivo local                 | DEM fuente              | 
+|-------------------------------|-------------------------|
+| DTM_Bogota2014_9377_Limit.shp | DTM_Bogota2014_9377.tif |
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_9377_Limit.png)
