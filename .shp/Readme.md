@@ -210,8 +210,8 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 
 > Tenga en cuenta que en modelos bidimensionales, la frontera de la región a partir de la cual se crea el mallado, no debe coincidir con el límite del modelo de terreno, lo anterior debido a que para el cálculo de las propiedades geométricas, es necesario disponer de valores contínuos a lo largo de toda las caras en cada celda.
 
-Archivo local de SZH: SZH2120_9377.shp
-Archivo local de envolvente SZH: SZH2120_9377_Envelope_Buffer250m.shp
+* Archivo local de SZH: SZH2120_9377.shp
+* Archivo local de envolvente SZH: SZH2120_9377_Envelope_Buffer250m.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_SZH.png)
 
