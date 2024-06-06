@@ -191,13 +191,13 @@ Archivo local: Drenaje_PasoVia_9377.shp
 
 **Catálogo de objetos**
 
-| Campo      | Definición                                                                                         | Tipo       |
-|------------|----------------------------------------------------------------------------------------------------|------------|
-| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                                            | Text (100) |
-| BridgeName | Nombre o localización del paso de vía o puente (vehicular, peatonal)                               | Text (254) |
-| ReadyDEM   | Paso de vía verificado en modelo digital de terreno DTM: 0-Pendiente, 1-Verificado, 2-NoVerificado | Long       |
-| ReadyRAS   | Corredor paso de vía río o canal generado en RAS Mapper: 0-Pendiente, 1-Generado, 2-NoGenerado     | Long       |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                                       | Long       |
+| Campo      | Definición                                                                                  | Tipo       |
+|------------|---------------------------------------------------------------------------------------------|------------|
+| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                                     | Text (100) |
+| BridgeName | Nombre o localización del paso de vía o puente (vehicular, peatonal)                        | Text (254) |
+| ReadyDEM   | Paso de vía requiere ajuste del modelo digital de terreno DTM: 0-Sí, 1-No, 2-NoVerificado   | Long       |
+| ReadyRAS   | Corredor de canal en intersección con paso de vía río ya generado en RAS Mapper: 0-Sí, 1-No | Long       |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                                | Long       |
 
 **Geoprocesos utilizados en ArcGIS Pro**
 
