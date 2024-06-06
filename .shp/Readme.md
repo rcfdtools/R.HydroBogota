@@ -125,7 +125,9 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 
 | Campo      | Definición                                                   | Tipo de dato |
 |------------|--------------------------------------------------------------|--------------|
-| LandUse    | Uso principal del suelo                                      | Text (254)   |
-| ManningN   | Coeficiente de rugosidad de Manning                          | Double       |
-| PercImperv | Porcentaje de impermeabilidad                                | Double       |
+| HydroGroup | Grupo hidrológico de la USDA (SCS)                           | Text (2)     |
+| Infiltmmhr | Coeficiente de rugosidad de Manning                          | Double       |
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
+
+
+## 
