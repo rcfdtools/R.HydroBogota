@@ -110,7 +110,7 @@ Corriente de agua de origen natural o artificial de forma permanente o periódic
 
 ## Cuerpo de Agua, Bogotá D.C
 
-**Aplicación en esta investigación**: localización visual de cuerpos de agua principal en RAS Mapper y polígono guía para digitalización de líneas conectoras del sistema de drenaje.
+**Aplicación en esta investigación**: localización visual de cuerpos de agua principal en RAS Mapper y polígonos guía para digitalización de líneas conectoras del sistema de drenaje.
 
 **Autor**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/)
 

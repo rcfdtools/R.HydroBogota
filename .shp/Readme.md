@@ -11,6 +11,8 @@ Esta carpeta contiene los archivos vectoriales procesados para el ensamble y val
 
 Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o SUDS) en este tipo de elementos.
 
+![](../.graph/ArcGISPro_Layer_Construcciones.png)
+
 * Archivo local de construcciones: [Construccion_9377.rar](Construccion_9377)
 * Archivo local de centroides en construcciones: [Construccion_9377_Point.rar](Construccion_9377)
 
@@ -37,6 +39,8 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 | ZoneDEM    | Zona modelo digital de elevación (aplica solo a centroides)                | Long         |
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)               | Long         |
 
+> Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general _LandUse_.
+
 Para el cálculo de la cota superior de cada edificación, se utiliza como valor de referencia 3 metros de entrepiso y es multiplicado por el número de pisos más la mitad de la altura de entrepiso pasa construcciones con semisótano. No se incluyen los sótanos debido a que solo se considera la elevación de la construcción por encima del terreno natural. `Expresión ArcGIS Pro: !CZDEM!+(!CONNPISOS!*3+!CONTSEMIS!*1.5)`
 
 ![R.HydroBogota](../.graph/ArcGISPro_CalculateField_BuildElevm.png)
@@ -48,10 +52,10 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 | 1       | DEM Bogotá D.C. Lidar 0.5 2014 y 2020 | DTM_Bogota2020_9377_Extent.tif |
 | 2       | DEM NASA ALOS PALSAR 12.5 ajustado    | DSM_AlosPalsar_9377_Fit.tif    |
 
-> Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general _LandUse_.
-
 
 ## Cuerpos de agua (polígono)
+
+Localización visual de cuerpos de agua principal en RAS Mapper y polígonos guía para digitalización de líneas conectoras del sistema de drenaje.
 
 
 
