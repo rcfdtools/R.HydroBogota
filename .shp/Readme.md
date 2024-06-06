@@ -175,7 +175,7 @@ Ecuación de ajuste modelo NASA ALOS PALSAR: `y = -21.4726885762 + 0.9993012271 
 
 > Durante el proceso de revisión y ajuste del modelo digital de elevación DEM ALOS PALSAR, se obtuvieron las elevaciones (Alos y Lidar 2020) en los nodos del perímetro del DTM Lidar Bogotá 2020 (con aferencia o buffer interno de 5 metros), a partir de la regresión lineal obtenida se ajustó y válido el modelo Alos obteniendo que en general el ajuste no permitía empalmar correctamente el modelo DTM Lidar con el DSM.
 
-**Geoprocesos utilizados en ArcGIS Pro**
+**Geo-procesos utilizados en ArcGIS Pro**
 
 * Data Management Tools / Sampling / Create Fishnet
 * Spatial Analyst Tools / Extraction / Extract Multi Values to Points
@@ -199,7 +199,7 @@ Archivo local: Drenaje_PasoVia_9377.shp
 | ReadyRAS   | Corredor de canal en intersección con paso de vía río ya generado en RAS Mapper: 0-Sí, 1-No | Long       |
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                                | Long       |
 
-**Geoprocesos utilizados en ArcGIS Pro**
+**Geo-procesos utilizados en ArcGIS Pro**
 
 * Analysis Tools / Overlay / Intersect
 
@@ -215,7 +215,7 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_SZH.png)
 
-**Geoprocesos utilizados en ArcGIS Pro**
+**Geo-procesos utilizados en ArcGIS Pro**
 
 * Data Management Tools / Features / Feature Envelope To Polygon
 * Analysis Tools / Proximity / Buffer
