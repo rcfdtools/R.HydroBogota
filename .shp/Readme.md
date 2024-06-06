@@ -28,7 +28,7 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 
 **Catálogo de objetos**
 
-| Nombre     | Definición                                                                 | Tipo de dato |
+| Campo     | Definición                                                                 | Tipo de dato |
 |------------|----------------------------------------------------------------------------|--------------|
 | CONNPISOS  | Número de pisos                                                            | Long         |
 | CONTSEMIS  | Semisótano: 1-Sí, 0-No                                                     | Long         |
@@ -63,7 +63,7 @@ Localización visual de cuerpos de agua principal en RAS Mapper y polígonos gu�
 
 **Catálogo de objetos**
 
-| Nombre    | Definición                                                   | Tipo de dato |
+| Campo    | Definición                                                   | Tipo de dato |
 |-----------|--------------------------------------------------------------|--------------|
 | Nombre    | Nombre del cuerpo de agua                                    | Text (100)   |
 | DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
@@ -77,10 +77,23 @@ Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalizació
 
 **Catálogo de objetos**
 
-| Nombre    | Definición                                                   | Tipo de dato |
+| Campo     | Definición                                                   | Tipo de dato |
 |-----------|--------------------------------------------------------------|--------------|
 | Nombre    | Nombre del cuerpo de agua                                    | Text (100)   |
 | Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Short        |
 | DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
+
+
+## Cundinamarca - Límite (polígono)
+
+Delimitación territorial a partir de la disolución (Dissolve) del Mapa Digital de Suelos del Departamento de Cundinamarca. Requerido para el recorte del Mapa Digital de Clasificación de las Tierras por su Vocación de Uso. Esta capa no requiere atributos complementarios.
+
+![](../.graph/ArcGISPro_Layer_Cundinamarca.png)
+
+
+
+
+
+
