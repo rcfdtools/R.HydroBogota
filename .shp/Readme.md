@@ -99,13 +99,13 @@ Archivo local: Cundinamarca_9377.shp
 ![](../.graph/ArcGISPro_Layer_Cundinamarca.png)
 
 
-## Cundinamarca - LandUse (polígono)
+## Cundinamarca - Land Cover (polígono)
 
-Mapa para asociación de coeficientes de rugosidad de Manning y porcentajes de impermeabilidad.
+Mapa para asociación de coeficientes de rugosidad de Manning y porcentajes de impermeabilidad por tipo de cobertura de suelo. Se ha utilizado como referencia el Mapa Digital de Vocaciones de Uso del IGAC.
 
 Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_LandUse.png)
+![R.HydroBogota](../.graph/ArcGISPro_Layer_LandCover.png)
 
 | Campo      | Definición                                                   | Tipo de dato |
 |------------|--------------------------------------------------------------|--------------|
@@ -114,3 +114,18 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 | PercImperv | Porcentaje de impermeabilidad                                | Double       |
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
 
+
+## Cundinamarca - Suelos (polígono)
+
+Asociación del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrológicos y tasas de infiltración.
+
+Archivo local: Cundinamarca_Suelos_VF_9377.shp
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_Soils.png)
+
+| Campo      | Definición                                                   | Tipo de dato |
+|------------|--------------------------------------------------------------|--------------|
+| LandUse    | Uso principal del suelo                                      | Text (254)   |
+| ManningN   | Coeficiente de rugosidad de Manning                          | Double       |
+| PercImperv | Porcentaje de impermeabilidad                                | Double       |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
