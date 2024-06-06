@@ -138,12 +138,18 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 
 Delimitación para recorte e integración de modelos digitales de elevación. Esta capa no requiere de atributos complementarios.
 
-| Archivo local                      | DEM fuente                            | 
-|------------------------------------|---------------------------------------|
-| DTM_Bogota2014_9377_Limit.shp      | DTM_Bogota2014_9377.tif (5m)          |
-| DTM_Bogota2020_9377_Limit.shp      | DTM_Bogota2020_9377.tif (0.5m)        |
-| DTM_Bogota2014_2020_9377_Limit.shp | DTM_Bogota2020_9377_Extent.tif (0.5m) |
+| Archivo local                            | DEM o capa fuente                     | 
+|------------------------------------------|---------------------------------------|
+| DTM_Bogota2014_9377_Limit.shp            | DTM_Bogota2014_9377.tif (5m)          |
+| DTM_Bogota2020_9377_Limit.shp            | DTM_Bogota2020_9377.tif (0.5m)        |
+| DTM_Bogota2020_9377_Limit_BufferIn5m.shp | DTM_Bogota2020_9377_Limit.shp         |
+| DTM_Bogota2014_2020_9377_Limit.shp       | DTM_Bogota2020_9377_Extent.tif (0.5m) |
+
+> El modelo digital de terreno _DTM_Bogota2020_9377_Extent.tif_ corresponde a la combinación de los modelos _DTM_Bogota2014_9377_Limit.shp_ y _DTM_Bogota2020_9377_Limit.shp_.
+> 
+> La capa _DTM_Bogota2020_9377_Limit_BufferIn5m.shp_ que corresponde a un buffer interno a 5 metros a partir de la capa _DTM_Bogota2020_9377_Limit.shp_, ha sido utilizada para obtener los nodos perimetrales y elevaciones para el ajuste del modelo digital de superficie NASA ALOS PALSAR.
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_9377_Limit.png)
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit.png)
+![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_BufferIn5m.png)
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_2020_9377_Limit.png)
