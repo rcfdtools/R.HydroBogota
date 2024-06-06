@@ -134,8 +134,12 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 
 Delimitación para recorte e integración de modelos digitales de elevación.
 
-| Archivo local                 | DEM fuente              | 
-|-------------------------------|-------------------------|
-| DTM_Bogota2014_9377_Limit.shp | DTM_Bogota2014_9377.tif |
+| Archivo local                      | DEM fuente                            | 
+|------------------------------------|---------------------------------------|
+| DTM_Bogota2014_9377_Limit.shp      | DTM_Bogota2014_9377.tif (5m)          |
+| DTM_Bogota2020_9377_Limit.shp      | DTM_Bogota2020_9377.tif (0.5m)        |
+| DTM_Bogota2014_2020_9377_Limit.shp | DTM_Bogota2020_9377_Extent.tif (0.5m) |
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_9377_Limit.png)
+![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit.png)
+![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_2020_9377_Limit.png)
