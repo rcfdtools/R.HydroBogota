@@ -107,6 +107,8 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_LandCover.png)
 
+**Catálogo de objetos**
+
 | Campo      | Definición                                                   | Tipo de dato |
 |------------|--------------------------------------------------------------|--------------|
 | LandUse    | Uso principal del suelo                                      | Text (254)   |
@@ -117,11 +119,13 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 
 ## Cundinamarca - Suelos (polígono)
 
-Asociación del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrológicos y asignación de tasas de infiltración.
+Asociación del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrológicos y asignación de tasas de infiltración. Esta capa no requiere de atributos complementarios.
 
 Archivo local: Cundinamarca_Suelos_VF_9377.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Soils.png)
+
+**Catálogo de objetos**
 
 | Campo      | Definición                                                   | Tipo de dato |
 |------------|--------------------------------------------------------------|--------------|
@@ -132,7 +136,7 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 
 ## Delimitación modelos digitales de elevación DEM (polígono)
 
-Delimitación para recorte e integración de modelos digitales de elevación.
+Delimitación para recorte e integración de modelos digitales de elevación. Esta capa no requiere de atributos complementarios.
 
 | Archivo local                      | DEM fuente                            | 
 |------------------------------------|---------------------------------------|
