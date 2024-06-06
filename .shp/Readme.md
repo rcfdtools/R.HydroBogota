@@ -1,4 +1,4 @@
-# Shapefile
+# Capas Shapefile (.shp)
 
 Esta carpeta contiene los archivos vectoriales procesados para el ensamble y validación del modelo hidráulico. Todos los archivos han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional.
 
