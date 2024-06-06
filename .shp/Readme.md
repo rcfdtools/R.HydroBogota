@@ -11,10 +11,10 @@ Esta carpeta contiene los archivos vectoriales procesados para el ensamble y val
 
 Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o SUDS) en este tipo de elementos.
 
-![](../.graph/ArcGISPro_Layer_Construcciones.png)
-
 * Archivo local de construcciones: [Construccion_9377.rar](Construccion_9377)
 * Archivo local de centroides en construcciones: [Construccion_9377_Point.rar](Construccion_9377)
+
+![](../.graph/ArcGISPro_Layer_Construcciones.png)
 
 > Para el cálculo correcto de la altura de cada construcción y para generar la grilla de elevaciones, es necesario primero ejecutar el geo-proceso _Multipart to Singlepart Conversion_ que permite separar las entidades multiparte.
 > 
@@ -59,7 +59,9 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 
 Localización visual de cuerpos de agua principal en RAS Mapper y polígonos guía para digitalización de líneas conectoras del sistema de drenaje.
 
-![](../.graph/ArcGISPro_Layer_CuerpoAgua.png)
+Archivo local: CuerpoAgua_9377.shp
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_CuerpoAgua.png)
 
 **Catálogo de objetos**
 
@@ -73,7 +75,9 @@ Localización visual de cuerpos de agua principal en RAS Mapper y polígonos gu�
 
 Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales…), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores.
 
-![](../.graph/ArcGISPro_Layer_Drenaje.png)
+Archivo local: Drenaje_9377.shp
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje.png)
 
 **Catálogo de objetos**
 
@@ -90,10 +94,23 @@ Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalizació
 
 Delimitación territorial a partir de la disolución (Dissolve) del Mapa Digital de Suelos del Departamento de Cundinamarca. Requerido para el recorte del Mapa Digital de Clasificación de las Tierras por su Vocación de Uso. Esta capa no requiere atributos complementarios.
 
+Archivo local: Cundinamarca_9377.shp
+
 ![](../.graph/ArcGISPro_Layer_Cundinamarca.png)
 
 
+## Cundinamarca - LandUse (polígono)
 
+Mapa para asociación de coeficientes de rugosidad de Manning y porcentajes de impermeabilidad.
 
+Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 
+![R.HydroBogota](../.graph/ArcGISPro_Layer_LandUse.png)
+
+| Campo      | Definición                                                   | Tipo de dato |
+|------------|--------------------------------------------------------------|--------------|
+| LandUse    | Uso principal del suelo                                      | Text (254)   |
+| ManningN   | Coeficiente de rugosidad de Manning                          | Double       |
+| PercImperv | Porcentaje de impermeabilidad                                | Double       |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
 
