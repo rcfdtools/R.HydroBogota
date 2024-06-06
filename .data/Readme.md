@@ -93,7 +93,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 ## Corriente de Agua, Bogotá D.C
 
-**Aplicación en esta investigación**: alineamientos para refinamiento de mallado en RAS Mapper. Requiere verificación y digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales...), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores. 
+**Aplicación en esta investigación**: alineamientos para refinamiento de mallado en RAS Mapper. Requiere verificación y digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales…), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores. 
 
 **Autor**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/)
 

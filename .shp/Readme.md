@@ -37,7 +37,7 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 | CZDEM      | Cota en el centroide del polígono a partir del modelo digital de elevación | Double       |
 | BuildElevm | Cota + altura total de la edificación                                      | Double       |
 | ZoneDEM    | Zona modelo digital de elevación (aplica solo a centroides)                | Long         |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)               | Long         |
+| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)               | Short        |
 
 > Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general _LandUse_.
 
@@ -45,7 +45,7 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 
 ![R.HydroBogota](../.graph/ArcGISPro_CalculateField_BuildElevm.png)
 
-> La altura de las construcciones también puede ser obtenida a partir de la diferencia de elevación entre el modelo digital de superficie Lidar DSM y el modelo digital de terreno Lidat DTM. 
+> La altura de las construcciones también puede ser obtenida a partir de la diferencia de elevación entre el modelo digital de superficie Lidar DSM y el modelo digital de terreno Lidar DTM. 
 
 **Zonas DEM**
 
@@ -61,5 +61,26 @@ Localización visual de cuerpos de agua principal en RAS Mapper y polígonos gu�
 
 ![](../.graph/ArcGISPro_Layer_CuerpoAgua.png)
 
+**Catálogo de objetos**
+
+| Nombre    | Definición                                                   | Tipo de dato |
+|-----------|--------------------------------------------------------------|--------------|
+| Nombre    | Nombre del cuerpo de agua                                    | Text (100)   |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
 
 
+## Drenajes (línea)
+
+Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales…), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores.
+
+![](../.graph/ArcGISPro_Layer_Drenaje.png)
+
+**Catálogo de objetos**
+
+| Nombre    | Definición                                                   | Tipo de dato |
+|-----------|--------------------------------------------------------------|--------------|
+| Nombre    | Nombre del cuerpo de agua                                    | Text (100)   |
+| Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Short        |
+| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Short        |
+
+> Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
