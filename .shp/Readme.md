@@ -119,26 +119,24 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 Valores de referencia utilizados para la asignación de coeficientes de rugosidad y porcentajes de impermeabilidad por uso del suelo.  
 Referencia: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classification-layers
 
-| LandUse                        | ManningN | PercImperv |
-|:-------------------------------|:--------:|:----------:|
-| No data                        |  0.066   |    100     |
-| Open water                     |  0.035   |    100     |
-| Developed, open Space          |   0.03   |     25     |
-| Developed, low intensity       |   0.06   |     50     |
-| Developed, medium intensity    |   0.1    |     80     |
-| Developed, high intensity      |   0.15   |     90     |
-| Barren land rock / sand / clay |   0.02   |    100     |
-| Deciduous forest               |   0.1    |     0      |
-| Evergreen forest               |   0.1    |     0      |
-| Mixed forest                   |   0.1    |     0      |
-| Shrub / Scrub                  |   0.06   |     20     |
-| Grassland / Herbaceous         |   0.04   |     0      |
-| Pasture / hay                  |   0.06   |     0      |
-| Cultivated crops               |   0.05   |     0      |
-| Woody wetlands                 |   0.12   |     80     |
-| Emergent herbaceous wetlands   |   0.1    |     80     |
-
-
+| LandUse                        | LandUse_es                                   | ManningN | PercImperv |
+|--------------------------------|----------------------------------------------|----------|------------|
+| No data                        | Sin uso definido                             | 0.066    | 100        |
+| Open water                     | Cuerposde agua                               | 0.035    | 100        |
+| Developed, open space          | Urbanizado con espacio libre                 | 0.03     | 25         |
+| Developed, low intensity       | Urbanizado con intensidad baja               | 0.06     | 50         |
+| Developed, medium intensity    | Urbanizado con intensidad media              | 0.1      | 80         |
+| Developed, high intensity      | Urbanizado con intensidad alta               | 0.15     | 90         |
+| Barren land rock / sand / clay | Suelo árido rocoso / arena / arcilla         | 0.02     | 100        |
+| Deciduous forest               | Bosque caducifolio (estacionario)            | 0.1      | 0          |
+| Evergreen forest               | Bosque verde (permanente)                    | 0.1      | 0          |
+| Mixed forest                   | Bosque combinado (estacionario y permanente) | 0.1      | 0          |
+| Shrub / Scrub                  | Arbusto / Matorral                           | 0.06     | 20         |
+| Grassland / Herbaceous         | Pastizal / Herbáceo                          | 0.04     | 0          |
+| Pasture / Hay                  | Pasto / Heno                                 | 0.06     | 0          |
+| Cultivated crops               | Cultivo                                      | 0.05     | 0          |
+| Woody wetlands                 | Humedal con troncos                          | 0.12     | 80         |
+| Emergent herbaceous wetlands   | Humedal herbáceo emergente                   | 0.1      | 80         |
 
 
 ## Cundinamarca - Suelos (polígono)
