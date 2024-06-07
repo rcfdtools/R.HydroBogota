@@ -193,8 +193,8 @@ Referencias
 
 * https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/files/118099517/118099546/1/1665679165857/HydrologicSoilGroup_DominantCondition.pdf
 * https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/overview-of-optional-capabilities/modeling-precipitation-and-infiltration/deficit-and-constant
-* Volcanic ash infiltration rate (37mm/h): https://link.springer.com/article/10.1007/s11104-022-05322-7
-* Volcanic ash infiltration rate (37mm/h) https://link.springer.com/article/10.1007/s11104-022-05322-7
+* Volcanic ash infiltration rate (37 mm/h): https://link.springer.com/article/10.1007/s11104-022-05322-7
+* https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia
 
 | SCS Soil Group | Description                                                                                                                                                                                                                                                                                                                                                                              | Min   | Average | Max   | Cundinamarca Soils association                                                                                          |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|---------|-------|-------------------------------------------------------------------------------------------------------------------------|
