@@ -1,15 +1,15 @@
 # Capas vectoriales
 
-Esta carpeta contiene los archivos vectoriales Shapefile (.shp) procesados para el ensamble y validación del modelo hidráulico. Todos los archivos han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional.
+Esta carpeta contiene los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, las cuales han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
 
-> Para conocer los archivo fuentes a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [.data](../.data) de este repositorio.
+> Para conocer los archivos fuente a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [.data](../.data) de este repositorio.
 > 
 > Para incorporar construcciones adicionales de otros municipios, actualización de construcciones existentes o incorporar elementos complementarios en otras capas, es necesario incluir los atributos definidos en el catálogo de objetos de cada capa o clase de entidad.
 
 
 ## Construcciones (polígono y centroide)
 
-Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o SUDS) en este tipo de elementos.
+Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o [SUDS](https://www.susdrain.org/delivering-suds/using-suds/background/sustainable-drainage.html)) en este tipo de elementos.
 
 * Archivo local Construccion_9377.shp en 4 partes: [1](Construccion_9377.part01.rar), [2](Construccion_9377.part02.rar), [3](Construccion_9377.part03.rar), [4](Construccion_9377.part04.rar), 
 * Archivo local de centroides en construcciones: [Construccion_9377_Point.shp](Construccion_9377.rar)
@@ -23,9 +23,9 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 
 ### Construcciones incorporadas
 
-| Fuente                                             | Descripción                                                | Entidades |
-|----------------------------------------------------|------------------------------------------------------------|-----------|
-| Construcciones Bogotá D.C a 2024.03.03 desde IDECA | Solo construcciones dentro de la subzona hidrográfica 2120 | 2391355   |
+| Fuente                                                   | Descripción                                                | Entidades |
+|----------------------------------------------------------|------------------------------------------------------------|-----------|
+| :new: Construcciones Bogotá D.C a 2024.03.03 desde IDECA | Solo construcciones dentro de la subzona hidrográfica 2120 | 2391355   |
 
 
 ### Catálogo de objetos
