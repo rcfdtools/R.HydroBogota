@@ -58,6 +58,11 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 | 2       | DEM NASA ALOS PALSAR 12.5 ajustado    | DSM_AlosPalsar_9377_Fit.tif    |
 
 
+**Geo-procesos ArcGIS Pro**  
+* Data Management Tools / Features / Multipart to Singlepart
+* Data Management Tools / Features / Feature to Point
+
+
 ## Cuerpos de agua (polígono)
 
 Localización visual de cuerpos de agua principal en RAS Mapper y polígonos guía para digitalización de líneas conectoras del sistema de drenaje.
@@ -94,19 +99,24 @@ Archivo local: [Drenaje_9377.shp](Drenaje_9377.rar)
 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
 
+**Geo-procesos ArcGIS Pro**    
+* No requerido, utilizar herramientas de edición y encajado o snapping.
 
 ## Cundinamarca - Límite (polígono)
 
-Delimitación territorial a partir de la disolución (Dissolve) del Mapa Digital de Suelos del Departamento de Cundinamarca. Requerido para el recorte del Mapa Digital de Clasificación de las Tierras por su Vocación de Uso. Esta capa no requiere atributos complementarios.
+Delimitación territorial a partir de la disolución del Mapa Digital de Suelos del Departamento de Cundinamarca. Requerido para el recorte del Mapa Digital de Clasificación de las Tierras por su Vocación de Uso. Esta capa no requiere atributos complementarios.
 
 Archivo local: [Cundinamarca_9377.shp](Cundinamarca_9377.rar)
 
 ![](../.graph/ArcGISPro_Layer_Cundinamarca.png)
 
+**Geo-procesos ArcGIS Pro**    
+* Data Management Tools / Generalization / Dissolve
+
 
 ## Cundinamarca - Land Cover (polígono)
 
-Mapa para asociación de coeficientes de rugosidad de Manning y porcentajes de impermeabilidad por tipo de cobertura de suelo. Se ha utilizado como referencia el Mapa Digital de Vocaciones de Uso del IGAC.
+Mapa para asociación de coeficientes de rugosidad de Manning y porcentajes de impermeabilidad por tipo de cobertura de suelo. Se ha utilizado como referencia el Mapa Digital de Vocaciones de Uso del IGAC el cual ha sido recortado hasta el límite del Departamento de Cundinamarca.
 
 Archivo local: [Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp](Cundinamarca_ag_100k_vocacion_uso_2017_9377.rar)
 
@@ -174,6 +184,8 @@ Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classif
 |     81     | 0.025 - 0.05  | Pasture/Hay-areas of grasses, legumes, or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops, typically on a perennial cycle. Pasture/hay vegetation accounts for greater than 20% of total vegetation.                                                                                                                                                |
 |     82     | 0.020 - 0.05  | Cultivated Crops-areas used for the production of annual crops, such as corn, soybeans, vegetables, tobacco, and cotton, and also perennial woody crops such as orchards and vineyards. Crop vegetation accounts for greater than 20% of total vegetation. This class also includes all land being actively tilled.                                                                            |
 |     90     | 0.045 - 0.15  | Woody Wetlands- areas where forest or shrubland vegetation accounts for greater than 20% of vegetative cover and the soil or substrate is periodically saturated with or covered with water.                                                                                                                                                                                                   |
+**Geo-procesos ArcGIS Pro**    
+* Analysis Tools / Extract / Clip
 
 
 ## Cundinamarca - Suelos (polígono)
@@ -231,6 +243,10 @@ Delimitación para recorte e integración de modelos digitales de elevación. Es
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_BufferIn5m.png)
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_2020_9377_Limit.png)
 
+**Geo-procesos ArcGIS Pro**    
+* Image Analyst Tools / Map Agebra / Raster Calculator: binarización de cada mapa
+* Conversion Tools / From Raster / Raster To Polygon
+
 
 ## Red de muestreo para ajuste de DSM NASA ALOS PALSAR
 
@@ -256,8 +272,7 @@ Ecuación de ajuste modelo NASA ALOS PALSAR: `y = -21.4726885762 + 0.9993012271 
 
 > Durante el proceso de revisión y ajuste del modelo digital de elevación DEM ALOS PALSAR, se obtuvieron las elevaciones (Alos y Lidar 2020) en los nodos del perímetro del DTM Lidar Bogotá 2020 (con aferencia o buffer interno de 5 metros), a partir de la regresión lineal obtenida se ajustó y válido el modelo Alos obteniendo que en general el ajuste no permitía empalmar correctamente el modelo DTM Lidar con el DSM.
 
-**Geo-procesos utilizados en ArcGIS Pro**
-
+**Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Sampling / Create Fishnet
 * Spatial Analyst Tools / Extraction / Extract Multi Values to Points
 
@@ -281,8 +296,7 @@ Archivo local: [Drenaje_PasoVia_9377.shp](Drenaje_PasoVia_9377.rar)
 | ReadyRAS   | Corredor de canal en intersección con paso de vía río ya generado en RAS Mapper: 0-Sí, 1-No | Long       |
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                                | Long       |
 
-**Geo-procesos utilizados en ArcGIS Pro**
-
+**Geo-procesos ArcGIS Pro**  
 * Analysis Tools / Overlay / Intersect
 
 
@@ -297,7 +311,6 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_SZH.png)
 
-**Geo-procesos utilizados en ArcGIS Pro**
-
+**Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Features / Feature Envelope To Polygon
 * Analysis Tools / Proximity / Buffer
