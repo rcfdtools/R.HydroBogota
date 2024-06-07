@@ -122,7 +122,7 @@ Referencia: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-c
 | LandUse                        | LandUse_es                                   | ManningN | PercImperv |
 |--------------------------------|----------------------------------------------|----------|------------|
 | No data                        | Sin uso definido                             | 0.066    | 100        |
-| Open water                     | Cuerposde agua                               | 0.035    | 100        |
+| Open water                     | Cuerpo de agua                               | 0.035    | 100        |
 | Developed, open space          | Urbanizado con espacio libre                 | 0.03     | 25         |
 | Developed, low intensity       | Urbanizado con intensidad baja               | 0.06     | 50         |
 | Developed, medium intensity    | Urbanizado con intensidad media              | 0.1      | 80         |
