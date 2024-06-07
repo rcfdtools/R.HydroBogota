@@ -119,7 +119,8 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 
 ### Coeficientes de rugosidad de Manning (n) y porcentajes de impermeabilidad
 
-Valores de referencia utilizados para la asignación de coeficientes de rugosidad y porcentajes de impermeabilidad por uso del suelo. Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classification-layers
+Valores de referencia utilizados para la asignación de coeficientes de rugosidad y porcentajes de impermeabilidad por uso del suelo.  
+Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classification-layers
 
 | LandUse                        | LandUse_es                                   | ManningN | PercImperv |
 |--------------------------------|----------------------------------------------|----------|------------|
@@ -143,7 +144,8 @@ Valores de referencia utilizados para la asignación de coeficientes de rugosida
 
 ### Rangos de valores de rugosidad de Manning (n) de la NLCD
 
-U.S. National Land Cover Database ([NLCD](https://www.usgs.gov/node/279743) - Manning's n Values Reference Table. Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classification-layers
+U.S. National Land Cover Database ([NLCD](https://www.usgs.gov/node/279743)) - Manning's n Values Reference Table.  
+Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classification-layers
 
 | NLCD_Value | n_ValueRange  | Description                                                                                                                                                                                                                                                                                                                                                                                    |
 |:----------:|:-------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
