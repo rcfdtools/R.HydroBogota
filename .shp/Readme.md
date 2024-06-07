@@ -4,7 +4,7 @@ Esta carpeta contiene los archivos vectoriales Shapefile (.shp) procesados para 
 
 > Para conocer los archivo fuentes a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [.data](../.data) de este repositorio.
 > 
-> Para incorporar construcciones adicionales de otros municipios o actualizaciones de construcciones existentes, es necesario incluir los atributos definidos en el catálogo de objetos de cada capa o clase de entidad.
+> Para incorporar construcciones adicionales de otros municipios, actualización de construcciones existentes o incorporar elementos complementarios en otras capas, es necesario incluir los atributos definidos en el catálogo de objetos de cada capa o clase de entidad.
 
 
 ## Construcciones (polígono y centroide)
