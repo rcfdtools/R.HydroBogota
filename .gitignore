@@ -38,7 +38,7 @@ Lib/
 *.CPG
 *.sbn
 *.sbx
-*.shp.xml
+*.shp.*
 
 # Video exclusions
 #Section02/FdrDEM/FdrDEM.mp4
