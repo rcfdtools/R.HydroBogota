@@ -144,7 +144,7 @@ Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classif
 
 ### Rangos de valores de rugosidad de Manning (n) de la NLCD
 
-U.S. National Land Cover Database ([NLCD](https://www.usgs.gov/node/279743)) - Manning's n Values Reference Table.  
+U.S. National Land Cover Database ([NLCD](https://www.usgs.gov/node/279743)) - Manning's n values reference table.  
 Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classification-layers
 
 | NLCD_Value | n_ValueRange  | Description                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -185,6 +185,26 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 | HydroGroup | Grupo hidrológico de la USDA (SCS)                           | Text (2) |
 | Infiltmmhr | Coeficiente de rugosidad de Manning                          | Double   |
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Long     |
+
+
+### Grupos hidrológicos y valores de referencia en tasas de infiltración en mm/hr
+
+Referencias
+
+* https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/files/118099517/118099546/1/1665679165857/HydrologicSoilGroup_DominantCondition.pdf
+* https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/overview-of-optional-capabilities/modeling-precipitation-and-infiltration/deficit-and-constant
+* Volcanic ash infiltration rate (37mm/h): https://link.springer.com/article/10.1007/s11104-022-05322-7
+* Volcanic ash infiltration rate (37mm/h) https://link.springer.com/article/10.1007/s11104-022-05322-7
+
+| SCS Soil Group | Description                                                                                                                                                                                                                                                                                                                                                                              | Min   | Average | Max   | Cundinamarca Soils association                                                                                          |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|---------|-------|-------------------------------------------------------------------------------------------------------------------------|
+| A              | Soils having a high infiltration rate (low runoff potential) when thoroughly wet. These consist mainly of deep, well drained to excessively drained sands or gravelly sands. These soils have a high rate of water transmission.                                                                                                                                                         | 7.62  | 9.525   | 11.43 | Bien drenados. Bien a excesivamente drenados                                                                            |
+| B              | Soils having a moderate infiltration rate when thoroughly wet. These consist chiefly of moderately deep or deep, moderately well drained or well drained soils that have moderately fine texture to moderately coarse texture. These soils have a moderate rate of water transmission.                                                                                                   | 3.81  | 5.715   | 7.62  | Bien a moderadamente bien drenados. Moderadamente bien drenados                                                         |
+| C              | Soils having a slow infiltration rate when thoroughly wet. These consist chiefly of soils having a layer that impedes the downward movement of water or soils of moderately fine texture or fine texture. These soils have a slow rate of water transmission.                                                                                                                            | 1.27  | 2.54    | 3.81  | Pobremente drenados                                                                                                     |
+| D              | Soils having a very slow infiltration rate (high runoff potential) when thoroughly wet. These consist chiefly of clays that have a high shrink-swell potential, soils that have a high water table, soils that have a claypan or clay layer at or near the surface, and soils that are shallow over nearly impervious material. These soils have a very slow rate of water transmission. | 0     | 0.635   | 1.27  | Pobre a muy pobremente drenados. Cuerpo de agua. Pantanos. Misceláneo erosionado. Playones. Nulos o vacíos              |
+| A/D            | If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.                                                                                                                                            | 3.81  | 5.08    | 6.35  | Bien a imperfectamente drenados. Bien a muy pobremente drenados. Bien a pobremente drenados. Bien y pobremente drenados |
+| B/D            | If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.                                                                                                                                            | 1.905 | 3.175   | 4.445 | Moderadamente bien drenados a pobremente drenados. Moderada a pobremente drenados. Pobre a moderadamente bien drenados  |
+| C/D            | If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.                                                                                                                                            | 0.635 | 1.5875  | 2.54  |                                                                                                                         |
 
 
 ## Delimitación modelos digitales de elevación DEM (polígono)
