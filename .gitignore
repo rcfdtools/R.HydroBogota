@@ -31,7 +31,7 @@ Lib/
 *.tif.ovr
 *Copia_de_seguridad_de*
 #Shapefiles uncompressed
-*.shp
+**.shp
 *.shx
 *.dbf
 *.prj
