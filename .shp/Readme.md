@@ -39,7 +39,7 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 | CZDEM      | Cota en el centroide del polígono a partir del modelo digital de elevación  | Double |
 | BuildElevm | Cota + altura total de la edificación                                       | Double |
 | ZoneDEM    | Zona modelo digital de elevación (aplica solo a centroides)                 | Long   |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                | Long   |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)                | Long   |
 
 > Los campos `ManningN` y `PercImperv` han sido incluídos para el ajuste de rugosidades e impermeabilidad del mapa general _LandUse_.
 
@@ -77,7 +77,7 @@ Archivo local: [CuerpoAgua_9377.shp](CuerpoAgua_9377.rar)
 | Campo     | Definición                                                   | Tipo       |
 |:----------|--------------------------------------------------------------|------------|
 | Nombre    | Nombre del cuerpo de agua                                    | Text (100) |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
+| DSourceID | [Fuente de información](../README.md#fuentes-de-información) | Long       |
 
 
 ## Drenajes (línea)
@@ -95,7 +95,7 @@ Archivo local: [Drenaje_9377.shp](Drenaje_9377.rar)
 |:----------|--------------------------------------------------------------|------------|
 | RiverName | Nombre del drenaje (río, canal, conducto, corriente...)      | Text (100) |
 | Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Long       |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
+| DSourceID | [Fuente de información](../README.md#fuentes-de-información) | Long       |
 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
 
@@ -130,7 +130,7 @@ Archivo local: [Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp](Cundinamarca_ag
 | LandUse    | Uso principal del suelo                                      | Text (254) |
 | ManningN   | Coeficiente de rugosidad de Manning                          | Double     |
 | PercImperv | Porcentaje de impermeabilidad                                | Double     |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información) | Long       |
 
 
 ### Coeficientes de rugosidad de Manning (n) y porcentajes de impermeabilidad
@@ -203,7 +203,7 @@ Archivo local: [Cundinamarca_Suelos_VF_9377.shp](Cundinamarca_Suelos_VF_9377.rar
 |:-----------|--------------------------------------------------------------|----------|
 | HydroGroup | Grupo hidrológico de la USDA (SCS)                           | Text (2) |
 | Infiltmmhr | Coeficiente de rugosidad de Manning                          | Double   |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Long     |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información) | Long     |
 
 
 ### Grupos hidrológicos y tasas de infiltración en mm/hr
@@ -266,7 +266,7 @@ Archivo local: [DTM_Bogota2020_9377_Limit_Fishnet100m.shp](DTM_Bogota2020_9377_L
 | CZAlos    | Cota en DSM NASA ALOS PALSAR 2011                                         | Float |
 | CZAlosFil | Cota en DSM NASA ALOS PALSAR 2011 con relleno de sumideros                | Float |
 | CZAlosFit | Cota en DSM NASA ALOS PALSAR 2011 con ajuste a partir de regresión lineal | Float |
-| DSourceID | [Fuente de información](../Readme.md#fuentes-de-información)              | Long  |
+| DSourceID | [Fuente de información](../README.md#fuentes-de-información)              | Long  |
 
 Ecuación de ajuste modelo NASA ALOS PALSAR: `y = -21.4726885762 + 0.9993012271 * x` donde x corresponde a la elevación de cada celda o pixel de la grilla DSM_AlosPalsar_9377.tif.
 
@@ -294,7 +294,7 @@ Archivo local: [Drenaje_PasoVia_9377.shp](Drenaje_PasoVia_9377.rar)
 | BridgeName | Nombre o localización del paso de vía o puente (vehicular, peatonal)                        | Text (254) |
 | ReadyDEM   | Paso de vía requiere ajuste del modelo digital de terreno DTM: 0-Sí, 1-No, 2-NoVerificado   | Long       |
 | ReadyRAS   | Corredor de canal en intersección con paso de vía río ya generado en RAS Mapper: 0-Sí, 1-No | Long       |
-| DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información)                                | Long       |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)                                | Long       |
 
 **Geo-procesos ArcGIS Pro**  
 * Analysis Tools / Overlay / Intersect
