@@ -116,6 +116,30 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 | PercImperv | Porcentaje de impermeabilidad                                | Double     |
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
 
+Valores de referencia utilizados para la asignación de coeficientes de rugosidad y porcentajes de impermeabilidad por uso del suelo.  
+Referencia: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classification-layers
+
+| LandUse                        | ManningN | PercImperv |
+|--------------------------------|----------|------------|
+| No data                        | 0.066    | 100        |
+| Open water                     | 0.035    | 100        |
+| Developed, open Space          | 0.03     | 25         |
+| Developed, low intensity       | 0.06     | 50         |
+| Developed, medium intensity    | 0.1      | 80         |
+| Developed, high intensity      | 0.15     | 90         |
+| Barren land rock / sand / clay | 0.02     | 100        |
+| Deciduous forest               | 0.1      | 0          |
+| Evergreen forest               | 0.1      | 0          |
+| Mixed forest                   | 0.1      | 0          |
+| Shrub / Scrub                  | 0.06     | 20         |
+| Grassland / Herbaceous         | 0.04     | 0          |
+| Pasture / hay                  | 0.06     | 0          |
+| Cultivated crops               | 0.05     | 0          |
+| Woody wetlands                 | 0.12     | 80         |
+| Emergent herbaceous wetlands   | 0.1      | 80         |
+
+
+
 
 ## Cundinamarca - Suelos (polígono)
 
