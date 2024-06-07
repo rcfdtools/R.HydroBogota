@@ -202,7 +202,7 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 Referencias  
 * [Condición dominante en grupos hidrológicos](https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/files/118099517/118099546/1/1665679165857/HydrologicSoilGroup_DominantCondition.pdf)
 * [Modelación de precipitación e infiltración en HEC-RAS, Método de déficit constante]( https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/overview-of-optional-capabilities/modeling-precipitation-and-infiltration/deficit-and-constant )
-* [Tasa de infiltración en suelos volcánicos (Volcanic ash infiltration rate, 37 mm/h)](https://link.springer.com/article/10.1007/s11104-022-05322-7
+* [Tasa de infiltración en suelos volcánicos (Volcanic ash infiltration rate, 37 mm/h)](https://link.springer.com/article/10.1007/s11104-022-05322-7)
 * [Datos abiertos de agrología - IGAC - Colombia](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia))
 
 
