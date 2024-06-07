@@ -11,8 +11,8 @@ Esta carpeta contiene los archivos vectoriales o capas shapefile (.shp) procesad
 
 Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o [SUDS](https://www.susdrain.org/delivering-suds/using-suds/background/sustainable-drainage.html)) en este tipo de elementos.
 
-* :open_file_folder: Archivo local Construccion_9377.shp en 4 partes: [1](Construccion_9377.part01.rar), [2](Construccion_9377.part02.rar), [3](Construccion_9377.part03.rar), [4](Construccion_9377.part04.rar), 
-* :open_file_folder: Archivo local de centroides en construcciones: [Construccion_9377_Point.shp](Construccion_9377.rar)
+* :open_file_folder: * :open_file_folder: Archivo local Construccion_9377.shp en 4 partes: [1](Construccion_9377.part01.rar), [2](Construccion_9377.part02.rar), [3](Construccion_9377.part03.rar), [4](Construccion_9377.part04.rar), 
+* :open_file_folder: * :open_file_folder: Archivo local de centroides en construcciones: [Construccion_9377_Point.shp](Construccion_9377.rar)
 
 ![](../.graph/ArcGISPro_Layer_Construcciones.png)
 
@@ -69,7 +69,7 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 
 Localización visual de cuerpos de agua principal en RAS Mapper y polígonos guía para digitalización de líneas conectoras del sistema de drenaje.
 
-Archivo local: [CuerpoAgua_9377.shp](CuerpoAgua_9377.rar)
+* :open_file_folder: Archivo local: [CuerpoAgua_9377.shp](CuerpoAgua_9377.rar)
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_CuerpoAgua.png)
 
@@ -86,7 +86,7 @@ Archivo local: [CuerpoAgua_9377.shp](CuerpoAgua_9377.rar)
 
 Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales…), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores.
 
-Archivo local: [Drenaje_9377.shp](Drenaje_9377.rar)
+* :open_file_folder: Archivo local: [Drenaje_9377.shp](Drenaje_9377.rar)
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje.png)
 
@@ -108,7 +108,7 @@ Archivo local: [Drenaje_9377.shp](Drenaje_9377.rar)
 
 Delimitación territorial a partir de la disolución del Mapa Digital de Suelos del Departamento de Cundinamarca. Requerido para el recorte del Mapa Digital de Clasificación de las Tierras por su Vocación de Uso. Esta capa no requiere atributos complementarios.
 
-Archivo local: [Cundinamarca_9377.shp](Cundinamarca_9377.rar)
+* :open_file_folder: Archivo local: [Cundinamarca_9377.shp](Cundinamarca_9377.rar)
 
 ![](../.graph/ArcGISPro_Layer_Cundinamarca.png)
 
@@ -120,7 +120,7 @@ Archivo local: [Cundinamarca_9377.shp](Cundinamarca_9377.rar)
 
 Mapa para asociación de coeficientes de rugosidad de Manning y porcentajes de impermeabilidad por tipo de cobertura de suelo. Se ha utilizado como referencia el Mapa Digital de Vocaciones de Uso del IGAC el cual ha sido recortado hasta el límite del Departamento de Cundinamarca.
 
-Archivo local: [Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp](Cundinamarca_ag_100k_vocacion_uso_2017_9377.rar)
+* :open_file_folder: Archivo local: [Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp](Cundinamarca_ag_100k_vocacion_uso_2017_9377.rar)
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_LandCover.png)
 
@@ -194,7 +194,7 @@ Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classif
 
 Asociación del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrológicos y asignación de tasas de infiltración. Esta capa no requiere de atributos complementarios.
 
-Archivo local: [Cundinamarca_Suelos_VF_9377.shp](Cundinamarca_Suelos_VF_9377.rar)
+* :open_file_folder: Archivo local: [Cundinamarca_Suelos_VF_9377.shp](Cundinamarca_Suelos_VF_9377.rar)
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Soils.png)
 
@@ -232,7 +232,7 @@ Archivo local: [Cundinamarca_Suelos_VF_9377.shp](Cundinamarca_Suelos_VF_9377.rar
 
 Delimitación para recorte e integración de modelos digitales de elevación. Esta capa no requiere de atributos complementarios.
 
-| Archivo local                                                            | DEM o capa fuente                     | 
+| * :open_file_folder: Archivo local                                                            | DEM o capa fuente                     | 
 |--------------------------------------------------------------------------|---------------------------------------|
 | [DTM_Bogota2014_9377_Limit.shp](DTM_Bogota2014_9377_Limit.rar)           | DTM_Bogota2014_9377.tif (5m)          |
 | [DTM_Bogota2020_9377_Limit.shp](DTM_Bogota2020_9377_Limit.rar)           | DTM_Bogota2020_9377.tif (0.5m)        |
@@ -254,7 +254,7 @@ Delimitación para recorte e integración de modelos digitales de elevación. Es
 
 A partir del límite geográfico del modelo digital de terreno Lidar DTM_Bogota2020_9377_Limit.shp, se ha creado una red de muestreo regular con nodos cada 100 metros; su objetivo principal es obtener las elevaciones del modelo Lidar (0.5m) y las elevaciones del modelo digital de superficie satelital NASA ALOS PALSAR (12.5m) que permitirá a partir de una correlación lineal, ajustar las elevaciones del modelo digital satelital. También se han incluído las elevaciones de los demás modelos digitales de elevación utilizados en este estudio.
 
-Archivo local: [DTM_Bogota2020_9377_Limit_Fishnet100m.shp](DTM_Bogota2020_9377_Limit_Fishnet100m.rar)
+* :open_file_folder: Archivo local: [DTM_Bogota2020_9377_Limit_Fishnet100m.shp](DTM_Bogota2020_9377_Limit_Fishnet100m.rar)
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_Fishnet100m.png)
 
@@ -283,7 +283,7 @@ Ecuación de ajuste modelo NASA ALOS PALSAR: `y = -21.4726885762 + 0.9993012271 
 
 A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacial para la identificación de puntos donde es necesario revisar, validar y ajustar el modelo digital de terreno.
 
-Archivo local: [Drenaje_PasoVia_9377.shp](Drenaje_PasoVia_9377.rar)
+* :open_file_folder: Archivo local: [Drenaje_PasoVia_9377.shp](Drenaje_PasoVia_9377.rar)
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje_PasoVia.png)
 
@@ -308,8 +308,8 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 
 > Tenga en cuenta que en modelos bidimensionales, la frontera de la región a partir de la cual se crea el mallado, no debe coincidir con el límite del modelo de terreno, lo anterior debido a que para el cálculo de las propiedades geométricas, es necesario disponer de valores contínuos a lo largo de toda las caras en cada celda.
 
-* :open_file_folder: Archivo local de SZH: [SZH2120_9377.shp](SZH2120_9377.rar)
-* :open_file_folder: Archivo local de envolvente SZH: [SZH2120_9377_Envelope_Buffer250m.shp](SZH2120_9377_Envelope_Buffer250m.rar)
+* :open_file_folder: * :open_file_folder: Archivo local de SZH: [SZH2120_9377.shp](SZH2120_9377.rar)
+* :open_file_folder: * :open_file_folder: Archivo local de envolvente SZH: [SZH2120_9377_Envelope_Buffer250m.shp](SZH2120_9377_Envelope_Buffer250m.rar)
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_SZH.png)
 
