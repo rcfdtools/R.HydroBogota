@@ -236,7 +236,7 @@ Hydrologic Soil Group Hydrologic soil groups are based on estimates of runoff po
 
 Delimitación para recorte e integración de modelos digitales de elevación. Esta capa no requiere de atributos complementarios.
 
-| :open_file_folder: Archivo local                                                            | DEM o capa fuente                     | 
+| :open_file_folder: Archivo local                                         | :open_file_folder: DEM o capa fuente  | 
 |--------------------------------------------------------------------------|---------------------------------------|
 | [DTM_Bogota2014_9377_Limit.shp](DTM_Bogota2014_9377_Limit.rar)           | DTM_Bogota2014_9377.tif (5m)          |
 | [DTM_Bogota2020_9377_Limit.shp](DTM_Bogota2020_9377_Limit.rar)           | DTM_Bogota2020_9377.tif (0.5m)        |
@@ -250,7 +250,7 @@ Delimitación para recorte e integración de modelos digitales de elevación. Es
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_2020_9377_Limit.png)
 
 **Geo-procesos ArcGIS Pro**    
-* Image Analyst Tools / Map Agebra / Raster Calculator: binarización de cada mapa
+* Image Analyst Tools / Map Agebra / Raster Calculator: binarización de cada mapa a partir de valores mayores o iguales al valor mínimo
 * Conversion Tools / From Raster / Raster To Polygon
 
 
@@ -274,9 +274,9 @@ A partir del límite geográfico del modelo digital de terreno Lidar DTM_Bogota2
 | CZAlosFit | Cota en DSM NASA ALOS PALSAR 2011 con ajuste a partir de regresión lineal | Float |
 | DSourceID | [Fuente de información](../README.md#fuentes-de-información)              | Long  |
 
-Ecuación de ajuste modelo NASA ALOS PALSAR: `y = -21.4726885762 + 0.9993012271 * x` donde x corresponde a la elevación de cada celda o pixel de la grilla DSM_AlosPalsar_9377.tif.
+Ecuación de ajuste modelo NASA ALOS PALSAR: `y = -21.4726885762 + 0.9993012271 * x`, donde `x` corresponde a la elevación de cada celda o pixel de la grilla _DSM_AlosPalsar_9377.tif_.
 
-> Durante el proceso de revisión y ajuste del modelo digital de elevación DEM ALOS PALSAR, se obtuvieron las elevaciones (Alos y Lidar 2020) en los nodos del perímetro del DTM Lidar Bogotá 2020 (con aferencia o buffer interno de 5 metros), a partir de la regresión lineal obtenida se ajustó y válido el modelo Alos obteniendo que en general el ajuste no permitía empalmar correctamente el modelo DTM Lidar con el DSM.
+> Durante el proceso de revisión y ajuste del modelo digital de elevación DEM ALOS PALSAR, se obtuvieron las elevaciones (Alos y Lidar 2020) en los nodos del perímetro del DTM Lidar Bogotá 2020 (con aferencia o buffer interno de 5 metros), a partir de la regresión lineal obtenida se ajustó y válido el modelo Alos obteniendo que en general el ajuste no permitía empalmar correctamente el modelo DTM Lidar con el DSM. El mejor empalme se ha obtenido de la regresión Alos vs. Lidar 2020.
 
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Sampling / Create Fishnet
@@ -294,13 +294,13 @@ A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacia
 
 ### Catálogo de objetos
 
-| Campo      | Definición                                                                                  | Tipo       |
-|:-----------|---------------------------------------------------------------------------------------------|------------|
-| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                                     | Text (100) |
-| BridgeName | Nombre o localización del paso de vía o puente (vehicular, peatonal)                        | Text (254) |
-| ReadyDEM   | Paso de vía requiere ajuste del modelo digital de terreno DTM: 0-Sí, 1-No, 2-NoVerificado   | Long       |
-| ReadyRAS   | Corredor de canal en intersección con paso de vía río ya generado en RAS Mapper: 0-Sí, 1-No | Long       |
-| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)                                | Long       |
+| Campo      | Definición                                                                                     | Tipo       |
+|:-----------|------------------------------------------------------------------------------------------------|------------|
+| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                                        | Text (100) |
+| BridgeName | Nombre o localización del paso de vía o puente (vehicular, peatonal...)                        | Text (254) |
+| ReadyDEM   | Paso de vía requiere ajuste del modelo digital de terreno DTM: 0-Sí, 1-No, 2-NoVerificado      | Long       |
+| ReadyRAS   | Corredor de canal en intersección de paso de vía con río ya generado en RAS Mapper: 0-Sí, 1-No | Long       |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)                                   | Long       |
 
 **Geo-procesos ArcGIS Pro**  
 * Analysis Tools / Overlay / Intersect
@@ -312,8 +312,8 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 
 > Tenga en cuenta que en modelos bidimensionales, la frontera de la región a partir de la cual se crea el mallado, no debe coincidir con el límite del modelo de terreno, lo anterior debido a que para el cálculo de las propiedades geométricas, es necesario disponer de valores contínuos a lo largo de toda las caras en cada celda.
 
-:open_file_folder: :open_file_folder: Archivo local de SZH: [SZH2120_9377.shp](SZH2120_9377.rar)
-:open_file_folder: :open_file_folder: Archivo local de envolvente SZH: [SZH2120_9377_Envelope_Buffer250m.shp](SZH2120_9377_Envelope_Buffer250m.rar)
+:open_file_folder: Archivo local de SZH: [SZH2120_9377.shp](SZH2120_9377.rar)  
+:open_file_folder: Archivo local de envolvente SZH: [SZH2120_9377_Envelope_Buffer250m.shp](SZH2120_9377_Envelope_Buffer250m.rar)
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_SZH.png)
 
