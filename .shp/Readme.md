@@ -20,13 +20,15 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 > 
 > Se han eliminado las edificaciones con áreas inferiores a 1 m².
 
-**Construcciones incorporadas**
+
+### Construcciones incorporadas
 
 | Fuente                                             | Descripción                                                | Entidades |
 |----------------------------------------------------|------------------------------------------------------------|-----------|
 | Construcciones Bogotá D.C a 2024.03.03 desde IDECA | Solo construcciones dentro de la subzona hidrográfica 2120 | 2391355   |
 
-**Catálogo de objetos**
+
+### Catálogo de objetos
 
 | Campo      | Definición                                                                  | Tipo   |
 |------------|-----------------------------------------------------------------------------|--------|
@@ -47,7 +49,8 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 
 > La altura de las construcciones también puede ser obtenida a partir de la diferencia de elevación entre el modelo digital de superficie Lidar DSM y el modelo digital de terreno Lidar DTM. 
 
-**Zonas DEM**
+
+### Zonas DEM
 
 | ZoneDEM | Descripción                           | DEM                            |
 |---------|---------------------------------------|--------------------------------|
@@ -63,7 +66,8 @@ Archivo local: CuerpoAgua_9377.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_CuerpoAgua.png)
 
-**Catálogo de objetos**
+
+### Catálogo de objetos
 
 | Campo     | Definición                                                   | Tipo       |
 |-----------|--------------------------------------------------------------|------------|
@@ -79,7 +83,8 @@ Archivo local: Drenaje_9377.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje.png)
 
-**Catálogo de objetos**
+
+### Catálogo de objetos
 
 | Campo     | Definición                                                   | Tipo       |
 |-----------|--------------------------------------------------------------|------------|
@@ -107,7 +112,8 @@ Archivo local: Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_LandCover.png)
 
-**Catálogo de objetos**
+
+### Catálogo de objetos
 
 | Campo      | Definición                                                   | Tipo       |
 |------------|--------------------------------------------------------------|------------|
@@ -178,7 +184,8 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Soils.png)
 
-**Catálogo de objetos**
+
+### Catálogo de objetos
 
 | Campo      | Definición                                                   | Tipo     |
 |------------|--------------------------------------------------------------|----------|
@@ -199,7 +206,8 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 |      B/D       | If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.                                                                                                                                            | 1.905 |  3.175  | 4.445 | Moderadamente bien drenados a pobremente drenados. Moderada a pobremente drenados. Pobre a moderadamente bien drenados  |
 |      C/D       | If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.                                                                                                                                            | 0.635 | 1.5875  | 2.54  |                                                                                                                         |
 
-Referencias  
+**Referencias**
+
 * [Condición dominante en grupos hidrológicos](https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/files/118099517/118099546/1/1665679165857/HydrologicSoilGroup_DominantCondition.pdf)
 * [Modelación de precipitación e infiltración en HEC-RAS, Método de déficit constante]( https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/overview-of-optional-capabilities/modeling-precipitation-and-infiltration/deficit-and-constant )
 * [Tasa de infiltración en suelos volcánicos (Volcanic ash infiltration rate, 37 mm/h)](https://link.springer.com/article/10.1007/s11104-022-05322-7)
@@ -232,7 +240,8 @@ Archivo local: DTM_Bogota2020_9377_Limit_Fishnet100m.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_Fishnet100m.png)
 
-**Catálogo de objetos**
+
+### Catálogo de objetos
 
 | Campo     | Definición                                                                | Tipo  |
 |-----------|---------------------------------------------------------------------------|-------|
@@ -261,7 +270,8 @@ Archivo local: Drenaje_PasoVia_9377.shp
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje_PasoVia.png)
 
-**Catálogo de objetos**
+
+### Catálogo de objetos
 
 | Campo      | Definición                                                                                  | Tipo       |
 |------------|---------------------------------------------------------------------------------------------|------------|
