@@ -11,7 +11,7 @@ Esta carpeta contiene los modelos digitales de elevación DEM (DTM, DSM, Híbrid
 
 A partir del modelo digital de terreno Lidar Bogotá 2014 (5m) que incluye información digital sobre el corredor completo del Río Bogotá en la zona perimetral de la ciudad y el modelo digital de terreno Lidar Bogotá 2020 (0.5m) que solo presenta información hasta la línea central del cauce del Río Bogotá, se ha generado el modelo extendido Lidar 2020 en resolución 0.5m.
 
-:open_file_folder: Archivo local: [DTM_Bogota2020_9377_Extent.tif](DTM_Bogota2020_9377_Extent.tif)
+:open_file_folder: Archivo local: [DTM_Bogota2020_9377_Extent.tif](DTM_Bogota2020_9377_Extent.rar)
 
 En la siguiente imagen se presenta en color el cubrimiento del DTM Lidar 2014, y en escala de grises el cubrimiento del DTM Lidar 2020 de Bogotá D.C., en la zona occidental se puede observar en color resaltado las localizaciones que no han sido incluídas en el Lidar 2020.
 
