@@ -192,7 +192,7 @@ Ref.: https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/land-classif
 
 ## Cundinamarca - Suelos (pol챠gono)
 
-Asociaci처n del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrol처gicos y asignaci처n de tasas de infiltraci처n. Esta capa no requiere de atributos complementarios.
+Asociaci처n del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrol처gicos y asignaci처n de tasas de infiltraci처n.
 
 :open_file_folder: Archivo local: [Cundinamarca_Suelos_VF_9377.shp](Cundinamarca_Suelos_VF_9377.rar)
 
@@ -204,11 +204,13 @@ Asociaci처n del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrol�
 | Campo      | Definici처n                                                   | Tipo     |
 |:-----------|--------------------------------------------------------------|----------|
 | HydroGroup | Grupo hidrol처gico de la USDA (SCS)                           | Text (2) |
-| Infiltmmhr | Coeficiente de rugosidad de Manning                          | Double   |
+| Infiltmmhr | Tasa de infiltraci처n en mm/hr                                | Double   |
 | DSourceID  | [Fuente de informaci처n](../README.md#fuentes-de-informaci처n) | Long     |
 
 
 ### Grupos hidrol처gicos y tasas de infiltraci처n en mm/hr
+
+Hydrologic Soil Group Hydrologic soil groups are based on estimates of runoff potential. Soils are assigned to one of four groups according to the rate of water infiltration when the soils are not protected by vegetation, are thoroughly wet, and receive precipitation from long-duration storms. The soils in the United States are assigned to four groups (A, B, C, and D) and three dual classes (A/D, B/D, and C/D). The groups are defined as follows: 
 
 | SCS Soil Group | Description                                                                                                                                                                                                                                                                                                                                                                              |  Min  | Average |  Max  | Cundinamarca Soils association                                                                                          |
 |:--------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----:|:-------:|:-----:|-------------------------------------------------------------------------------------------------------------------------|
@@ -219,6 +221,8 @@ Asociaci처n del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrol�
 |      A/D       | If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.                                                                                                                                            | 3.81  |  5.08   | 6.35  | Bien a imperfectamente drenados. Bien a muy pobremente drenados. Bien a pobremente drenados. Bien y pobremente drenados |
 |      B/D       | If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.                                                                                                                                            | 1.905 |  3.175  | 4.445 | Moderadamente bien drenados a pobremente drenados. Moderada a pobremente drenados. Pobre a moderadamente bien drenados  |
 |      C/D       | If a soil is assigned to a dual hydrologic group (A/D, B/D, or C/D), the first letter is for drained areas and the second is for undrained areas. Only the soils that in their natural condition are in group D are assigned to dual classes.                                                                                                                                            | 0.635 | 1.5875  | 2.54  |                                                                                                                         |
+
+> Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. Web Soil Survey. Available online at http://websoilsurvey.nrcs.usda.gov/ . Accessed 03/25/2016.
 
 **Referencias**
 
