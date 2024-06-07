@@ -31,7 +31,7 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 ### Catálogo de objetos
 
 | Campo      | Definición                                                                  | Tipo   |
-|------------|-----------------------------------------------------------------------------|--------|
+|:-----------|-----------------------------------------------------------------------------|--------|
 | CONNPISOS  | Número de pisos                                                             | Long   |
 | CONTSEMIS  | Semisótano: 1-Sí, 0-No                                                      | Long   |
 | ManningN   | Coeficiente de rugosidad de Manning, valor por defecto: 99                  | Double |
@@ -75,7 +75,7 @@ Archivo local: [CuerpoAgua_9377.shp](CuerpoAgua_9377.rar)
 ### Catálogo de objetos
 
 | Campo     | Definición                                                   | Tipo       |
-|-----------|--------------------------------------------------------------|------------|
+|:----------|--------------------------------------------------------------|------------|
 | Nombre    | Nombre del cuerpo de agua                                    | Text (100) |
 | DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
 
@@ -92,7 +92,7 @@ Archivo local: [Drenaje_9377.shp](Drenaje_9377.rar)
 ### Catálogo de objetos
 
 | Campo     | Definición                                                   | Tipo       |
-|-----------|--------------------------------------------------------------|------------|
+|:----------|--------------------------------------------------------------|------------|
 | RiverName | Nombre del drenaje (río, canal, conducto, corriente...)      | Text (100) |
 | Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Long       |
 | DSourceID | [Fuente de información](../Readme.md#fuentes-de-información) | Long       |
@@ -126,7 +126,7 @@ Archivo local: [Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp](Cundinamarca_ag
 ### Catálogo de objetos
 
 | Campo      | Definición                                                   | Tipo       |
-|------------|--------------------------------------------------------------|------------|
+|:-----------|--------------------------------------------------------------|------------|
 | LandUse    | Uso principal del suelo                                      | Text (254) |
 | ManningN   | Coeficiente de rugosidad de Manning                          | Double     |
 | PercImperv | Porcentaje de impermeabilidad                                | Double     |
@@ -200,7 +200,7 @@ Archivo local: [Cundinamarca_Suelos_VF_9377.shp](Cundinamarca_Suelos_VF_9377.rar
 ### Catálogo de objetos
 
 | Campo      | Definición                                                   | Tipo     |
-|------------|--------------------------------------------------------------|----------|
+|:-----------|--------------------------------------------------------------|----------|
 | HydroGroup | Grupo hidrológico de la USDA (SCS)                           | Text (2) |
 | Infiltmmhr | Coeficiente de rugosidad de Manning                          | Double   |
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Long     |
@@ -260,7 +260,7 @@ Archivo local: [DTM_Bogota2020_9377_Limit_Fishnet100m.shp](DTM_Bogota2020_9377_L
 ### Catálogo de objetos
 
 | Campo     | Definición                                                                | Tipo  |
-|-----------|---------------------------------------------------------------------------|-------|
+|:----------|---------------------------------------------------------------------------|-------|
 | CZDTM2014 | Cota en DTM Lidar Bogotá 2014                                             | Float |
 | CZDTM2020 | Cota en DTM Lidar Bogotá 2020                                             | Float |
 | CZAlos    | Cota en DSM NASA ALOS PALSAR 2011                                         | Float |
@@ -289,7 +289,7 @@ Archivo local: [Drenaje_PasoVia_9377.shp](Drenaje_PasoVia_9377.rar)
 ### Catálogo de objetos
 
 | Campo      | Definición                                                                                  | Tipo       |
-|------------|---------------------------------------------------------------------------------------------|------------|
+|:-----------|---------------------------------------------------------------------------------------------|------------|
 | RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                                     | Text (100) |
 | BridgeName | Nombre o localización del paso de vía o puente (vehicular, peatonal)                        | Text (254) |
 | ReadyDEM   | Paso de vía requiere ajuste del modelo digital de terreno DTM: 0-Sí, 1-No, 2-NoVerificado   | Long       |
