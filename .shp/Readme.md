@@ -11,8 +11,8 @@ Esta carpeta contiene los archivos vectoriales o capas shapefile (.shp) procesad
 
 Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o [SUDS](https://www.susdrain.org/delivering-suds/using-suds/background/sustainable-drainage.html)) en este tipo de elementos.
 
-:open_file_folder: :open_file_folder: Archivo local Construccion_9377.shp en 4 partes: [1](Construccion_9377.part01.rar), [2](Construccion_9377.part02.rar), [3](Construccion_9377.part03.rar), [4](Construccion_9377.part04.rar)  
-:open_file_folder: :open_file_folder: Archivo local de centroides en construcciones: [Construccion_9377_Point.shp](Construccion_9377.rar)
+:open_file_folder: Archivo local Construccion_9377.shp en 4 partes: [1](Construccion_9377.part01.rar), [2](Construccion_9377.part02.rar), [3](Construccion_9377.part03.rar), [4](Construccion_9377.part04.rar)  
+:open_file_folder: Archivo local de centroides en construcciones: [Construccion_9377_Point.shp](Construccion_9377.rar)
 
 ![](../.graph/ArcGISPro_Layer_Construcciones.png)
 
