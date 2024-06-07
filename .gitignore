@@ -30,6 +30,15 @@ Lib/
 *.tif.vat.dbf
 *.tif.ovr
 *Copia_de_seguridad_de*
+#Shapefiles uncompressed
+*.shp
+*.shx
+*.dbf
+*.prj
+*.CPG
+*.sbn
+*.sbx
+*.shp.xml
 
 # Video exclusions
 #Section02/FdrDEM/FdrDEM.mp4
