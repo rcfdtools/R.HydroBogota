@@ -51,9 +51,9 @@ Lib/
 .data/DTM_Bogota_2020_4326/DTM_Bogota_2020_4326*.rar
 .dem/*.tif
 .dem/*.tif.*
-.dem/*.zip
-.dem/*.rar
-.dem/*.7z
+#.dem/*.zip
+#.dem/*.rar
+#.dem/*.7z
 HECRAS_v0/
 
 
