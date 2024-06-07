@@ -187,7 +187,7 @@ Archivo local: Cundinamarca_Suelos_VF_9377.shp
 | DSourceID  | [Fuente de información](../Readme.md#fuentes-de-información) | Long     |
 
 
-### Grupos hidrológicos y valores de referencia en tasas de infiltración en mm/hr
+### Grupos hidrológicos y tasas de infiltración en mm/hr
 
 Referencias
 
