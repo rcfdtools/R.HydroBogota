@@ -49,7 +49,9 @@ Lib/
 #HECHMS/terrain/
 #HECHMS/gis/
 .data/DTM_Bogota2020_4326/DTM_Bogota2020_4326*.rar
+.data/DTM_Bogota2020_4326*.rar
 .data/DTM_Bogota2020_4326/DTM_Bogota2020_4326*.tif
+.dem/DTM_Bogota2020_9377_Extent.tif
 .dem/*.tif
 .dem/*.tif.*
 #.dem/*.zip
