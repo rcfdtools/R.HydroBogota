@@ -85,7 +85,7 @@ Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y e
 > 
 > Debido a que la resolución del modelo digital de terreno híbrido es de 50 centímetros, no se realiza la combinación del modelo de toda la cuenca del Río Bogotá incorporando el modelo de terreno NASA ALOS PALSAR (12.5m). El procedimiento de ensamble de terrenos con múltiples fuentes y resoluciones se ha realizado directamente en RAS Mapper de HEC-RAS.
 
-:open_file_folder: Ráster publicado como release: DTM_Bogota2020_9377_Extent_Building.tif
+:open_file_folder: Ráster publicado como release: [DTM_Bogota2020_9377_Extent_Building.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_Building_v1.0.0)
 
 Visualización 2D DTM_Bogota2020_9377_Extent_Building.tif
 ![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent_Building.png)
