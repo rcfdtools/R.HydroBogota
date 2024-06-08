@@ -48,10 +48,8 @@ Lib/
 #.dem/ASTER/ASTGTMV003Mosaic.tif.*
 #HECHMS/terrain/
 #HECHMS/gis/
-.data/DTM_Bogota2020_4326/DTM_Bogota2020_4326*.rar
 .data/DTM_Bogota2020_4326*.rar
-.data/DTM_Bogota2020_4326/DTM_Bogota2020_4326*.tif
-.dem/DTM_Bogota2020_9377_Extent.tif
+.dem/DTM_Bogota2020_9377_Extent*.rar
 .dem/*.tif
 .dem/*.tif.*
 #.dem/*.zip
