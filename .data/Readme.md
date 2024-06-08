@@ -11,7 +11,7 @@ Esta carpeta contiene los archivos fuente y mapas base recopilados desde diferen
 
 **Autor:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 
-:open_file_folder: Archivo vectorial ag_100k_vocacion_uso_2017_20240507.rar comprimido en 3 partes de 96MB: [P1](ag_100k_vocacion_uso_2017_20240507.part1.rar), [P2](ag_100k_vocacion_uso_2017_20240507.part2.rar), [P3](ag_100k_vocacion_uso_2017_20240507.part3.rar)
+:open_file_folder: Capa vectorial ag_100k_vocacion_uso_2017_20240507.rar comprimido en 3 partes de 96MB: [P1](ag_100k_vocacion_uso_2017_20240507.part1.rar), [P2](ag_100k_vocacion_uso_2017_20240507.part2.rar), [P3](ag_100k_vocacion_uso_2017_20240507.part3.rar)
 
 El objetivo principal de la vocación es la determinación del uso más apropiado que puede soportar cada uno de los suelos del país, propendiendo por una producción sostenible y sin deterioro de los recursos naturales. Son dos niveles categóricos los tenidos en cuenta en el presente estudio; el primero corresponde a la vocación general de uso de la tierra y, el segundo, como subdivisión del primero, hace referencia a los usos principales recomendados.
 
@@ -31,7 +31,7 @@ El objetivo principal de la vocación es la determinación del uso más apropiad
 
 **Autor:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 
-:open_file_folder: Archivo vectorial: [Cundinamarca_Suelos_VF_20240507.rar](Cundinamarca_Suelos_VF_20240507.rar)
+:open_file_folder: Capa vectorial: [Cundinamarca_Suelos_VF_20240507.rar](Cundinamarca_Suelos_VF_20240507.rar)
 
 Mapa temático que representa la distribución de las características del suelo, determinadas mediante el levantamiento general de suelos del departamento de Cundinamarca a escala 1:100.000, publicado el año 2001. Suministra información importante acerca del recurso suelo, a través de la descripción e interpretación de sus ambientes edafogenéticos, sus características físicas, químicas, mineralógicas y morfológicas, su taxonomía y distribución espacial, como base para la determinación de sus potenciales productivos, describiendo las limitantes de uso.
 
@@ -69,7 +69,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Autor**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
 
-:open_file_folder: Release grillado DTM_Bogota_2020_4326.rar comprimido en 3 partes de 2GB: [DTM_Bogota_2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0))
+:open_file_folder: Release grillado DTM_Bogota_2020_4326.rar comprimido en 3 partes de 2GB: [DTM_Bogota2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0)
 
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
@@ -87,7 +87,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Autor**: [The National Aeronautics and Space Administration](https://www.nasa.gov/)
 
-:open_file_folder: Release grillado DSM_AlosPalsar_9377.rar comprimido en 2 partes de 96Mb: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)
+:open_file_folder: Release grillado DSM_AlosPalsar_9377.rar comprimido en 2 partes de 96MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)
 
 * Resolución: 12.5 metros
 * Fuente: https://www.earthdata.nasa.gov/ (ALOS_PALSAR_RTC_HIGH_RES)
@@ -102,9 +102,10 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Autor**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/)
 
+:open_file_folder: Capa vectorial: [Drenaje_20240601.rar](Drenaje_20240601.rar)
+
 Corriente de agua de origen natural o artificial de forma permanente o periódica que debido a la escala de su visualización es representada a través de geometrías tipo línea. Tiene como categorías; Canal sencillo: Cauce artificial abierto cuya sección transversal tiene una forma generalmente constante, claramente diferenciado, que contiene agua en movimiento, de forma permanente o periódica. Quebrada: Curso de agua de origen natural, de primer o segundo orden, con un caudal intermitente o permanente y un comportamiento generalmente torrencial. Las quebradas canalizadas continúan considerándose como quebradas. Río sencillo: Corriente natural de agua que fluye con continuidad, de tercer orden o superior, posee un caudal determinado y desemboca en el mar, en un lago o en otro río, en cuyo caso se denomina afluente. Los tramos de ríos que han sido revestidos y o rectificados, continúan considerándose ríos y no canales. Caño: Conductos que sirven para conducir fluidos. Drenaje: Todo aquel cauce o curso de agua no clasificado dentro de los otros tipos de drenaje. Cascada: Cauce donde el agua fluye rápidamente perdiendo elevación mientras discurre por una región con fuerte desnivel o por un acantilado.
 
-* Archivo local: Drenaje_20240601.rar
 * Fuente: https://www.ideca.gov.co/recursos/mapas/corriente-de-agua-bogota-dc
 * Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
 * Escala: no indicada
@@ -119,6 +120,8 @@ Corriente de agua de origen natural o artificial de forma permanente o periódic
 
 **Autor**: [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/)
 
+:open_file_folder: Capa vectorial: [CuerpoAgua_20240601.rar](CuerpoAgua_20240601.rar)
+
 Área o extensión de agua sobre la tierra, de origen natural o artificial que debido a la escala de su visualización es representada a través de geometrías tipo polígono. Tiene como categorías:
 
 | Categoría | Descripción                                                                                                                                                                                                                                                                                                        | [Ecosistema](https://www.ecologiaverde.com/ecosistemas-loticos-que-son-y-ejemplos-2419.html) |
@@ -130,7 +133,6 @@ Corriente de agua de origen natural o artificial de forma permanente o periódic
 | Embalse   | Emplazamiento natural o artificial, usado para el almacenamiento la generación de energía eléctrica, regulación o control de recursos hídricos, abastecimiento de agua, riego o fines turísticos.                                                                                                                  | Léntico / Lótico                                                                             |
 | Pantano   | Capa de aguas estancadas y poco profundas en la cual crece una vegetación acuática a veces muy densa.                                                                                                                                                                                                              | Léntico                                                                                      |
 
-* Archivo local: CuerpoAgua_20240601.rar
 * Fuente: https://www.ideca.gov.co/recursos/mapas/cuerpo-de-agua-bogota-dc
 * Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
 * Escala: no indicada
@@ -145,9 +147,10 @@ Corriente de agua de origen natural o artificial de forma permanente o periódic
 
 **Autor**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
 
+:open_file_folder: Capa vectorial Const_20240601.rar comprimida en 3 partes de 96MB: [P1](Const_20240601.part01.rar), [P2](Const_20240601.part02.rar), [P3](Const_20240601.part03.rar)
+
 Nivel de información que delimita las áreas edificadas con cubierta de carácter permanente asociada a un lote, destinada a proteger contra la intemperie a personas, animales o bienes. Su extensión geográfica es el área urbana y rural del Distrito Capital.
 
-* Archivo local: Const_20240601 (comprimido en 3 partes de 96MB)
 * Fuente: https://www.ideca.gov.co/recursos/mapas/construccion
 * Extensión espacial: Bogotá D.C
 * Escala: no indicada
@@ -162,6 +165,8 @@ Nivel de información que delimita las áreas edificadas con cubierta de caráct
 
 **Autor**: [Instituto de Desarrollo Urbano - IDU](https://www.idu.gov.co/)
 
+:open_file_folder: Capa vectorial: [Puente_20240517.rar](Puente_20240517.rar)
+
 Estructura que se construye principalmente en obstáculos naturales como ríos, quebradas, depresiones del terreno y en obstáculos artificiales: canales, vías, infraestructura urbana; con el fin de comunicar dos puntos. Tiene como categorías; Vehicular:  : .
 
 | Categoría | Descripción                                                                                          |
@@ -169,7 +174,6 @@ Estructura que se construye principalmente en obstáculos naturales como ríos, 
 | Vehicular | Infraestructura vial conectante destinada principalmente al uso de vehículos.                        |
 | Peatonal  | Espacio urbano donde el tránsito vehicular está prohibido, prevaleciendo la circulación de peatones. |
 
-* Archivo local: Puente_20240517.zip
 * Fuente: https://datosabiertos.bogota.gov.co/dataset/puente-bogota-d-c
 * Extensión espacial: Bogotá D.C
 * Escala: no indicada
@@ -184,13 +188,14 @@ Estructura que se construye principalmente en obstáculos naturales como ríos, 
 
 **Autor**: [Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM de Colombia](http://www.ideam.gov.co/)
 
+:open_file_folder: Capa vectorial: [Zonificacion_Hidrografica_2013.rar](Zonificacion_Hidrografica_2013.rar)
+
 La zonificación hidrográfica de Colombia desde el punto de vista hidrológico, tiene sus inicios en el HIMAT mediante la Resolución 0337 del 1978, la cual establece que el país está conformado por cinco Áreas hidrográficas (1-Caribe, 2- Magdalena - Cauca, 3- Orinoco, 4- Amazonas y 5-Pacífico) que a su vez están divididas en Zonas Hidrográficas y subdivididas en Subzonas Hidrográficas. En ese entonces, el propósito de la zonificación fue de adoptar un sistema de codificación para estaciones Hidrometerológicas. Posteriormente, el IDEAM introduce esta zonificación para otros fines, tales como estudios y análisis hidrológicos relacionados con los informes ambientales, p. ej. el Índice de Aridez, el Escurrimiento y el Rendimiento Hídrico.[^1]
 
 La zonificación de cuencas hidrográficas corresponde a tres niveles de jerarquía: áreas, zonas y subzonas hidrográficas. Las áreas hidrográficas corresponden a las regiones hidrográficas o vertientes que, en sentido estricto, son las grandes cuencas que agrupan un conjunto de ríos con sus afluentes que desembocan en un mismo mar. Ahora bien, en Colombia se distinguen cuatro vertientes, dos de ellas asociadas a ríos de importancia continental (vertiente del Orinoco y vertiente del Amazonas) y las vertientes del Atlántico y del Pacífico. Se delimita adicionalmente como áea hidrográfica la cuenca Magdalena-Cauca, que aunque tributa y forma parte de la vertiente del Atlántico, tiene importancia socioeconómica por su alto poblamiento y aporte al producto interno bruto.[^2]
 
 Las cuencas hidrográficas que entregan o desembocan sus aguas superficiales directamente de una área hidrográfica se denominaran zonas hidrográficas. Agrupan varias cuencas que se presentan como un subsistema hídrico con características de relieve y drenaje homogéneo y sus aguas tributan a través de un afluente principal hacia un área hidrográfica. Están integradas por cuencas de las partes altas, medias o bajas de una zona hidrográfica que captan agua y sedimentos de los tributarios de diferente orden tales como nacimientos de agua, arroyos, quebradas y ríos. Las cuencas que tributan sus aguas a su vez a las zonas hidrográficas se denomina subzonas hidrográficas. Ahora bien, respecto a la toponimia con que se identifican zonas y subzonas hidrográficas, a estas unidades se les asignó la toponimia de acuerdo con el nombre de la corriente más representativa o río principal o con el nombre heredado de la zonificación del HIMAT, que puede corresponder al espacio geográfico o región a la cual drenan las aguas superficiales.[^2]
 
-* Archivo local: [Zonificacion_Hidrografica_2013.rar](Zonificacion_Hidrografica_2013.rar)
 * Fuente: http://www.ideam.gov.co/en/capas-geo
 * Extensión espacial: Colombia - Suramérica
 * Escala: 1:100000
