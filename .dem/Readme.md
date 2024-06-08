@@ -9,12 +9,14 @@ Esta carpeta contiene los modelos digitales de elevación DEM (DTM, DSM, Híbrid
 > Debido al tamaño de los modelos digitales, modelos superiores a 500MB han sido publicados en este repositorio a través de _Releases_, los archivos menores son incluídos directamente en la carpeta _.DEM_ en comprimidos de 99MB.
 
 
-## DTM Lidar Bogotá 2020 extendido (0.5m)
+## DTM Lidar Bogotá 2014 - 2020 extendido (0.5m)
 
 A partir del modelo digital de terreno Lidar Bogotá 2014 (5m) que incluye información digital sobre el corredor completo del Río Bogotá en la zona perimetral de la ciudad y el modelo digital de terreno Lidar Bogotá 2020 (0.5m) que solo presenta información hasta la línea central del cauce del Río Bogotá, se ha generado el modelo extendido Lidar 2020 en resolución 0.5m.
 
 :open_file_folder: Ráster: [DTM_Bogota2014_9377.tif](DTM_Bogota2014_9377.rar)  
+:open_file_folder: Ráster binarizado: [DTM_Bogota2014_9377_Limit.tif](DTM_Bogota2014_9377_Limit.rar)  
 :open_file_folder: Ráster: [DTM_Bogota2020_9377.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0)  
+:open_file_folder: Ráster binarizado: [DTM_Bogota2020_9377_Limit.tif](DTM_Bogota2020_9377_Limit.rar)  
 :open_file_folder: Ráster: [DTM_Bogota2020_9377_Extent.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_v1.0.0)
 
 En la siguiente imagen se presenta en color el cubrimiento del DTM Lidar 2014, y en escala de grises el cubrimiento del DTM Lidar 2020 de Bogotá D.C., en la zona occidental se puede observar en color resaltado las localizaciones que no han sido incluídas en el Lidar 2020, y en la zona oriental las nuevas incorporaciones del modelo 2020.
@@ -25,9 +27,15 @@ En la siguiente imagen se presenta la grilla extendida
 
 ![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent.png)
 
+Para la definición de las fronteras de cada DEM, se realizó un proceso de binarización de los mapas utilizando algebra de mapas.
+
+![R.HydroBogota](../.graph/DTM_Bogota2014_2020_9377_Limit.png)
+
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020.
+* Image Analyst Tools / Map Agebra / Raster Calculator: binarización de cada mapa a partir de valores mayores o iguales al valor mínimo
+* Conversion Tools / From Raster / Raster To Polygon
 
 
-
+## 
 
