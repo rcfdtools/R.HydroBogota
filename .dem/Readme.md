@@ -48,6 +48,11 @@ Modelo de superficie con cobertura completa sobre toda la zona de estudio y util
 DSM_AlosPalsar_9377.tif  
 ![R.HydroBogota](../.graph/DSM_AlosPalsar_9377.png)
 
+DSM_AlosPalsar_9377_Fil.tif
+![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fil.png)
+
+DSM_AlosPalsar_9377_Fit.tif
+![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fit.png)
 
 
 
