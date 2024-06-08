@@ -32,7 +32,7 @@ Para la obtención de los límites de cada DEM, se realizó un proceso de binari
 ![R.HydroBogota](../.graph/DTM_Bogota2014_2020_9377_Limit.png)
 
 **Geo-procesos ArcGIS Pro**  
-* Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020.
+* Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020
 * Image Analyst Tools / Map Agebra / Raster Calculator: binarización de cada mapa a partir de valores mayores o iguales al valor mínimo
 * Conversion Tools / From Raster / Raster To Polygon
 
@@ -56,6 +56,11 @@ DSM_AlosPalsar_9377_Fil.tif
 DSM_AlosPalsar_9377_Fit.tif
 ![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fit.png)
 
+**Geo-procesos ArcGIS Pro**  
+* Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020
+* Spatial Analyst Tools / Hydrology / Fill: relleno de sumideros
+* Image Analyst Tools / Map Agebra / Raster Calculator: ajuste de elevaciones en DSM a partir de regresión lineal
+
 
 ## Modelo digital de construcciones DSM (0.5m)
 
@@ -68,5 +73,18 @@ Utilizando los polígonos de construcciones [.shp/Construccion_9377.shp](../.shp
 DSM_Construccion_9377.tif 
 ![R.HydroBogota](../.graph/DSM_Construccion_9377.png)
 
+**Geo-procesos ArcGIS Pro**  
+* Conversion Tools / To Raster / Polygon To Raster
 
 
+## Modelo digital de terreno DTM Híbrido Lidar con Construcciones (0.5)m
+
+Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y el modelo digital de superficie de construcciones, se ha generado el modelo digital de terreno híbrido que permitirá realizar la modelación hidráulica teniendo en cuenta las obstrucciones principales en las zonas de llanura de inundación.
+
+> El presente estudio no considera en su versión actual, los troncos de los árboles, postes eléctricos, vehículos y elementos del mobiliario urbano como bloques de obstrucción.
+
+:open_file_folder: Ráster DTM_Bogota2020_9377_Extent_Building.tif comprimido en 3 partes de 2GB: [P1](DSM_Construccion_9377.part1.rar), [P2](DSM_Construccion_9377.part2.rar), [P2](DSM_Construccion_9377.part2.rar)
+
+
+**Geo-procesos ArcGIS Pro**  
+* Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2020 extendido y superior construcciones

@@ -51,6 +51,7 @@ Lib/
 .dem/*.tif.*
 .data/DTM_Bogota2020_4326*.rar
 .dem/DTM_Bogota2020_9377_Extent*.rar
+.dem/DTM_Bogota2020_9377_Extent_Building*.rar
 #.dem/*.zip
 #.dem/*.rar
 #.dem/*.7z
