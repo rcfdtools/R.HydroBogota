@@ -9,7 +9,6 @@
 .idea/
 .git/
 .venv/
-.git/
 .github/
 .venvPython312/
 Lib/
