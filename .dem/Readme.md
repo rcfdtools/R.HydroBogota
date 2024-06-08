@@ -83,8 +83,13 @@ Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y e
 
 > El presente estudio no considera en su versión actual, los troncos de los árboles, postes eléctricos, vehículos y elementos del mobiliario urbano como bloques de obstrucción.
 
-:open_file_folder: Ráster DTM_Bogota2020_9377_Extent_Building.tif comprimido en 3 partes de 2GB: [P1](DSM_Construccion_9377.part1.rar), [P2](DSM_Construccion_9377.part2.rar), [P2](DSM_Construccion_9377.part2.rar)
+:open_file_folder: Ráster publicado como release: DTM_Bogota2020_9377_Extent_Building.tif
 
+Visualización 2D DTM_Bogota2020_9377_Extent_Building.tif
+![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent_Building.png)
+
+Visualización 3D DTM_Bogota2020_9377_Extent_Building.tif
+![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent_Building3D.png)
 
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2020 extendido y superior construcciones
