@@ -41,11 +41,14 @@ Para la obtención de los límites de cada DEM, se realizó un proceso de binari
 
 Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. Debido a que corresponde a un modelo DSM, es necesario realizar el ajuste de las elevaciones utilizando la ecuación obtenida de la regresión lineal obtenida a partir de la red de muestreo FishNet, generada, procesada y documentada en la documentación de archivos vectoriales [.shp](../.shp).
 
-:open_file_folder: Ráster DSM_AlosPalsar_9377.rar original en mosaico y reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
-:open_file_folder: Ráster DSM_AlosPalsar_9377_Fil.rar con relleno de sumideros, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  
+:open_file_folder: Ráster DSM_AlosPalsar_9377.tif original en mosaico y reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
+:open_file_folder: Ráster DSM_AlosPalsar_9377_Fil.tif con relleno de sumideros, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  
 :open_file_folder: Ráster DSM_AlosPalsar_9377_Fit.rar original con ajuste de elevaciones a partir de ecuación de regresión obtenida con red de muestreo: [DSM_AlosPalsar_9377_Fit.tif](DSM_AlosPalsar_9377_Fit.rar)
 
+DSM_AlosPalsar_9377.tif  
 ![R.HydroBogota](../.graph/DSM_AlosPalsar_9377.png)
+
+
 
 
 
