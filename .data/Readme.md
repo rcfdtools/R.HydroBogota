@@ -11,7 +11,7 @@ Esta carpeta contiene los archivos fuente y mapas base recopilados desde diferen
 
 **Autor:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 
-:open_file_folder: Archivo local _ag_100k_vocacion_uso_2017_20240507.rar_ comprimido en 3 partes de 96MB: [P1](ag_100k_vocacion_uso_2017_20240507.part1.rar), [P2](ag_100k_vocacion_uso_2017_20240507.part2.rar), [P3](ag_100k_vocacion_uso_2017_20240507.part3.rar)
+:open_file_folder: Archivo vectorial ag_100k_vocacion_uso_2017_20240507.rar comprimido en 3 partes de 96MB: [P1](ag_100k_vocacion_uso_2017_20240507.part1.rar), [P2](ag_100k_vocacion_uso_2017_20240507.part2.rar), [P3](ag_100k_vocacion_uso_2017_20240507.part3.rar)
 
 El objetivo principal de la vocación es la determinación del uso más apropiado que puede soportar cada uno de los suelos del país, propendiendo por una producción sostenible y sin deterioro de los recursos naturales. Son dos niveles categóricos los tenidos en cuenta en el presente estudio; el primero corresponde a la vocación general de uso de la tierra y, el segundo, como subdivisión del primero, hace referencia a los usos principales recomendados.
 
@@ -31,13 +31,14 @@ El objetivo principal de la vocación es la determinación del uso más apropiad
 
 **Autor:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 
+:open_file_folder: Archivo vectorial: [Cundinamarca_Suelos_VF_20240507.rar](Cundinamarca_Suelos_VF_20240507.rar)
+
 Mapa temático que representa la distribución de las características del suelo, determinadas mediante el levantamiento general de suelos del departamento de Cundinamarca a escala 1:100.000, publicado el año 2001. Suministra información importante acerca del recurso suelo, a través de la descripción e interpretación de sus ambientes edafogenéticos, sus características físicas, químicas, mineralógicas y morfológicas, su taxonomía y distribución espacial, como base para la determinación de sus potenciales productivos, describiendo las limitantes de uso.
 
 Los Levantamientos Generales de Suelos de los departamentos del Territorio Colombiano suministran información importante acerca del recurso suelo; a través de la descripción e interpretación de su génesis, características físicas, químicas, mineralógicas, morfológicas, taxonomía y distribución, como base para la determinación de sus potencialidades y limitaciones de uso.
 
 **Estirpe**: la generación del Mapa Digital de Suelos, para el levantamiento general de suelos, escala 1:100.000, se realizó a partir de los parámetros definidos por la Subdirección de Agrología del Instituto Geográfico Agustín Codazzi, para el objeto: Suelos. Para la elaboración del levantamiento, el GIT de Levantamientos de Suelos y Aplicaciones Agrológicas, en la etapa de precampo recopiló información secundaria proveniente de estudios de suelos anteriores, e investigaciones sobre los factores formadores del suelo, tales como clima, geología y geomorfología, los cuales se interpretan con el apoyo de insumos de cartografía, sensores remotos y fotointerpretación. Posteriormente, en la etapa de campo se realiza la descripción de las observaciones tipo cajuelas o barrenaje, y calicatas, ajuste a las líneas de interpretación y recolección de muestras que serán analizadas por el Laboratorio Nacional de Suelos. La sistematización y georreferenciación de esta información sirve de apoyo fundamental para el trazo de las líneas de suelos, que son digitalizadas sobre cartografía base, imágenes de sensores remotos, modelos digitales de elevación, entre otros. Finalmente en la etapa de poscampo se consolidó la leyenda de suelos del estudio, la cartografía temática con sus diferentes atributos y la memoria técnica respectiva. 
 
-* Archivo local: Cundinamarca_Suelos_VF_20240507.zip
 * Fuente: https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia
 * Extensión espacial: Departamento de Cundinamarca - Colombia - Suramérica
 * Escala: 1:100000
@@ -51,9 +52,10 @@ Los Levantamientos Generales de Suelos de los departamentos del Territorio Colom
 
 **Autor**: [[Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90,
 
+:open_file_folder: Archivo grillado: [DTM_Bogota2014_4326.rar](DTM_Bogota2014_4326.rar)
+
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
-* Archivo local: DTM_Bogota_2014_4326.zip
 * Resolución: 5 metros
 * Fuente: https://www.ideca.gov.co/recursos/mapas/modelo-digital-de-terreno-bogota-dc-2014
  Torre B Piso 2
@@ -67,9 +69,10 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Autor**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
 
+:open_file_folder: Release grillado: DTM_Bogota_2020_4326.rar (comprimido en 3 partes de 2GB y disponible en Releases como [DTM_Bogota_2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0))
+
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
-* Archivo local: DTM_Bogota_2020_4326.rar (comprimido en 3 partes de 2GB y disponible en Releases como [DTM_Bogota_2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0))
 * Resolución: 50 centímetros
 * Fuente: https://www.ideca.gov.co/recursos/mapas/modelo-digital-terreno-de-la-zona-urbana-bogota-bogota-dc-ano-2020, https://datosabiertos.bogota.gov.co/dataset/dtm-bogota, https://serviciosgis.catastrobogota.gov.co/arcgis/services/topografia/modelodigitalterrenobogotaurbano/MapServer/WCSServer?request=GetCapabilities&service=WCS
 * Fecha de actualización: 2020
@@ -84,7 +87,8 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Autor**: [The National Aeronautics and Space Administration](https://www.nasa.gov/)
 
-* Archivo local: DSM_AlosPalsar_9377.rar (comprimido en 2 partes de 96Mb)
+:open_file_folder: Release grillado DSM_AlosPalsar_9377.rar comprimido en 2 partes de 96Mb: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)
+
 * Resolución: 12.5 metros
 * Fuente: https://www.earthdata.nasa.gov/ (ALOS_PALSAR_RTC_HIGH_RES)
 * Fecha de actualización: 2011
