@@ -13,11 +13,11 @@ Esta carpeta contiene los modelos digitales de elevación DEM (DTM, DSM, Híbrid
 
 A partir del modelo digital de terreno Lidar Bogotá 2014 (5m) que incluye información digital sobre el corredor completo del Río Bogotá en la zona perimetral de la ciudad y el modelo digital de terreno Lidar Bogotá 2020 (0.5m) que solo presenta información hasta la línea central del cauce del Río Bogotá, se ha generado el modelo extendido Lidar 2020 en resolución 0.5m.
 
-:open_file_folder: Ráster: [DTM_Bogota2014_9377.tif](DTM_Bogota2014_9377.rar)  
-:open_file_folder: Ráster binarizado: [DTM_Bogota2014_9377_Limit.tif](DTM_Bogota2014_9377_Limit.rar)  
-:open_file_folder: Ráster: [DTM_Bogota2020_9377.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0)  
-:open_file_folder: Ráster binarizado: [DTM_Bogota2020_9377_Limit.tif](DTM_Bogota2020_9377_Limit.rar)  
-:open_file_folder: Ráster: [DTM_Bogota2020_9377_Extent.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_v1.0.0)
+:open_file_folder: Ráster 2014: [DTM_Bogota2014_9377.tif](DTM_Bogota2014_9377.rar)  
+:open_file_folder: Ráster 2014 binarizado: [DTM_Bogota2014_9377_Limit.tif](DTM_Bogota2014_9377_Limit.rar)  
+:open_file_folder: Ráster 2020: [DTM_Bogota2020_9377.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0)  
+:open_file_folder: Ráster 2020 binarizado: [DTM_Bogota2020_9377_Limit.tif](DTM_Bogota2020_9377_Limit.rar)  
+:open_file_folder: Ráster 2014-2020 extendido: [DTM_Bogota2020_9377_Extent.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_v1.0.0)
 
 En la siguiente imagen se presenta en color el cubrimiento del DTM Lidar 2014, y en escala de grises el cubrimiento del DTM Lidar 2020 de Bogotá D.C., en la zona occidental se puede observar en color resaltado las localizaciones que no han sido incluídas en el Lidar 2020, y en la zona oriental las nuevas incorporaciones del modelo 2020.
 
@@ -41,9 +41,9 @@ Para la obtención de los límites de cada DEM, se realizó un proceso de binari
 
 Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. Debido a que corresponde a un modelo DSM, es necesario realizar el ajuste de las elevaciones utilizando la ecuación obtenida de la regresión lineal obtenida a partir de la red de muestreo FishNet, generada, procesada y documentada en la documentación de archivos vectoriales [.shp](../.shp).
 
-:open_file_folder: Ráster DSM_AlosPalsar_9377.tif original en mosaico y reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
-:open_file_folder: Ráster DSM_AlosPalsar_9377_Fil.tif con relleno de sumideros, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  
-:open_file_folder: Ráster DSM_AlosPalsar_9377_Fit.rar original con ajuste de elevaciones a partir de ecuación de regresión obtenida con red de muestreo: [DSM_AlosPalsar_9377_Fit.tif](DSM_AlosPalsar_9377_Fit.rar)
+:open_file_folder: Ráster original DSM_AlosPalsar_9377.tif en mosaico reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
+:open_file_folder: Ráster con relleno de sumideros DSM_AlosPalsar_9377_Fil.tif, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  
+:open_file_folder: Ráster original ajustado DSM_AlosPalsar_9377_Fit.rar a partir de ecuación de regresión: [DSM_AlosPalsar_9377_Fit.tif](DSM_AlosPalsar_9377_Fit.rar)
 
 DSM_AlosPalsar_9377.tif  
 ![R.HydroBogota](../.graph/DSM_AlosPalsar_9377.png)
