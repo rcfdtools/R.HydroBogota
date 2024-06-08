@@ -27,7 +27,7 @@ En la siguiente imagen se presenta la grilla extendida
 
 ![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent.png)
 
-Para la definición de las fronteras de cada DEM, se realizó un proceso de binarización de los mapas utilizando algebra de mapas.
+Para la obtención de los límites de cada DEM, se realizó un proceso de binarización de los mapas utilizando algebra de mapas.
 
 ![R.HydroBogota](../.graph/DTM_Bogota2014_2020_9377_Limit.png)
 
