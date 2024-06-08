@@ -79,9 +79,11 @@ DSM_Construccion_9377.tif
 
 ## Modelo digital de terreno DTM Híbrido Lidar con Construcciones (0.5)m
 
-Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y el modelo digital de superficie de construcciones, se ha generado el modelo digital de terreno híbrido que permitirá realizar la modelación hidráulica teniendo en cuenta las obstrucciones principales en las zonas de llanura de inundación.
+Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y el modelo digital de superficie de construcciones, se ha generado el modelo digital de terreno híbrido, este permitirá realizar la modelación hidráulica teniendo en cuenta las obstrucciones principales en las zonas de llanura de inundación.
 
 > El presente estudio no considera en su versión actual, los troncos de los árboles, postes eléctricos, vehículos y elementos del mobiliario urbano como bloques de obstrucción.
+> 
+> Debido a que la resolución del modelo digital de terreno híbrido es de 50 centímetros, no se realiza la combinación del modelo de toda la cuenca del Río Bogotá incorporando el modelo de terreno NASA ALOS PALSAR (12.5m). El procedimiento de ensamble de terrenos con múltiples fuentes y resoluciones se ha realizado directamente en RAS Mapper de HEC-RAS.
 
 :open_file_folder: Ráster publicado como release: DTM_Bogota2020_9377_Extent_Building.tif
 
