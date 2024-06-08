@@ -9,7 +9,7 @@ Esta carpeta contiene los modelos digitales de elevación DEM (DTM, DSM, Híbrid
 > Debido al tamaño de los modelos digitales, modelos superiores a 500MB han sido publicados en este repositorio a través de _Releases_, los archivos menores son incluídos directamente en la carpeta _.DEM_ en comprimidos de 99MB.
 
 
-## DTM Lidar Bogotá 2014 - 2020 extendido (0.5m)
+## Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5m)
 
 A partir del modelo digital de terreno Lidar Bogotá 2014 (5m) que incluye información digital sobre el corredor completo del Río Bogotá en la zona perimetral de la ciudad y el modelo digital de terreno Lidar Bogotá 2020 (0.5m) que solo presenta información hasta la línea central del cauce del Río Bogotá, se ha generado el modelo extendido Lidar 2020 en resolución 0.5m.
 
@@ -37,5 +37,14 @@ Para la obtención de los límites de cada DEM, se realizó un proceso de binari
 * Conversion Tools / From Raster / Raster To Polygon
 
 
-## 
+## Modelo digital de superficie DSM NASA ALOS PALSAR (12.5m)
+
+Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. Debido a que corresponde a un modelo DSM, es necesario realizar el ajuste de las elevaciones utilizando la ecuación obtenida de la regresión lineal obtenida a partir de la red de muestreo FishNet, generada, procesada y documentada en la documentación de archivos vectoriales [.shp](../.shp).
+
+:open_file_folder: Ráster DSM_AlosPalsar_9377.rar original en mosaico y reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)
+:open_file_folder: Ráster DSM_AlosPalsar_9377_Fill.rar con relleno de sumideros, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)
+
+
+
+
 

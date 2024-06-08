@@ -83,7 +83,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 ## Modelo Digital de Elevación NASA ALOS-PALSAR (12.5m)
 
-**Aplicación en esta investigación**: modelo de terreno base con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
+**Aplicación en esta investigación**: modelo de superficie DSM con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
 
 **Autor**: [The National Aeronautics and Space Administration](https://www.nasa.gov/)
 
@@ -93,7 +93,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 * Fuente: https://www.earthdata.nasa.gov/ (ALOS_PALSAR_RTC_HIGH_RES)
 * Fecha de actualización: 2011
 
-> Nota: no se incluyen los archivos independientes descargados sino el mosaico integrado con cobertura sobre la cuenca del río Bogotá, re-proyección al CRS 9377 y con valor medio en pixeles coincidentes. 
+> Nota: no se incluyen los archivos independientes descargados sino el mosaico integrado con cobertura sobre la cuenca del río Bogotá, re-proyección al CRS 9377 y con valor medio en píxeles coincidentes. 
 
 
 ## Corriente de Agua, Bogotá D.C
