@@ -11,7 +11,7 @@ Esta carpeta contiene los archivos fuente y mapas base recopilados desde diferen
 
 **Autor:** [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/) - Subdirección de Agrología - Grupo Interno de Trabajo Geomática - Carrera 30 # 48 - 51 – Sede Central, Bogotá D.C, Departamento de Cundinamarca, 111321, República de Colombia. Autor: german.alvarez@igac.gov.co (Subdirector de Agrología), +57 1 3694100 Ext. 91007
 
-:open_file_folder: Archivo local: ag_100k_vocacion_uso_2017_20240507.rar (comprimido en 3 partes de 96Mb), [1](ag_100k_vocacion_uso_2017_20240507.part1.rar), [2](ag_100k_vocacion_uso_2017_20240507.part2.rar), [3](ag_100k_vocacion_uso_2017_20240507.part3.rar)
+:open_file_folder: Archivo local _ag_100k_vocacion_uso_2017_20240507.rar_ comprimido en 3 partes de 96Mb: [R1](ag_100k_vocacion_uso_2017_20240507.part1.rar), [R2](ag_100k_vocacion_uso_2017_20240507.part2.rar), [R3](ag_100k_vocacion_uso_2017_20240507.part3.rar)
 
 El objetivo principal de la vocación es la determinación del uso más apropiado que puede soportar cada uno de los suelos del país, propendiendo por una producción sostenible y sin deterioro de los recursos naturales. Son dos niveles categóricos los tenidos en cuenta en el presente estudio; el primero corresponde a la vocación general de uso de la tierra y, el segundo, como subdivisión del primero, hace referencia a los usos principales recomendados.
 
