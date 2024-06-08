@@ -13,16 +13,20 @@ Esta carpeta contiene los modelos digitales de elevación DEM (DTM, DSM, Híbrid
 
 A partir del modelo digital de terreno Lidar Bogotá 2014 (5m) que incluye información digital sobre el corredor completo del Río Bogotá en la zona perimetral de la ciudad y el modelo digital de terreno Lidar Bogotá 2020 (0.5m) que solo presenta información hasta la línea central del cauce del Río Bogotá, se ha generado el modelo extendido Lidar 2020 en resolución 0.5m.
 
-:open_file_folder: Archivo local: [DTM_Bogota2014_9377.tif](DTM_Bogota2014_9377.rar)  
-:open_file_folder: Release: [DTM_Bogota2020_9377.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0)  
-:open_file_folder: Release: [DTM_Bogota2020_9377_Extent.tif](DTM_Bogota2020_9377_Extent.rar)
+:open_file_folder: Ráster: [DTM_Bogota2014_9377.tif](DTM_Bogota2014_9377.rar)  
+:open_file_folder: Ráster: [DTM_Bogota2020_9377.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0)  
+:open_file_folder: Ráster: [DTM_Bogota2020_9377_Extent.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_v1.0.0)
 
 En la siguiente imagen se presenta en color el cubrimiento del DTM Lidar 2014, y en escala de grises el cubrimiento del DTM Lidar 2020 de Bogotá D.C., en la zona occidental se puede observar en color resaltado las localizaciones que no han sido incluídas en el Lidar 2020, y en la zona oriental las nuevas incorporaciones del modelo 2020.
+
+![R.HydroBogota](../.graph/DTM_Bogota2014_2020_9377_Extent.png)
+
+En la siguiente imagen se presenta la grilla extendida
 
 ![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent.png)
 
 **Geo-procesos ArcGIS Pro**  
-* Data Management Tools / Raster / Mosaic To New Raster: ordenamiento superior Lidar 2020 e inferior Lidar 2014.
+* Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020.
 
 
 

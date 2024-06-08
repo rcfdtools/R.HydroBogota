@@ -52,7 +52,7 @@ Los Levantamientos Generales de Suelos de los departamentos del Territorio Colom
 
 **Autor**: [[Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90,
 
-:open_file_folder: Archivo grillado: [DTM_Bogota2014_4326.rar](DTM_Bogota2014_4326.rar)
+:open_file_folder: Ráster: [DTM_Bogota2014_4326.rar](DTM_Bogota2014_4326.rar)
 
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
@@ -69,7 +69,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Autor**: [Datos Abiertos IDE Bogotá](https://ideca.gov.co/), Unidad Administrativa Especial de Catastro Distrital, Ideca: Infraestructura de Datos Espaciales para el Distrito Capital. Dirección: Av. Carrera 30 No. 25 - 90, Torre B Piso 2
 
-:open_file_folder: Release grillado DTM_Bogota_2020_4326.rar comprimido en 3 partes de 2GB: [DTM_Bogota2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0)
+:open_file_folder: Ráster DTM_Bogota_2020_4326.rar comprimido en 3 partes de 2GB: [DTM_Bogota2020_4326_v1.0.0](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_v1.0.0)
 
 Representación simplificada de la realidad con los datos de altura en terrenos de la ciudad de Bogotá para el año 2014. Esta información puede ser procesada con el fin de obtener el relieve de la capital.
 
@@ -87,7 +87,7 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 
 **Autor**: [The National Aeronautics and Space Administration](https://www.nasa.gov/)
 
-:open_file_folder: Release grillado DSM_AlosPalsar_9377.rar comprimido en 2 partes de 96MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)
+:open_file_folder: Ráster DSM_AlosPalsar_9377.rar comprimido en 2 partes de 96MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)
 
 * Resolución: 12.5 metros
 * Fuente: https://www.earthdata.nasa.gov/ (ALOS_PALSAR_RTC_HIGH_RES)
@@ -184,7 +184,7 @@ Estructura que se construye principalmente en obstáculos naturales como ríos, 
 
 ## Subzonas hidrográficas IDEAM
 
-**Aplicación en esta investigación**: delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 2120, utilizada como máscara de recorte de grillas y vectores.
+**Aplicación en esta investigación**: delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 2120, utilizada como máscara de recorte de rásters y vectores.
 
 **Autor**: [Instituto de Hidrología, Meteorología y Estudios Ambientales - IDEAM de Colombia](http://www.ideam.gov.co/)
 
