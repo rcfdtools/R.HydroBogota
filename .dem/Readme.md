@@ -37,13 +37,15 @@ Para la obtención de los límites de cada DEM, se realizó un proceso de binari
 * Conversion Tools / From Raster / Raster To Polygon
 
 
-## Modelo digital de superficie DSM NASA ALOS PALSAR (12.5m)
+## Modelo digital de superficie DSM NASA satelital ALOS PALSAR (12.5m)
 
 Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. Debido a que corresponde a un modelo DSM, es necesario realizar el ajuste de las elevaciones utilizando la ecuación obtenida de la regresión lineal obtenida a partir de la red de muestreo FishNet, generada, procesada y documentada en la documentación de archivos vectoriales [.shp](../.shp).
 
 :open_file_folder: Ráster original DSM_AlosPalsar_9377.tif en mosaico reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
 :open_file_folder: Ráster con relleno de sumideros DSM_AlosPalsar_9377_Fil.tif, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  
 :open_file_folder: Ráster original ajustado DSM_AlosPalsar_9377_Fit.rar a partir de ecuación de regresión: [DSM_AlosPalsar_9377_Fit.tif](DSM_AlosPalsar_9377_Fit.rar)
+
+> Durante la etapa de ejecución de la modelación hidráulica se realizaron pruebas de modelación utilizando el modelo de terreno con relleno de sumideros FIL, el objetivo inicial era garantizar el desarrollo del flujo en la superficie, sin embargo, el proceso FIL elimina las depresiones en cauces en zonas confinadas por vegetación perimetral, lo que ocasiona que el flujo se desarrolle por toda la llanura y no a través de los corredores hidráulicos. Es importante considerar que los modelos de superficie satelitales incluyen las sobre elevaciones producidas por la vegetación, infraestructura y vehículos, cuyos valores de elevación no pueden ser clasificados y eliminados para obtener un modelo digital de terreno, tal como se puede al procesar información Lidar con clasificación de retornos.
 
 DSM_AlosPalsar_9377.tif  
 ![R.HydroBogota](../.graph/DSM_AlosPalsar_9377.png)
