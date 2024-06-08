@@ -43,7 +43,7 @@ Modelo de superficie con cobertura completa sobre toda la zona de estudio y util
 
 :open_file_folder: Ráster DSM_AlosPalsar_9377.rar original en mosaico y reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
 :open_file_folder: Ráster DSM_AlosPalsar_9377_Fil.rar con relleno de sumideros, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  
-:open_file_folder: Ráster DSM_AlosPalsar_9377_Fit.rar original con ajuste de elevaciones a partir de regresión con red de muestreo: DSM_AlosPalsar_9377_Fit.rar
+:open_file_folder: Ráster DSM_AlosPalsar_9377_Fit.rar original con ajuste de elevaciones a partir de ecuación de regresión obtenida con red de muestreo: [DSM_AlosPalsar_9377_Fit.tif](DSM_AlosPalsar_9377_Fit.rar)
 
 ![R.HydroBogota](../.graph/DSM_AlosPalsar_9377.png)
 
