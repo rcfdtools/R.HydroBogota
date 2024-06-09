@@ -38,7 +38,7 @@ DSM_AlosPalsar_9377_Fit.tif
 
 Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. 
 
-> Durante la revisión de las elevaciones de los modelos digitales de elevación que cubren toda la cuenca, se pudo evidenciar que la calidad del modelo COPERNICUS (30m) es superior a la mostrada en el modelo NASA ALOS PALSAR (12.5m) por lo que se puede observar en algunas zonas sin vegetación el corredor del río Bogotá, lo anterior debido a la tecnología SAR de alta resolución empleada por la ESA.
+> Durante la revisión de las cotas de los modelos digitales de elevación que cubren toda la cuenca, se pudo evidenciar que la calidad del modelo COPERNICUS (30m) es superior a la mostrada en el modelo NASA ALOS PALSAR (12.5m), por lo que se puede observar en algunas zonas sin vegetación el corredor del río Bogotá, lo anterior debido a la tecnología SAR de alta resolución empleada por la ESA.
 
 :open_file_folder: Ráster reproyectado:  [DSM_Copernicus30_9377.tif](DSM_Copernicus30_9377.rar)
 
