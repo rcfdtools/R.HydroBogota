@@ -9,6 +9,42 @@ Esta carpeta contiene los modelos digitales de elevación DEM (DTM, DSM, Híbrid
 > Debido al tamaño de los modelos digitales, modelos superiores a 500MB han sido publicados en este repositorio a través de _Releases_, los archivos menores son incluídos directamente en la carpeta _.DEM_ en comprimidos de 99MB.
 
 
+## Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5m)
+
+Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. Debido a que corresponde a un modelo DSM, es necesario realizar el ajuste de las elevaciones utilizando la ecuación obtenida de la regresión lineal obtenida a partir de la red de muestreo FishNet, generada, procesada y documentada en la carpeta de archivos vectoriales [.shp](../.shp).
+
+:open_file_folder: Ráster original DSM_AlosPalsar_9377.tif en mosaico reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
+:open_file_folder: Ráster con relleno de sumideros DSM_AlosPalsar_9377_Fil.tif, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  
+:open_file_folder: Ráster original ajustado DSM_AlosPalsar_9377_Fit.rar a partir de ecuación de regresión: [DSM_AlosPalsar_9377_Fit.tif](DSM_AlosPalsar_9377_Fit.rar)
+
+> Durante la etapa de ejecución de la modelación hidráulica, se realizaron pruebas de modelación utilizando el modelo de superficie con relleno de sumideros FIL, el objetivo inicial era garantizar el desarrollo del flujo en la superficie, sin embargo, el proceso FIL elimina las depresiones en cauces en zonas confinadas por vegetación perimetral, lo que ocasiona que el flujo se desarrolle por toda la llanura y no a través de los corredores hidráulicos. Es importante considerar que los modelos de superficie satelitales incluyen las sobre elevaciones producidas por la vegetación, infraestructura y vehículos, cuyos valores no pueden ser clasificados y eliminados para obtener un modelo digital de terreno, tal como se puede realizar al procesar información Lidar con clasificación de retornos.
+
+DSM_AlosPalsar_9377.tif  
+![R.HydroBogota](../.graph/DSM_AlosPalsar_9377.png)
+
+DSM_AlosPalsar_9377_Fil.tif
+![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fil.png)
+
+DSM_AlosPalsar_9377_Fit.tif
+![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fit.png)
+
+**Geo-procesos ArcGIS Pro**  
+* Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020
+* Spatial Analyst Tools / Hydrology / Fill: relleno de sumideros
+* Image Analyst Tools / Map Agebra / Raster Calculator: ajuste de elevaciones en DSM a partir de regresión lineal
+
+
+## Modelo digital de superficie DSM satelital Copernicus (30m)
+
+Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. 
+
+> Durante la revisión de las elevaciones de los modelos digitales de elevación que cubren toda la cuenca, se pudo evidenciar que la calidad del modelo COPERNICUS (30m) es superior a la mostrada en el modelo NASA ALOS PALSAR (12.5m) por lo que se puede observar en algunas zonas sin vegetación el corredor del río Bogotá, lo anterior debido a la tecnología SAR de alta resolución empleada por la ESA.
+
+:open_file_folder: Ráster reproyectado:  [DSM_Copernicus30_9377.tif](DSM_Copernicus30_9377.rar)
+
+![R.HydroBogota](../.graph/DSM_Copernicus30_9377.png)
+
+
 ## Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5m)
 
 A partir del modelo digital de terreno Lidar Bogotá 2014 (5m) que incluye información digital sobre el corredor completo del Río Bogotá en la zona perimetral de la ciudad y el modelo digital de terreno Lidar Bogotá 2020 (0.5m) que solo presenta información hasta la línea central del cauce del Río Bogotá, se ha generado el modelo extendido Lidar 2020 en resolución 0.5m.
@@ -37,31 +73,6 @@ Para la obtención de los límites de cada DEM, se realizó un proceso de binari
 * Conversion Tools / From Raster / Raster To Polygon
 
 
-## Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5m)
-
-Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. Debido a que corresponde a un modelo DSM, es necesario realizar el ajuste de las elevaciones utilizando la ecuación obtenida de la regresión lineal obtenida a partir de la red de muestreo FishNet, generada, procesada y documentada en la carpeta de archivos vectoriales [.shp](../.shp).
-
-:open_file_folder: Ráster original DSM_AlosPalsar_9377.tif en mosaico reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
-:open_file_folder: Ráster con relleno de sumideros DSM_AlosPalsar_9377_Fil.tif, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  
-:open_file_folder: Ráster original ajustado DSM_AlosPalsar_9377_Fit.rar a partir de ecuación de regresión: [DSM_AlosPalsar_9377_Fit.tif](DSM_AlosPalsar_9377_Fit.rar)
-
-> Durante la etapa de ejecución de la modelación hidráulica, se realizaron pruebas de modelación utilizando el modelo de superficie con relleno de sumideros FIL, el objetivo inicial era garantizar el desarrollo del flujo en la superficie, sin embargo, el proceso FIL elimina las depresiones en cauces en zonas confinadas por vegetación perimetral, lo que ocasiona que el flujo se desarrolle por toda la llanura y no a través de los corredores hidráulicos. Es importante considerar que los modelos de superficie satelitales incluyen las sobre elevaciones producidas por la vegetación, infraestructura y vehículos, cuyos valores no pueden ser clasificados y eliminados para obtener un modelo digital de terreno, tal como se puede realizar al procesar información Lidar con clasificación de retornos.
-
-DSM_AlosPalsar_9377.tif  
-![R.HydroBogota](../.graph/DSM_AlosPalsar_9377.png)
-
-DSM_AlosPalsar_9377_Fil.tif
-![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fil.png)
-
-DSM_AlosPalsar_9377_Fit.tif
-![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fit.png)
-
-**Geo-procesos ArcGIS Pro**  
-* Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020
-* Spatial Analyst Tools / Hydrology / Fill: relleno de sumideros
-* Image Analyst Tools / Map Agebra / Raster Calculator: ajuste de elevaciones en DSM a partir de regresión lineal
-
-
 ## Modelo digital de construcciones DSM (0.5m)
 
 Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o [SUDS](https://www.susdrain.org/delivering-suds/using-suds/background/sustainable-drainage.html)) en este tipo de elementos.
@@ -81,7 +92,7 @@ DSM_Construccion_9377.tif
 
 Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y el modelo digital de superficie de construcciones, se ha generado el modelo digital de terreno híbrido, este permitirá realizar la modelación hidráulica teniendo en cuenta las obstrucciones principales en las zonas de llanura de inundación.
 
-> El presente estudio no considera en su versión actual, los troncos de los árboles, postes eléctricos, vehículos y elementos del mobiliario urbano como bloques de obstrucción.
+> El presente estudio no considera en su versión actual, los troncos de los árboles, postes eléctricos, vehículos, elementos del mobiliario urbano y demás infraestructura como bloques de obstrucción.
 > 
 > Debido a que la resolución del modelo digital de terreno híbrido es de 50 centímetros, no se realiza la combinación del modelo de toda la cuenca del Río Bogotá incorporando el modelo de terreno NASA ALOS PALSAR (12.5m). El procedimiento de ensamble de terrenos con múltiples fuentes y resoluciones se ha realizado directamente en RAS Mapper de HEC-RAS.
 
@@ -95,3 +106,10 @@ Visualización 3D DTM_Bogota2020_9377_Extent_Building.tif
 
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2020 extendido y superior construcciones
+
+
+## Referencias complementarias
+
+* [What is SAR - The Power Tool of Remote Sensing?](https://asf.alaska.edu/information/sar-information/what-is-sar/)
+
+

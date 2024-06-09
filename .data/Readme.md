@@ -96,6 +96,32 @@ Representación simplificada de la realidad con los datos de altura en terrenos 
 > Nota: no se incluyen los archivos independientes descargados sino el mosaico integrado con cobertura sobre la cuenca del río Bogotá, re-proyección al CRS 9377 y con valor medio en píxeles coincidentes. 
 
 
+## Modelo digital de superficie DSM satelital Copernicus (30m)
+
+**Aplicación en esta investigación**: modelo de superficie DSM con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá.
+
+**Autor**: The DEM is an element of the [Copernicus Contributing Missions (CCM)](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions) activity, which is managed by [ESA](https://www.esa.int/) from its centre for [Earth observation (ESRIN)](https://www.esa.int/About_Us/ESRIN/ESRIN_-_ESA_s_centre_for_Earth_observation) on behalf of the European Commission. Funder - [European Space Agency](https://www.esa.int/), Partner - [Airbus Defence and Space](https://www.airbus.com/space.html), Partner - [German Aerospace Centre](https://www.dlr.de/EN/Home/home_node.html)
+
+:open_file_folder: Ráster: [DSM_Copernicus30_4326.tif](DSM_Copernicus30_4326.rar)
+
+Data selection coordinates in decimal degrees  
+* Xmin: -74.83731075
+* Ymin: 4.2572823
+* Xmax: -73.51202478
+* Ymax: 5.30066832
+
+The Copernicus DEM is a Digital Surface Model (DSM) which represents the surface of the Earth including buildings, infrastructure and vegetation. This DSM is derived from an edited DSM named WorldDEM, where flattening of water bodies and consistent flow of rivers has been included. In addition, editing of shore- and coastlines, special features such as airports, and implausible terrain structures has also been applied.
+
+The WorldDEM product is based on the radar satellite data acquired during the TanDEM-X Mission, which is funded by a Public Private Partnership between the German State, represented by the German Aerospace Centre (DLR) and Airbus Defence and Space. OpenTopography is providing access to the global 30m (GLO-30) DSM through the [public AWS S3 bucket established by Sinergise.](https://registry.opendata.aws/copernicus-dem/)
+
+* Fuente: https://opentopography.org/, https://dataspace.copernicus.eu/news/2024-5-22-copernicus-digital-elevation-model-dem-now-available-copernicus-data-space-ecosystem
+* Extensión espacial: cuenca Río Bogotá y cuencas sistema de abastecimiento Bogotá
+* Escala: no indicada
+* Fecha de actualización: Survey Date 01/01/2011 - 07/01/2015
+* Sistema de referencia de coordenadas: 4686
+* Licencia: General public
+
+
 ## Corriente de Agua, Bogotá D.C
 
 **Aplicación en esta investigación**: alineamientos para refinamiento de mallado en RAS Mapper. Requiere verificación y digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales…), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores. 
