@@ -292,6 +292,13 @@ A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacia
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje_PasoVia.png)
 
 
+### Intersecciones identificadas por localización
+
+| Localización | ReadyDEM:0 | ReadyDEM:1 | ReadyDEM:Σ | ReadyRAS |
+|:-------------|:----------:|:----------:|:----------:|:--------:|
+| Bogotá D.C.  |    218     |     96     |    314     |    0     |
+
+
 ### Catálogo de objetos
 
 | Campo      | Definición                                                                                     | Tipo       |
@@ -301,6 +308,9 @@ A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacia
 | ReadyDEM   | Paso de vía requiere ajuste del modelo digital de terreno DTM: 0-Sí, 1-No, 2-NoVerificado      | Long       |
 | ReadyRAS   | Corredor de canal en intersección de paso de vía con río ya generado en RAS Mapper: 0-Sí, 1-No | Long       |
 | DSourceID  | [Fuente de información](../README.md#fuentes-de-información)                                   | Long       |
+
+
+
 
 **Geo-procesos ArcGIS Pro**  
 * Analysis Tools / Overlay / Intersect
