@@ -292,7 +292,7 @@ A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacia
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje_PasoVia.png)
 
 
-### Intersecciones identificadas por localización
+### Intersecciones por localización
 
 | Localización | ReadyDEM:0 | ReadyDEM:1 | ReadyDEM:Σ | ReadyRAS |
 |:-------------|:----------:|:----------:|:----------:|:--------:|
@@ -305,12 +305,11 @@ A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacia
 |:-----------|------------------------------------------------------------------------------------------------|------------|
 | RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                                        | Text (100) |
 | BridgeName | Nombre o localización del paso de vía o puente (vehicular, peatonal...)                        | Text (254) |
-| ReadyDEM   | Paso de vía requiere ajuste del modelo digital de terreno DTM: 0-Sí, 1-No, 2-NoVerificado      | Long       |
-| ReadyRAS   | Corredor de canal en intersección de paso de vía con río ya generado en RAS Mapper: 0-Sí, 1-No | Long       |
+| ReadyDEM   | Paso de vía correcto en modelo digital de terreno DTM: 0-No, 1-Sí, 2-NoVerificado              | Long       |
+| ReadyRAS   | Corredor de canal en intersección de paso de vía con río ya generado en RAS Mapper: 0-No, 1-Sí | Long       |
 | DSourceID  | [Fuente de información](../README.md#fuentes-de-información)                                   | Long       |
 
-
-
+> El campo `ReadyDEM` indica si el paso de vía en el DTM es correcto y no requiere de limpieza de la sección removiendo la obstrucción.
 
 **Geo-procesos ArcGIS Pro**  
 * Analysis Tools / Overlay / Intersect
