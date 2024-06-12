@@ -296,7 +296,7 @@ A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacia
 
 | Localización | ReadyDEM:0 | ReadyDEM:1 | ReadyDEM:Σ | ReadyRAS |
 |:-------------|:----------:|:----------:|:----------:|:--------:|
-| Bogotá D.C.  |    218     |     96     |    314     |    0     |
+| Bogotá D.C.  |    217     |     93     |    310     |   217    |
 
 
 ### Catálogo de objetos

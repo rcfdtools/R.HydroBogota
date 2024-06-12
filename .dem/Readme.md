@@ -88,7 +88,19 @@ DSM_Construccion_9377.tif
 * Conversion Tools / To Raster / Polygon To Raster
 
 
-## Modelo digital de terreno DTM Híbrido Lidar con Construcciones (0.5)m
+## Modelo digital de canales en pasos de vía (0.5m)
+
+El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit1_**, en la que se han incluído tramos de canal y secciones de referencia para la generación de corredores de canal en pasos de vía. En modelos hidráulicos 2D, el tránsito hidráulico principal es realizado a través de canales a superficie libre; si bien, HEC-RAS permite la modelación de estructuras utilizando las ecuaciones de la Onda Cinemática y Full Momentum, un primer ejercicio es modelar la cuenca y canales sin obstrucciones, para luego incorporar gradualmente las estructuras. La modelación de múltiples estructuras en un modelo de escala grande, puede ocasionar múltiples inestabilidades numéricas, las cuales hacen que el proceso de modelación con las Ecuaciones de Saint Venant's sea más complejo de resolver y estabilizar.
+
+:open_file_folder: Ráster DTM_ChannelUnderBridge_9377.tif
+
+DSM_Construccion_9377.tif 
+![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377.png)
+
+
+
+
+## Modelo digital de terreno DTM Híbrido Lidar con Construcciones y canales ajustados en pasos de vía (0.5)m
 
 Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y el modelo digital de superficie de construcciones, se ha generado el modelo digital de terreno híbrido, este permitirá realizar la modelación hidráulica teniendo en cuenta las obstrucciones principales en las zonas de llanura de inundación.
 
