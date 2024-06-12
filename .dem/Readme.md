@@ -90,14 +90,17 @@ DSM_Construccion_9377.tif
 
 ## Modelo digital de canales en pasos de vía (0.5m)
 
-El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit1_**, en la que se han incluído tramos de canal y secciones de referencia para la generación de corredores de canal en pasos de vía. En modelos hidráulicos 2D, el tránsito hidráulico principal es realizado a través de canales a superficie libre; si bien, HEC-RAS permite la modelación de estructuras utilizando las ecuaciones de la Onda Cinemática y Full Momentum, un primer ejercicio es modelar la cuenca y canales sin obstrucciones, para luego incorporar gradualmente las estructuras. La modelación de múltiples estructuras en un modelo de escala grande, puede ocasionar múltiples inestabilidades numéricas, las cuales hacen que el proceso de modelación con las Ecuaciones de Saint Venant's sea más complejo de resolver y estabilizar.
+El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit1_** (cuyo terreno asociado corresponde al Lidar Bogotá 2020 extendido con o sin inclusión de construcciones), en la que se han incluído tramos de canal principal y secciones de referencia para la generación de corredores de canal en pasos de vía. En modelos hidráulicos 2D, el tránsito hidráulico principal es realizado a través de canales a superficie libre; si bien, HEC-RAS permite la modelación de estructuras utilizando las ecuaciones de la Onda Cinemática y Full Momentum, un primer ejercicio es modelar la cuenca y canales sin obstrucciones, para luego incorporar gradualmente las estructuras. La modelación de múltiples estructuras en un modelo de escala grande, puede ocasionar múltiples inestabilidades numéricas, las cuales hacen que el proceso de modelación con las Ecuaciones de Saint Venant's sea más complejo de resolver y estabilizar.
+
+> :bulb:Tenga en cuenta que incluso con los canales ajustados, podrá incorporar y modelar los pasos de vía incorporando cada una de estas estructuras.
 
 :open_file_folder: Ráster DTM_ChannelUnderBridge_9377.tif
 
-DSM_Construccion_9377.tif 
-![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377.png)
-
-
+![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_1.png)  
+![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_2.png)  
+![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_3.png)  
+![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_4.png)  
+![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_5.png)  
 
 
 ## Modelo digital de terreno DTM Híbrido Lidar con Construcciones y canales ajustados en pasos de vía (0.5)m
