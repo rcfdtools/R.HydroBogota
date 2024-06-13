@@ -20,13 +20,13 @@ Modelo de superficie con cobertura completa sobre toda la zona de estudio y util
 > Durante la etapa de ejecución de la modelación hidráulica, se realizaron pruebas de modelación utilizando el modelo de superficie con relleno de sumideros FIL, el objetivo inicial era garantizar el desarrollo del flujo en la superficie, sin embargo, el proceso FIL elimina las depresiones en cauces en zonas confinadas por vegetación perimetral, lo que ocasiona que el flujo se desarrolle por toda la llanura y no a través de los corredores hidráulicos. Es importante considerar que los modelos de superficie satelitales incluyen las sobre elevaciones producidas por la vegetación, infraestructura y vehículos, cuyos valores no pueden ser clasificados y eliminados para obtener un modelo digital de terreno, tal como se puede realizar al procesar información Lidar con clasificación de retornos.
 
 DSM_AlosPalsar_9377.tif  
-![R.HydroBogota](../.graph/DSM_AlosPalsar_9377.png)
+![R.HydroBogota](../.graph/ArcGISPro_DSM_AlosPalsar_9377.png)
 
 DSM_AlosPalsar_9377_Fil.tif
-![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fil.png)
+![R.HydroBogota](../.graph/ArcGISPro_DSM_AlosPalsar_9377_Fil.png)
 
 DSM_AlosPalsar_9377_Fit.tif
-![R.HydroBogota](../.graph/DSM_AlosPalsar_9377_Fit.png)
+![R.HydroBogota](../.graph/ArcGISPro_DSM_AlosPalsar_9377_Fit.png)
 
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020
@@ -42,7 +42,7 @@ Modelo de superficie con cobertura completa sobre toda la zona de estudio y util
 
 :open_file_folder: Ráster reproyectado:  [DSM_Copernicus30_9377.tif](DSM_Copernicus30_9377.rar)
 
-![R.HydroBogota](../.graph/DSM_Copernicus30_9377.png)
+![R.HydroBogota](../.graph/ArcGISPro_DSM_Copernicus30_9377.png)
 
 
 ## Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5m)
@@ -57,15 +57,15 @@ A partir del modelo digital de terreno Lidar Bogotá 2014 (5m) que incluye infor
 
 En la siguiente imagen se presenta en color el cubrimiento del DTM Lidar 2014, y en escala de grises el cubrimiento del DTM Lidar 2020 de Bogotá D.C., en la zona occidental se puede observar en color resaltado las localizaciones que no han sido incluídas en el Lidar 2020, y en la zona oriental las nuevas incorporaciones del modelo 2020.
 
-![R.HydroBogota](../.graph/DTM_Bogota2014_2020_9377_Extent.png)
+![R.HydroBogota](../.graph/ArcGISPro_DTM_Bogota2014_2020_9377_Extent.png)
 
 En la siguiente imagen se presenta la grilla extendida
 
-![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent.png)
+![R.HydroBogota](../.graph/ArcGISPro_DTM_Bogota2020_9377_Extent.png)
 
 Para la obtención de los límites de cada DEM, se realizó un proceso de binarización de los mapas utilizando algebra de mapas.
 
-![R.HydroBogota](../.graph/DTM_Bogota2014_2020_9377_Limit.png)
+![R.HydroBogota](../.graph/ArcGISPro_DTM_Bogota2014_2020_9377_Limit.png)
 
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2014 y superior Lidar 2020
@@ -82,7 +82,7 @@ Utilizando los polígonos de construcciones [.shp/Construccion_9377.shp](../.shp
 :open_file_folder: Ráster DSM_Construccion_9377.tif comprimido en 3 partes de 99MB: [P1](DSM_Construccion_9377.part1.rar), [P2](DSM_Construccion_9377.part2.rar), [P2](DSM_Construccion_9377.part2.rar)
 
 DSM_Construccion_9377.tif 
-![R.HydroBogota](../.graph/DSM_Construccion_9377.png)
+![R.HydroBogota](../.graph/ArcGISPro_DSM_Construccion_9377.png)
 
 **Geo-procesos ArcGIS Pro**  
 * Conversion Tools / To Raster / Polygon To Raster
@@ -96,11 +96,11 @@ El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit_** (cuyo terr
 
 :open_file_folder: Ráster [DTM_ChannelUnderBridge_9377.tif](DTM_ChannelUnderBridge_9377.rar)
 
-![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_1.png)  
-![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_2.png)  
-![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_3.png)  
-![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_4.png)  
-![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_5.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_1.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_2.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_4.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_5.png)  
 
 
 ## Modelo digital de terreno DTM Híbrido Lidar con Construcciones (0.5m)
@@ -114,16 +114,16 @@ Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y e
 :open_file_folder: Ráster publicado como release: [DTM_Bogota2020_9377_Extent_Building.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_Building_v1.0.0)
 
 Visualización 2D DTM_Bogota2020_9377_Extent_Building.tif
-![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent_Building.png)
+![R.HydroBogota](../.graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building.png)
 
 Visualización 3D DTM_Bogota2020_9377_Extent_Building.tif
-![R.HydroBogota](../.graph/DTM_Bogota2020_9377_Extent_Building3D.png)
+![R.HydroBogota](../.graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building3D.png)
 
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2020 extendido y superior construcciones
 
 
-## Modelo digital de terreno Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
+## Modelo digital de terreno DTM Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
 
 Orden de ensamble en RAS Mapper
 
