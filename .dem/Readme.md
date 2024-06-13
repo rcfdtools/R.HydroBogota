@@ -127,13 +127,16 @@ Visualización 3D DTM_Bogota2020_9377_Extent_Building.tif
 
 Orden de ensamble en RAS Mapper
 
-* Modelo digital de canales en pasos de vía (0.5m): DTM_ChannelUnderBridge_9377.tif](DTM_ChannelUnderBridge_9377.rar)
+* Modelo digital de canales en pasos de vía (0.5m): [DTM_ChannelUnderBridge_9377.tif](DTM_ChannelUnderBridge_9377.rar)
 * Modelo digital de construcciones DSM (0.5m): DSM_Construccion_9377.tif, [P1](DSM_Construccion_9377.part1.rar), [P2](DSM_Construccion_9377.part2.rar), [P2](DSM_Construccion_9377.part2.rar)
 * Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5m): [DTM_Bogota2020_9377_Extent.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_v1.0.0)
 * Modelo digital de superficie DSM satelital Copernicus (30m): [DSM_Copernicus30_9377.tif](DSM_Copernicus30_9377.rar)
 
 HEC-RAS RAS Mapper Terrain creation
 ![R.HydroBogota](../.graph/HECRAS_Terrain_Creation.png)
+
+Visualización de terreno híbrido en RAS Mapper
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample1.png)
 
 
 ## Referencias complementarias
