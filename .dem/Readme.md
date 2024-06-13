@@ -38,7 +38,7 @@ DSM_AlosPalsar_9377_Fit.tif
 
 Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. 
 
-> Durante la revisión de las cotas de los modelos digitales de elevación que cubren toda la cuenca, se pudo evidenciar que la calidad del modelo COPERNICUS (30m) es superior a la mostrada en el modelo NASA ALOS PALSAR (12.5m), por lo que se puede observar en algunas zonas sin vegetación el corredor del río Bogotá, lo anterior debido a la tecnología SAR de alta resolución empleada por la ESA.
+> Durante la revisión de las cotas de los modelos digitales de elevación que cubren toda la cuenca, se pudo evidenciar que la calidad del modelo [COPERNICUS](https://www.copernicus.eu/en) (30m) es superior a la mostrada en el modelo NASA ALOS PALSAR (12.5m), por lo que se puede observar en algunas zonas sin vegetación el corredor del río Bogotá, lo anterior debido a la tecnología SAR de alta resolución empleada por la [ESA](https://www.esa.int/).
 
 :open_file_folder: Ráster reproyectado:  [DSM_Copernicus30_9377.tif](DSM_Copernicus30_9377.rar)
 
@@ -88,22 +88,7 @@ DSM_Construccion_9377.tif
 * Conversion Tools / To Raster / Polygon To Raster
 
 
-## Modelo digital de canales en pasos de vía (0.5m)
-
-El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit_** (cuyo terreno asociado corresponde al Lidar Bogotá 2020 extendido con o sin inclusión de construcciones), en la que se han incluído tramos de canal principal y secciones de referencia para la generación de corredores de canal en pasos de vía. En modelos hidráulicos 2D, el tránsito hidráulico principal es realizado a través de canales a superficie libre; si bien, HEC-RAS permite la modelación de estructuras utilizando las ecuaciones de la Onda Cinemática y Full Momentum, un primer ejercicio es modelar la cuenca y canales sin obstrucciones, para luego incorporar gradualmente las estructuras. La modelación de múltiples estructuras en un modelo de escala grande, puede ocasionar múltiples inestabilidades numéricas, las cuales hacen que el proceso de modelación con las Ecuaciones de Saint Venant's sea más complejo de resolver y estabilizar.
-
-> :bulb:Tenga en cuenta que incluso con los canales ajustados, podrá incorporar y modelar los pasos de vía incorporando cada una de estas estructuras.
-
-:open_file_folder: Ráster [DTM_ChannelUnderBridge_9377.tif](DTM_ChannelUnderBridge_9377.rar)
-
-![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_1.png)  
-![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_2.png)  
-![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)  
-![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_4.png)  
-![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_5.png)  
-
-
-## Modelo digital de terreno DTM Híbrido Lidar con Construcciones (0.5m)
+## Modelo digital de terreno DTM Híbrido Lidar Extendido con Construcciones (0.5m)
 
 Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y el modelo digital de superficie de construcciones, se ha generado el modelo digital de terreno híbrido, este permitirá realizar la modelación hidráulica teniendo en cuenta las obstrucciones principales en las zonas de llanura de inundación.
 
@@ -123,13 +108,30 @@ Visualización 3D DTM_Bogota2020_9377_Extent_Building.tif
 * Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2020 extendido y superior construcciones
 
 
+## Modelo digital de canales en pasos de vía (0.5m)
+
+El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit_** (cuyo terreno asociado corresponde al Lidar Bogotá 2020 extendido con o sin inclusión de construcciones), en la que se han incluído tramos de canal principal y secciones de referencia para la generación de corredores de canal en pasos de vía. En modelos hidráulicos 2D, el tránsito hidráulico principal es realizado a través de canales a superficie libre; si bien, HEC-RAS permite la modelación de estructuras utilizando las ecuaciones de la Onda Cinemática y Full Momentum, un primer ejercicio es modelar la cuenca y canales sin obstrucciones, para luego incorporar gradualmente las estructuras. La modelación de múltiples estructuras en un modelo de escala grande, puede ocasionar múltiples inestabilidades numéricas, las cuales hacen que el proceso de modelación con las Ecuaciones de Saint Venant's sea más complejo de resolver y estabilizar.
+
+> :bulb:Tenga en cuenta que incluso con los canales ajustados, podrá incorporar y modelar los pasos de vía incorporando cada una de estas estructuras.
+
+:open_file_folder: Ráster [DTM_ChannelUnderBridge_9377.tif](DTM_ChannelUnderBridge_9377.rar)
+
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_1.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_2.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_4.png)  
+![R.HydroBogota](../.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_5.png)  
+
+
 ## Modelo digital de terreno DTM Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
+
+> Para el ensamble del modelo de terreno híbrido en HEC-RAS se recomienda integrar previamente las construcciones al modelo digital de terreno Lidar, tal como se realizó con el Modelo digital de terreno DTM Híbrido Lidar Extendido con Construcciones (0.5m) DTM_Bogota2020_9377_Extent_Building.tif. La integración previa reduce considerablemente los tiempos de creación del Modelo Digital de Terreno DTM en RAS Mapper debido a que se reducen las uniones o puntadas (Create Stitches) entre las superficies empleadas. 
 
 Orden de ensamble en RAS Mapper
 
 * Modelo digital de canales en pasos de vía (0.5m): [DTM_ChannelUnderBridge_9377.tif](DTM_ChannelUnderBridge_9377.rar)
 * Modelo digital de construcciones DSM (0.5m): DSM_Construccion_9377.tif, [P1](DSM_Construccion_9377.part1.rar), [P2](DSM_Construccion_9377.part2.rar), [P2](DSM_Construccion_9377.part2.rar)
-* Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5m): [DTM_Bogota2020_9377_Extent.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_v1.0.0)
+* Modelo digital de terreno DTM Híbrido Lidar Extendido con Construcciones (0.5m): [DTM_Bogota2020_9377_Extent_Building.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_Building_v1.0.0)
 * Modelo digital de superficie DSM satelital Copernicus (30m): [DSM_Copernicus30_9377.tif](DSM_Copernicus30_9377.rar)
 
 HEC-RAS RAS Mapper Terrain creation
