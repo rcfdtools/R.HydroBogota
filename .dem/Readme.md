@@ -137,7 +137,16 @@ HEC-RAS RAS Mapper Terrain creation
 ![R.HydroBogota](../.graph/HECRAS_Terrain_Creation.png)
 
 Visualización de terreno híbrido en RAS Mapper
-![R.HydroBogota](../.graph/HECRAS_Terrain_Sample1.png)
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample1.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample2.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample3.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample4.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample5.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample6.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample7.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample8.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample9.png)  
+![R.HydroBogota](../.graph/HECRAS_Terrain_Sample10.png)  
 
 
 ## Referencias complementarias
