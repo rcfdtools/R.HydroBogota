@@ -103,7 +103,7 @@ El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit_** (cuyo terr
 ![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_5.png)  
 
 
-## Modelo digital de terreno DTM Híbrido Lidar con Construcciones y canales ajustados en pasos de vía (0.5)m
+## Modelo digital de terreno DTM Híbrido Lidar con Construcciones y canales ajustados en pasos de vía (0.5m)
 
 Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y el modelo digital de superficie de construcciones, se ha generado el modelo digital de terreno híbrido, este permitirá realizar la modelación hidráulica teniendo en cuenta las obstrucciones principales en las zonas de llanura de inundación.
 
