@@ -94,7 +94,7 @@ El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit_** (cuyo terr
 
 > :bulb:Tenga en cuenta que incluso con los canales ajustados, podrá incorporar y modelar los pasos de vía incorporando cada una de estas estructuras.
 
-:open_file_folder: Ráster DTM_ChannelUnderBridge_9377.tif
+:open_file_folder: Ráster [DTM_ChannelUnderBridge_9377.tif](DTM_ChannelUnderBridge_9377.rar)
 
 ![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_1.png)  
 ![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_2.png)  
@@ -103,7 +103,7 @@ El modelo HEC-RAS, contiene la geometría denominada **_ChannelFit_** (cuyo terr
 ![R.HydroBogota](../.graph/DTM_ChannelUnderBridge_9377_5.png)  
 
 
-## Modelo digital de terreno DTM Híbrido Lidar con Construcciones y canales ajustados en pasos de vía (0.5m)
+## Modelo digital de terreno DTM Híbrido Lidar con Construcciones (0.5m)
 
 Combinando el modelo digital de terreno Lidar extendido 2020 de Bogotá D.C. y el modelo digital de superficie de construcciones, se ha generado el modelo digital de terreno híbrido, este permitirá realizar la modelación hidráulica teniendo en cuenta las obstrucciones principales en las zonas de llanura de inundación.
 
@@ -121,6 +121,19 @@ Visualización 3D DTM_Bogota2020_9377_Extent_Building.tif
 
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Raster / Mosaic To New Raster: ordenamiento inferior Lidar 2020 extendido y superior construcciones
+
+
+## Modelo digital de terreno Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
+
+Orden de ensamble en RAS Mapper
+
+* Modelo digital de canales en pasos de vía (0.5m): DTM_ChannelUnderBridge_9377.tif](DTM_ChannelUnderBridge_9377.rar)
+* Modelo digital de construcciones DSM (0.5m): DSM_Construccion_9377.tif, [P1](DSM_Construccion_9377.part1.rar), [P2](DSM_Construccion_9377.part2.rar), [P2](DSM_Construccion_9377.part2.rar)
+* Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5m): [DTM_Bogota2020_9377_Extent.tif](https://github.com/rcfdtools/R.HydroBogota/releases/tag/DTM_Bogota2020_Extent_v1.0.0)
+* Modelo digital de superficie DSM satelital Copernicus (30m): [DSM_Copernicus30_9377.tif](DSM_Copernicus30_9377.rar)
+
+HEC-RAS RAS Mapper Terrain creation
+![R.HydroBogota](../.graph/HECRAS_Terrain_Creation.png)
 
 
 ## Referencias complementarias
