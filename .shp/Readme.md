@@ -160,6 +160,8 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 Utilizando los drenajes y líneas de banca marcadas como `Breakline=1`, se ha realizado la unión y exportación de la capa de líneas para refinamiento del mallado en RAS Mapper. En modelaciones HEC-RAS 1D, esta capa puede ser utilizada como _Flowpath_.
 
 > Cuando realice modificaciones en la capa de drenajes y en la capa de bancas, asegúrese de volver a realizar la unión y exportación de la capa Breakline_9377.shp. No realice modificación de entidades e inclusión de nuevas líneas directamente en la capa Breaklines.
+> 
+> :lady_beetle:Durante la importación de las líneas de refinamiento, no homologue el nombre contenido en `RiverName` debido a que contienen tíldes, eñes y caracteres especiales. Utilizar caracteres especiales no contenidos en el idioma Inglés puede ocasionar errores de almacenamiento y visualización de elementos.
 
 :open_file_folder: Archivo local: [Breakline_9377.shp](Breakline_9377.rar)
 
