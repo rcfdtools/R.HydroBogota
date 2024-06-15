@@ -93,16 +93,50 @@ Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalizació
 
 ### Catálogo de objetos
 
-| Campo     | Definición                                                   | Tipo       |
-|:----------|--------------------------------------------------------------|------------|
-| RiverName | Nombre del drenaje (río, canal, conducto, corriente...)      | Text (100) |
-| Breakline | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No   | Long       |
-| DSourceID | [Fuente de información](../README.md#fuentes-de-información) | Long       |
+| Campo      | Definición                                                              | Tipo       |
+|:-----------|-------------------------------------------------------------------------|------------|
+| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                 | Text (100) |
+| Breakline  | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No              | Long       |
+| NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla | Double     |
+| NearRepeat | Número de repeticiones en celdas laterales al eje                       | Long       |
+| FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla  | Double     |
+| Lm         | Longitud planar del tramo en metros                                     | Double     |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)            | Long       |
+
+> Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
+> 
+> Para la definición de _NearSpace_ se ha utilizado como criterio al menos la tercera parte del ancho del canal. Se ha definido _NearRepeat_ utilizando dos celdas. Para _FarSpace_ se ha definido el doble del valor asignado en _NearSpace_.
+
+**Geo-procesos ArcGIS Pro**    
+* No requerido, utilizar herramientas de edición y encajado o snapping.
+
+
+## Bancas - Banks (línea)
+
+Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la localización de corona interna o Bancas en canales. Incluye digitalización izquierda y derecha en canales y límites perimetrales de cuerpos de agua (lagos, humedales, ciénagas...).
+
+:open_file_folder: Archivo local: [Banks_9377.shp](Banks_9377.rar)
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_Banks.png)
+
+
+### Catálogo de objetos
+
+| Campo      | Definición                                                              | Tipo      |
+|:-----------|-------------------------------------------------------------------------|-----------|
+| BankSide   | Costado: Left, Right                                                    | Text (20) |
+| Breakline  | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No              | Long      |
+| NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla | Double    |
+| NearRepeat | Número de repeticiones en celdas laterales al eje                       | Long      |
+| FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla  | Double    |
+| Lm         | Longitud planar del tramo en metros                                     | Double    |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)            | Long      |
 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
 
 **Geo-procesos ArcGIS Pro**    
 * No requerido, utilizar herramientas de edición y encajado o snapping.
+
 
 ## Cundinamarca - Límite (polígono)
 
