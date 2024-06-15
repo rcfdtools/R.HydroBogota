@@ -84,7 +84,7 @@ Localización visual de cuerpos de agua principal en RAS Mapper y polígonos gu�
 
 ## Drenajes (línea)
 
-Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales…), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores.
+Alineamientos para refinamiento de mallado en RAS Mapper y ejes para visualización de perfiles. Incluye digitalización en zonas de paso por cuerpos de agua (embalses, lagunas, humedales…), conexión de descarga de embalses a cauces receptores, extensión de continuidad en canales bajo pasos de vía y en conductos e interceptores.
 
 :open_file_folder: Archivo local: [Drenaje_9377.shp](Drenaje_9377.rar)
 
@@ -122,7 +122,7 @@ Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalizació
 
 ## Bancas - Banks (línea)
 
-Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la localización de corona interna o Bancas en canales. Incluye digitalización izquierda y derecha en canales y límites perimetrales de cuerpos de agua (lagos, humedales, ciénagas...).
+Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la localización de corona interna o Bancas en canales y lectura de tiempos de permanencia de flujo en coronas. Incluye digitalización izquierda y derecha en canales y límites perimetrales de cuerpos de agua (lagos, humedales, ciénagas...).
 
 :open_file_folder: Archivo local: [Banks_9377.shp](Banks_9377.rar)
 
