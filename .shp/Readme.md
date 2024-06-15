@@ -402,6 +402,19 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_SZH.png)
 
+
+### Catálogo de objetos
+
+| Campo     | Definición                                                             | Tipo   |
+|:----------|------------------------------------------------------------------------|--------|
+| ManningN  | Coeficiente de rugosidad de Manning, valor por defecto: 0.030          | Double |
+| CellSizeX | Ancho de celda genérico para el mallado, valor por defecto: 250 metros | Double |
+| CellSizeY | Alto de celda genérico para el mallado, valor por defecto: 250 metros  | Double |
+
+> El coeficiente de rugosidad por defecto es utilizado para la asignación de valores en zonas no cubiertas por el mapa de usos del suelo.
+> 
+> Durante la importación del perímetro externo del mallado, se pueden homologar los atributos del catálogo de objetos y para la asignación del nombre escribir manualmente _Rio Bogota_ (sin tildes).
+
 **Geo-procesos ArcGIS Pro**  
 * Data Management Tools / Features / Feature Envelope To Polygon
 * Analysis Tools / Proximity / Buffer
