@@ -106,6 +106,7 @@ Alineamientos para refinamiento de mallado en RAS Mapper y ejes para visualizaci
 |:-----------|-------------------------------------------------------------------------|------------|
 | RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                 | Text (100) |
 | Breakline  | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No              | Long       |
+| BankSide   | Costado (Flowpath): Channel                                             | Text (20)  |
 | NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla | Double     |
 | NearRepeat | Número de repeticiones en celdas laterales al eje                       | Long       |
 | FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla  | Double     |
@@ -129,7 +130,7 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Banks.png)
 
 
-### Longitudes de bancaz digitalizadas por fuente de datos
+### Longitudes de bancas digitalizadas por fuente de datos
 
 | DSourceID                                   | Lm Banca Izquierda (m) | Lm Banca Derecha (m) | Lm Total (m) |  
 |:--------------------------------------------|:-----------------------|----------------------|--------------|
@@ -141,7 +142,7 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 | Campo      | Definición                                                              | Tipo      |
 |:-----------|-------------------------------------------------------------------------|-----------|
 | Breakline  | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No              | Long      |
-| BankSide   | Costado: Left, Right                                                    | Text (20) |
+| BankSide   | Costado (Flowpath): Left, Right                                         | Text (20) |
 | NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla | Double    |
 | NearRepeat | Número de repeticiones en celdas laterales al eje                       | Long      |
 | FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla  | Double    |
@@ -152,6 +153,31 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 
 **Geo-procesos ArcGIS Pro**    
 * No requerido, utilizar herramientas de edición y encajado o snapping.
+
+
+## Breaklines
+
+Utilizando los drenajes y líneas de banca marcadas como `Breakline=1`, se ha realizado la unión y exportación de la capa de líneas para refinamiento del mallado en RAS Mapper. En modelaciones HEC-RAS 1D, esta capa puede ser utilizada como _Flowpath_.
+
+> Cuando realice modificaciones en la capa de drenajes y en la capa de bancas, asegúrese de volver a realizar la unión y exportación de la capa Breakline_9377.shp. No realice modificación de entidades e inclusión de nuevas líneas directamente en la capa Breaklines.
+
+:open_file_folder: Archivo local: [Breakline_9377.shp](Breakline_9377.rar)
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline.png)
+
+
+### Catálogo de objetos
+
+| Campo      | Definición                                                              | Tipo       |
+|:-----------|-------------------------------------------------------------------------|------------|
+| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                 | Text (100) |
+| Breakline  | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No              | Long       |
+| BankSide   | Costado (Flowpath): Channel, Left, Right                                | Text (20)  |
+| NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla | Double     |
+| NearRepeat | Número de repeticiones en celdas laterales al eje                       | Long       |
+| FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla  | Double     |
+| Lm         | Longitud planar del tramo en metros                                     | Double     |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)            | Long       |
 
 
 ## Cundinamarca - Límite (polígono)
