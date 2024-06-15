@@ -105,7 +105,7 @@ Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalizació
 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
 > 
-> Para la definición de _NearSpace_ se ha utilizado como criterio al menos la tercera parte del ancho del canal. Se ha definido _NearRepeat_ utilizando dos celdas. Para _FarSpace_ se ha definido el doble del valor asignado en _NearSpace_.
+> Para la definición de _NearSpace_ se ha utilizado como criterio al menos la tercera parte del ancho del canal. Se ha definido _NearRepeat_ utilizando dos celdas. Para _FarSpace_ se ha definido el triple del valor asignado en _NearSpace_.
 
 **Geo-procesos ArcGIS Pro**    
 * No requerido, utilizar herramientas de edición y encajado o snapping.
@@ -124,8 +124,8 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 
 | Campo      | Definición                                                              | Tipo      |
 |:-----------|-------------------------------------------------------------------------|-----------|
-| BankSide   | Costado: Left, Right                                                    | Text (20) |
 | Breakline  | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No              | Long      |
+| BankSide   | Costado: Left, Right                                                    | Text (20) |
 | NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla | Double    |
 | NearRepeat | Número de repeticiones en celdas laterales al eje                       | Long      |
 | FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla  | Double    |
