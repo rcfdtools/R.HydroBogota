@@ -93,11 +93,11 @@ Alineamientos para refinamiento de mallado en RAS Mapper. Incluye digitalizació
 
 ### Longitudes de drenajes digitalizados por fuente de datos
 
-| DSourceID                                     | Lm (m)       | 
-|:----------------------------------------------|:-------------| 
-| [1 - rcfdtools](https://github.com/rcfdtools) | 53721.06     |
-| [4 - EAAB](https://www.acueducto.com.co/)     | 8696362.26   |
-| Σ                                             | 8,750,083.31 |
+| DSourceID                                   | Lm (m)       | 
+|:--------------------------------------------|:-------------| 
+| [1-rcfdtools](https://github.com/rcfdtools) | 53721.06     |
+| [4-EAAB](https://www.acueducto.com.co/)     | 8696362.26   |
+| Σ (m)                                       | 8,750,083.31 |
 
 
 ### Catálogo de objetos
@@ -131,9 +131,9 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 
 ### Longitudes de banca digitalizadas
 
-| Localización | Lm Banca Izquierda (m) | Lm Banca Derecha (m) | Lm Total (m) | Digitalización                            | 
-|:-------------|:-----------------------|:---------------------|--------------|-------------------------------------------|
-| Bogotá D.C.  | 286892.77              | 291727.99            | 578620.77    | [rcfdtools](https://github.com/rcfdtools) |
+| DSourceID                                   | Lm Banca Izquierda (m) | Lm Banca Derecha (m) | Lm Total (m) |  
+|:--------------------------------------------|:-----------------------|----------------------|--------------|
+| [1-rcfdtools](https://github.com/rcfdtools) | 286892.77              | 291727.99            | 578620.77    |
 
 
 ### Catálogo de objetos
