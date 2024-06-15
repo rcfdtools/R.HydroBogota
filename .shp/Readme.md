@@ -129,7 +129,7 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Banks.png)
 
 
-### Longitudes de banca digitalizadas
+### Longitudes de bancaz digitalizadas por fuente de datos
 
 | DSourceID                                   | Lm Banca Izquierda (m) | Lm Banca Derecha (m) | Lm Total (m) |  
 |:--------------------------------------------|:-----------------------|----------------------|--------------|
