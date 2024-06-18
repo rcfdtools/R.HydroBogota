@@ -102,20 +102,22 @@ Alineamientos para refinamiento de mallado en RAS Mapper y ejes para visualizaci
 
 ### Catálogo de objetos
 
-| Campo      | Definición                                                              | Tipo       |
-|:-----------|-------------------------------------------------------------------------|------------|
-| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                 | Text (100) |
-| Breakline  | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No              | Long       |
-| BankSide   | Costado (Flowpath): Channel                                             | Text (20)  |
-| NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla | Double     |
-| NearRepeat | Número de repeticiones en celdas laterales al eje                       | Long       |
-| FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla  | Double     |
-| Lm         | Longitud planar del tramo en metros                                     | Double     |
-| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)            | Long       |
+| Campo      | Definición                                                                    | Tipo       |
+|:-----------|-------------------------------------------------------------------------------|------------|
+| RiverName  | Nombre del drenaje (río, canal, conducto, corriente...)                       | Text (100) |
+| Breakline  | Línea para refinamiento de malla en RAS Mapper: 0-No, 1-Sí, 2-Eje entre banca | Long       |
+| BankSide   | Costado (Flowpath): Channel, Cell Transition                                  | Text (20)  |
+| NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla       | Double     |
+| NearRepeat | Número de repeticiones en celdas laterales al eje                             | Long       |
+| FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla        | Double     |
+| Lm         | Longitud planar del tramo en metros                                           | Double     |
+| DSourceID  | [Fuente de información](../README.md#fuentes-de-información)                  | Long       |
 
+> En `Breakline`, el código 2 es utilizado para marcar las líneas correspondientes a drenajes que disponen de líneas de banca laterales digitalizadas, las cuales permiten obtener celdas delimitadas en las coronas de los cauces, evitando la inundación de celdas laterales cuando el flujo no genera excedencia. En el modelo hidráulico global, no se utiliza para refinamiento de la malla, los `Breakline` identificados con código 0 y 2.
+> 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
 > 
-> Para la definición de _NearSpace_ se ha utilizado como criterio al menos la tercera parte del ancho del canal. Se ha definido _NearRepeat_ utilizando dos celdas. Para _FarSpace_ se ha definido el triple del valor asignado en _NearSpace_.
+> Para la definición de _NearSpace_ se ha utilizado como criterio al menos el ancho del canal. Se ha definido _NearRepeat_ utilizando cero celdas. Para _FarSpace_ se ha definido el triple del valor asignado en _NearSpace_.
 
 **Geo-procesos ArcGIS Pro**    
 * No requerido, utilizar herramientas de edición y encajado o snapping.
@@ -141,14 +143,16 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 
 | Campo      | Definición                                                              | Tipo      |
 |:-----------|-------------------------------------------------------------------------|-----------|
-| Breakline  | Línea para refinamiento de malla en RAS Mapper: 1-Sí, 0-No              | Long      |
-| BankSide   | Costado (Flowpath): Left, Right                                         | Text (20) |
+| Breakline  | Línea para refinamiento de malla en RAS Mapper: 0-No, 1-Sí              | Long      |
+| BankSide   | Costado (Flowpath): Left, Right, Cell Transition                        | Text (20) |
 | NearSpace  | Espaciamiento cercano en metros entre celdas para refinamiento de malla | Double    |
 | NearRepeat | Número de repeticiones en celdas laterales al eje                       | Long      |
 | FarSpace   | Espaciamiento lejano en metros entre celdas para refinamiento de malla  | Double    |
 | Lm         | Longitud planar del tramo en metros                                     | Double    |
 | DSourceID  | [Fuente de información](../README.md#fuentes-de-información)            | Long      |
 
+> En `BankSide`, el código 3 corresponde a líneas de transición entre las celdas de cauces hacia las celdas de llanura.
+> 
 > Es recomendable digitalizar las líneas en el sentido vectorial del flujo.
 
 **Geo-procesos ArcGIS Pro**    
@@ -410,8 +414,8 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 | Campo     | Definición                                                             | Tipo   |
 |:----------|------------------------------------------------------------------------|--------|
 | ManningN  | Coeficiente de rugosidad de Manning, valor por defecto: 0.030          | Double |
-| CellSizeX | Ancho de celda genérico para el mallado, valor por defecto: 250 metros | Double |
-| CellSizeY | Alto de celda genérico para el mallado, valor por defecto: 250 metros  | Double |
+| CellSizeX | Ancho de celda genérico para el mallado, valor por defecto: 100 metros | Double |
+| CellSizeY | Alto de celda genérico para el mallado, valor por defecto: 100 metros  | Double |
 
 > El coeficiente de rugosidad por defecto es utilizado para la asignación de valores en zonas no cubiertas por el mapa de usos del suelo.
 > 
