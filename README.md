@@ -89,7 +89,7 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 |     5     | IDECA      | [Unidad Administrativa Especial de Catastro Distrital](https://www.catastrobogota.gov.co/) - [Infraestructura de Datos Espaciales para el Distrito Capital](https://www.ideca.gov.co/): construcciones, puentes y pasos de vía |
 |     6     | CAR        | [Corporación Autónoma Regional de Cundinamarca](https://www.car.gov.co/): Lidar, topo-batimetrías, puentes y pasos de vía, estructuras hidráulicas                                                                             |
 
-> Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio
+> Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio.
 
 
 ## 4. Modelos digitales de elevación  [.dem](.dem/Readme.md)
@@ -108,6 +108,8 @@ Dentro de la carpeta [.dem](.dem/Readme.md) y en Releases podrá encontrar los s
 
 Ejemplo de modelo digital de terreno sin y con ajuste  
 ![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)  
+
+> Para conocer los modelos digitales de elevación generados, diríjase a la carpeta [.dem](.dem/Readme.md) de este repositorio.
 
 
 ## 5. Capas vectoriales en formato Shapefile  [.shp](.shp/Readme.md)
@@ -132,6 +134,8 @@ Dentro de la carpeta [.shp](.shp/Readme.md) podrá encontrar las siguientes capa
 Ejemplo de capas vectoriales disponibles  
 ![R.HydroBogota](.graph/ArcGISPro_shp.png)  
 
+> Para conocer las capas vectoriales generadas, diríjase a la carpeta [.shp](.shp/Readme.md) de este repositorio.
+
 
 ## Referencias generales [.ref](.ref/Readme.md)
 
@@ -140,3 +144,5 @@ Ejemplo de capas vectoriales disponibles
 * https://www.usgs.gov/faqs/what-liquefaction
 * https://damfailures.org/wp-content/uploads/2021/11/conduits_embankment_dams.pdf
 * https://datosgeograficos.car.gov.co/
+
+> Referencias complementarias y documentación de uso libre recopilada en [.ref](.ref/Readme.md) de este repositorio.
