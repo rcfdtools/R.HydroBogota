@@ -93,11 +93,11 @@ Alineamientos para refinamiento de mallado en RAS Mapper y ejes para visualizaci
 
 ### Longitudes de drenajes digitalizados por fuente de datos
 
-| DSourceID                                   | Lm (m)       | 
-|:--------------------------------------------|:-------------| 
-| [1-rcfdtools](https://github.com/rcfdtools) | 53721.06     |
-| [4-EAAB](https://www.acueducto.com.co/)     | 8696362.26   |
-| Σ (m)                                       | 8,750,083.31 |
+| DSourceID                                   | Lm (m)     | 
+|:--------------------------------------------|:-----------| 
+| [1-rcfdtools](https://github.com/rcfdtools) | 53721.06   |
+| [4-EAAB](https://www.acueducto.com.co/)     | 8696372.92 |
+| Σ (m)                                       | 8750093.97 |
 
 
 ### Catálogo de objetos
