@@ -75,7 +75,7 @@ de la resolución 471 de 2020, los cuales pueden configurarse en software especi
 
 ## 3. Fuentes de información [.data](.datasource/Readme.md)
 
-La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación.
+La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación. Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio.
 
 > Tablas de datos y clases de entidad, incluyen un campo numérico entero largo denominado `DSourceID` que contiene el código de la fuente de datos. Tenga en cuenta que no todos los registros pueden estar asociados a una única fuente, p.ej., la red de drenaje cuya fuente principal es la Empresa de Acueducto y Alcantarillado de Bogotá - EAAB, puede contener registros de la fuente 1 debidas a nuevas incorporaciones de elementos de la red o por ajuste o re-digitalización de los mismos.
 
@@ -89,14 +89,12 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 |     5     | IDECA      | [Unidad Administrativa Especial de Catastro Distrital](https://www.catastrobogota.gov.co/) - [Infraestructura de Datos Espaciales para el Distrito Capital](https://www.ideca.gov.co/): construcciones, puentes y pasos de vía |
 |     6     | CAR        | [Corporación Autónoma Regional de Cundinamarca](https://www.car.gov.co/): Lidar, topo-batimetrías, puentes y pasos de vía, estructuras hidráulicas                                                                             |
 
-> Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio.
-
 
 ## 4. Modelos digitales de elevación  [.dem](.dem/Readme.md)
 
-Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales en puntos de intersección de pasos de vía con drenajes, generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
+Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizado en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
-Dentro de la carpeta [.dem](.dem/Readme.md) y en Releases podrá encontrar los siguientes modelos digitales de elevación e información detalladas de sus metadatos:
+Dentro de la carpeta [_.dem_](.dem/Readme.md) y en [_Releases_](https://github.com/rcfdtools/R.HydroBogota/releases) podrá encontrar los siguientes modelos digitales de elevación e información detalladas de sus metadatos:
 
 * Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5m)
 * Modelo digital de superficie DSM satelital Copernicus (30m)
@@ -107,9 +105,7 @@ Dentro de la carpeta [.dem](.dem/Readme.md) y en Releases podrá encontrar los s
 * Modelo digital de terreno DTM Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
 
 Ejemplo de modelo digital de terreno sin y con ajuste  
-![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)  
-
-> Para conocer los modelos digitales de elevación generados, diríjase a la carpeta [.dem](.dem/Readme.md) de este repositorio.
+![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)
 
 
 ## 5. Capas vectoriales en formato Shapefile  [.shp](.shp/Readme.md)
@@ -132,9 +128,7 @@ Dentro de la carpeta [.shp](.shp/Readme.md) podrá encontrar las siguientes capa
 * Subzona hidrográfica 2120 - Río Bogotá (polígono)
 
 Ejemplo de capas vectoriales disponibles  
-![R.HydroBogota](.graph/ArcGISPro_shp.png)  
-
-> Para conocer las capas vectoriales generadas, diríjase a la carpeta [.shp](.shp/Readme.md) de este repositorio.
+![R.HydroBogota](.graph/ArcGISPro_shp.png)
 
 
 ## Referencias generales [.ref](.ref/Readme.md)
@@ -145,4 +139,4 @@ Ejemplo de capas vectoriales disponibles
 * https://damfailures.org/wp-content/uploads/2021/11/conduits_embankment_dams.pdf
 * https://datosgeograficos.car.gov.co/
 
-> Referencias complementarias y documentación de uso libre recopilada en [.ref](.ref/Readme.md) de este repositorio.
+> Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](.ref/Readme.md) de este repositorio.
