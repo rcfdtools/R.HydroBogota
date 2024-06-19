@@ -73,11 +73,11 @@ de la resolución 471 de 2020, los cuales pueden configurarse en software especi
 > :lady_beetle:Atención: para la correcta asociación de las clases de entidad o vectores y los modelos digitales de elevación utilizados para la construcción del modelo hidráulico utilizando RAS Mapper en HEC-RAS, todos los archivos deberán utilizar el sistema de proyección único 9377 definidos a partir del archivo _MAGNA_OrigenNacional.prj_.
 
 
-## 3. Fuentes de información [.data](.datasource/Readme.md)
+## 3. Fuentes de información [(.data)](.datasource/Readme.md)
 
 La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación. Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio.
 
-> Tablas de datos y clases de entidad, incluyen un campo numérico entero largo denominado `DSourceID` que contiene el código de la fuente de datos. Tenga en cuenta que no todos los registros pueden estar asociados a una única fuente, p.ej., la red de drenaje cuya fuente principal es la Empresa de Acueducto y Alcantarillado de Bogotá - EAAB, puede contener registros de la fuente 1 debidas a nuevas incorporaciones de elementos de la red o por ajuste o re-digitalización de los mismos.
+> Tablas de datos y clases de entidad, incluyen un campo numérico entero largo denominado `DSourceID` que contiene el código de la fuente de datos. Tenga en cuenta que no todos los registros pueden estar asociados a una única fuente, p. ej., la red de drenaje cuya fuente principal es la Empresa de Acueducto y Alcantarillado de Bogotá - EAAB, puede contener registros de la fuente 1 debidas a nuevas incorporaciones de elementos de la red o por ajuste o re-digitalización de los mismos.
 
 | DSourceID | DSourceNam | Descripción                                                                                                                                                                                                                    |
 |:---------:|:-----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -90,7 +90,7 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 |     6     | CAR        | [Corporación Autónoma Regional de Cundinamarca](https://www.car.gov.co/): Lidar, topo-batimetrías, puentes y pasos de vía, estructuras hidráulicas                                                                             |
 
 
-## 4. Modelos digitales de elevación  [.dem](.dem/Readme.md)
+## 4. Modelos digitales de elevación  [(.dem)](.dem/Readme.md)
 
 Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizado en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
@@ -108,7 +108,7 @@ Ejemplo de modelo digital de terreno sin y con ajuste
 ![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)
 
 
-## 5. Capas vectoriales en formato Shapefile  [.shp](.shp/Readme.md)
+## 5. Capas vectoriales en formato Shapefile  [(.shp)](.shp/Readme.md)
 
 Los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
 
@@ -131,7 +131,7 @@ Ejemplo de capas vectoriales disponibles
 ![R.HydroBogota](.graph/ArcGISPro_shp.png)
 
 
-## Referencias generales [.ref](.ref/Readme.md)
+## Referencias generales [(.ref)](.ref/Readme.md)
 
 * https://damfailures.org/
 * [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/raster-calculator)
