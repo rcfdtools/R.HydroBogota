@@ -163,7 +163,7 @@ Longitudes obtenidas a partir del cálculo geométrico planar de las entidades d
 
 ## Breaklines
 
-Utilizando los drenajes y líneas de banca marcadas como `Breakline=1`, se ha realizado la unión y exportación de la capa de líneas para refinamiento del mallado en RAS Mapper. En modelaciones HEC-RAS 1D, esta capa puede ser utilizada como _Flowpath_.
+Utilizando los drenajes y líneas de banca marcadas como `Breakline=1` y/o `Breakline=2`, se ha realizado la unión y exportación de la capa de líneas para refinamiento del mallado en RAS Mapper. En modelaciones HEC-RAS 1D, esta capa puede ser utilizada como _Flowpath_ si se excluyen las líneas de transición de mallado definidas en `BankSide`.
 
 > Cuando realice modificaciones en la capa de drenajes y en la capa de bancas, asegúrese de volver a realizar la unión y exportación de la capa Breakline_9377.shp. No realice modificación de entidades e inclusión de nuevas líneas directamente en la capa Breaklines.
 > 
