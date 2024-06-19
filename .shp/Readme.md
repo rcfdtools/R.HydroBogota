@@ -169,7 +169,8 @@ Utilizando los drenajes y líneas de banca marcadas como `Breakline=1`, se ha re
 > 
 > :lady_beetle:Durante la importación de las líneas de refinamiento, no homologue el nombre contenido en `RiverName` debido a que contienen tíldes, eñes y caracteres especiales. Utilizar caracteres especiales no contenidos en el idioma Inglés puede ocasionar errores de almacenamiento y visualización de elementos.
 
-Versiones disponibles de Breaklines
+
+### Versiones disponibles
 
 | :open_file_folder:Capa                         | Longitud (m) | Descripción                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
