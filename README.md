@@ -83,11 +83,12 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 |:---------:|:-----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     0     | N/A        | Fuente de datos no definida o no asociada                                                                                                                                                                                      |
 |     1     | rcfdtools  | [rcfdtools](https://github.com/rcfdtools): digitalización de entidades, homologación de atributos, ensamble de modelos                                                                                                         |
-|     2     | NASA       | [The National Aeronautics and Space Administration](https://www.nasa.gov/): modelo digital de elevación - DEM                                                                                                                  |
+|     2     | NASA       | [The National Aeronautics and Space Administration](https://www.nasa.gov/): modelo digital de elevación - DEM, Synthetic aperture radar - SAR                                                                                  |
 |     3     | IGAC       | [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/): mapas base, mapa de suelos, mapa de vocaciones de uso                                                                                                        |
 |     4     | EAAB       | [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/): redes de drenaje, cuerpos de agua, Lidar, topo-batimetrías, estructuras hidráulicas                                                          |
 |     5     | IDECA      | [Unidad Administrativa Especial de Catastro Distrital](https://www.catastrobogota.gov.co/) - [Infraestructura de Datos Espaciales para el Distrito Capital](https://www.ideca.gov.co/): construcciones, puentes y pasos de vía |
 |     6     | CAR        | [Corporación Autónoma Regional de Cundinamarca](https://www.car.gov.co/): Lidar, topo-batimetrías, puentes y pasos de vía, estructuras hidráulicas                                                                             |
+|     7     | Copernicus | [Copernicus Europe's Eyes on Earth](https://www.copernicus.eu/en): modelo digital de elevación - DEM, Synthetic aperture radar - SAR alta resolución                                                                           |
 
 
 ## 4. Modelos digitales de elevación  [(.dem)](.dem/Readme.md)
