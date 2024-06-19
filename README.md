@@ -6,7 +6,7 @@ Keywords: `Case-Study` `Colombia` `Bogota-River` `Sudden-Discharge` `HEC-RAS` `H
 _**Descargos de responsabilidad:** r.cfdtools y los demás investigadores asociados a este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y herramientas o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, objetos aplicados y los resultados, cumplen con las metodologías y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
 
 
-## Objetivos
+## 1. Objetivos
 
 El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos y fenómenos extremos en la cuenca del Río Bogotá, tales como:
 
@@ -15,7 +15,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Descargas no controladas por fallo en estructuras hidráulicas y canales: colapso de vertederos y túneles de excesos y de emergencia, obstrucción de compuertas, rompimiento de diques, bloqueo o descargas no controladas desde zonas de amortiguación, colapso de canales. 
 
 
-### A corto plazo
+### 1.1. A corto plazo
 
 * Integrar un modelo digital de elevación híbrido (DEM) combinando información de sensores remotos satelitales (ALOS PALSAR 12.5m con ajuste de elevaciones a partir de información Lidar o Copernicus 30m), levantamientos Lidar Bogotá (5m y 0.5m) y bloques de obstrucción generados a partir del catastro de construcciones urbanas y rurales en zonas con información Lidar.
 * Localizar las intersecciones de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en el área urbana de Bogotá.
@@ -31,7 +31,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 > Las líneas de transición de mallado `BankSide = 'Cell Transition'` digitalizadas en la capa de Bancas, permiten realizar un cambio gradual entre el tamaño de celda definido para cada drenaje y el tamaño global de celda definido en el mallado.
 
 
-### A mediano plazo
+### 1.2. A mediano plazo
 
 * Crear la versión v1 del prototipo funcional de simulación hidráulica 2D en HEC-RAS con inclusión de líneas de banca para direccionamiento de flujo y líneas de transición de mallado.
 * Calibrar el modelo numérico construído a partir de información de eventos históricos documentados.
@@ -45,7 +45,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * A partir de la simulación hidráulica 2D de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
 
 
-### A largo plazo
+### 1.3. A largo plazo
 
 * Ajuste de secciones en canales a partir de levantamientos topo-batimétricos. Requerido debido a que a partir de levantamientos Lidar, las secciones representan el fondo a partir de la lámina de agua presente en el momento de la captura de puntos.
 * Simulación hidráulica 2D y comparación de mapas de amenazas usando las herramientas de simulación numérica [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
@@ -55,7 +55,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 2D de operación de los embalses reguladores de la cuenca.
 
 
-## Sistema de proyección de coordenadas
+## 2. Sistema de proyección de coordenadas
 
 Para las clases de entidad, mapas y modelos utilizados en esta investigación, se utilizará el sistema de referencia de coordenadas correspondiente al Origen Nacional Único Colombia EPSG: 9377.
 
@@ -73,7 +73,7 @@ de la resolución 471 de 2020, los cuales pueden configurarse en software especi
 > :lady_beetle:Atención: para la correcta asociación de las clases de entidad o vectores y los modelos digitales de elevación utilizados para la construcción del modelo hidráulico utilizando RAS Mapper en HEC-RAS, todos los archivos deberán utilizar el sistema de proyección único 9377 definidos a partir del archivo _MAGNA_OrigenNacional.prj_.
 
 
-## Fuentes de información - [Data Source](.datasource/Readme.md)
+## 3. Fuentes de información - [Data Source](.datasource/Readme.md)
 
 La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación.
 
@@ -92,7 +92,7 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 > Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio
 
 
-## Modelos digitales de elevación - [DEM](.dem/Readme.md)
+## 4. Modelos digitales de elevación - [DEM](.dem/Readme.md)
 
 Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales en puntos de intersección de pasos de vía con drenajes, generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
@@ -110,7 +110,7 @@ Ejemplo de modelo digital de terreno sin y con ajuste
 ![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)  
 
 
-## Capas vectoriales en formato [Shapefile](.shp/Readme.md)
+## 5. Capas vectoriales en formato [Shapefile](.shp/Readme.md)
 
 Los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
 
