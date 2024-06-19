@@ -28,17 +28,17 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 > En esta etapa no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya transportado, reduce su capacidad hidráulica.
 > 
-> Las líneas de transición de mallado `BankSide = 'Cell Transition'` digitalizadas en la capa de Bancas, permiten realizar un cambio gradual entre el tamaño de celda definido para cada drenaje y el tamaño global de celda definido para el mallado.
+> Las líneas de transición de mallado `BankSide = 'Cell Transition'` digitalizadas en la capa de Bancas, permiten realizar un cambio gradual entre el tamaño de celda definido para cada drenaje y el tamaño global de celda definido en el mallado.
 
 
 ### A mediano plazo
 
-* Crear la versión v1 del prototipo funcional de simulación hidráulica 2D en HEC-RAS con inclusión de líneas de banca para direccionamiento de flujo y líneas de transición de mallado
+* Crear la versión v1 del prototipo funcional de simulación hidráulica 2D en HEC-RAS con inclusión de líneas de banca para direccionamiento de flujo y líneas de transición de mallado.
 * Calibrar el modelo numérico construído a partir de información de eventos históricos documentados.
 * Fomentar la participación de entidades gubernamentales locales (Alcaldías, Empresas de Servicios Públicos, Corporaciones Autónomas, cuerpos de atención de emergencias y desastres) y áreas adscritas a centros de educación superior (Centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
 * Desarrollar casos de estudios específicos dentro de la zona de estudio (trabajos de grado, investigación de semilleros).
 * Incorporar al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios y zonas ubicadas en las llanuras de inundación del Río Bogotá, Río Neusa, Río Tominé, Río Sisga, Río Teusacá (desde el Embalse San Rafael), Río Chisacá y Río Tunjuelo. 
-* Localizar las intersecciones de intersección de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá.
+* Localizar las intersecciones de intersección de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá (incorporación gradual a partir de información suministrada por entidades).
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
 * Inclusión de estructuras y equipos hidráulicos: diques, culverts, compuertas, bombeos, zonas de amortiguación.
 * A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, generar eventos extremos con diferentes periodos de recurrencia.
@@ -107,7 +107,7 @@ Dentro de la carpeta [.dem](.dem/Readme.md) y en Releases podrá encontrar los s
 * Modelo digital de terreno DTM Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
 
 Ejemplo de modelo digital de terreno sin y con ajuste  
-![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3)  
+![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)  
 
 
 ## Capas vectoriales en formato [Shapefile](.shp/Readme.md)
