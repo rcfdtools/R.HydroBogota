@@ -52,25 +52,6 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 2D de operación de los embalses reguladores de la cuenca.
 
 
-## Fuentes de información
-
-La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación.
-
-> Tablas de datos y clases de entidad, incluyen un campo numérico entero largo denominado `DSourceID` que contiene el código de la fuente de datos. Tenga en cuenta que no todos los registros pueden estar asociados a una única fuente, p.ej., la red de drenaje cuya fuente principal es la Empresa de Acueducto y Alcantarillado de Bogotá - EAAB, puede contener registros de la fuente 1 debidas a nuevas incorporaciones de elementos de la red o por ajuste o re-digitalización de los mismos.
-
-| DSourceID | DSourceNam | Descripción                                                                                                                                                                                                                    |
-|:---------:|:-----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     0     | N/A        | Fuente de datos no definida o no asociada                                                                                                                                                                                      |
-|     1     | rcfdtools  | [rcfdtools](https://github.com/rcfdtools): digitalización de entidades, homologación de atributos, ensamble de modelos                                                                                                         |
-|     2     | NASA       | [The National Aeronautics and Space Administration](https://www.nasa.gov/): modelo digital de elevación - DEM                                                                                                                  |
-|     3     | IGAC       | [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/): mapas base, mapa de suelos, mapa de vocaciones de uso                                                                                                        |
-|     4     | EAAB       | [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/): redes de drenaje, cuerpos de agua, Lidar, topo-batimetrías, estructuras hidráulicas                                                          |
-|     5     | IDECA      | [Unidad Administrativa Especial de Catastro Distrital](https://www.catastrobogota.gov.co/) - [Infraestructura de Datos Espaciales para el Distrito Capital](https://www.ideca.gov.co/): construcciones, puentes y pasos de vía |
-|     6     | CAR        | [Corporación Autónoma Regional de Cundinamarca](https://www.car.gov.co/): Lidar, topo-batimetrías, puentes y pasos de vía, estructuras hidráulicas                                                                             |
-
-> Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio
-
-
 ## Sistema de proyección de coordenadas
 
 Para las clases de entidad, mapas y modelos utilizados en esta investigación, se utilizará el sistema de referencia de coordenadas correspondiente al Origen Nacional Único Colombia EPSG: 9377.
@@ -89,7 +70,67 @@ de la resolución 471 de 2020, los cuales pueden configurarse en software especi
 > :lady_beetle:Atención: para la correcta asociación de las clases de entidad o vectores y los modelos digitales de elevación utilizados para la construcción del modelo hidráulico utilizando RAS Mapper en HEC-RAS, todos los archivos deberán utilizar el sistema de proyección único 9377 definidos a partir del archivo _MAGNA_OrigenNacional.prj_.
 
 
-## Referencias
+## Fuentes de información - [Data Source](.datasource/Readme.md)
+
+La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación.
+
+> Tablas de datos y clases de entidad, incluyen un campo numérico entero largo denominado `DSourceID` que contiene el código de la fuente de datos. Tenga en cuenta que no todos los registros pueden estar asociados a una única fuente, p.ej., la red de drenaje cuya fuente principal es la Empresa de Acueducto y Alcantarillado de Bogotá - EAAB, puede contener registros de la fuente 1 debidas a nuevas incorporaciones de elementos de la red o por ajuste o re-digitalización de los mismos.
+
+| DSourceID | DSourceNam | Descripción                                                                                                                                                                                                                    |
+|:---------:|:-----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     0     | N/A        | Fuente de datos no definida o no asociada                                                                                                                                                                                      |
+|     1     | rcfdtools  | [rcfdtools](https://github.com/rcfdtools): digitalización de entidades, homologación de atributos, ensamble de modelos                                                                                                         |
+|     2     | NASA       | [The National Aeronautics and Space Administration](https://www.nasa.gov/): modelo digital de elevación - DEM                                                                                                                  |
+|     3     | IGAC       | [Instituto Geográfico Agustín Codazzi](https://www.igac.gov.co/): mapas base, mapa de suelos, mapa de vocaciones de uso                                                                                                        |
+|     4     | EAAB       | [Empresa de Acueducto y Alcantarillado de Bogotá](https://www.acueducto.com.co/): redes de drenaje, cuerpos de agua, Lidar, topo-batimetrías, estructuras hidráulicas                                                          |
+|     5     | IDECA      | [Unidad Administrativa Especial de Catastro Distrital](https://www.catastrobogota.gov.co/) - [Infraestructura de Datos Espaciales para el Distrito Capital](https://www.ideca.gov.co/): construcciones, puentes y pasos de vía |
+|     6     | CAR        | [Corporación Autónoma Regional de Cundinamarca](https://www.car.gov.co/): Lidar, topo-batimetrías, puentes y pasos de vía, estructuras hidráulicas                                                                             |
+
+> Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio
+
+
+## Modelos digitales de elevación - [DEM](.dem/Readme.md)
+
+Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales en puntos de intersección de pasos de vía con drenajes, generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
+
+Dentro de la carpeta [.dem](.dem/Readme.md) y en Releases podrá encontrar los siguientes modelos digitales de elevación e información detalladas de sus metadatos:
+
+* Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5m)
+* Modelo digital de superficie DSM satelital Copernicus (30m)
+* Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5m)
+* Modelo digital de construcciones DSM (0.5m)
+* Modelo digital de terreno DTM Híbrido Lidar Extendido con Construcciones (0.5m)
+* Modelo digital de canales en pasos de vía (0.5m)
+* Modelo digital de terreno DTM Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
+
+Ejemplo de modelo digital de terreno sin y con ajuste  
+![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3)  
+
+
+## Capas vectoriales en formato [Shapefile](.shp/Readme.md)
+
+Los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
+
+Dentro de la carpeta [.shp](.shp/Readme.md) podrá encontrar las siguientes capas e información detalladas de sus metadatos:
+
+* Construcciones (polígono y centroide)
+* Cuerpos de agua (polígono)
+* Drenajes (línea)
+* Bancas - Banks (línea)
+* Breaklines (línea)
+* Cundinamarca - Límite (polígono)
+* Cundinamarca - Land Cover (polígono)
+* Cundinamarca - Suelos (polígono)
+* Delimitación modelos digitales de elevación DEM (polígono)
+* Red de muestreo para ajuste de DSM NASA ALOS PALSAR (punto)
+* Intersección Drenaje - Vía (punto)
+* Subzona hidrográfica 2120 - Río Bogotá (polígono)
+
+Ejemplo de capas vectoriales disponibles  
+![R.HydroBogota](.graph/ArcGISPro_shp.png)  
+
+
+## Referencias generales
 
 * https://damfailures.org/
 * [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/raster-calculator)

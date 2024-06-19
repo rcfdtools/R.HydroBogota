@@ -1,6 +1,6 @@
 # Modelo digital de elevación - DEM
 
-Esta carpeta contiene los modelos digitales de elevación DEM (DTM, DSM, Híbridos) utilizados para la modelación en HEC-RAS y los modelos digitales de elevación para corrección de drenajes en pasos de vía.
+Esta carpeta contiene los modelos digitales de elevación (DTM, DSM, Híbridos) que son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales en puntos de intersección de pasos de vía con drenajes, generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
 > Para conocer los archivos fuente a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [.data](../.data) de este repositorio.
 > 

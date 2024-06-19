@@ -1,4 +1,4 @@
-# Capas vectoriales
+# Capas vectoriales en formato Shapefile (.shp)
 
 Esta carpeta contiene los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, las cuales han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
 
@@ -161,7 +161,7 @@ Longitudes obtenidas a partir del cálculo geométrico planar de las entidades d
 * No requerido, utilizar herramientas de edición y encajado o snapping.
 
 
-## Breaklines
+## Breaklines (línea)
 
 Utilizando los drenajes y líneas de banca marcadas como `Breakline=1` y/o `Breakline=2`, se ha realizado la unión y exportación de las capas de líneas para refinamiento del mallado en RAS Mapper. En modelaciones HEC-RAS 1D, esta capa puede ser utilizada como _Flowpath_ si se excluyen las líneas de transición de mallado `BankSide <> 'Cell Transition'`.
 
@@ -350,7 +350,7 @@ Delimitación para recorte e integración de modelos digitales de elevación. Es
 * Conversion Tools / From Raster / Raster To Polygon
 
 
-## Red de muestreo para ajuste de DSM NASA ALOS PALSAR
+## Red de muestreo para ajuste de DSM NASA ALOS PALSAR (punto)
 
 A partir del límite geográfico del modelo digital de terreno Lidar DTM_Bogota2020_9377_Limit.shp, se ha creado una red de muestreo regular con nodos cada 100 metros; su objetivo principal es obtener las elevaciones del modelo Lidar (0.5m) y las elevaciones del modelo digital de superficie satelital NASA ALOS PALSAR (12.5m) que permitirá a partir de una correlación lineal, ajustar las elevaciones del modelo digital satelital. También se han incluído las elevaciones de los demás modelos digitales de elevación utilizados en este estudio.
 
@@ -379,7 +379,7 @@ Ecuación de ajuste modelo NASA ALOS PALSAR: `y = -21.4726885762 + 0.9993012271 
 * Spatial Analyst Tools / Extraction / Extract Multi Values to Points
 
 
-## Intersección Drenaje - Vía
+## Intersección Drenaje - Vía (punto)
 
 A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacial para la identificación de puntos donde es necesario revisar, validar y ajustar el modelo digital de terreno.
 
