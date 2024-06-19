@@ -163,9 +163,9 @@ Longitudes obtenidas a partir del cálculo geométrico planar de las entidades d
 
 ## Breaklines
 
-Utilizando los drenajes y líneas de banca marcadas como `Breakline=1` y/o `Breakline=2`, se ha realizado la unión y exportación de la capa de líneas para refinamiento del mallado en RAS Mapper. En modelaciones HEC-RAS 1D, esta capa puede ser utilizada como _Flowpath_ si se excluyen las líneas de transición de mallado definidas en `BankSide`.
+Utilizando los drenajes y líneas de banca marcadas como `Breakline=1` y/o `Breakline=2`, se ha realizado la unión y exportación de las capas de líneas para refinamiento del mallado en RAS Mapper. En modelaciones HEC-RAS 1D, esta capa puede ser utilizada como _Flowpath_ si se excluyen las líneas de transición de mallado `BankSide <> 'Cell Transition'`.
 
-> Cuando realice modificaciones en la capa de drenajes y en la capa de bancas, asegúrese de volver a realizar la unión y exportación de la capa Breakline_9377.shp. No realice modificación de entidades e inclusión de nuevas líneas directamente en la capa Breaklines.
+> Cuando realice modificaciones en la capa de drenajes y en la capa de bancas, asegúrese de volver a realizar la unión y exportación de la capa Breakline_9377.shp estableciendo como orden de entrada primero las bancas y luego los drenajes. No realice modificaciones de entidades e inclusión de nuevas líneas directamente en las capas Breaklines.
 > 
 > :lady_beetle:Durante la importación de las líneas de refinamiento, no homologue el nombre contenido en `RiverName` debido a que contienen tíldes, eñes y caracteres especiales. Utilizar caracteres especiales no contenidos en el idioma Inglés puede ocasionar errores de almacenamiento y visualización de elementos.
 
@@ -173,7 +173,7 @@ Utilizando los drenajes y líneas de banca marcadas como `Breakline=1` y/o `Brea
 ### Versiones disponibles
 
 | :open_file_folder:Capa                         | Lm (m)     | Descripción                                                                                                                                                                                                                                                                                                                                |
-|------------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-----------------------------------------------|------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Breakline_9377_v0.shp](Breakline_9377_v0.rar) | 906498.33  | A partir de líneas de drenaje identificadas como `Breakline = 1 Or Breakline = 2`. Parámetros de mallado `FarSpace = NearSpace`, `NearRepeat = 0` y multiplicadores de distancia a partir de valores originales en drenajes definidos como _Breakline = 1 con NearSpace multiplicado by 4 y Breakline = 2 con NearSpace multiplicado by 6_ |
 | [Breakline_9377_v1.shp](Breakline_9377_v1.rar) | 2224686.05 | Combinación entre líneas de drenaje identificadas como `Breakline = 1` y todas las bancas (izquierda, derecha y transición de mallado). Parámetros de mallado `FarSpace = NearSpace`, `NearRepeat = 0` e idénticos a los valores originales definidos en la capa de bancas y drenajes.                                                     |
 
