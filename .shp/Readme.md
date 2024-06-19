@@ -179,9 +179,11 @@ Utilizando los drenajes y líneas de banca marcadas como `Breakline=1`, se ha re
 
 Breakline_9377_v0.shp  
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline_v0.png)  
+![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline_v0a.png)  
 
 Breakline_9377_v1.shp
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline_v1.png)  
+![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline_v1a.png)  
 
 
 ### Catálogo de objetos
