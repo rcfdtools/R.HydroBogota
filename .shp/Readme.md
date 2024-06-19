@@ -134,9 +134,11 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 
 ### Longitudes de bancas digitalizadas por fuente de datos
 
-| DSourceID                                   | Lm Banca Izquierda (m) | Lm Banca Derecha (m) | Lm Total (m) |  
-|:--------------------------------------------|:-----------------------|----------------------|--------------|
-| [1-rcfdtools](https://github.com/rcfdtools) | 286892.77              | 291727.99            | 578620.77    |
+Longitudes obtenidas a partir del cálculo geométrico planar de las entidades digitalizadas en la capa de Bancas.
+
+| DSourceID                                   | Banca Izquierda (m) | Banca Derecha (m) | Cell Transition (m) | Total (m)  |  
+|:--------------------------------------------|:--------------------|-------------------|---------------------|------------|
+| [1-rcfdtools](https://github.com/rcfdtools) | 288602.92           | 292117.48         | 1033155.78          | 1613876.18 |
 
 
 ### Catálogo de objetos
