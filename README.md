@@ -133,10 +133,11 @@ Ejemplo de capas vectoriales disponibles
 
 ## Referencias generales [(.ref)](.ref/Readme.md)
 
+Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](.ref/Readme.md) de este repositorio.
+
 * https://damfailures.org/
 * [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/raster-calculator)
 * https://www.usgs.gov/faqs/what-liquefaction
 * https://damfailures.org/wp-content/uploads/2021/11/conduits_embankment_dams.pdf
 * https://datosgeograficos.car.gov.co/
 
-> Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](.ref/Readme.md) de este repositorio.
