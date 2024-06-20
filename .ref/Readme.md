@@ -7,3 +7,5 @@
 * [Inventario documentado de represas en Colombia](https://repository.unimilitar.edu.co/bitstream/handle/10654/11360/PalaciosSierraRicardoAndres2013.pdf)
 * https://knowledge.aidr.org.au/media/1891/guideline-7-3-technical-flood-risk-management.pdf
 * [What is SAR - The Power Tool of Remote Sensing?](https://asf.alaska.edu/information/sar-information/what-is-sar/)
+* https://learn.hydrologystudio.com/hydrology-studio/knowledge-base/nrcs-unit-hydrograph-peak-factors/
+* https://learn.hydrologystudio.com/hydrology-studio/knowledge-base/scs-nrcs-hydrographs-2/

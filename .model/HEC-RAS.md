@@ -39,6 +39,28 @@ Características del modelo
 El intervalo computacional de tiempo ha definido adaptativo utilizando la condición de Courant a partir de la velocidad entre el largo promedio de las celdas del mallado.
 
 
+### Hidrograma unitario - Unit Hydrograph UH
+
+Para la distribución del volúmen almacenado y descargado desde cada embalse, se han utilizado los factores del hidrograma unitario de la [Natural Resources Conservation Service del U.S. DEPARTMENT OF AGRICULTURE](https://www.nrcs.usda.gov/) de los Estados Unidos de América, correspondiente al hidrograma ajustado utilizado en el estado de Michigan. Se han distribuido los puntos horarios para una duración total de 8 horas.
+
+> Los valores del hidrograma unitario utilizado han sido utilizados en la primera versión del modelo hidráulico, en futuras versiones de este estudio se realizará un análisis extendido de diferentes patrones de distribución aplicables a cada embalse.
+
+NRCS Unit Hydrograph Shape Factors
+
+| Pulso | Factor |
+|-------|--------|
+| 0     | 0      |
+| 1     | 0.5    |
+| 2     | 1      |
+| 3     | 0.8    |
+| 4     | 0.6    |
+| 5     | 0.4    |
+| 6     | 0.2    |
+| 7     | 0      |
+
+![R.HydroBogota](.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png)
+
+
 ### Embalses
 
 | Google                                                                      | Cuerpo de agua (wiki)                                                                                   | Condición de frontera    | Capacidad (Hm³) | Pico máximo de flujo (m³/s) |
@@ -50,7 +72,9 @@ El intervalo computacional de tiempo ha definido adaptativo utilizando la condic
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.384184,-74.167766) | [Embalse Chisacá](https://www.banrepcultural.org/coleccion-bibliografica/especiales/embalse-de-chisaca) | BC Upstream Chisaca      | 6.7             | 531.75                      |
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)      | BC Upstream La Regadera  | 3.3             | 261.90                      |
 
+Hidrogramas por embalse
 
+![R.HydroBogota](.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png)  
 
 
 
