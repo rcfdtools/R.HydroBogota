@@ -160,9 +160,13 @@ Ejemplo de capas vectoriales disponibles
 ![R.HydroBogota](.graph/ArcGISPro_shp.png)
 
 
-## 7. Modelos hidráulicos
+## 7. Modelos numéricos hidráulicos
 
-En desarrollo.
+Para las modelaciones hidráulicas se utilizarán las siguientes herramientas computacionales y modelos:
+
+* Modelo [HEC-RAS](HEC-RAS.md)
+* Modelo IBER (disponible para implementación por investigador externo)
+* Modelo Mike11 (disponible para implementación por investigador externo)
 
 
 ## Referencias generales [(.ref)](.ref/Readme.md)
