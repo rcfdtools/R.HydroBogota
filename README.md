@@ -3,7 +3,7 @@ Keywords: `Case-Study` `Colombia` `Bogota-River` `Sudden-Discharge` `HEC-RAS` `H
 
 **_R.HydroBogota_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
-_**Descargos de responsabilidad:** r.cfdtools y los demás investigadores asociados a este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y las herramientas computacionales utilizadas, o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, geo-procesos aplicados y los resultados obtenidos, cumplen con las metodologías y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
+_**Descargos de responsabilidad:** r.cfdtools y los demás investigadores asociados a este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y las herramientas computacionales utilizadas, o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, geo-procesos aplicados y los resultados, cumplen con las metodologías, normas y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
 
 
 ## 1. Objetivos
@@ -11,8 +11,8 @@ _**Descargos de responsabilidad:** r.cfdtools y los demás investigadores asocia
 El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos y fenómenos extremos en la cuenca del Río Bogotá, tales como:
 
 * Crecientes súbitas generadas por lluvias extremas.
-* Descargas súbitas por colapso de embalses debidas a fallos estructurales debidas a fenómenos de erosión, o por ocurrencia de eventos sísmicos de gran magnitud.
-* Descargas no controladas por fallo en estructuras hidráulicas y canales: colapso de vertederos y túneles de excesos y de emergencia, obstrucción de compuertas, rompimiento de diques, bloqueo o descargas no controladas desde zonas de amortiguación, colapso de canales. 
+* Descargas súbitas por colapso de embalses debidas a fallos estructurales por fenómenos de erosión, o por ocurrencia de eventos sísmicos de gran magnitud.
+* Descargas no controladas por fallo en estructuras hidráulicas y canales: colapso de vertederos, túneles de excesos y de emergencia, obstrucción de compuertas, rompimiento de diques, bloqueo o descargas no controladas desde zonas de amortiguación, colapso de canales, entre otros. 
 
 
 ### 1.1. A corto plazo
@@ -20,25 +20,25 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Integrar un modelo digital de elevación híbrido (DEM) combinando información de sensores remotos satelitales (ALOS PALSAR 12.5m con ajuste de elevaciones a partir de información Lidar o Copernicus 30m), levantamientos Lidar Bogotá (5m y 0.5m) y bloques de obstrucción generados a partir del catastro de construcciones urbanas y rurales en zonas con información Lidar.
 * Localizar las intersecciones de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en el área urbana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) sobre canales y drenajes en el área urbana de Bogotá.
-* Digitalizar las coronas de diques en canales (en zonas con cobertura Lidar) para utilizarlas como líneas de refinamiento (Breaklines) del mallado 2D. Digitalizar líneas de transición de mallado al rededor de los corredores de drenaje.
-* Complementar la red de drenaje urbana y rural de la cuenca del Río Bogotá, incluyendo las conexiones de descarga de los sistemas de embalses reguladores, a los drenajes principales receptores de la red hídrica. La red de drenaje se utiliza como elemento de refinamiento (Breaklines) del mallado 2D.
-* Homologar el [Mapa de Suelos del Territorio Colombiano a escala 1:100.000 con cubrimiento a Cundinamarca](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) , a los grupos hidrológicos del SCS de la [USDA](https://www.usda.gov/) o departamento de Agricultura de los Estados Unidos de América y establecer tasas de infiltración.
+* Digitalizar los alineamientos de las coronas de diques en canales (en zonas con cobertura Lidar) para utilizarlas como líneas de refinamiento (Breaklines) del mallado 2D. Digitalizar líneas de transición de mallado al rededor de los corredores de drenaje.
+* Complementar la red de drenaje urbana y rural de la cuenca del Río Bogotá, incluyendo las conexiones de descarga de los sistemas de embalses (reguladores y generación eléctrica), a los drenajes principales receptores de la red hídrica. La red de drenaje se utiliza como elemento de refinamiento (Breaklines) del mallado 2D.
+* Homologar el [Mapa de Suelos del Territorio Colombiano a escala 1:100.000 con cubrimiento a Cundinamarca](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/), a los grupos hidrológicos del SCS de la [USDA](https://www.usda.gov/) o departamento de Agricultura de los Estados Unidos de América y establecer tasas de infiltración.
 * Homologar el [Mapa de Clasificación de las Tierras por su Vocación de Uso a escala 1:100.000](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) a tipos de cobertura estableciendo valores asociados de rugosidad de Manning y porcentajes de impermeabilidad.
-* Crear la versión v0 del prototipo funcional de simulación hidráulica 2D en HEC-RAS (no calibrado y con mallado solo a partir de ejes de drenajes), que permita evaluar descargas súbitas por colapso o fallo estructural de los embalses Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera.
+* Crear la _Versión v0_ del prototipo funcional de simulación hidráulica 2D en HEC-RAS (no calibrado y con mallado solo a partir de ejes de drenajes), que permita evaluar descargas súbitas por colapso o fallo estructural de los embalses Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera.
 
 > En esta etapa no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya transportado, reduce su capacidad hidráulica.
 > 
-> Las líneas de transición de mallado `BankSide = 'Cell Transition'` digitalizadas en la capa de Bancas, permiten realizar un cambio gradual entre el tamaño de celda definido para cada drenaje y el tamaño global de celda definido en el mallado.
+> Las líneas de transición de mallado `BankSide = 'Cell Transition'` digitalizadas en la capa de Bancas, permiten realizar un cambio gradual entre el tamaño de celda definido para cada drenaje y el tamaño global de celdas definido en el mallado.
 
 
 ### 1.2. A mediano plazo
 
-* Crear la versión v1 del prototipo funcional de simulación hidráulica 2D en HEC-RAS con inclusión de líneas de banca para direccionamiento de flujo y líneas de transición de mallado.
+* Crear la _Versión v1_ del prototipo funcional de simulación hidráulica 2D en HEC-RAS con inclusión de líneas de banca para direccionamiento de flujo y líneas de transición de mallado. (Actualmente, ya se encuentra creado el mallado y se están ajustando las celdas con más de 8 caras)
 * Calibrar el modelo numérico construído a partir de información de eventos históricos documentados.
-* Fomentar la participación de entidades gubernamentales locales (Alcaldías, Empresas de Servicios Públicos, Corporaciones Autónomas, cuerpos de atención de emergencias y desastres) y áreas adscritas a centros de educación superior (Centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
+* Fomentar la participación de entidades gubernamentales locales (Alcaldías, Empresas de Servicios Públicos, Corporaciones Autónomas, cuerpos de atención de emergencias y desastres) y áreas adscritas a centros de educación superior (centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
 * Desarrollar casos de estudios específicos dentro de la zona de estudio (trabajos de grado, investigación de semilleros).
-* Incorporar al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios y zonas ubicadas en las llanuras de inundación del Río Bogotá, Río Neusa, Río Tominé, Río Sisga, Río Teusacá (desde el Embalse San Rafael), Río Chisacá y Río Tunjuelo. 
-* Localizar las intersecciones de intersección de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá (incorporación gradual a partir de información suministrada por entidades).
+* Incorporar gradualmente al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios y zonas ubicadas en las llanuras de inundación del Río Bogotá, Río Neusa, Río Tominé, Río Sisga, Río Teusacá (desde el Embalse San Rafael), Río Chisacá y Río Tunjuelo (hasta el límite del Lidar 0.5m extendido 2020). 
+* Localizar las intersecciones de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá (incorporación gradual a partir de información suministrada por entidades).
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
 * Inclusión de estructuras y equipos hidráulicos: diques, culverts, compuertas, bombeos, zonas de amortiguación.
 * A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, generar eventos extremos con diferentes periodos de recurrencia.
