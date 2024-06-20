@@ -71,7 +71,7 @@ La cuenca del Río Bogotá se compone de los siguientes embalses:
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.384184,-74.167766) | [Embalse Chisacá](https://www.banrepcultural.org/coleccion-bibliografica/especiales/embalse-de-chisaca) | 0.498802         | 6.7             | 0.67               |
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)      | 0.274918         | 3.3             | 0.53               |
 
-> Por su localización geográfica en llanura, no se considera el Embalse de Aposentos como un elemento de riesgo, razón por la cual no se incluye en la modelación de descarga subita.
+> Por su localización geográfica en llanura, no se consideran los Embalses de Aposentos y Muña como elemento generadores de riesgo, razón por la cual no se incluye en la modelación de descarga súbita de Embalses y son solo utilizados como cuerpos de amortiguación de crecientes.
 
 
 ## 3. Sistema de proyección de coordenadas - CRS
