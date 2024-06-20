@@ -6,7 +6,7 @@
 Características del modelo
 
 * Sistema internacional de unidades - SI.
-* Modelación bidimensional (2D) de canales a superficie libre por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluído los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas.
+* Modelación bidimensional (2D) de canales a superficie libre por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluído los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas. Pulsos en hidrogramas cada 1 hora y resultados cada 30 minutos.
 * 
 
 > Para evitar errores en la representación y almacenamiento de los elementos del modelo hidráulica, se han reemplazado u omitido las tildes, eñes y caracteres especiales, por caracteres compatibles con el idioma inglés.
@@ -46,7 +46,16 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 
 > El valor máximo de velocidad ha sido asumido y requiere de investigation complementaria.
 
-<div align="center"><img src="../.graph/Parameter_CourantNumber.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Referencia: <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/performing-a-dam-break-study-with-hec-ras/computational-time-step">Manual de Referencia Hidráulica de HEC-RAS.</a></sub><br><br></div>
+<div align="center"><img src="../.graph/Parameter_CourantNumber.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Tomado de: <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/performing-a-dam-break-study-with-hec-ras/computational-time-step">Manual de Referencia Hidráulica de HEC-RAS</a></sub><br><br></div>
+
+| Parámetro                                            | Valor                 |
+|:-----------------------------------------------------|:----------------------|
+| Velocidad máxima del flujo o celeridad de onda       | 60.83 m/s             |
+| Velocidad mínima del flujo o celeridad de onda       | 0.001 m/s             |
+| ΔT, intervalo computacional de cómputo               | 1800 seg (30 minutos) |
+| ΔX, distancia promedio entre celdas                  | 219 m                 |
+| Máximo valor del número de Courant (C = V * ΔT / ΔX) | 500                   |
+| Mínimo valor del número de Courant (C = V * ΔT / ΔX) | 0.00821918            |
 
 
 
