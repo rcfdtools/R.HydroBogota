@@ -149,8 +149,3 @@ Visualización de terreno híbrido en RAS Mapper
 ![R.HydroBogota](../.graph/HECRAS_Terrain_Sample10.png)  
 
 
-## Referencias complementarias
-
-* [What is SAR - The Power Tool of Remote Sensing?](https://asf.alaska.edu/information/sar-information/what-is-sar/)
-
-
