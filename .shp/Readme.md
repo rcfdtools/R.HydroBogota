@@ -428,8 +428,8 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 | Campo     | Definición                                                             | Tipo   |
 |:----------|------------------------------------------------------------------------|--------|
 | ManningN  | Coeficiente de rugosidad de Manning, valor por defecto: 0.030          | Double |
-| CellSizeX | Ancho de celda genérico para el mallado, valor por defecto: 100 metros | Double |
-| CellSizeY | Alto de celda genérico para el mallado, valor por defecto: 100 metros  | Double |
+| CellSizeX | Ancho de celda genérico para el mallado, valor por defecto: 240 metros | Double |
+| CellSizeY | Alto de celda genérico para el mallado, valor por defecto: 240 metros  | Double |
 
 > El coeficiente de rugosidad por defecto es utilizado para la asignación de valores en zonas no cubiertas por el mapa de usos del suelo.
 > 
