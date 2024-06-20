@@ -163,7 +163,7 @@ Ejemplo de capas vectoriales disponibles
 
 ## 7. Modelos numéricos hidráulicos
 
-Para las modelaciones hidráulicas se utilizarán las siguientes herramientas computacionales y modelos:
+Para las simulaciones hidráulicas se utilizarán las siguientes herramientas computacionales y modelos:
 
 * Modelo [HEC-RAS](.model/HEC-RAS.md)
 * Modelo IBER (disponible para implementación por investigador externo)

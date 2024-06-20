@@ -6,23 +6,37 @@
 Características del modelo
 
 * Sistema internacional de unidades - SI.
-* Modelación bidimensional (2D) de canales a superficie libre por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluído los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas. Pulsos en hidrogramas cada 1 hora y resultados cada 30 minutos.
-* 
+* Modelación bidimensional con cobertura de toda la cuenca del Río Bogotá a partir del límite geográfico de la Subzona Hidrográfica SZH 2120.
+* Modelo de terreno híbrido combinando el modelo digital de superficie DSM Copernicus (30m), Lidar extendido 2020 de Bogotá (0.5m), Construcciones Bogotá y canales abiertos en pasos de vía.
+* Refinamiento de mallado a partir de los alineamientos de cauces principales en toda la cuenca.
+* Modelación bidimensional (2D) de canales a superficie libre de toda la cuenca del Río Bogotá por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluído los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas. Pulsos en hidrogramas cada 1 hora y resultados cada 30 minutos.
+* Modelo prototipo sin calibración.
+* En esta versión no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya transportado, reduce su capacidad hidráulica.
 
 > Para evitar errores en la representación y almacenamiento de los elementos del modelo hidráulica, se han reemplazado u omitido las tildes, eñes y caracteres especiales, por caracteres compatibles con el idioma inglés.
 
 
 ### Archivos componentes del modelo
 
-| Elemento      | Archivo         | Nombre             | 
-|:--------------|:----------------|:-------------------|
-| Proyecto      | HECRAS25899.prj | HECRAS25899        |
-| Plan          | HECRAS25899.p02 | Model0Plan         |
-| Geometría     | HECRAS25899.g06 | Model0Geometry     |
-| Unsteady flow | HECRAS25899.u01 | Model0UnsteadyFlow |
+| Elemento                            | Archivo                              | Nombre             | 
+|:------------------------------------|:-------------------------------------|:-------------------|
+| Proyecto                            | HECRAS25899.prj                      | HECRAS25899        |
+| Plan                                | HECRAS25899.p02                      | Model0Plan         |
+| Geometría                           | HECRAS25899.g06                      | Model0Geometry     |
+| Unsteady flow                       | HECRAS25899.u01                      | Model0UnsteadyFlow |
+| Modelo digital hibrido de terreno   | Terrain/Terrain.hdf                  | Terrain            |
+| Mapa de usos o coberturas del suelo | Land Classification/LandCover.hdf    | LandCover          |
+| Mapa de suelos                      | Land Classification/Soils.hdf        | Soils              |
+| Mapa de infiltración                | Land Classification/Infiltration.hdf | Infiltration       |
+
+> Para conocer el detalle del modelo de terreno híbrido ensamblado, consulte la documentación disponible en [.dem](../.dem/Readme.md)
+> 
+> Para conocer el detalle de los mapas de usos, suelos e infiltración y sus homologaciones, consulte la documentación disponible en [.shp](../.shp/Readme.md)
 
 
 ### Mallado
+
+El mallado ha sido refinado utilizando los alineamientos de los cauces principales de la red de drenaje de la cuenca contenidos en [Breakline_9377_v0.shp](../.shp/Breakline_9377_v0.rar). Para mayor información, consulte la documentación disponible de _Breaklines_ en la carpeta [.shp](../.shp/Readme.md)
 
 | Característica                                | Characteristic      | Valor     |
 |:----------------------------------------------|:--------------------|:----------|
@@ -58,7 +72,6 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 | Mínimo valor del número de Courant (C = V * ΔT / ΔX) | 0.00821918            |
 
 
-
 ### Hidrograma unitario - Unit Hydrograph UH
 
 Para la distribución del volúmen almacenado y descargado súbitamente desde cada embalse, se han utilizado los factores del hidrograma unitario de la [Natural Resources Conservation Service NRCS del U.S. Department of Agriculture](https://www.nrcs.usda.gov/) de los Estados Unidos de América, correspondiente al hidrograma ajustado utilizado en el estado de Michigan. Se han distribuido los puntos horarios para una duración total de 8 horas.
@@ -85,7 +98,9 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 > Para obtener el total del volúmen descargado en cada embalse, se ha estimado (función objetivo en Microsoft Excel) un factor de distribución de 0.285714285714286.
 
 
-### Hidrogramas y caudales pico en Embalses por descarga súbita
+### Hidrogramas y caudales pico en Embalses por descarga súbita - Condiciones de frontera
+
+Las líneas de condición de frontera han sido trazadas aguas abajo de la pantalla de cada presa.
 
 | Google                                                                      | Cuerpo de agua (wiki)                                                                                   | Condición de frontera    | Capacidad (Hm³) | Pico máximo de flujo (m³/s) |
 |:----------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|--------------------------|-----------------|-----------------------------|
