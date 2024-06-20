@@ -109,7 +109,7 @@ Ejemplo de modelo digital de terreno sin y con ajuste
 ![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)
 
 
-## 5. Capas vectoriales en formato Shapefile  [(.shp)](.shp/Readme.md)
+## 5. Capas vectoriales Shapefile  [(.shp)](.shp/Readme.md)
 
 Los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
 

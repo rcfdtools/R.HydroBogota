@@ -1,4 +1,4 @@
-# Capas vectoriales en formato Shapefile (.shp)
+# Capas vectoriales Shapefile (.shp)
 
 Esta carpeta contiene los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, las cuales han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
 
