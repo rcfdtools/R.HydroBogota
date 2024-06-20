@@ -60,7 +60,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 | 6     | 0.2    |
 | 7     | 0      |
 
-![R.HydroBogota](.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png)
+![R.HydroBogota](../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png)
 
 > Para obtener el total del volúmen descargado en cada embalse, se ha estimado (función objetivo en Microsoft Excel) un factor de distribución de 0.285714285714286.
 
@@ -78,7 +78,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 
 Hidrogramas de descarga súbita por rompimiento de cada embalse
 
-![R.HydroBogota](.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png)  
+![R.HydroBogota](../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png)  
 
 
 
