@@ -24,19 +24,32 @@ Características del modelo
 
 ### Mallado
 
-| Característica           | Characteristic      | Valor     |
-|:-------------------------|:--------------------|:----------|
-| Tamaño general de celda  | Main cell size      | 240 m     |
-| Número de celdas         | Number of Cells     | 123708    |
-| Largo promedio por cara  | Average Face Length | 219 m     |
-| Tamaño promedio de celda | Average Cell Size   | 47902 m²  |
-| Tamaño máximo de celda   | Maximum Cell Size   | 136618 m² |
-| Tamaño mínimo de celda   | Minimum Cell Size   | 79 m²     |
+| Característica                                | Characteristic      | Valor     |
+|:----------------------------------------------|:--------------------|:----------|
+| Coeficiente de rugosidad global de Manning    | Manning's n         | 0.030     |
+| Tolerancia en longitud de caras               | Cell tolerance      | 5 %       |
+| Tamaño general de celda horizontal y vertical | Main cell size      | 240 m     |
+| Número de celdas                              | Number of Cells     | 123708    |
+| Largo promedio por cara                       | Average Face Length | 219 m     |
+| Tamaño promedio de celda                      | Average Cell Size   | 47902 m²  |
+| Tamaño máximo de celda                        | Maximum Cell Size   | 136618 m² |
+| Tamaño mínimo de celda                        | Minimum Cell Size   | 79 m²     |
+
+> El valor global definido de Coeficiente de Rugosidad de Manning, únicamente es aplicable a celdas en la que no exista cobertura en el mapa de usos del suelo. Para este estudio se ha definido un mapa global con cobertura sobre todo el Departamento de Cundinamarca y la cuenca del Río Bogotá.
+> 
+> El valor de tolerancia de longitud de celda se define en RAS Mapper desde el menú _Tools / Options… / Mesh Tolerances / Maximum Face Length Tolerance (Percent)_. De acuerdo a las recomendaciones del manual técnico de HEC-RAS, en modelos cuyo propósito es también la modelación de sedimentos, el porcentaje de tolerancia debe ser definido al rededor del 15%, sin embargo, al realizar pruebas de mallado se pudo observar que para la topología de la red que combina diferentes tipos de ancho de sección, la definición de este porcentaje generaba celdas triangulares con terminaciones muy alargadas y con traslapo sobre otras celdas.
 
 
 ### Tiempos de cómputo - Computational interval
 
-El intervalo computacional de tiempo ha definido adaptativo utilizando la condición de Courant a partir de la velocidad entre el largo promedio de las celdas del mallado.
+El intervalo computacional de modelación se ha definido adaptativo utilizando la condición de Courant y la metodología que utiliza la relación de la velocidad en las caras entre el largo promedio de las celdas del mallado _(Velocity/Length o Face velocity * dt / cell to cell distance)_.
+
+> El valor máximo de velocidad ha sido asumido y requiere de investigation complementaria.
+
+<div align="center">
+  <br><img alt="R.HydroBogota" src="../.graph/Parameter_CourantNumber.png" width="60%">
+</div>
+
 
 
 ### Hidrograma unitario - Unit Hydrograph UH
