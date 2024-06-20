@@ -3,11 +3,12 @@
 
 ## Versión v0 - Prototipo funcional (Model0)
 
-Características del modelo
+
+### Características generales del modelo
 
 * Sistema internacional de unidades - SI.
-* Modelación bidimensional con cobertura de toda la cuenca del Río Bogotá a partir del límite geográfico de la Subzona Hidrográfica SZH 2120.
-* Modelo de terreno híbrido combinando el modelo digital de superficie DSM Copernicus (30m), Lidar extendido 2020 de Bogotá (0.5m), Construcciones Bogotá y canales abiertos en pasos de vía.
+* Modelación bidimensional con cobertura de toda la cuenca del Río Bogotá a partir del límite geográfico de la Subzona Hidrográfica SZH 2120 del IDEAM.
+* Modelo de terreno híbrido combinando el modelo digital de superficie DSM Copernicus (30m), Lidar extendido 2020 de Bogotá (0.5m), Construcciones Bogotá (0.5m) y canales abiertos en pasos de vía (0.5m).
 * Refinamiento de mallado a partir de los alineamientos de cauces principales en toda la cuenca.
 * Modelación bidimensional (2D) de canales a superficie libre de toda la cuenca del Río Bogotá por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluído los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas. Pulsos en hidrogramas cada 1 hora y resultados cada 30 minutos.
 * Modelo prototipo sin calibración.
