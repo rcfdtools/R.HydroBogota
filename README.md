@@ -58,7 +58,23 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 1D/2D de operación de los embalses reguladores de la cuenca.
 
 
-## 2. Sistema de proyección de coordenadas - CRS
+## 2. Reseña Cuenca Río Bogotá
+
+La cuenca del Río Bogotá se compone de los siguientes embalses:
+
+| Google                                                                      | Cuerpo de agua (wiki)                                                                                   | Superficie (km²) | Capacidad (Hm³) | Flujo medio (m³/s) |
+|:----------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|------------------|-----------------|--------------------|
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.135924,-73.969663) | [Embalse Neusa](https://es.wikipedia.org/wiki/Embalse_del_Neusa)                                        | 9.274447         | 117             | 1.8                |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.036403,-73.811914) | [Embalse Tominé](https://es.wikipedia.org/wiki/Embalse_de_Tomin%C3%A9)                                  | 29.938931        | 689.5           | 3.9                |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.083958,-73.72756)  | [Embalse Sisga](https://es.wikipedia.org/wiki/Represa_del_Sisga)                                        | 4.702891         | 90.1            | 2.6                |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.703225,-73.985746) | [Embalse San Rafael ](https://es.wikipedia.org/wiki/Embalse_de_San_Rafael)                              | 3.3596           | 75              | 1.2                |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.384184,-74.167766) | [Embalse Chisacá](https://www.banrepcultural.org/coleccion-bibliografica/especiales/embalse-de-chisaca) | 0.498802         | 6.7             | 0.67               |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)      | 0.274918         | 3.3             | 0.53               |
+
+> Por su localización geográfica en llanura, no se considera el Embalse de Aposentos como un elemento de riesgo, razón por la cual no se incluye en la modelación de descarga subita.
+
+
+## 3. Sistema de proyección de coordenadas - CRS
 
 Para las clases de entidad, mapas y modelos utilizados en esta investigación, se utilizará el sistema de referencia de coordenadas correspondiente al Origen Nacional Único Colombia EPSG: 9377.
 
@@ -76,7 +92,7 @@ de la resolución 471 de 2020, los cuales pueden configurarse en software especi
 > :lady_beetle:Atención: para la correcta asociación de las clases de entidad o vectores y los modelos digitales de elevación utilizados para la construcción del modelo hidráulico utilizando RAS Mapper en HEC-RAS, todos los archivos deberán utilizar el sistema de proyección único 9377 definidos a partir del archivo _MAGNA_OrigenNacional.prj_.
 
 
-## 3. Fuentes de información [(.data)](.data/Readme.md)
+## 4. Fuentes de información [(.data)](.data/Readme.md)
 
 La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación. Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio.
 
@@ -94,7 +110,7 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 |     7     | Copernicus | [Copernicus Europe's Eyes on Earth](https://www.copernicus.eu/en): modelo digital de elevación - DEM, synthetic aperture radar - [SAR](https://asf.alaska.edu/information/sar-information/what-is-sar/) de alta resolución     |
 
 
-## 4. Modelos digitales de elevación [(.dem)](.dem/Readme.md)
+## 5. Modelos digitales de elevación [(.dem)](.dem/Readme.md)
 
 Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las simulaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizado en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
@@ -112,7 +128,7 @@ Ejemplo de modelo digital de terreno sin y con ajuste
 ![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)
 
 
-## 5. Capas vectoriales Shapefile  [(.shp)](.shp/Readme.md)
+## 6. Capas vectoriales Shapefile  [(.shp)](.shp/Readme.md)
 
 Los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
 
@@ -135,7 +151,7 @@ Ejemplo de capas vectoriales disponibles
 ![R.HydroBogota](.graph/ArcGISPro_shp.png)
 
 
-## 6. Modelos hidráulicos
+## 7. Modelos hidráulicos
 
 En desarrollo.
 
