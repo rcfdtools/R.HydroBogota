@@ -41,11 +41,13 @@ El intervalo computacional de tiempo ha definido adaptativo utilizando la condic
 
 ### Hidrograma unitario - Unit Hydrograph UH
 
-Para la distribución del volúmen almacenado y descargado desde cada embalse, se han utilizado los factores del hidrograma unitario de la [Natural Resources Conservation Service del U.S. DEPARTMENT OF AGRICULTURE](https://www.nrcs.usda.gov/) de los Estados Unidos de América, correspondiente al hidrograma ajustado utilizado en el estado de Michigan. Se han distribuido los puntos horarios para una duración total de 8 horas.
+Para la distribución del volúmen almacenado y descargado súbitamente desde cada embalse, se han utilizado los factores del hidrograma unitario de la [Natural Resources Conservation Service del U.S. DEPARTMENT OF AGRICULTURE](https://www.nrcs.usda.gov/) de los Estados Unidos de América, correspondiente al hidrograma ajustado utilizado en el estado de Michigan. Se han distribuido los puntos horarios para una duración total de 8 horas.
+
+Mas información en https://learn.hydrologystudio.com/hydrology-studio/knowledge-base/nrcs-unit-hydrograph-peak-factors/
 
 > Los valores del hidrograma unitario utilizado han sido utilizados en la primera versión del modelo hidráulico, en futuras versiones de este estudio se realizará un análisis extendido de diferentes patrones de distribución aplicables a cada embalse.
 
-NRCS Unit Hydrograph Shape Factors
+NRCS Unit Hydrograph Shape Factors - Michigan
 
 | Pulso | Factor |
 |-------|--------|
