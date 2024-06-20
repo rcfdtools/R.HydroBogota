@@ -304,7 +304,7 @@ Asociaci처n del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrol�
 | DSourceID  | [Fuente de informaci처n](../README.md#fuentes-de-informaci처n) | Long     |
 
 
-### Grupos hidrol처gicos y tasas de infiltraci처n en mm/hr
+### Grupos hidrol처gicos y tasas de infiltraci처n (mm/hr)
 
 Hydrologic Soil Group Hydrologic soil groups are based on estimates of runoff potential. Soils are assigned to one of four groups according to the rate of water infiltration when the soils are not protected by vegetation, are thoroughly wet, and receive precipitation from long-duration storms. The soils in the United States are assigned to four groups (A, B, C, and D) and three dual classes (A/D, B/D, and C/D). The groups are defined as follows: 
 

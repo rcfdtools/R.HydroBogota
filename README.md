@@ -33,6 +33,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 ### 1.2. A mediano plazo
 
+* Ajustar los mapas de suelos y usos incluyendo la digitalización (escala 1:25000 o inferior) de los corredores de los canales a superficie libre para optimizar los valores asociados de infiltración, rugosidad de Manning e impermeabilidad.
 * Crear la _Versión v1_ del prototipo funcional de simulación hidráulica 2D en HEC-RAS con inclusión de líneas de banca para direccionamiento de flujo y líneas de transición de mallado. (Actualmente, ya se encuentra creado el mallado y se están ajustando las celdas con más de 8 caras)
 * Calibrar el modelo numérico construído a partir de información de eventos históricos documentados.
 * Fomentar la participación de entidades gubernamentales locales (Alcaldías, Empresas de Servicios Públicos, Corporaciones Autónomas, cuerpos de atención de emergencias y desastres) y áreas adscritas a centros de educación superior (centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
