@@ -41,14 +41,14 @@ El intervalo computacional de tiempo ha definido adaptativo utilizando la condic
 
 ### Embalses
 
-| Google Maps                                                                 | Cuerpo de agua | Condición de frontera   | Superficie (km²) | Capacidad (Hm³) | Flujo medio (m³/s)  |
-|:----------------------------------------------------------------------------|:---------------|-------------------------|------------------|-----------------|---------------------|
-| [:globe_with_meridians:](http://maps.google.com/maps?q=5.135924,-73.969663) | Neusa          | BC Upstream Neusa       | 9.274447         | 117             | 1.8                 |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=5.036403,-73.811914) | Tominé         | BC Upstream Tomine      | 29.938931        | 689.5           | 3.9                 |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=5.083958,-73.72756)  | Sisga          | BC Upstream Sisga       | 4.702891         | 90.1            | 2.6                 |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=4.703225,-73.985746) | San Rafael     | BC Upstream San Rafael  | 3.3596           | 75              | 1.2                 |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=4.384184,-74.167766) | Chisacá        | BC Upstream Chisaca     | 0.498802         | 6.7             | 0.67                |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | La Regadera    | BC Upstream La Regadera | 0.274918         | 3.3             | 0.53                |
+| Google                                                                      | Cuerpo de agua (wiki)                                                                                   | Condición de frontera   | Superficie (km²) | Capacidad (Hm³) | Flujo medio (m³/s)  |
+|:----------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|-------------------------|------------------|-----------------|---------------------|
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.135924,-73.969663) | [Embalse Neusa](https://es.wikipedia.org/wiki/Embalse_del_Neusa)                                        | BC Upstream Neusa       | 9.274447         | 117             | 1.8                 |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.036403,-73.811914) | [Embalse Tominé](https://es.wikipedia.org/wiki/Embalse_de_Tomin%C3%A9)                                  | BC Upstream Tomine      | 29.938931        | 689.5           | 3.9                 |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.083958,-73.72756)  | [Embalse Sisga](https://es.wikipedia.org/wiki/Represa_del_Sisga)                                        | BC Upstream Sisga       | 4.702891         | 90.1            | 2.6                 |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.703225,-73.985746) | [Embalse San Rafael ](https://es.wikipedia.org/wiki/Embalse_de_San_Rafael)                              | BC Upstream San Rafael  | 3.3596           | 75              | 1.2                 |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.384184,-74.167766) | [Embalse Chisacá](https://www.banrepcultural.org/coleccion-bibliografica/especiales/embalse-de-chisaca) | BC Upstream Chisaca     | 0.498802         | 6.7             | 0.67                |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)      | BC Upstream La Regadera | 0.274918         | 3.3             | 0.53                |
 
 > Los valores indicados en la tabla han sido recopilados de diferentes fuentes de información y están sujetos a futuras actualizaciones, cuando se disponga de la información topo-batimétrica de cada uno de estos cuerpos de agua.
 > 
