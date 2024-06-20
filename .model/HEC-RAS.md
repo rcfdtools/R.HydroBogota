@@ -46,8 +46,7 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 
 > El valor máximo de velocidad ha sido asumido y requiere de investigation complementaria.
 
-<div align="center"><img src="../.graph/Parameter_CourantNumber.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Referencia: <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/performing-a-dam-break-study-with-hec-ras/computational-time-step">Manual de Referencia Hidráulica] de HEC-RAS.<br><br></sub></div>a></div>
-
+<a align="center"><img src="../.graph/Parameter_CourantNumber.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Referencia: <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/performing-a-dam-break-study-with-hec-ras/computational-time-step">Manual de Referencia Hidráulica de HEC-RAS.</sub></a><br><br></div>
 
 
 
