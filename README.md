@@ -72,13 +72,15 @@ La cuenca del Río Bogotá se compone de los siguientes embalses:
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)      | 0.274918         | 3.3             | 0.53               |
 |                                                                             |  Σ                                                                                                       | 48.049589         | 981.6             | 10.7               |
 
-> Por su localización geográfica en llanura, no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elemento generadores de riesgo, razón por la cual no se incluye en la modelación de descarga súbita de Embalses y son solo utilizados como cuerpos de amortiguación de crecientes.
+![R.HydroBogota](.graph/ArcGISPro_DAM.png)
+
+> Por su localización geográfica en llanura, no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual no se incluye en la modelación de descarga súbita de Embalses y son solo utilizados como cuerpos de amortiguación de crecientes.
 >
 > Los valores indicados en la tabla han sido recopilados de diferentes fuentes de información y están sujetos a futuras actualizaciones, cuando se disponga de la información topo-batimétrica de cada uno de estos cuerpos de agua.
 > 
 > El flujo medio de 0.53 m³/s definido en el Embalse La Regadera, corresponde a la resta de 1.2 m³/s descargados en este cuerpo de agua, menos el valor definido en el Embalse Chisacá.
-
-> Superficie calculada a partir del área planar utilizando el CRS 9377.
+>
+> El área superficial de cada cuerpo ha sido calculado a partir del área planar utilizando el CRS 9377.
 
 
 ## 3. Sistema de proyección de coordenadas - CRS
