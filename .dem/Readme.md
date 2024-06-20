@@ -1,4 +1,4 @@
-# ~~Modelos digitales de elevación - DEM~~
+# Modelos digitales de elevación - DEM
 
 Esta carpeta contiene los modelos digitales de elevación (DTM, DSM, Híbridos) que son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales en puntos de intersección de pasos de vía con drenajes, generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
