@@ -55,7 +55,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 1D/2D de operación de los embalses reguladores de la cuenca.
 
 
-## 2. Sistema de proyección de coordenadas
+## 2. Sistema de proyección de coordenadas - CRS
 
 Para las clases de entidad, mapas y modelos utilizados en esta investigación, se utilizará el sistema de referencia de coordenadas correspondiente al Origen Nacional Único Colombia EPSG: 9377.
 
