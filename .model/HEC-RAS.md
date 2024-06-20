@@ -65,7 +65,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 > Para obtener el total del volúmen descargado en cada embalse, se ha estimado (función objetivo en Microsoft Excel) un factor de distribución de 0.285714285714286.
 
 
-### Embalses
+### Hidrogramas y caudales pico en Embalses por descarga súbita
 
 | Google                                                                      | Cuerpo de agua (wiki)                                                                                   | Condición de frontera    | Capacidad (Hm³) | Pico máximo de flujo (m³/s) |
 |:----------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|--------------------------|-----------------|-----------------------------|
