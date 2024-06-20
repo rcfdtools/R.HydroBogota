@@ -38,21 +38,21 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Fomentar la participación de entidades gubernamentales locales (Alcaldías, Empresas de Servicios Públicos, Corporaciones Autónomas, cuerpos de atención de emergencias y desastres) y áreas adscritas a centros de educación superior (centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
 * Desarrollar casos de estudios específicos dentro de la zona de estudio (trabajos de grado, investigación de semilleros).
 * Incorporar gradualmente al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios y zonas ubicadas en las llanuras de inundación del Río Bogotá, Río Neusa, Río Tominé, Río Sisga, Río Teusacá (desde el Embalse San Rafael), Río Chisacá y Río Tunjuelo (hasta el límite del Lidar 0.5m extendido 2020). 
-* Localizar las intersecciones de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá (incorporación gradual a partir de información suministrada por entidades).
-* Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas.
+* Localizar las intersecciones de pasos de vía con canales y drenajes a superficie libre, del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá.
+* Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas (incorporación gradual a partir de información suministrada por entidades).
 * Inclusión de estructuras y equipos hidráulicos: diques, culverts, compuertas, bombeos, zonas de amortiguación.
-* A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, generar eventos extremos con diferentes periodos de recurrencia.
-* A partir de la simulación hidráulica 2D de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.
+* A partir del estudio hidrológico de la cuenca y utilizando información de sensores remotos satelitales de re-análisis ERA-5, simular eventos extremos con diferentes periodos de recurrencia.
+* A partir de la simulación hidráulica 2D de eventos extremos y descargas súbitas en la cuenca, crear mapas de amenaza utilizando los lineamientos del [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard](https://knowledge.aidr.org.au/media/1891/guideline-7-3-technical-flood-risk-management.pdf).
 
 
 ### 1.3. A largo plazo
 
-* Ajuste de secciones en canales a partir de levantamientos topo-batimétricos. Requerido debido a que a partir de levantamientos Lidar, las secciones representan el fondo a partir de la lámina de agua presente en el momento de la captura de puntos.
-* Simulación hidráulica 2D y comparación de mapas de amenazas usando las herramientas de simulación numérica [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
-* Simulación hidráulica 2D de rompimiento de los embalses reguladores del sistema hidráulico de la cuenca debida a fenómenos de erosión.
+* Ajuste de secciones en canales a partir de levantamientos topo-batimétricos para evaluación de la capacidad hidráulica máxima del sistema de drenaje a superficie libre. Requerido debido a que a partir de levantamientos Lidar, las secciones representan el fondo a partir de la lámina de agua presente en el momento de la captura de puntos.
+* Simulación hidráulica 2D y comparación de mapas de amenazas usando diferentes herramientas de simulación numérica: [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), [IBER](https://flumen.upc.edu/en/documents/software/iber) y [MIKE11](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers).
+* Simulación hidráulica 2D del rompimiento de las represas de los embalses reguladores del sistema hidráulico de la cuenca, debida a fenómenos de erosión.
 * Simulación hidráulica 2D de sedimentos transportados en la cuenca.
-* Simulación hidráulica 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de los embalses reguladores incluyendo transporte de los materiales que conforman sus estructuras.
-* Simulación hidráulica 2D de operación de los embalses reguladores de la cuenca.
+* Simulación hidráulica 2D [No Newtoniana](https://www.hec.usace.army.mil/confluence/rasdocs/rasmuddebris/non-newtonian-user-s-manual) de rompimiento de las represas de los embalses reguladores, incluyendo el transporte de los materiales que conforman sus estructuras.
+* Simulación hidráulica 1D/2D de operación de los embalses reguladores de la cuenca.
 
 
 ## 2. Sistema de proyección de coordenadas

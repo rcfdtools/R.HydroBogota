@@ -5,3 +5,4 @@
 * https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/files/118099517/118099546/1/1665679165857/HydrologicSoilGroup_DominantCondition.pdf
 * https://link.springer.com/article/10.1007/s11104-022-05322-7
 * [Inventario documentado de represas en Colombia](https://repository.unimilitar.edu.co/bitstream/handle/10654/11360/PalaciosSierraRicardoAndres2013.pdf)
+* https://knowledge.aidr.org.au/media/1891/guideline-7-3-technical-flood-risk-management.pdf
