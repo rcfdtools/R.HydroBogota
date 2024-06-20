@@ -73,7 +73,7 @@ de la resolución 471 de 2020, los cuales pueden configurarse en software especi
 > :lady_beetle:Atención: para la correcta asociación de las clases de entidad o vectores y los modelos digitales de elevación utilizados para la construcción del modelo hidráulico utilizando RAS Mapper en HEC-RAS, todos los archivos deberán utilizar el sistema de proyección único 9377 definidos a partir del archivo _MAGNA_OrigenNacional.prj_.
 
 
-## 3. Fuentes de información [(.data)](.datasource/Readme.md)
+## 3. Fuentes de información [(.data)](.data/Readme.md)
 
 La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación. Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio.
 
@@ -91,9 +91,9 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 |     7     | Copernicus | [Copernicus Europe's Eyes on Earth](https://www.copernicus.eu/en): modelo digital de elevación - DEM, synthetic aperture radar - [SAR](https://asf.alaska.edu/information/sar-information/what-is-sar/) de alta resolución     |
 
 
-## 4. Modelos digitales de elevación  [(.dem)](.dem/Readme.md)
+## 4. Modelos digitales de elevación [(.dem)](.dem/Readme.md)
 
-Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizado en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
+Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las simulaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizado en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
 Dentro de la carpeta [_.dem_](.dem/Readme.md) y en [_Releases_](https://github.com/rcfdtools/R.HydroBogota/releases) podrá encontrar los siguientes modelos digitales de elevación e información detalladas de sus metadatos:
 
