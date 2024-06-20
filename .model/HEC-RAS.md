@@ -34,9 +34,9 @@ Características del modelo
 | Tamaño mínimo de celda   | Minimum Cell Size   | 79 m²     |
 
 
-### Tiempos de cómputo
+### Tiempos de cómputo - Computational interval
 
-Adaptativo utilizando condición de Courant a partir del largo promedio por cada en las celdas del mallado.
+El intervalo computacional de tiempo ha definido adaptativo utilizando la condición de Courant a partir de la velocidad entre el largo promedio de las celdas del mallado.
 
 
 ### Embalses
