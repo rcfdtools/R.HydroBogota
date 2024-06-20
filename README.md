@@ -1,6 +1,8 @@
 # Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
 Keywords: `Case-Study` `Colombia` `Bogota-River` `Sudden-Discharge` `HEC-RAS` `Hydraulic-Modeling` `2D-Modeling` `DAM-Branching` `Newtonian` `Non-Newtonian` `Hydraulic-Hazard`
 
+![R.HydroBogota](.graph/ArcGISPro_R.HydroBogota.png)
+
 **_R.HydroBogota_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
 _**Descargos de responsabilidad:** rcfdtools y los demás investigadores asociados a este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y las herramientas computacionales utilizadas, o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, geo-procesos aplicados y resultados, cumplen con las metodologías, normas y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
@@ -140,11 +142,13 @@ En desarrollo.
 
 ## Referencias generales [(.ref)](.ref/Readme.md)
 
-Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](.ref/Readme.md) de este repositorio.
-
 * https://damfailures.org/
 * [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/raster-calculator)
 * https://www.usgs.gov/faqs/what-liquefaction
 * https://damfailures.org/wp-content/uploads/2021/11/conduits_embankment_dams.pdf
 * https://datosgeograficos.car.gov.co/
+
+Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](.ref/Readme.md) de este repositorio.
+
+
 
