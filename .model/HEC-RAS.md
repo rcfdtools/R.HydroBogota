@@ -11,6 +11,7 @@
 * Modelo de terreno híbrido combinando el modelo digital de superficie DSM Copernicus (30m), Lidar extendido 2020 de Bogotá (0.5m), Construcciones Bogotá (0.5m) y canales abiertos en pasos de vía (0.5m).
 * Refinamiento de mallado a partir de los alineamientos de cauces principales en toda la cuenca.
 * Modelación bidimensional (2D) de canales a superficie libre de toda la cuenca del Río Bogotá por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluído los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas. Pulsos en hidrogramas cada 1 hora y resultados cada 30 minutos.
+* Esta versión no incluye la modelación de pasos de vía como estructura hidráulica 1D. El flujo es transitado en canales a superficie libre.
 * Modelo prototipo sin calibración.
 * Modelación de infiltración. No modelación de lluvia directa sobre celdas ni cargas de viento.
 * En esta versión no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya transportado, reduce su capacidad hidráulica.
