@@ -12,6 +12,7 @@
 * Refinamiento de mallado a partir de los alineamientos de cauces principales en toda la cuenca.
 * Modelación bidimensional (2D) de canales a superficie libre de toda la cuenca del Río Bogotá por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluído los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas. Pulsos en hidrogramas cada 1 hora y resultados cada 30 minutos.
 * Modelo prototipo sin calibración.
+* Modelación de infiltración. No modelación de lluvia directa sobre celdas ni cargas de viento.
 * En esta versión no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya transportado, reduce su capacidad hidráulica.
 
 > Para evitar errores en la representación y almacenamiento de los elementos del modelo hidráulica, se han reemplazado u omitido las tildes, eñes y caracteres especiales, por caracteres compatibles con el idioma inglés.
