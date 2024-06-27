@@ -68,15 +68,15 @@ El mallado ha sido refinado utilizando los alineamientos de los cauces principal
 
 > El valor global definido de Coeficiente de Rugosidad de Manning, únicamente es aplicable a celdas en la que no exista cobertura en el mapa de usos del suelo. Para este estudio se ha definido un mapa global con cobertura sobre todo el Departamento de Cundinamarca y la cuenca del Río Bogotá.
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Manning.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Mapa de rugosidad de Manning</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Manning.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Mapa de rugosidad de Manning</sub><br><br></div>
 
 > El valor de tolerancia de longitud de celda se define en RAS Mapper desde el menú _Tools / Options… / Mesh Tolerances / Maximum Face Length Tolerance (Percent)_. De acuerdo a las recomendaciones del manual técnico de HEC-RAS, en modelos cuyo propósito es también la modelación de sedimentos, el porcentaje de tolerancia debe ser definido al rededor del 15%, sin embargo, al realizar pruebas de mallado se pudo observar que para la topología de la red que combina diferentes tipos de ancho de sección, la definición de este porcentaje generaba celdas triangulares con terminaciones muy alargadas y con traslapo sobre otras celdas.
 
 <div align="center"><img src="../.graph/HECRAS_Model0_MeshTolerances.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Mesh Tolerances</sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Infiltration.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Infiltration</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Infiltration.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Infiltration</sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Impervious.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Percento of impervious</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Impervious.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Percento of impervious</sub><br><br></div>
 
 
 ### 1.4. Tiempos de cómputo - Computational interval
