@@ -190,6 +190,8 @@ Ventana de ejecución<br>
 
 #### 1.6.1. Elevación máxima lámina de agua - Water surface elevation - WSE
 
+Elevación máxima de la lámina de agua expresada en metros sobre el nivel del mar (m.s.n.m).
+
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m)</sub><br><br></div>
 
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_NeusaTomineSisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse del Neusa, Tominé y Sisga</sub><br><br></div>
