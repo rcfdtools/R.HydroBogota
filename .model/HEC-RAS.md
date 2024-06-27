@@ -153,7 +153,7 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 
 <div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowData.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Unsteady Flow Data</sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowBoundaryFiles.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br> Unsteady Flow Boundary Files</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowBoundaryFiles.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br> Unsteady Flow Boundary Files</sub><br><br></div>
 
 
 ### 1.6. Resultados
