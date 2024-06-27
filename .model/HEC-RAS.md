@@ -118,7 +118,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 | 6     | 0.2    |
 | 7     | 0      |
 
-<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png" alt="R.HydroBogota" width="60%" border="0" /><sub><br>2D Flow Area</sub><br><br></div>
+<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png" alt="R.HydroBogota" width="60%" border="0" /><sub></sub><br><br></div>
 
 
 </div>
@@ -141,7 +141,7 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 
 Hidrogramas de descarga súbita por rompimiento de cada embalse
 
-<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png" alt="R.HydroBogota" width="60%" border="0" /><sub><br>2D Flow Area</sub><br><br></div>
+<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png" alt="R.HydroBogota" width="60%" border="0" /><sub></sub><br><br></div>
 
 
 
