@@ -38,7 +38,7 @@ La creación de proyectos en HEC-RAS usando RAS Mapper requiere de los siguiente
 
 </div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Project.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Ventana principal de proyecto</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Project.png" alt="R.HydroBogota" width="80%" border="0" /><sub><br>Ventana principal de proyecto</sub><br><br></div>
 
 > Para conocer el detalle del modelo de terreno híbrido ensamblado, consulte la documentación disponible en [.dem](../.dem/Readme.md)
 > 
@@ -63,6 +63,8 @@ El mallado ha sido refinado utilizando los alineamientos de los cauces principal
 | Tamaño mínimo de celda                        | Minimum Cell Size   | 79 m²     |
 
 </div>
+
+<div align="center"><img src="../.graph/HECRAS_Model0_2DFlowArea.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>2D Flow Area</sub><br><br></div>
 
 > El valor global definido de Coeficiente de Rugosidad de Manning, únicamente es aplicable a celdas en la que no exista cobertura en el mapa de usos del suelo. Para este estudio se ha definido un mapa global con cobertura sobre todo el Departamento de Cundinamarca y la cuenca del Río Bogotá.
 > 
