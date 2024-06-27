@@ -1,7 +1,7 @@
 # Modelos HEC-RAS
 
 
-## Versión v0 - Prototipo funcional (Model0)
+## Modelo Versión v0 - Prototipo funcional (Model0)
 
 
 ### Características generales del modelo
@@ -21,6 +21,8 @@
 
 ### Archivos componentes del modelo
 
+<div align="center">
+
 | Elemento                            | Archivo                              | Nombre             | 
 |:------------------------------------|:-------------------------------------|:-------------------|
 | Proyecto                            | HECRAS25899.prj                      | HECRAS25899        |
@@ -32,6 +34,8 @@
 | Mapa de suelos                      | Land Classification/Soils.hdf        | Soils              |
 | Mapa de infiltración                | Land Classification/Infiltration.hdf | Infiltration       |
 
+</div>
+
 > Para conocer el detalle del modelo de terreno híbrido ensamblado, consulte la documentación disponible en [.dem](../.dem/Readme.md)
 > 
 > Para conocer el detalle de los mapas de usos, suelos e infiltración y sus homologaciones, consulte la documentación disponible en [.shp](../.shp/Readme.md)
@@ -40,6 +44,8 @@
 ### Mallado
 
 El mallado ha sido refinado utilizando los alineamientos de los cauces principales de la red de drenaje de la cuenca contenidos en [Breakline_9377_v0.shp](../.shp/Breakline_9377_v0.rar). Para mayor información, consulte la documentación disponible de _Breaklines_ en la carpeta [.shp](../.shp/Readme.md)
+
+<div align="center">
 
 | Característica                                | Characteristic      | Valor     |
 |:----------------------------------------------|:--------------------|:----------|
@@ -51,6 +57,8 @@ El mallado ha sido refinado utilizando los alineamientos de los cauces principal
 | Tamaño promedio de celda                      | Average Cell Size   | 47902 m²  |
 | Tamaño máximo de celda                        | Maximum Cell Size   | 136618 m² |
 | Tamaño mínimo de celda                        | Minimum Cell Size   | 79 m²     |
+
+</div>
 
 > El valor global definido de Coeficiente de Rugosidad de Manning, únicamente es aplicable a celdas en la que no exista cobertura en el mapa de usos del suelo. Para este estudio se ha definido un mapa global con cobertura sobre todo el Departamento de Cundinamarca y la cuenca del Río Bogotá.
 > 
@@ -65,6 +73,8 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 
 <div align="center"><img src="../.graph/Parameter_CourantNumber.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Tomado de: <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/performing-a-dam-break-study-with-hec-ras/computational-time-step">Manual de Referencia Hidráulica de HEC-RAS</a></sub><br><br></div>
 
+<div align="center">
+
 | Parámetro                                            | Valor                 |
 |:-----------------------------------------------------|:----------------------|
 | Velocidad máxima del flujo o celeridad de onda       | 60.83 m/s             |
@@ -74,6 +84,7 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 | Máximo valor del número de Courant (C = V * ΔT / ΔX) | 500                   |
 | Mínimo valor del número de Courant (C = V * ΔT / ΔX) | 0.00821918            |
 
+</div>
 
 ### Hidrograma unitario - Unit Hydrograph UH
 
@@ -82,6 +93,8 @@ Para la distribución del volúmen almacenado y descargado súbitamente desde ca
 Mas información en https://learn.hydrologystudio.com/hydrology-studio/knowledge-base/nrcs-unit-hydrograph-peak-factors/
 
 > Los valores del hidrograma unitario de la NRCS han sido utilizados en la primera versión del modelo hidráulico, en futuras versiones de este estudio, se realizará un análisis extendido de diferentes patrones de distribución aplicables a cada embalse.
+
+<div align="center">
 
 NRCS Unit Hydrograph Shape Factors - Michigan
 
@@ -97,6 +110,8 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 | 7     | 0      |
 
 ![R.HydroBogota](../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png)
+
+</div>
 
 > Para obtener el total del volúmen descargado en cada embalse, se ha estimado (función objetivo en Microsoft Excel) un factor de distribución de 0.285714285714286.
 
