@@ -21,6 +21,8 @@
 
 ### Archivos componentes del modelo
 
+La creación de proyectos en HEC-RAS usando RAS Mapper requiere de los siguientes archivos:
+
 <div align="center">
 
 | Elemento                            | Archivo                              | Nombre             | 
@@ -35,6 +37,8 @@
 | Mapa de infiltración                | Land Classification/Infiltration.hdf | Infiltration       |
 
 </div>
+
+<div align="center"><img src="../graph/HECRAS_Model0_Project.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Ventana principal de proyecto</sub><br><br></div>
 
 > Para conocer el detalle del modelo de terreno híbrido ensamblado, consulte la documentación disponible en [.dem](../.dem/Readme.md)
 > 
