@@ -141,7 +141,7 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 
 <div align="center">
 
-Hidrogramas de descarga súbita por rompimiento de cada embalse
+Hidrogramas de descarga súbita por rompimiento de cada embalse<br>
 <img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png" alt="R.HydroBogota" width="60%" border="0" /><sub></sub><br><br><
 
 /div>
