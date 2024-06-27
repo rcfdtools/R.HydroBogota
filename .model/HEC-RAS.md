@@ -64,7 +64,7 @@ El mallado ha sido refinado utilizando los alineamientos de los cauces principal
 
 </div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_2DFlowArea.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>2D Flow Area</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_2DFlowArea.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>2D Flow Area</sub><br><br></div>
 
 > El valor global definido de Coeficiente de Rugosidad de Manning, únicamente es aplicable a celdas en la que no exista cobertura en el mapa de usos del suelo. Para este estudio se ha definido un mapa global con cobertura sobre todo el Departamento de Cundinamarca y la cuenca del Río Bogotá.
 > 
@@ -92,7 +92,7 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 
 </div>
 
-
+<div align="center"><img src="../.graph/HECRAS_Model0_AdvancedTimeStepControl.png" alt="R.HydroBogota" width="80%" border="0" /><sub><br>2D Flow Area</sub><br><br></div>
 
 
 ### 1.5. Hidrograma unitario - Unit Hydrograph UH
