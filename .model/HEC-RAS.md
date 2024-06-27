@@ -156,9 +156,26 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 <div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowBoundaryFiles.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br> Unsteady Flow Boundary Files</sub><br><br></div>
 
 
-### 1.6. Resultados
+### 1.6. Ejecución y resultados
 
 
+
+<div align="center">
+
+Parámetros generales para cálculo y presentación de resultados<br>
+
+| Parámetro                  | Valor                           |
+|:---------------------------|:--------------------------------|
+| Starting date              | 04MAY2024                       |
+| Ending date                | 30MAY2024                       |
+| Starting time              | 00:00                           |
+| Ending time                | 00:23                           |
+| Computation interval       | Controlled by Courant condition |
+| Mapping output interval    | 30 Minute                       |
+| Hydrograph output interval | 30 Minute                       |
+| Detailed output interval   | 30 Minute                       |
+
+</div>
 
 <div align="center">
 Mapas disponibles en Google Maps<br>
