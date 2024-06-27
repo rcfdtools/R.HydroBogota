@@ -158,8 +158,6 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 
 ### 1.6. Ejecución y resultados
 
-
-
 <div align="center">
 
 Parámetros generales para cálculo y presentación de resultados<br>
@@ -177,8 +175,16 @@ Parámetros generales para cálculo y presentación de resultados<br>
 
 </div>
 
+<div align="center"><img src="../.graph/HECRAS_Model0_2DFlowOptions.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>2D Flow Options</sub><br><br></div>
+
+<div align="center"><img src="../.graph/HECRAS_Model0_2DOptions.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>2D Options</sub><br><br></div>
+
+<div align="center"><img src="../.graph/HECRAS_Model0_2DOptions.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>2D Options</sub><br><br></div>
+
+
+
 <div align="center">
-Mapas disponibles en Google Maps<br>
+Ventana de ejecución<br>
 <img src="../.graph/HECRAS_Model0_Computations1.png" alt="R.HydroBogota" width="480" border="0" />
 <img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
 <img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
