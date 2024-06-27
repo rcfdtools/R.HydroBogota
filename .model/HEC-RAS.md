@@ -193,13 +193,9 @@ Ventana de ejecución<br>
 Elevación máxima de la lámina de agua expresada en metros sobre el nivel del mar (m.s.n.m).
 
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m)</sub><br><br></div>
-
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_NeusaTomineSisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse del Neusa, Tominé y Sisga</sub><br><br></div>
-
+<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse del Neusa</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse Tominé</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse del Sisga</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse San Rafael</sub><br><br></div>
-
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse Chisacá y La Regadera</sub><br><br></div>
-
-
-
 
