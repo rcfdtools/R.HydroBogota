@@ -128,7 +128,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 | 6     | 0.2    |
 | 7     | 0      |
 
-<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png" alt="R.HydroBogota" width="60%" border="0" /><sub></sub><br><br></div>
+<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png" alt="R.HydroBogota" width="65%" border="0" /><sub></sub><br><br></div>
 
 
 </div>
@@ -149,9 +149,9 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.384184,-74.167766) | [Embalse Chisacá](https://www.banrepcultural.org/coleccion-bibliografica/especiales/embalse-de-chisaca) | BC Upstream Chisaca      | 6.7             | 531.75                      |
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)      | BC Upstream La Regadera  | 3.3             | 261.90                      |
 
-<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png" alt="R.HydroBogota" width="60%" border="0" /><sub></sub><br><br></div>
+<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png" alt="R.HydroBogota" width="65%" border="0" /><sub></sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowData.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Unsteady Flow Data</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowData.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Unsteady Flow Data</sub><br><br></div>
 
 <div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowBoundaryFiles.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br> Unsteady Flow Boundary Files</sub><br><br></div>
 
