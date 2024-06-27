@@ -160,7 +160,13 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 
 
 
-
+<div align="center">
+Mapas disponibles en Google Maps<br>
+<img src="../.graph/HECRAS_Model0_Computations1.png" alt="R.HydroBogota" width="480" border="0" />
+<img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
+<img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
+<img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
+</div>
 
 
 
