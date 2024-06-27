@@ -103,7 +103,9 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 <div align="center"><img src="../.graph/HECRAS_Model0_AdvancedTimeStepControl.png" alt="R.HydroBogota" width="80%" border="0" /><sub><br>Advanced Time Step Control</sub><br><br></div>
 
 
-### 1.5. Hidrograma unitario - Unit Hydrograph UH
+### 1.5. Hidrogramas
+
+#### 1.5.1. Hidrograma unitario - Unit Hydrograph UH
 
 Para la distribución del volúmen almacenado y descargado súbitamente desde cada embalse, se han utilizado los factores del hidrograma unitario de la [Natural Resources Conservation Service NRCS del U.S. Department of Agriculture](https://www.nrcs.usda.gov/) de los Estados Unidos de América, correspondiente al hidrograma ajustado utilizado en el estado de Michigan. Se han distribuido los puntos horarios para una duración total de 8 horas.
 
@@ -134,7 +136,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 > Para obtener el total del volúmen descargado en cada embalse, se ha estimado (función objetivo en Microsoft Excel) un factor de distribución de 0.285714285714286.
 
 
-### 1.6. Hidrogramas y caudales pico en Embalses por descarga súbita - Condiciones de frontera
+#### 1.5.2. Hidrogramas y caudales pico en Embalses por descarga súbita - Condiciones de frontera
 
 Las líneas de condición de frontera han sido trazadas aguas abajo de la pantalla de cada presa.
 
@@ -149,8 +151,12 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 
 <div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png" alt="R.HydroBogota" width="60%" border="0" /><sub></sub><br><br></div>
 
+<div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowData.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Unsteady Flow Data</sub><br><br></div>
 
-### 1.7. Resultados
+<div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowBoundaryFiles.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br> Unsteady Flow Boundary Files</sub><br><br></div>
+
+
+### 1.6. Resultados
 
 
 
