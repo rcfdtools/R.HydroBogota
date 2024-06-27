@@ -223,7 +223,7 @@ Velocidad del flujo expresado en metros / segundo.
 
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s)</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_BogotaDCCanalGuaymaral1.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Neusa</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Tominé</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Sisga</sub><br><br></div>
