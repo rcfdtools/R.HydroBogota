@@ -194,6 +194,7 @@ Elevación máxima de la lámina de agua expresada en metros sobre el nivel del 
 
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m)</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Ciudad de Bogotá</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_WSE_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse del Neusa</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse Tominé</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse del Sisga</sub><br><br></div>
@@ -207,6 +208,7 @@ Profundidad máxima de la lámina de agua expresada en metros.
 
 <div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m)</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Depth_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Ciudad de Bogotá</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Depth_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse del Neusa</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse Tominé</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse del Sisga</sub><br><br></div>
@@ -221,6 +223,7 @@ Velocidad del flujo expresado en metros / segundo.
 
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s)</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Neusa</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Tominé</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Sisga</sub><br><br></div>
