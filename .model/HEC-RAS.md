@@ -177,11 +177,7 @@ Parámetros generales para cálculo y presentación de resultados<br>
 
 <div align="center"><img src="../.graph/HECRAS_Model0_2DFlowOptions.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>2D Flow Options</sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_2DOptions.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>2D Options</sub><br><br></div>
-
-<div align="center"><img src="../.graph/HECRAS_Model0_2DOptions.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>2D Options</sub><br><br></div>
-
-
+<div align="center"><img src="../.graph/HECRAS_Model0_2DOptions.png" alt="R.HydroBogota" width="60%" border="0" /><sub><br>2D Options</sub><br><br></div>
 
 <div align="center">
 Ventana de ejecución<br>
@@ -190,6 +186,11 @@ Ventana de ejecución<br>
 <img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
 <img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
 </div>
+
+
+### 1.6.1. Elevación máxima lámina de agua - Water surface elevation - WSE
+
+<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m)</sub><br><br></div>
 
 
 
