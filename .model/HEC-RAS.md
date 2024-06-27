@@ -1,10 +1,10 @@
 # Modelos HEC-RAS
 
 
-## 0. Modelo Versión v0 - Prototipo funcional (Model0)
+## 1. Modelo Versión v0 - Prototipo funcional (Model0)
 
 
-### 0.1. Características generales del modelo
+### 1.1. Características generales del modelo
 
 * Sistema internacional de unidades - SI.
 * Modelación bidimensional con cobertura de toda la cuenca del Río Bogotá a partir del límite geográfico de la Subzona Hidrográfica SZH 2120 del IDEAM.
@@ -19,7 +19,7 @@
 > Para evitar errores en la representación y almacenamiento de los elementos del modelo hidráulica, se han reemplazado u omitido las tildes, eñes y caracteres especiales, por caracteres compatibles con el idioma inglés.
 
 
-### 0.2. Archivos componentes del modelo
+### 1.2. Archivos componentes del modelo
 
 La creación de proyectos en HEC-RAS usando RAS Mapper requiere de los siguientes archivos:
 
@@ -45,7 +45,7 @@ La creación de proyectos en HEC-RAS usando RAS Mapper requiere de los siguiente
 > Para conocer el detalle de los mapas de usos, suelos e infiltración y sus homologaciones, consulte la documentación disponible en [.shp](../.shp/Readme.md)
 
 
-### 0.3 Mallado
+### 1.3 Mallado
 
 El mallado ha sido refinado utilizando los alineamientos de los cauces principales de la red de drenaje de la cuenca contenidos en [Breakline_9377_v0.shp](../.shp/Breakline_9377_v0.rar). Para mayor información, consulte la documentación disponible de _Breaklines_ en la carpeta [.shp](../.shp/Readme.md)
 
@@ -71,7 +71,7 @@ El mallado ha sido refinado utilizando los alineamientos de los cauces principal
 > El valor de tolerancia de longitud de celda se define en RAS Mapper desde el menú _Tools / Options… / Mesh Tolerances / Maximum Face Length Tolerance (Percent)_. De acuerdo a las recomendaciones del manual técnico de HEC-RAS, en modelos cuyo propósito es también la modelación de sedimentos, el porcentaje de tolerancia debe ser definido al rededor del 15%, sin embargo, al realizar pruebas de mallado se pudo observar que para la topología de la red que combina diferentes tipos de ancho de sección, la definición de este porcentaje generaba celdas triangulares con terminaciones muy alargadas y con traslapo sobre otras celdas.
 
 
-### 0.4. Tiempos de cómputo - Computational interval
+### 1.4. Tiempos de cómputo - Computational interval
 
 El intervalo computacional de modelación se ha definido adaptativo utilizando la condición de Courant y la metodología que utiliza la relación de la velocidad en las caras entre el largo promedio de las celdas del mallado _(Velocity/Length o Face velocity * dt / cell to cell distance)_.
 
@@ -95,7 +95,7 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 
 
 
-### 0.5. Hidrograma unitario - Unit Hydrograph UH
+### 1.5. Hidrograma unitario - Unit Hydrograph UH
 
 Para la distribución del volúmen almacenado y descargado súbitamente desde cada embalse, se han utilizado los factores del hidrograma unitario de la [Natural Resources Conservation Service NRCS del U.S. Department of Agriculture](https://www.nrcs.usda.gov/) de los Estados Unidos de América, correspondiente al hidrograma ajustado utilizado en el estado de Michigan. Se han distribuido los puntos horarios para una duración total de 8 horas.
 
@@ -125,7 +125,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 > Para obtener el total del volúmen descargado en cada embalse, se ha estimado (función objetivo en Microsoft Excel) un factor de distribución de 0.285714285714286.
 
 
-### 0.6. Hidrogramas y caudales pico en Embalses por descarga súbita - Condiciones de frontera
+### 1.6. Hidrogramas y caudales pico en Embalses por descarga súbita - Condiciones de frontera
 
 Las líneas de condición de frontera han sido trazadas aguas abajo de la pantalla de cada presa.
 
