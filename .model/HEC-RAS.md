@@ -188,9 +188,15 @@ Ventana de ejecución<br>
 </div>
 
 
-### 1.6.1. Elevación máxima lámina de agua - Water surface elevation - WSE
+#### 1.6.1. Elevación máxima lámina de agua - Water surface elevation - WSE
 
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m)</sub><br><br></div>
+
+<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_NeusaTomineSisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse del Neusa, Tominé y Sisga</sub><br><br></div>
+
+<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse San Rafael</sub><br><br></div>
+
+<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximun Water Surface Elevation - WSE (m.s.n.m) - Embalse Chisacá y La Regadera</sub><br><br></div>
 
 
 
