@@ -200,13 +200,26 @@ Elevación máxima de la lámina de agua expresada en metros sobre el nivel del 
 <div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse Chisacá y La Regadera</sub><br><br></div>
 
 
-#### 1.6.1. Elevación máxima lámina de agua - Water surface elevation - WSE
+#### 1.6.2. Profundidad del flujo - Depth
 
 Profundidad máxima de la lámina de agua expresada en metros.
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth - WSE (m)</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth - WSE (m) - Embalse del Neusa</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth - WSE (m) - Embalse Tominé</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth - WSE (m) - Embalse del Sisga</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth - WSE (m) - Embalse San Rafael</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth - WSE (m) - Embalse Chisacá y La Regadera</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m)</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse del Neusa</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse Tominé</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse del Sisga</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse San Rafael</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse Chisacá y La Regadera</sub><br><br></div>
+
+
+
+#### 1.6.3. Velocidad del flujo - Velocity
+
+Velocidad del flujo expresado en metros / segundo.
+
+<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s)</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Neusa</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Tominé</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Sisga</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse San Rafael</sub><br><br></div>
+<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Chisacá y La Regadera</sub><br><br></div>
