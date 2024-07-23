@@ -1,5 +1,5 @@
 # Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
-Keywords: `Case-Study` `Colombia` `Bogota-River` `Sudden-Discharge` `HEC-RAS` `Hydraulic-Modeling` `2D-Modeling` `DAM-Branching` `Newtonian` `Non-Newtonian` `Hydraulic-Hazard`
+Keywords: `case-study` `Colombia` `Bogota-River` `Sudden-Discharge` `HEC-RAS` `Hydraulic-Modeling` `2D-Modeling` `DAM-Branching` `Newtonian` `Non-Newtonian` `Hydraulic-Hazard`
 
 **_R.HydroBogota_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
@@ -10,11 +10,13 @@ _**Descargos de responsabilidad:** rcfdtools y los demás investigadores asociad
 
 ## 1. Objetivos
 
-El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar las inundaciones producidas por eventos y fenómenos extremos en la cuenca del Río Bogotá, tales como:
+El objetivo principal de esta investigación, es ensamblar un modelo numérico de gran escala, que permita representar el transporte del flujo y las inundaciones producidas por eventos y fenómenos extremos en la cuenca del Río Bogotá, tales como:
 
 * Crecientes súbitas generadas por lluvias extremas.
-* Descargas súbitas por colapso de embalses debidas a fallos estructurales por fenómenos de erosión, o por ocurrencia de eventos sísmicos de gran magnitud.
-* Descargas no controladas por fallo en estructuras hidráulicas y canales: colapso de vertederos, túneles de excesos y de emergencia, obstrucción de compuertas, rompimiento de diques, bloqueo o descargas no controladas desde zonas de amortiguación, colapso de canales, entre otros. 
+* Descargas súbitas por colapso de embalses debidas a fallos estructurales producidos por fenómenos de erosión, o por ocurrencia de eventos sísmicos de gran magnitud.
+* Descargas no controladas por fallo o colapso en estructuras hidráulicas, canales, vertederos, túneles de excesos y de emergencia, obstrucción de compuertas, rompimiento de diques, estructuras en zonas de amortiguación, entre otros. 
+
+> Complementariamente, el modelo ensamblado podrá ser utilizado como soporte en la delimitación de la ronda hídrica en los componentes geomorfológico e hidrológico, de los drenajes (sistemas lóticos) y cuerpos de agua (sistemas lénticos) localizados en la cuenca.
 
 
 ### 1.1. A corto plazo
@@ -26,9 +28,9 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Complementar la red de drenaje urbana y rural de la cuenca del Río Bogotá, incluyendo las conexiones de descarga de los sistemas de embalses (reguladores y generación eléctrica), a los drenajes principales receptores de la red hídrica. La red de drenaje se utiliza como elemento de refinamiento (Breaklines) del mallado 2D.
 * Homologar el [Mapa de Suelos del Territorio Colombiano a escala 1:100.000 con cubrimiento a Cundinamarca](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/), a los grupos hidrológicos del SCS de la [USDA](https://www.usda.gov/) o departamento de Agricultura de los Estados Unidos de América y establecer tasas de infiltración.
 * Homologar el [Mapa de Clasificación de las Tierras por su Vocación de Uso a escala 1:100.000](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) a tipos de cobertura estableciendo valores asociados de rugosidad de Manning y porcentajes de impermeabilidad.
-* Crear la _Versión v0_ del prototipo funcional de simulación hidráulica 2D en HEC-RAS (no calibrado y con mallado solo a partir de ejes de drenajes), que permita evaluar descargas súbitas por colapso o fallo estructural de los embalses Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera.
+* Crear la _Versión v0_ del prototipo funcional de simulación hidráulica 2D en HEC-RAS (no calibrado y con refinamiento de mallado solo a partir de ejes de drenajes), que permita evaluar descargas súbitas por colapso o fallo estructural de los embalses Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera.
 
-> En esta etapa no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya transportado, reduce su capacidad hidráulica.
+> En esta etapa no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya trasportado, reduce su capacidad hidráulica.
 > 
 > Las líneas de transición de mallado `BankSide = 'Cell Transition'` digitalizadas en la capa de Bancas, permiten realizar un cambio gradual entre el tamaño de celda definido para cada drenaje y el tamaño global de celdas definido en el mallado.
 
