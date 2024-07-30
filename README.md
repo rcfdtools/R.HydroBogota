@@ -67,15 +67,15 @@ La cuenca del Río Bogotá se compone de los siguientes embalses:
 
 <div align="center">
 
-| Google                                                                      | Cuerpo de agua (wiki)                                                                                   | Superficie (km²) | Capacidad (hm³) | Flujo medio (m³/s) |
-|:----------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|------------------|-----------------|--------------------|
-| [:globe_with_meridians:](http://maps.google.com/maps?q=5.135924,-73.969663) | [Embalse Neusa](https://es.wikipedia.org/wiki/Embalse_del_Neusa)                                        | 9.274447         | 117             | 1.8                |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=5.036403,-73.811914) | [Embalse Tominé](https://es.wikipedia.org/wiki/Embalse_de_Tomin%C3%A9)                                  | 29.938931        | 689.5           | 3.9                |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=5.083958,-73.72756)  | [Embalse Sisga](https://es.wikipedia.org/wiki/Represa_del_Sisga)                                        | 4.702891         | 90.1            | 2.6                |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=4.703225,-73.985746) | [Embalse San Rafael ](https://es.wikipedia.org/wiki/Embalse_de_San_Rafael)                              | 3.3596           | 75              | 1.2                |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=4.384184,-74.167766) | [Embalse Chisacá](https://www.banrepcultural.org/coleccion-bibliografica/especiales/embalse-de-chisaca) | 0.498802         | 6.7             | 0.67               |
-| [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)      | 0.274918         | 3.3             | 0.53               |
-|                                                                             |  Σ                                                                                                       | 48.049589         | 981.6           | 10.7               |
+| Google                                                                      | Cuerpo de agua (wiki)                                                                                    | Superficie (km²) | Capacidad (hm³)  |  Flujo medio (m³/s)  |
+|:----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|:----------------:|:----------------:|:--------------------:|
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.135924,-73.969663) | [Embalse Neusa](https://es.wikipedia.org/wiki/Embalse_del_Neusa)                                         |     9.274447     |       117        |         1.8          |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.036403,-73.811914) | [Embalse Tominé](https://es.wikipedia.org/wiki/Embalse_de_Tomin%C3%A9)                                   |    29.938931     |      689.5       |         3.9          |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=5.083958,-73.72756)  | [Embalse Sisga](https://es.wikipedia.org/wiki/Represa_del_Sisga)                                         |     4.702891     |       90.1       |         2.6          |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.703225,-73.985746) | [Embalse San Rafael ](https://es.wikipedia.org/wiki/Embalse_de_San_Rafael)                               |      3.3596      |        75        |         1.2          |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.384184,-74.167766) | [Embalse Chisacá](https://www.banrepcultural.org/coleccion-bibliografica/especiales/embalse-de-chisaca)  |     0.498802     |       6.7        |         0.67         |
+| [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296) | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)       |     0.274918     |       3.3        |         0.53         |
+|                                                                             | Σ                                                                                                        |    48.049589     |      981.6       |         10.7         |
 
 <div align="center"><img src=".graph/ArcGISPro_DAM.png" alt="R.SIGE" width="100%" border="0" /></div>
 
