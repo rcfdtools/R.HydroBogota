@@ -81,7 +81,7 @@ La cuenca del Río Bogotá se compone de los siguientes embalses:
 
 </div>
 
-> Por su localización geográfica en llanura, no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual no se incluye en la modelación de descarga súbita de Embalses y son solo utilizados como cuerpos de amortiguación de crecientes.
+> Por su localización geográfica en llanura, no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual, no se incluyen en la modelación de descarga súbita y son solo utilizados como cuerpos de amortiguación de crecientes.
 >
 > Los valores indicados en la tabla han sido recopilados de diferentes fuentes de información y están sujetos a futuras actualizaciones, cuando se disponga de la información topo-batimétrica de cada uno de estos cuerpos de agua.
 > 
