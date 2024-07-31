@@ -219,6 +219,9 @@ Profundidad máxima de la lámina de agua expresada en metros.
 <div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse San Rafael</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse Chisacá y La Regadera</sub><br><br></div>
 
+Frente de onda de inundación
+
+https://github.com/user-attachments/assets/33a96298-985c-46e6-8fa8-64835d2de713
 
 
 #### 1.6.3. Velocidad del flujo - Velocity
@@ -233,3 +236,8 @@ Velocidad del flujo expresado en metros / segundo.
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Sisga</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse San Rafael</sub><br><br></div>
 <div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Chisacá y La Regadera</sub><br><br></div>
+
+Velocidad de onda de inundación
+
+https://github.com/user-attachments/assets/8314a135-6b43-4efc-92e9-5c0d320e19fb
+
