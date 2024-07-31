@@ -130,6 +130,8 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 
 Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las simulaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizado en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
+https://github.com/user-attachments/assets/b08fd7ae-8f4a-4b59-bc0d-b3ce6d48ecdd
+
 Dentro de la carpeta [_.dem_](.dem/Readme.md) y en [_Releases_](https://github.com/rcfdtools/R.HydroBogota/releases) podrá encontrar los siguientes modelos digitales de elevación e información detalladas de sus metadatos:
 
 * Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5m)
