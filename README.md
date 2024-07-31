@@ -77,7 +77,7 @@ La cuenca del Río Bogotá se compone de los siguientes embalses:
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296)  | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)       |     0.274918     |       3.3        |         0.53         |
 |                                                                              | Σ                                                                                                        |    48.049589     |      981.6       |         10.7         |
 
-<div align="center">Embalses reguladores dentro de la cuenca del Río Bogotá (norte hacia arriba)<br><img src=".graph/ArcGISPro_DAM.png" alt="R.SIGE" width="80%" border="0" /></div>
+<div align="center">Embalses reguladores dentro de la cuenca del Río Bogotá (norte hacia arriba)<br><img src=".graph/ArcGISPro_DAM1.png" alt="R.SIGE" width="90%" border="0" /></div>
 
 </div>
 
