@@ -87,7 +87,7 @@ La cuenca del Río Bogotá se compone de los siguientes embalses:
 > 
 > El flujo medio de 0.53 m³/s definido en el Embalse La Regadera, corresponde a la resta de 1.2 m³/s descargados en este cuerpo de agua, menos el valor definido en el Embalse Chisacá.
 >
-> El área superficial de cada cuerpo ha sido calculado a partir del área planar utilizando el CRS 9377.
+> El área superficial de cada cuerpo ha sido calculado a partir del área planar, utilizando el CRS 9377.
 
 
 ## 3. Sistema de proyección de coordenadas - CRS
