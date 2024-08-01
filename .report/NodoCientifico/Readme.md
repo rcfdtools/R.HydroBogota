@@ -1,4 +1,4 @@
-# Entrevista en Nodo Científico (script)
+# :clapper:Entrevista en Nodo Científico (script)
 
 Hola, bienvenidos a NODO CIENTÍFICO, el programa del CANAL I+i+e de la Escuela Colombiana de Ingeniería Julio Garavito. Hoy tenemos como invitado, a William Ricardo Aguilar Piña, él es Ingeniero Civil, especialista en recursos hidráulicos y medio ambiente y máster en desarrollo urbano y territorial; actualmente se desempeña como profesor e investigador de la Escuela Colombiana de Ingeniería en el Centro de Recursos hidráulicos, y hoy nos viene a hablar del proyecto de investigación Hydro-Bogotá.
 
