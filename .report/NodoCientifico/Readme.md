@@ -98,12 +98,27 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 Para el mediano plazo, se ha planteado el ajuste detallado de los mapas de suelos y usos, la incorporación de información Lidar o de alto detalle topográfico en zonas estratégicas del modelo (como la descarga hacia el Salto del Tequendama y corredores de drenaje en cauces principales fuera de la ciudad de Bogotá), el refinamiento del mallado, la calibración del modelo, la inclusión de estructuras hidráulicas, la modelación de eventos extremos para diferentes periodos de recurrencia y la generación de mapas de amenazas.
 
+<div align="center"><img src="graph/ZonaMunaSaltoTequendama.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Zona Embalse del Muña hacia el Salto del Tequendama. Tomado de: Elaboración propia.</sub></div><br>
+
+<div align="center"><img src="graph/RASMapper_RefinamientoMalladoMedianoPlazo.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Refinamiento de mallado incluyendo coronas y líneas de transición. Tomado de: Elaboración propia.</sub></div><br>
+
 
 ### Horizonte 3 - Largo plazo
 
 Para el largo plazo, se ha planteado el ajuste de secciones en canales a partir de levantamientos topo-batimétricos, la simulación hidráulica general en otras herramientas (como Iber y Mike11) y su comparación con los resultados obtenidos en HEC-RAS, la simulación detallada de rompimiento de represas, la simulación de sedimentos, la simulación no Newtoniana considerando la mezcla del agua con el suelo y otros materiales, y la operación de los embalses.
 
 
+## 4. Hablando un poco de esos modelos y de lo que ya se realizó a corto plazo, ¿Qué resultados obtuvieron?
 
+Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien, este es un prototipo, hemos podido identificar lo siguiente:
+
+**A.** Una vez se desarrolla completamente el flujo de descarga súbita de cada embalse y este llega y fluye lateralmente por la planicie de la llanura de inundación, puede alcanzar velocidades de hasta 1 m/s y frentes de onda u olas de hasta 10 o más metros de altura en algunas zonas.
+
+<div align="center"><img src="graph/ResultadoA_FrenteOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Frente de onda de inundación. Tomado de: Elaboración propia.</sub></div><br>
+
+<div align="center"><a href="video/Model0_Results_Depth1.mp4" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista - Frente de onda de inundación.</a></sub></div>
+
+
+> Ilustraciones y videos sin citación de fuente, corresponden a elaboración propia.
 
 [^1]: https://pancanal.com/wp-content/uploads/2023/12/Consumo-Diario-AC-1.pdf
