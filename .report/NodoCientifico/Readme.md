@@ -30,7 +30,7 @@ Con respecto a de donde surgió esta idea, en alguna ocasión me preguntaron, **
 
 > Investigando este tema, encontramos que en todo el mundo han ocurrido múltiples eventos relacionados con el fallo o colapso de represas, muchos de esos casos de estudio se encuentran documentados en un sitio web muy interesante, llamado https://damfailures.org/, los invito para que exploren su contenido.
 
-<div align="center"><img src="graph/damfailures_org.png" alt="R.SIGE" width="60%" border="0" /><br><sub>Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/.</sub></div>
+<div align="center"><img src="graph/damfailures_org.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/.</sub></div>
 
 
 ## 2. Ingeniero Aguilar, ¿A qué se refiere con “investigación colaborativa”, cuando hablamos de este proyecto? 
