@@ -63,9 +63,9 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 <div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building3D.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista 3D.</sub></div>
 
-<div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><sub>:clapper:Animación en video: Embalse Chisacá y la Regadera.</a></sub></div>
+<div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank">:clapper:<sub>Animación en video: Embalse Chisacá y la Regadera.</a></sub></div>
 
-<div align="center"><a href="video/DEM_Integrado_1920.mp4" target="_blank"><sub>:clapper:Animación en video para incorporación en entrevista: Modelo digital híbrido de elevación, visualización 3D general y por zonas.</a></sub></div><br><br>
+<div align="center"><a href="video/DEM_Integrado_1920.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista: Modelo digital híbrido de elevación, visualización 3D general y por zonas.</a></sub></div><br><br>
 
 
 **B.** Otro elemento importante por considerar, son las intersecciones de los ríos y/o canales con pasos de vía, en estos lugares existen puentes y alcantarillas que deben ser incorporadas o ajustadas en el modelo. Las identificamos, y solo en Bogotá hay 310 pasos de vía, de los cuales 217 requirieron de ajuste en el modelo de terreno.
