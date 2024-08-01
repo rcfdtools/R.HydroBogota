@@ -28,6 +28,10 @@ Para darnos una idea de la magnitud del modelo computacional que estamos constru
 
 Con respecto a de donde surgió esta idea, en alguna ocasión me preguntaron, **_“Ingeniero, que pasaría si por un fenómeno sísmico de gran magnitud, colapsaran súbitamente los embalses que existen en esta cuenca, qué cabeceras municipales podrían verse afectadas y si tendríamos suficiente tiempo para desplazarnos a zonas altas y resguardarnos de la inundación”_**. En ese momento me pregunté, si con los conocimientos, experticia, recursos humanos y tecnológicos que tenemos en el [Centro de Estudios Hidráulicos de la Escuela](https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/), podríamos crear un modelo computacional que nos permitiera estudiar ese tipo de eventos, y de ahí surgió esta investigación.
 
+<div align="center"><img src="graph/DamFailureSample.png" alt="R.SIGE" width="60%" border="0" /><br><sub>Tomado de California DWR - Represa Orosville U.S. y ABC News - Fallo The Rapid Dam en Blue County U.S.</sub></div><br>
+
+<div align="center"><a href="video/DAM_Failure.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div>
+
 > Investigando este tema, encontramos que en todo el mundo han ocurrido múltiples eventos relacionados con el fallo o colapso de represas, muchos de esos casos de estudio se encuentran documentados en un sitio web muy interesante, llamado https://damfailures.org/, los invito para que exploren su contenido.
 
 <div align="center"><img src="graph/damfailures_org.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/.</sub></div>

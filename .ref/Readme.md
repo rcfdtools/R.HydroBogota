@@ -15,6 +15,8 @@
 * [Example: Two Branches With Overflow Dam](https://il.water.usgs.gov/proj/feq/feqdoc/chap10html/chap10_3.html)
 * https://pancanal.com/wp-content/uploads/2023/12/Consumo-Diario-AC-1.pdf
 * https://www.imta.gob.mx/images/transparecia-focalizada/presas.pdf
+* [Orosville Spillways update, april 2, 2019](https://www.youtube.com/watch?v=VNy0YAiPk_U)
+* [ABC News - Record-breaking floods in Minnesota cause broken dam, junio 24, 2024](https://www.youtube.com/watch?v=XJ7UWi7Ystk)
 
 
 Icons
