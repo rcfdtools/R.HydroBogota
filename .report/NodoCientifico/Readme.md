@@ -133,6 +133,11 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 <div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista - Encuentro de ondas de inundación Tominé a San Rafael.</a></sub></div><br>
 
 
+**D.** Todo el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael), ingresa a Bogotá por la garganta que genera el sistema montañoso del Río Bogotá y Río Frío; al llegar al área urbana, este se bifurca por la formación de los Cerros de Suba, y parte se descarga en contraflujo por el canal Guaymaral hasta que el frente de onda pasa, luego, el sentido del flujo se invierte hacia el Río Bogotá hasta drenar la inundación producida.
+
+<div align="center"><img src="graph/ResultadoD_BifurcacionFrenteOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Velocidad de onda de inundación y bifurcación del flujo ingresando a la ciudad de Bogotá.</sub></div><br>
+
+<div align="center"><a href="video/Model0_Results_Velocity3.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista - Velocidad de onda de inundación y bifurcación del flujo ingresando a la ciudad de Bogotá.</a></sub></div><br>
 
 
 
