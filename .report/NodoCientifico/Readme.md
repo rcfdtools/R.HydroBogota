@@ -153,9 +153,9 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 
 <div align="center"><img src="graph/ResultadoF_FlujoHumedalBogota.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Flujo de inundaciones en humedales y zonas bajas de Bogotá.</sub></div>
 
-<div align="center"><a href="video/Model0_Results_Depth3.md" target="_blank">:clapper:<sub>Animación en video: Flujo de inundaciones en humedales y zonas bajas de Bogotá.</a></sub></div>
+<div align="center"><a href="video/Model0_Results_Depth3.md" target="_blank">:clapper:<sub>Animación en video.</a></sub></div>
 
-<div align="center"><a href="video/Model0_Results_Depth3_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista: Flujo de inundaciones en humedales y zonas bajas de Bogotá.</a></sub></div><br><br>
+<div align="center"><a href="video/Model0_Results_Depth3_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br><br>
 
 
 
