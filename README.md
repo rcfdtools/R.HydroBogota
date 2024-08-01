@@ -177,6 +177,8 @@ Para las simulaciones hidráulicas se utilizarán las siguientes herramientas co
 * Modelo IBER (disponible para implementación por investigador externo)
 * Modelo Mike (disponible para implementación por investigador externo)
 
+![R.HydroBogota](.graph/HECRASvsIBERvsMIKE.png)
+
 
 ## Referencias generales [(.ref)](.ref/Readme.md)
 
