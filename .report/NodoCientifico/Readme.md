@@ -58,7 +58,7 @@ Así es Esperanza, este proyecto por su extensión y dinámica, ha sido concebid
 
 ### Horizonte 1 - Corto plazo
 
-En el corto plazo que ya ha sido ejecutado, se creó un prototipo hidráulico 2D funcional en HEC-RAS, para la modelación de la descarga súbita simultánea de todos los embalses de la cuenca del Río Bogotá, y para realizar este modelo, fue necesario:
+En el corto plazo que ya ha sido ejecutado, se creó un prototipo hidráulico 2D funcional en [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), para la modelación de la descarga súbita simultánea de todos los embalses de la cuenca del Río Bogotá, y para realizar este modelo, fue necesario:
 
 
 **A.** Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial Europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones en 0.5 metros.
@@ -109,7 +109,7 @@ Para el mediano plazo, se ha planteado el ajuste detallado de los mapas de suelo
 
 ### Horizonte 3 - Largo plazo
 
-Para el largo plazo, se ha planteado el ajuste de secciones en canales a partir de levantamientos topo-batimétricos, la simulación hidráulica general en otras herramientas (como [Iber](https://imasgal.com/que-es-iber) y [Mike](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers)) y su comparación con los resultados obtenidos en HEC-RAS, la simulación detallada de rompimiento de represas, la simulación de sedimentos, la simulación no Newtoniana considerando la mezcla del agua con el suelo y otros materiales, y la operación de los embalses.
+Para el largo plazo, se ha planteado el ajuste de secciones en canales a partir de levantamientos topo-batimétricos, la simulación hidráulica general en otras herramientas (como [Iber](https://imasgal.com/que-es-iber) y [Mike](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers)) y su comparación con los resultados obtenidos en [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/), la simulación detallada de rompimiento de represas, la simulación de sedimentos, la simulación no Newtoniana considerando la mezcla del agua con el suelo y otros materiales, y la operación de los embalses.
 
 <div align="center"><img src="graph/HECRASvsIBERvsMIKE.png" alt="R.SIGE" width="80%" border="0" /><br><sub>HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).</sub></div><br>
 
