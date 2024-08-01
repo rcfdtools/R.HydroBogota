@@ -63,7 +63,7 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 <div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building3D.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista 3D. Tomado de: Elaboración propia.</sub></div><br><br>
 
-<div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video - Embalse Chisacá y la Regadera.</a></sub></div><br>
+<div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video - Embalse Chisacá y la Regadera.</a></sub></div>
 
 <div align="center"><a href="video/DEM_Integrado_1920.mp4" target="_blank"><sub>:clapper:Video para incorporación en entrevista: Modelo digital híbrido de elevación, visualización 3D general y por zonas. Tomado de: Elaboración propia.</a></sub></div><br><br>
 
