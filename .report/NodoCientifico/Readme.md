@@ -89,5 +89,14 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 <div align="center"><img src="graph/ArcGISPro_Layer_LandCover.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Usos del suelo, rugosidades de Manning y porcentajes de impermeabilidad. Tomado de: Elaboración propia.</sub></div><br><br>
 
 
+**e.** Finalmente, en este corto plazo se realizó la creación del prototipo de simulación 2D incluyendo todos estos elementos, y evaluando el tránsito hidráulico en 124 mil celdas (con un tamaño aproximado de 79 m² por celda) con la incorporación de los ejes de cauces principales como breaklines en el refinamiento del mallado, en una longitud de 906 kilómetros.
+
+
+
+## Referencias
+
+
+
+
 
 [^1]: https://pancanal.com/wp-content/uploads/2023/12/Consumo-Diario-AC-1.pdf
