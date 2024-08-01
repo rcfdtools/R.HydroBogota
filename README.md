@@ -177,7 +177,7 @@ Para las simulaciones hidráulicas se utilizarán las siguientes herramientas co
 * Modelo IBER (disponible para implementación por investigador externo)
 * Modelo Mike (disponible para implementación por investigador externo)
 
-<br<div align="center"><img src=".graph/HECRASvsIBERvsMIKE.png" alt="R.SIGE" width="80%" border="0" /><br><sub>HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).</sub></div><br>
+<br><div align="center"><img src=".graph/HECRASvsIBERvsMIKE.png" alt="R.SIGE" width="80%" border="0" /><br><sub>HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).</sub></div><br>
 
 
 ## Referencias generales [(.ref)](.ref/Readme.md)
