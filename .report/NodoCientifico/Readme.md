@@ -109,7 +109,7 @@ Para el mediano plazo, se ha planteado el ajuste detallado de los mapas de suelo
 
 Para el largo plazo, se ha planteado el ajuste de secciones en canales a partir de levantamientos topo-batimétricos, la simulación hidráulica general en otras herramientas (como [Iber](https://imasgal.com/que-es-iber) y [Mike](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers)) y su comparación con los resultados obtenidos en HEC-RAS, la simulación detallada de rompimiento de represas, la simulación de sedimentos, la simulación no Newtoniana considerando la mezcla del agua con el suelo y otros materiales, y la operación de los embalses.
 
-<div align="center"><img src="graph/HECRASvsIBERvsMIKE.png" alt="R.SIGE" width="100%" border="0" /><br><sub>HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).</sub></div><br>
+<div align="center"><img src="graph/HECRASvsIBERvsMIKE.png" alt="R.SIGE" width="80%" border="0" /><br><sub>HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).</sub></div><br>
 
 
 ## 4. Hablando un poco de esos modelos y de lo que ya se realizó a corto plazo, ¿Qué resultados obtuvieron?
