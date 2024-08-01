@@ -76,12 +76,17 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 <div align="center"><img src="graph/RASMapper_PasoVia_CanalMolinos.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Ajuste de pasos de vía en Canal Molinos. Tomado de: Elaboración propia.</sub></div><br><br>
 
+
 **c.** Algo también muy importante, ha sido la complementación y ajuste de la red de drenaje con el nivel de detalle que esta requiere, no solamente en sus ejes, sino también en las coronas y en las líneas de transferencia para ajustar el mallado de la superficie 3D. Digitalizamos 54 km de drenajes principales faltantes y 1614 km de líneas de banca y líneas de transición de mallado, todo a escala 1:1000 o inferior.
 
-<div align="center"><img src="graph/ArcGISPro_Layer_Breakline_v1a" alt="R.SIGE" width="100%" border="0" /><br><sub>Digitalización de drenajes, coronas y líneas de transición. Tomado de: Elaboración propia.</sub></div><br><br>
+<div align="center"><img src="graph/ArcGISPro_Layer_Breakline_v1a.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Digitalización de drenajes, coronas y líneas de transición. Tomado de: Elaboración propia.</sub></div><br><br>
 
 
+**d.** Otro aspecto fue la homologación de los mapas de suelos y coberturas por uso de todo el Departamento de Cundinamarca, esto para poder definir los grupos hidrológicos, establecer tasas de infiltración, definir los valores iniciales de rugosidad y los porcentajes de impermeabilidad en las zonas urbanas.
 
+<div align="center"><img src="graph/ArcGISPro_Layer_Soils.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Suelos con asociación de grupos hidrológicos y tasas de infiltración. Tomado de: Elaboración propia.</sub></div><br><br>
+
+<div align="center"><img src="graph/ArcGISPro_Layer_LandCover.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Usos del suelo, rugosidades de Manning y porcentajes de impermeabilidad. Tomado de: Elaboración propia.</sub></div><br><br>
 
 
 
