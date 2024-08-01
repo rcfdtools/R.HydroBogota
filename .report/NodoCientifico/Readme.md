@@ -148,6 +148,18 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 
 <div align="center"><a href="video/Model0_Results_Depth2_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista: Flujo drenado sistema sur desde Chisacá y La Regadera.</a></sub></div><br><br>
 
+
+**F.** Luego de la inundación, gran parte de los flujos de excesos que se descargan sobre los humedales y canales de la ciudad de Bogotá son drenados hasta volver casi a su estado regular. Sin embargo, la zona de descarga del embalse del Muña hasta el Santo del Tequendama no dispone actualmente de información Lidar de alta precisión, para poder simular completamente la descarga y vaciado de la llanura inundable remanente. Es por ello por lo que, a mediano plazo, se ha propuesto incorporar al modelo digital de elevación híbrido, esta información de detalle.
+
+<div align="center"><img src="graph/ResultadoF_FlujoHumedalBogota.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Flujo de inundaciones en humedales y zonas bajas de Bogotá.</sub></div>
+
+<div align="center"><a href="video/Model0_Results_Depth3.md" target="_blank">:clapper:<sub>Animación en video: Flujo de inundaciones en humedales y zonas bajas de Bogotá.</a></sub></div>
+
+<div align="center"><a href="video/Model0_Results_Depth3_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista: Flujo de inundaciones en humedales y zonas bajas de Bogotá.</a></sub></div><br><br>
+
+
+
+
 > Ilustraciones y videos sin citación de fuente, corresponden a elaboración propia.
 
 [^1]: https://pancanal.com/wp-content/uploads/2023/12/Consumo-Diario-AC-1.pdf
