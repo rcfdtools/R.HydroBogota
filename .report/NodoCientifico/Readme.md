@@ -27,7 +27,7 @@ Con respecto a de donde surgió esta idea, en alguna ocasión me preguntaron, **
 
 > Investigando este tema, encontramos que en todo el mundo han ocurrido múltiples eventos relacionados con el fallo o colapso de represas, muchos de esos casos de estudio se encuentran documentados en un sitio web muy interesante, llamado https://damfailures.org/, los invito para que exploren su contenido.
 
-<div align="center">Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/. <br><img src="graph/damfailures_org.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/.<br><img src="graph/damfailures_org.png" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 ## 2. Ingeniero Aguilar, ¿A qué se refiere con “investigación colaborativa”, cuando hablamos de este proyecto? 
@@ -53,7 +53,12 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 a.	Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial de europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones.
 
-<div align="center">Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/. <br><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building.png" alt="R.SIGE" width="100%" border="0" /></div>
+<div align="center">Modelo digital híbrido de elevación, vista en planta. Tomado de: Elaboración propia.<br><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building.png" alt="R.SIGE" width="100%" border="0" /></div>
+
+
+
+
+
 
 
 [^1]: https://pancanal.com/wp-content/uploads/2023/12/Consumo-Diario-AC-1.pdf
