@@ -175,7 +175,7 @@ Para las simulaciones hidráulicas se utilizarán las siguientes herramientas co
 
 * Modelo [HEC-RAS](.model/HEC-RAS.md)
 * Modelo IBER (disponible para implementación por investigador externo)
-* Modelo Mike11 (disponible para implementación por investigador externo)
+* Modelo Mike (disponible para implementación por investigador externo)
 
 
 ## Referencias generales [(.ref)](.ref/Readme.md)

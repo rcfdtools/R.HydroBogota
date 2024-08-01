@@ -103,7 +103,9 @@ Para el mediano plazo, se ha planteado el ajuste detallado de los mapas de suelo
 
 ### Horizonte 3 - Largo plazo
 
-Para el largo plazo, se ha planteado el ajuste de secciones en canales a partir de levantamientos topo-batimétricos, la simulación hidráulica general en otras herramientas (como Iber y Mike11) y su comparación con los resultados obtenidos en HEC-RAS, la simulación detallada de rompimiento de represas, la simulación de sedimentos, la simulación no Newtoniana considerando la mezcla del agua con el suelo y otros materiales, y la operación de los embalses.
+Para el largo plazo, se ha planteado el ajuste de secciones en canales a partir de levantamientos topo-batimétricos, la simulación hidráulica general en otras herramientas (como [Iber](https://imasgal.com/que-es-iber) y [Mike](https://www.dhigroup.com/technologies/mikepoweredbydhi/mikeplus-rivers)) y su comparación con los resultados obtenidos en HEC-RAS, la simulación detallada de rompimiento de represas, la simulación de sedimentos, la simulación no Newtoniana considerando la mezcla del agua con el suelo y otros materiales, y la operación de los embalses.
+
+<div align="center"><img src="graph/HECRASvsIBERvsMIKE.png" alt="R.SIGE" width="100%" border="0" /><br><sub>HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).</sub></div><br>
 
 
 ## 4. Hablando un poco de esos modelos y de lo que ya se realizó a corto plazo, ¿Qué resultados obtuvieron?
@@ -160,7 +162,7 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 
 El proyecto Hydro-Bogotá dispone de un repositorio público en GitHub, allí se encuentra en detalle el contenido de la investigación y los avances realizados, también dispone de los datos fuente y los ensambles generados.
 
-<div align="center"><img src="graph/HydroBogota_GitHub.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Hydro-Bogotá en GitHub.</sub></div>
+<div align="center"><img src="graph/HydroBogota_GitHub.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Hydro-Bogotá en GitHub.</sub></div><br>
 
 > Para conocer más en detalle este proyecto, los interesados en participar en esta iniciativa, desarrollando p. ej., trabajos de grado y estudios de casos particulares, pueden acercarse al Centro de Estudios Hidráulicos de la Escuela Colombiana de Ingeniería.
 
