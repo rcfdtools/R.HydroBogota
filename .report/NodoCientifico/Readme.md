@@ -179,7 +179,9 @@ Seguramente ellos ya cuentan con experiencias particulares sobre estos temas, y 
 Bueno, mi invitación es a qué como ingenieros, divulguemos, participemos y fomentemos el desarrollo de proyectos de investigación de este tipo, que documentemos y compartamos todo nuestro conocimiento y que motivemos a nuestros estudiantes, para qué en el ejercicio de su desarrollo profesional, piensen en que somos parte de un entorno común y que debemos plantear proyectos y soluciones sostenibles a largo plazo.
 
 
-## 8. Gracias y nos vemos en una próxima oportunidad.
+## 8. Gracias y nos vemos en una próxima oportunidad
+
+Gracias.
 
 
 > Ilustraciones y videos sin citación de fuente, corresponden a elaboración propia.
