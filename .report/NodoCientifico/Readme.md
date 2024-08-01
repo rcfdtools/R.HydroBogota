@@ -55,7 +55,7 @@ Así es Esperanza, este proyecto por su extensión y dinámica, ha sido concebid
 En el corto plazo que ya ha sido ejecutado, se creó un prototipo hidráulico 2D funcional en HEC-RAS, para la modelación de la descarga súbita simultánea de todos los embalses de la cuenca del Río Bogotá, y para realizar este modelo, fue necesario:
 
 
-**A.** Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial de europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones.
+**A.** Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial Europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones en 0.5 metros.
 
 <div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista en planta.</sub></div><br><br>
 
