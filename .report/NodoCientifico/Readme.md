@@ -64,6 +64,8 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 <div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video - Embalse Chisacá y la Regadera.</a><br></sub></div><br>
 
+<div align="center"><a href="video/DEM_Integrado_1920.mp4" target="_blank"><br><sub>:clapper:Video para incorporación en entrevista: Modelo digital híbrido de elevación, visualización 3D general y por zonas. Tomado de: Elaboración propia.</a><br></sub></div><br>
+
 :clapper:Video para incorporación en entrevista: [DEM_Integrado_1920.mp4](video/DEM_Integrado_1920.mp4)<br><br>
 
 
