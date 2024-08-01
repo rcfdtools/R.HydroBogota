@@ -126,6 +126,14 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 <div align="center"><a href="video/Model0_Results_Velocity1.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista - Velocidad de onda de inundación – Zona Tominé, Neusa y Sisga.</a></sub></div><br>
 
 
+**C.** Las descargas súbitas y flujos que vienen del Embalse San Rafael se encuentran con las que vienen del Embalse de Tominé, justo en la zona de llanura baja, cerca de la cabecera municipal del Municipio de Sopó. El flujo y su desplazamiento es dominado por las descargas del Tominé.
+
+<div align="center"><img src="graph/ResultadoC_ChoqueOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Encuentro de ondas de inundación Tominé a San Rafael. Tomado de: Elaboración propia.</sub></div><br>
+
+<div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista - Encuentro de ondas de inundación Tominé a San Rafael.</a></sub></div><br>
+
+
+
 
 > Ilustraciones y videos sin citación de fuente, corresponden a elaboración propia.
 
