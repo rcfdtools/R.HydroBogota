@@ -27,8 +27,33 @@ Con respecto a de donde surgió esta idea, en alguna ocasión me preguntaron, **
 
 > Investigando este tema, encontramos que en todo el mundo han ocurrido múltiples eventos relacionados con el fallo o colapso de represas, muchos de esos casos de estudio se encuentran documentados en un sitio web muy interesante, llamado https://damfailures.org/, los invito para que exploren su contenido.
 
-<div align="center">Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/. <br><img src="graph/damfailures_org.png" alt="R.SIGE" width="40%" border="0" /></div>
+<div align="center">Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/. <br><img src="graph/damfailures_org.png" alt="R.SIGE" width="100%" border="0" /></div>
 
+
+## 2. Ingeniero Aguilar, ¿A qué se refiere con “investigación colaborativa”, cuando hablamos de este proyecto? 
+
+Hydro-Bogotá es un proyecto abierto y continuo, en el que pueden participar estudiantes, ingenieros, especialistas, semilleros, centros de estudios, universidades, entidades gubernamentales, ONG, empresas de servicios públicos y la sociedad civil en general; y es colaborativo, por qué busca integrar todo su conocimiento y experticia en un interés general, que es conocer y entender las dinámicas que ocurren en la cuenca del Río Bogotá, alrededor del estudio del agua.
+
+Esperanza, este no solamente es un proyecto pensado para que participen ingenieros en recursos hidráulicos, también se requiere del conocimiento experto de otras profesiones afines, tales como:
+
+* Ingenieros ambientales
+* Ingenieros geotécnicos
+* Ingenieros estructurales
+* Ingenieros topográficos
+
+
+## 3. Ingeniero, veo que este es un proyecto con un alcance muy extenso ¿Ha sido concebido para que se pueda desarrollar por etapas y de donde se obtendrá toda la información requerida?
+
+Así es Esperanza, este proyecto por su extensión y dinámica, ha sido concebido para ser desarrollado en 3 horizontes:
+
+
+### Horizonte 1 - Corto plazo
+
+En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico 2D funcional en HEC-RAS de toda la cuenca del Río Bogotá. Para la modelación de la descarga súbita simultánea de todos los embalses, y para realizar este modelo, fue necesario:
+
+a.	Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial de europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones.
+
+<div align="center">Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/. <br><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building.png" alt="R.SIGE" width="100%" border="0" /></div>
 
 
 [^1]: https://pancanal.com/wp-content/uploads/2023/12/Consumo-Diario-AC-1.pdf
