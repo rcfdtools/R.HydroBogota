@@ -59,7 +59,7 @@ a.	Integrar modelos digitales de elevación de diferentes fuentes en un único m
 
 <div align="center">Modelo digital híbrido de elevación, vista 3D. Tomado de: Elaboración propia.<br><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building3D.png" alt="R.SIGE" width="100%" border="0" /></div><br>
 
-<div align="center"><br><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer.gif" alt="R.SIGE" width="25%" border="0" /><br>Ver animación en video.</a><br><br></div>
+<div align="center"><br><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer.png" alt="R.SIGE" width="15%" border="0" /><br>Ver animación en video.</a><br><br></div>
 
 
 
