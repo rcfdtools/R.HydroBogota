@@ -14,5 +14,11 @@
 * https://www.minambiente.gov.co/wp-content/uploads/2021/10/18.-Anexo-18-Guia-Criterios-para-el-acotamiento-de-las-Rondas-Hidricas-1.pdf
 * [Example: Two Branches With Overflow Dam](https://il.water.usgs.gov/proj/feq/feqdoc/chap10html/chap10_3.html)
 * https://pancanal.com/wp-content/uploads/2023/12/Consumo-Diario-AC-1.pdf
-* https://www.flaticon.com/free-icon/creek_10873840?term=river&page=1&position=6&origin=search&related_id=10873840
 * https://www.imta.gob.mx/images/transparecia-focalizada/presas.pdf
+
+
+Icons
+
+* https://www.flaticon.com/free-icon/creek_10873840?term=river&page=1&position=6&origin=search&related_id=10873840
+* https://www.flaticon.com/free-icon/videoplayer_2633389?related_id=2633389
+* https://logowik.com/vs-versus-symbol-logo-vector-70965.html
