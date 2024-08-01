@@ -3,7 +3,7 @@
 
 # :clapper:Entrevista en _NODO CIENTÍFICO_ (script)
 
-<div align="center"><img src="graph/NodoCientificoPresentaInvitado.png" alt="R.SIGE" width="60%" border="0" /></div><br>
+<div align="center"><img src="graph/NodoCientificoPresentaInvitado.png" alt="R.SIGE" width="50%" border="0" /></div><br>
 
 Hola, bienvenidos a [NODO CIENTÍFICO](https://www.escuelaing.edu.co/es/investigacion-e-innovacion/), el programa del CANAL **_[I+i+e](https://www.youtube.com/c/CanalImasi)_** de la [Universidad Escuela Colombiana de Ingeniería Julio Garavito](). Hoy tenemos como invitado, a William Ricardo Aguilar Piña, él es Ingeniero Civil, especialista en recursos hidráulicos y medio ambiente y máster en desarrollo urbano y territorial; actualmente se desempeña como profesor e investigador de la Escuela Colombiana de Ingeniería en el Centro de Recursos hidráulicos, y hoy nos viene a hablar del proyecto de investigación **_Hydro-Bogotá_**.
 
