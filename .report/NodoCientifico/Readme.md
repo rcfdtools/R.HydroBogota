@@ -14,7 +14,7 @@ Gracias Esperanza por haberme extendido esta invitación y por tenerme aquí en 
 
 Hydro-Bogotá, es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos físicos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
-<div align="center"><img src="graph/ArcGISPro_DAM1.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Cuenca Río Bogotá y sistema de embalses. Tomado de: Elaboración propia.</sub></div><br>
+<div align="center"><img src="graph/ArcGISPro_DAM1.png" alt="R.SIGE" width="100%" border="0" /><sub>Cuenca Río Bogotá y sistema de embalses. Tomado de: Elaboración propia.</sub></div><br>
 
 Esta cuenca tiene un área aproximada de 5926 km² y es particularmente interesante su estudio, debido a que en ella se encuentran varias cabeceras municipales, se desarrollan diferentes actividades socioeconómicas y porque es donde está ubicada la ciudad de Bogotá; también porque cuenta internamente con 6 embalses reguladores en zonas altas (Tominé, Neusa, Sisga, San Rafael, Chisacá y La Regadera), que tienen una superficie aproximada de 48 km² y almacenan más de 980 hm³ de agua.
 
