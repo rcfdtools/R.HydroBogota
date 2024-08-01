@@ -57,7 +57,7 @@ Así es Esperanza, este proyecto por su extensión y dinámica, ha sido concebid
 En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico 2D funcional en HEC-RAS de toda la cuenca del Río Bogotá. Para la modelación de la descarga súbita simultánea de todos los embalses, y para realizar este modelo, fue necesario:
 
 
-**a.** Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial de europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones.
+**A.** Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial de europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones.
 
 <div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista en planta. Tomado de: Elaboración propia.</sub></div><br><br>
 
@@ -68,7 +68,7 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 <div align="center"><a href="video/DEM_Integrado_1920.mp4" target="_blank"><sub>:clapper:Animación en video para incorporación en entrevista: Modelo digital híbrido de elevación, visualización 3D general y por zonas. Tomado de: Elaboración propia.</a></sub></div><br><br>
 
 
-**b.** Otro elemento importante por considerar, son las intersecciones de los ríos y/o canales con pasos de vía, en estos lugares existen puentes y alcantarillas que deben ser incorporadas o ajustadas en el modelo. Las identificamos, y solo en Bogotá hay 310 pasos de vía, de los cuales 217 requirieron de ajuste en el modelo de terreno.
+**B.** Otro elemento importante por considerar, son las intersecciones de los ríos y/o canales con pasos de vía, en estos lugares existen puentes y alcantarillas que deben ser incorporadas o ajustadas en el modelo. Las identificamos, y solo en Bogotá hay 310 pasos de vía, de los cuales 217 requirieron de ajuste en el modelo de terreno.
 
 <div align="center"><img src="graph/ArcGISPro_Layer_Drenaje_PasoVia.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Pasos de vía identificados en la ciudad de Bogotá. Tomado de: Elaboración propia.</sub></div><br><br>
 
@@ -77,24 +77,31 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 <div align="center"><img src="graph/RASMapper_PasoVia_CanalMolinos.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Ajuste de pasos de vía en Canal Molinos. Tomado de: Elaboración propia.</sub></div><br><br>
 
 
-**c.** Algo también muy importante, ha sido la complementación y ajuste de la red de drenaje con el nivel de detalle que esta requiere, no solamente en sus ejes, sino también en las coronas y en las líneas de transferencia para ajustar el mallado de la superficie 3D. Digitalizamos 54 km de drenajes principales faltantes y 1614 km de líneas de banca y líneas de transición de mallado, todo a escala 1:1000 o inferior.
+**C.** Algo también muy importante, ha sido la complementación y ajuste de la red de drenaje con el nivel de detalle que esta requiere, no solamente en sus ejes, sino también en las coronas y en las líneas de transferencia para ajustar el mallado de la superficie 3D. Digitalizamos 54 km de drenajes principales faltantes y 1614 km de líneas de banca y líneas de transición de mallado, todo a escala 1:1000 o inferior.
 
 <div align="center"><img src="graph/ArcGISPro_Layer_Breakline_v1a.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Digitalización de drenajes, coronas y líneas de transición. Tomado de: Elaboración propia.</sub></div><br><br>
 
 
-**d.** Otro aspecto fue la homologación de los mapas de suelos y coberturas por uso de todo el Departamento de Cundinamarca, esto para poder definir los grupos hidrológicos, establecer tasas de infiltración, definir los valores iniciales de rugosidad y los porcentajes de impermeabilidad en las zonas urbanas.
+**D.** Otro aspecto fue la homologación de los mapas de suelos y coberturas por uso de todo el Departamento de Cundinamarca, esto para poder definir los grupos hidrológicos, establecer tasas de infiltración, definir los valores iniciales de rugosidad y los porcentajes de impermeabilidad en las zonas urbanas.
 
 <div align="center"><img src="graph/ArcGISPro_Layer_Soils.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Suelos con asociación de grupos hidrológicos y tasas de infiltración. Tomado de: Elaboración propia.</sub></div><br><br>
 
 <div align="center"><img src="graph/ArcGISPro_Layer_LandCover.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Usos del suelo, rugosidades de Manning y porcentajes de impermeabilidad. Tomado de: Elaboración propia.</sub></div><br><br>
 
 
-**e.** Finalmente, en este corto plazo se realizó la creación del prototipo de simulación 2D incluyendo todos estos elementos, y evaluando el tránsito hidráulico en 124 mil celdas (con un tamaño aproximado de 79 m² por celda) con la incorporación de los ejes de cauces principales como breaklines en el refinamiento del mallado, en una longitud de 906 kilómetros.
+**E.** Finalmente, en este corto plazo se realizó la creación del prototipo de simulación 2D incluyendo todos estos elementos, y evaluando el tránsito hidráulico en 124 mil celdas (con un tamaño aproximado de 79 m² por celda) con la incorporación de los ejes de cauces principales como breaklines en el refinamiento del mallado, en una longitud de 906 kilómetros.
+
+<div align="center"><img src="graph/HECRAS_Model0_2DFlowArea.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Mallado y refinamiento en prototipo a partir de ejes. Tomado de: Elaboración propia.</sub></div><br><br>
 
 
+### Horizonte 2 - Mediano plazo
 
-## Referencias
+Para el mediano plazo, se ha planteado el ajuste detallado de los mapas de suelos y usos, la incorporación de información Lidar o de alto detalle topográfico en zonas estratégicas del modelo (como la descarga hacia el Salto del Tequendama y corredores de drenaje en cauces principales fuera de la ciudad de Bogotá), el refinamiento del mallado, la calibración del modelo, la inclusión de estructuras hidráulicas, la modelación de eventos extremos para diferentes periodos de recurrencia y la generación de mapas de amenazas.
 
+
+### Horizonte 3 - Largo plazo
+
+Para el largo plazo, se ha planteado el ajuste de secciones en canales a partir de levantamientos topo-batimétricos, la simulación hidráulica general en otras herramientas (como Iber y Mike11) y su comparación con los resultados obtenidos en HEC-RAS, la simulación detallada de rompimiento de represas, la simulación de sedimentos, la simulación no Newtoniana considerando la mezcla del agua con el suelo y otros materiales, y la operación de los embalses.
 
 
 
