@@ -64,7 +64,7 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 <div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video - Embalse Chisacá y la Regadera.</a><br></sub></div><br>
 
-:clapper:Video para incorporación en entrevista: [DEM_Integrado_1920.mp4](video/DEM_Integrado_1920.mp4)<br>
+:clapper:Video para incorporación en entrevista: [DEM_Integrado_1920.mp4](video/DEM_Integrado_1920.mp4)<br><br>
 
 
 **b.** Otro elemento importante por considerar, son las intersecciones de los ríos y/o canales con pasos de vía, en estos lugares existen puentes y alcantarillas que deben ser incorporadas o ajustadas en el modelo. Las identificamos, y solo en Bogotá hay 310 pasos de vía, de los cuales 217 requirieron de ajuste en el modelo de terreno.
