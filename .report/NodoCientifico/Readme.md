@@ -158,6 +158,28 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 <div align="center"><a href="video/Model0_Results_Depth3_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
 
 
+## 5. Importante trabajo el que se está desarrollado en la Escuela. Podría, ingeniero Aguilar, explicar brevemente, ¿de qué manera los estudiantes y los demás centros de estudios e interesados pueden participar en este proyecto de investigación?
+
+El proyecto Hydro-Bogotá dispone de un repositorio público en GitHub, allí se encuentra en detalle el contenido de la investigación y los avances realizados, también dispone de los datos fuente y los ensambles generados.
+
+<div align="center"><img src="graph/HydroBogota_GitHub.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Hydro-Bogotá en GitHub.</sub></div>
+
+> Para conocer más en detalle este proyecto, los interesados en participar en esta iniciativa, desarrollando p. ej., trabajos de grado y estudios de casos particulares, pueden acercarse al Centro de Estudios Hidráulicos de la Escuela Colombiana de Ingeniería.
+
+
+## 6. Profesor, partiendo de su conocimiento y experiencia, cómo se podría potencializar el ejercicio práctico de estos temas.
+
+Esperanza, tal vez una buena estrategia pueda ser a través de la divulgación de este proyecto con otras universidades, y con las entidades públicas del distrito y de los municipios que se encuentran en el área de influencia de la cuenca del Río Bogotá.
+
+Seguramente ellos ya cuentan con experiencias particulares sobre estos temas, y los municipios disponen de información topográfica de detalle que necesitamos incorporar en esta investigación. Como hablamos al inicio de la charla, no se trata de que solo en la Escuela mantengamos esta investigación activa, sino que los productos que se obtengan puedan ser utilizados como insumo, p. ej., en la elaboración de los planes de ordenamiento territorial y que creemos esa sinergia que permita que todo este esfuerzo pueda ser aprovechado.
+
+
+## 7. Ingeniero Aguilar, para ir finalizando esta valiosa entrevista, por favor, nos podría hacer una reflexión del papel de los ingenieros en estos temas, de cara a la responsabilidad ambiental, sostenible y compromiso social. 
+
+Bueno, mi invitación es a qué como ingenieros, divulguemos, participemos y fomentemos el desarrollo de proyectos de investigación de este tipo, que documentemos y compartamos todo nuestro conocimiento y que motivemos a nuestros estudiantes, para qué en el ejercicio de su desarrollo profesional, piensen en que somos parte de un entorno común y que debemos plantear proyectos y soluciones sostenibles a largo plazo.
+
+
+## 8. Gracias y nos vemos en una próxima oportunidad.
 
 
 > Ilustraciones y videos sin citación de fuente, corresponden a elaboración propia.
