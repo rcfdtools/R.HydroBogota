@@ -63,7 +63,7 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 <div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building3D.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista 3D.</sub></div><br><br>
 
-<div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video: Embalse Chisacá y la Regadera.</a></sub></div>
+<div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="5%" border="0" /><br><sub>:clapper:Animación en video: Embalse Chisacá y la Regadera.</a></sub></div>
 
 <div align="center"><a href="video/DEM_Integrado_1920.mp4" target="_blank"><sub>:clapper:Animación en video para incorporación en entrevista: Modelo digital híbrido de elevación, visualización 3D general y por zonas.</a></sub></div><br><br>
 
@@ -116,35 +116,35 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 
 <div align="center"><img src="graph/ResultadoA_FrenteOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Frente de onda de inundación.</sub></div><br>
 
-<div align="center"><a href="video/Model0_Results_Depth1.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista: Frente de onda de inundación.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Depth1.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="5%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista: Frente de onda de inundación.</a></sub></div><br>
 
 
 **B.** Las descargas provenientes del Embalse del Neusa y las combinadas provenientes de los Embalses Tominé y Sisga, viajan casi a la misma velocidad hasta encontrarse cerca al Embalse de Aposentos en el Municipio de Sopó, esto a pesar de que la llanura inundable del Río Bogotá es más amplia en el corredor de descarga del Tominé y que los volúmenes descargados son mayores.
 
 <div align="center"><img src="graph/ResultadoB_VelocidadOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Velocidad de onda de inundación.</sub></div><br>
 
-<div align="center"><a href="video/Model0_Results_Velocity1.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista: Velocidad de onda de inundación – Zona Tominé, Neusa y Sisga.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Velocity1.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="5%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista: Velocidad de onda de inundación – Zona Tominé, Neusa y Sisga.</a></sub></div><br>
 
 
 **C.** Las descargas súbitas y flujos que vienen del Embalse San Rafael se encuentran con las que vienen del Embalse de Tominé, justo en la zona de llanura baja, cerca de la cabecera municipal del Municipio de Sopó. El flujo y su desplazamiento es dominado por las descargas del Tominé.
 
 <div align="center"><img src="graph/ResultadoC_ChoqueOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Encuentro de ondas de inundación Tominé a San Rafael.</sub></div><br>
 
-<div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista: Encuentro de ondas de inundación Tominé a San Rafael.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="5%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista: Encuentro de ondas de inundación Tominé a San Rafael.</a></sub></div><br>
 
 
 **D.** Todo el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael), ingresa a Bogotá por la garganta que genera el sistema montañoso del Río Bogotá y Río Frío; al llegar al área urbana, este se bifurca por la formación de los Cerros de Suba, y parte se descarga en contraflujo por el canal Guaymaral hasta que el frente de onda pasa, luego, el sentido del flujo se invierte hacia el Río Bogotá hasta drenar la inundación producida.
 
 <div align="center"><img src="graph/ResultadoD_BifurcacionFrenteOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Velocidad de onda de inundación y bifurcación del flujo ingresando a la ciudad de Bogotá.</sub></div><br>
 
-<div align="center"><a href="video/Model0_Results_Velocity3.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista: Velocidad de onda de inundación y bifurcación del flujo ingresando a la ciudad de Bogotá.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Velocity3.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="5%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista: Velocidad de onda de inundación y bifurcación del flujo ingresando a la ciudad de Bogotá.</a></sub></div><br>
 
 
 **E.** El flujo de descarga proveniente desde los embalses Chisacá y La Regadera, es drenado o amortiguado en la llanura, antes de que los flujos provenientes del sistema norte llegan al área urbana de Bogotá.
 
 <div align="center"><img src="graph/ResultadoE_FrenteOndaChisacaRegadera.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Flujo drenado sistema sur desde Chisacá y La Regadera.</sub></div><br>
 
-<div align="center"><a href="video/Model0_Results_Depth2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video: Flujo drenado sistema sur desde Chisacá y La Regadera.</a></sub></div>
+<div align="center"><a href="video/Model0_Results_Depth2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="5%" border="0" /><br><sub>:clapper:Animación en video: Flujo drenado sistema sur desde Chisacá y La Regadera.</a></sub></div>
 
 <div align="center"><a href="video/Model0_Results_Depth2_3840.mp4" target="_blank"><sub>:clapper:Animación en video para incorporación en entrevista: Flujo drenado sistema sur desde Chisacá y La Regadera.</a></sub></div><br><br>
 
