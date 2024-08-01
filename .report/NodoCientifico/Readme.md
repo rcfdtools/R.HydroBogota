@@ -130,7 +130,7 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 
 <div align="center"><img src="graph/ResultadoC_ChoqueOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Encuentro de ondas de inundación Tominé a San Rafael. Tomado de: Elaboración propia.</sub></div><br>
 
-<div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista - Encuentro de ondas de inundación Tominé a San Rafael.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /></a><br><sub>:clapper:Animación en video para incorporación en entrevista - Encuentro de ondas de inundación Tominé a San Rafael.</sub></div><br>
 
 
 
