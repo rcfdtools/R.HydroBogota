@@ -18,13 +18,13 @@ Hydro-Bogotá, es un proyecto de investigación colaborativa que busca integrar 
 
 Esta cuenca tiene un área aproximada de 5926 km² y es particularmente interesante su estudio, debido a que en ella se encuentran varias cabeceras municipales, se desarrollan diferentes actividades socioeconómicas y porque es donde está ubicada la ciudad de Bogotá; también porque cuenta internamente con 6 embalses reguladores en zonas altas (Tominé, Neusa, Sisga, San Rafael, Chisacá y La Regadera), que tienen una superficie aproximada de 48 km² y almacenan más de 980 hm³ de agua.
 
-<div align="center"><img src="graph/ArcGISPro_DAM2.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Cuenca Río Bogotá y sistema de embalses zona norte: Tominé, Neusa y Sisga. Tomado de: Elaboración propia.</sub></div><br>
+<div align="center"><img src="graph/ArcGISPro_DAM2.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Cuenca Río Bogotá y sistema de embalses zona norte: Tominé, Neusa y Sisga. Tomado de: Elaboración propia.</sub></div><br><br>
 
 <div align="center"><img src="graph/ArcGISPro_DAM3.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Cuenca Río Bogotá y sistema de embalses zona centro y sur: San Rafael, Chisacá y La Regadera. Tomado de: Elaboración propia.</sub></div><br>
 
 Para darnos una idea de la magnitud del modelo computacional que estamos construyendo, y de los embalses que vamos a incluir en la modelación hidráulica, pensemos en el tamaño de una piscina olímpica (que tiene más o menos 50m x 25m x 2m de profundidad = 2500m³), entonces, 1 solo hectómetro cúbico (100 x 100 x 100m) puede ser algo así como 400 piscinas olímpicas[^1]. Ahora imaginemos tener 392mil piscinas olímpicas en la parte alta de una montaña y que de repente estas se desocupen sobre la llanura del Río Bogotá.
 
-<div align="center"><img src="graph/HectometroCubico.png" alt="R.SIGE" width="40%" border="0" /><br><sub>Hectómetro cúbico. Tomado de: Consumo diario de agua, Canal de Panamá.</sub></div><br>
+<div align="center"><img src="graph/HectometroCubico.png" alt="R.SIGE" width="40%" border="0" /><br><sub>Hectómetro cúbico. Tomado de: Consumo diario de agua, Canal de Panamá.</sub></div><br><br>
 
 <div align="center"><img src="graph/HectometroCubicoPiscinas.png" alt="R.SIGE" width="40%" border="0" /><br><sub>Equivalente de hectómetro cúbico en número de piscinas olímpicas. Tomado de: Consumo diario de agua, Canal de Panamá.</sub></div><br>
 
@@ -32,7 +32,7 @@ Con respecto a de donde surgió esta idea, en alguna ocasión me preguntaron, **
 
 > Investigando este tema, encontramos que en todo el mundo han ocurrido múltiples eventos relacionados con el fallo o colapso de represas, muchos de esos casos de estudio se encuentran documentados en un sitio web muy interesante, llamado https://damfailures.org/, los invito para que exploren su contenido.
 
-<div align="center"><img src="graph/damfailures_org.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/.</sub></div><br>
+<div align="center"><img src="graph/damfailures_org.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/.</sub></div>
 
 
 ## 2. Ingeniero Aguilar, ¿A qué se refiere con “investigación colaborativa”, cuando hablamos de este proyecto? 
@@ -58,19 +58,19 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 **a.** Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial de europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones.
 
-<div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista en planta. Tomado de: Elaboración propia.</sub></div><br>
+<div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista en planta. Tomado de: Elaboración propia.</sub></div><br><br>
 
-<div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building3D.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista 3D. Tomado de: Elaboración propia.</sub></div><br>
+<div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building3D.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista 3D. Tomado de: Elaboración propia.</sub></div><br><br>
 
-<div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video - Embalse Chisacá y la Regadera.</a><br></sub></div><br>
+<div align="center"><a href="video/DEM_EmbalsesSistemaSur.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video - Embalse Chisacá y la Regadera.</a><br></sub></div><br><br>
 
 **b.** Otro elemento importante por considerar, son las intersecciones de los ríos y/o canales con pasos de vía, en estos lugares existen puentes y alcantarillas que deben ser incorporadas o ajustadas en el modelo. Las identificamos, y solo en Bogotá hay 310 pasos de vía, de los cuales 217 requirieron de ajuste en el modelo de terreno.
 
-<div align="center"><img src="graph/ArcGISPro_Layer_Drenaje_PasoVia.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Pasos de vía identificados en la ciudad de Bogotá. Tomado de: Elaboración propia.</sub></div><br>
+<div align="center"><img src="graph/ArcGISPro_Layer_Drenaje_PasoVia.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Pasos de vía identificados en la ciudad de Bogotá. Tomado de: Elaboración propia.</sub></div><br><br>
 
-<div align="center"><img src="graph/ArcGISPro_DTM_ChannelUnderBridge_9377_4.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Ajuste de pasos de vía. Tomado de: Elaboración propia.</sub></div><br>
+<div align="center"><img src="graph/ArcGISPro_DTM_ChannelUnderBridge_9377_4.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Ajuste de pasos de vía. Tomado de: Elaboración propia.</sub></div><br><br>
 
-<div align="center"><img src="graph/RASMapper_PasoVia_CanalMolinos.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Ajuste de pasos de vía en Canal Molinos. Tomado de: Elaboración propia.</sub></div><br>
+<div align="center"><img src="graph/RASMapper_PasoVia_CanalMolinos.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Ajuste de pasos de vía en Canal Molinos. Tomado de: Elaboración propia.</sub></div><br><br>
 
 
 
