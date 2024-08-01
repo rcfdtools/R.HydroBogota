@@ -140,6 +140,13 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 <div align="center"><a href="video/Model0_Results_Velocity3.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista - Velocidad de onda de inundación y bifurcación del flujo ingresando a la ciudad de Bogotá.</a></sub></div><br>
 
 
+**E.** El flujo de descarga proveniente desde los embalses Chisacá y La Regadera, es drenado o amortiguado en la llanura, antes de que los flujos provenientes del sistema norte llegan al área urbana de Bogotá.
+
+<div align="center"><img src="graph/ResultadoE_FrenteOndaChisacaRegadera.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Flujo drenado sistema sur desde Chisacá y La Regadera.</sub></div><br>
+
+<div align="center"><a href="video/Model0_Results_Depth2.md" target="_blank"><img src="graph/Icon_VideoPlayer1.png" alt="R.SIGE" width="10%" border="0" /><br><sub>:clapper:Animación en video para incorporación en entrevista - Flujo drenado sistema sur desde Chisacá y La Regadera.</a></sub></div><br>
+
+
 
 > Ilustraciones y videos sin citación de fuente, corresponden a elaboración propia.
 
