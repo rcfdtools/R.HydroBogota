@@ -91,7 +91,7 @@ En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico
 
 **E.** Finalmente, en este corto plazo se realizó la creación del prototipo de simulación 2D incluyendo todos estos elementos, y evaluando el tránsito hidráulico en 124 mil celdas (con un tamaño aproximado de 79 m² por celda) con la incorporación de los ejes de cauces principales como breaklines en el refinamiento del mallado, en una longitud de 906 kilómetros.
 
-<div align="center"><img src="graph/HECRAS_Model0_2DFlowArea.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Mallado y refinamiento en prototipo a partir de ejes. Tomado de: Elaboración propia.</sub></div><br><br>
+<div align="center"><img src="graph/HECRAS_Model0_2DFlowArea.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Mallado y refinamiento en prototipo a partir de ejes. Tomado de: Elaboración propia.</sub></div><br>
 
 
 ### Horizonte 2 - Mediano plazo
