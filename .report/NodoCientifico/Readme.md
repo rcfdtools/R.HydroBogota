@@ -52,7 +52,7 @@ Así es Esperanza, este proyecto por su extensión y dinámica, ha sido concebid
 
 ### Horizonte 1 - Corto plazo
 
-En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico 2D funcional en HEC-RAS de toda la cuenca del Río Bogotá. Para la modelación de la descarga súbita simultánea de todos los embalses, y para realizar este modelo, fue necesario:
+En el corto plazo que ya ha sido desarrollado, se creó un prototipo hidráulico 2D funcional en HEC-RAS, para la modelación de la descarga súbita simultánea de todos los embalses de la cuenca del Río Bogotá, y para realizar este modelo, fue necesario:
 
 
 **A.** Integrar modelos digitales de elevación de diferentes fuentes en un único modelo híbrido; esto ha sido un desafío, no solamente por su extensión espacial, sino por la variedad de resoluciones o precisiones que estos manejan. Por una parte, tenemos el modelo digital Copernicus de la Agencia Espacial de europea - ESA, cuya resolución es de 30 metros y cubre toda la cuenca, los levantamientos Lidar de Bogotá disponibles en IDECA con resolución de entre 0.5 y 5 metros, y los bloques de obstrucción generados a partir de construcciones.
