@@ -63,11 +63,11 @@ a. Integrar modelos digitales de elevación de diferentes fuentes en un único m
 
 b. Otro elemento importante por considerar, son las intersecciones de los ríos y/o canales con pasos de vía, en estos lugares existen puentes y alcantarillas que deben ser incorporadas o ajustadas en el modelo. Las identificamos, y solo en Bogotá hay 310 pasos de vía, de los cuales 217 requirieron de ajuste en el modelo de terreno.
 
-<div align="center">Modelo digital híbrido de elevación, vista en planta. Tomado de: Elaboración propia.<br><img src="graph/ArcGISPro_Layer_Drenaje_PasoVia.png" alt="R.SIGE" width="100%" border="0" /></div><br>
+<div align="center">Pasos de vía identificados en la ciudad de Bogotá. Tomado de: Elaboración propia.<br><img src="graph/ArcGISPro_Layer_Drenaje_PasoVia.png" alt="R.SIGE" width="100%" border="0" /></div><br>
 
-<div align="center">Modelo digital híbrido de elevación, vista en planta. Tomado de: Elaboración propia.<br><img src="graph/ArcGISPro_DTM_ChannelUnderBridge_9377_4.png" alt="R.SIGE" width="100%" border="0" /></div><br>
+<div align="center">Ajuste de pasos de vía. Tomado de: Elaboración propia.<br><img src="graph/ArcGISPro_DTM_ChannelUnderBridge_9377_4.png" alt="R.SIGE" width="100%" border="0" /></div><br>
 
-<div align="center">Modelo digital híbrido de elevación, vista en planta. Tomado de: Elaboración propia.<br><img src="graph/RASMapper_PasoVia_CanalMolinos.png" alt="R.SIGE" width="100%" border="0" /></div><br>
+<div align="center">Ajuste de pasos de vía en Canal Molinos. Tomado de: Elaboración propia.<br><img src="graph/RASMapper_PasoVia_CanalMolinos.png" alt="R.SIGE" width="100%" border="0" /></div><br>
 
 
 
