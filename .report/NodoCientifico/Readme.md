@@ -173,7 +173,7 @@ El proyecto Hydro-Bogotá dispone de un repositorio público en GitHub, allí se
 > Para conocer más en detalle este proyecto, los interesados en participar en esta iniciativa, desarrollando p. ej., trabajos de grado y estudios de casos particulares, pueden acercarse al Centro de Estudios Hidráulicos de la Escuela Colombiana de Ingeniería.
 
 
-## 6. Profesor, partiendo de su conocimiento y experiencia, cómo se podría potencializar el ejercicio práctico de estos temas con las entidades gubernamentales.
+## 6. Profesor, partiendo de su conocimiento y experiencia, cómo se podría potencializar el ejercicio práctico de estos temas con entidades gubernamentales.
 
 Esperanza, tal vez una buena estrategia pueda ser a través de la divulgación de este proyecto con otras universidades, y con las entidades públicas del distrito y de los municipios que se encuentran en el área de influencia de la cuenca del Río Bogotá.
 
