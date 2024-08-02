@@ -169,9 +169,9 @@ De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colom
 | Autoridad ambiental | Nombre                                        | Área en cuenca (km²) | % Cuenca |  Área AA. (km²)  |   % AA.   |
 |:--------------------|:----------------------------------------------|:--------------------:|:--------:|:----------------:|:---------:|
 | (n/a)               | (área no coincidente)                         |         7.29         |   0.12   |       7.29       |    100    |
-| CAR                 | CORPORACION AUTONOMA REGIONAL DE CUNDINAMARCA |       5331.94        |  89.87   |      18289       |   29.15   |
-| CORPOGUAVIO         | CORPORACION AUTONOMA REGIONAL DEL GUAVIO      |        209.56        |   3.53   |     3635.01      |   5.77    |
-| SDA                 | SECRETARIA DISTRITAL DE AMBIENTE BOGOTÁ       |        383.99        |   6.47   |      383.99      |    100    |
+| CAR                 | Corporación Autónoma Regional de Cundinamarca |       5331.94        |  89.87   |      18289       |   29.15   |
+| CORPOGUAVIO         | Corporación Autónoma Regional del Guavio      |        209.56        |   3.53   |     3635.01      |   5.77    |
+| SDA                 | Secretaria Distrital de Ambiente Bogotá       |        383.99        |   6.47   |      383.99      |    100    |
 |                     | Σ                                             |       5932.79        |   100    |     22315.3      |     0     |
 
 </div>
