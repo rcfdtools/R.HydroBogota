@@ -448,5 +448,20 @@ Municipios con cobertura geográfica sobre la cuenca del Río Bogotá.
 :open_file_folder:Archivo local de fracción de municipios sobre cuenca del Río Bogotá:: [MunicipioDistritoAreaInfluencia_9377_Fraccion.shp](MunicipioDistritoAreaInfluencia_9377_Fraccion.rar)
 
 > Tenga en cuenta que los límtes de las subzonas hidrográficas del IDEAM y los municipios no coinciden exactamente en el contorno perimetral de la cuenca del Río Bogotá. En la tabla de atributos, las áreas no coicidentes se han identificado como _(área no coicidente)_.
-> 
-> 
+
+### Catálogo de objetos
+
+| Campo      | Definición                                                  | Tipo       |
+|:-----------|-------------------------------------------------------------|------------|
+| MpCodigo   | Código DANE del municipio                                   | Text (6)   |
+| MpNombre   | Nombre del municipio                                        | Text (250) |
+| ACuekm2    | Área geodésica total cuenca Río Bogotá                      | Double     |
+| ACueMunkm2 | Área geodésica fracción municipal dentro de la cuenca       | Double     |
+| AMunkm2    | Área geodésica total del municipio                          | Double     |
+| ACueMunPrc | Porcentaje de área municipal respecto al total de la cuenca | Double     |
+| AMunPrc    | Porcentaje de área municipal respecto al total del municpio | Double     |
+
+Rótulo Arcade: `$feature.MpNombre + " " + Round($feature.ACueMunPrc, 1) + "%" + "\nA: " + Round($feature.ACueMunkm2, 1) + " km²" + " " `
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_Municipio1.png)
+
