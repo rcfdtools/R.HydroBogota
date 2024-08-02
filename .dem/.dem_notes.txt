@@ -1,0 +1,24 @@
+
+DTM_Bogota2020_9377_Extent.tif (0.5m)
+Mosaic: DTM_Bogota2014_9377.tif (5m) and DTM_Bogota2022_9377.tif (0.5m)
+DTM 2014 contains Bogota river cells
+
+DSM_AlosPalsar_9377.tif (12.5m)
+https://www.earthdata.nasa.gov/
+DSM_AlosPalsar_9377_Fil.tif (with fill sinks)
+
+DSM_AlosPalsar_9377_Fit.tif (12.5m)
+Correlation DTM_Bogota2020_9377_Limit_Fishnet100m with CZAlos vs. CZDTM2020
+y = -21.4726885762 + 0.9993012271 x
+where x is DSM_AlosPalsar_9377.tif z value
+
+DSM
+https://www.ideca.gov.co/recursos/mapas/modelo-digital-de-superficie-zona-urbana-de-bogota
+https://datosabiertos.bogota.gov.co/dataset/modelo-digital-de-superficie-zona-urbana-de-bogota
+
+Build elevations
+ConstruccionBogota202403_9377.tif
+Source: ConstruccionBogota202403_9377.shp
+Elevation field: BuildElevm
+Resolution: 0.5m
+

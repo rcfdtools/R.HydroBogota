@@ -1,0 +1,52 @@
+Bogota buildings
+ConstruccionBogota202403_9377.shp
+ConstruccionBogota202403_9377_Point.shp
+	Zone 1: Lidar Bogota 2014 & 2022
+	Zone 2: rural area Alos Palsar Fit
+	CZDEM: invert elevation with DTM Bogota 2022 extended or DSM_AlosPalsar_9377_Fit.tif
+const.shp.0224.zip
+https://www.ideca.gov.co/recursos/mapas/construccion
+	Multipart to singlepart conversion
+	ManningN: Manning's roughness coefficient
+	PercImperv: percent impervious
+	CZDEM: invert elevation with DTM Bogota 2020 extended or DSM_AlosPalsar_9377_Fit.tif from building centroid
+	BuildElevm: invert build elevation in meters = !CZDEM! + !CONNPISOS! * 3
+	Feature to Raster
+
+Digital terrain model evaluation fish net
+DTM_Bogota_2022_9377_Limit_Fishnet100m_label.shp
+	CZAlos: invert elevation Alos Palsar 12.5m
+	CZAlosFil: invert elevation Alos Palsar Fill Sinks 12.5m
+	CZAlosFit: invert elevation Alos Palsar Fit 12.5m
+	CZDTM2014: invert elevation DTM Bogota 2014 5m
+	CZDTM2022: invert elevation DTM Bogota 2022 0.5m
+	
+Puentes
+Puente20240517.shp
+https://datosabiertos.bogota.gov.co/dataset/puente-bogota-d-c
+
+Drenajes
+hdg_Drenaje.shp
+Tomado de datos abiertos Bogotá
+	Breakline: 1-Yes, 0-No, refining mesh lines for HEC-RAS 2D, hdg_Drenaje Subtype 501, 503 and manual selections
+	Breakline selection has define with the floodplain criteria for sudden discharge from Dam breaking in Neusa, Tominé and Sisga Dam's
+	New drainage digitalizing lines are included: Neusa, Checua, Salida Tominé, Salida Sisga and others
+
+Lineas de refinamiento
+Breaklines.shp and Leeves.shp
+From hdg_Drenaje.shp with Breakline = 1
+	NearSpac: 200m
+	FarSpac: 250m
+
+Cuerpos de agua
+hdg_CuerpoAgua.shp
+Tomado de datos abiertos Bogotá
+Eliminados cuerpos de agua secundarios
+
+Bridge intersection with channel & interferences
+PasoViaRio.shp
+Punto de intersección de drenaje (Breakline=1) o cuerpo de agua con pasos de vía o puentes (tpuent=1) para limpieza de sección en canal
+	ReadyDEM: channel section is ready in the DRM for HEC-RAS 0-NoRevisado, 1-Sí, 2-No
+	ReadyRAS: channel section for fixing create in HEC-RAS 0-NoRevisado, 1-Sí, 2-No
+
+	
