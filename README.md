@@ -156,8 +156,7 @@ De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municip
 
 </div>
 
-> _**% en cuenca**_: corresponde al porcentaje del área geodésica municipal, con respecto a toda la cuenca del Río Bogotá.
-> 
+> _**% en cuenca**_: corresponde al porcentaje del área geodésica municipal, con respecto a toda la cuenca del Río Bogotá.   
 > _**% Mpio.**_: corresponde al porcentaje del área geodésica municipal dentro de la cuenca del Río Bogotá, con respecto al área total del municipio.
 
 
@@ -182,8 +181,7 @@ De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colom
 
 </div>
 
-> _**% en cuenca**_: corresponde al porcentaje del área geodésica del límite de la autoridad ambiental, con respecto a toda la cuenca del Río Bogotá.
-> 
+> _**% en cuenca**_: corresponde al porcentaje del área geodésica del límite de la autoridad ambiental, con respecto a toda la cuenca del Río Bogotá.   
 > _**% AA.**_: corresponde al porcentaje del área geodésica del límite de la AA dentro de la cuenca del Río Bogotá, con respecto al área total de la AA.
 
 
