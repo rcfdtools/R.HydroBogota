@@ -61,7 +61,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 1D/2D de operación de los embalses reguladores de la cuenca.
 
 
-## 2. Reseña Cuenca Río Bogotá
+## 2. Reseña y municipios sobre cuenca Río Bogotá
 
 La cuenca del Río Bogotá se compone de los siguientes embalses:
 
@@ -77,9 +77,9 @@ La cuenca del Río Bogotá se compone de los siguientes embalses:
 | [:globe_with_meridians:](http://maps.google.com/maps?q=4.403117,-74.143296)  | [Embalse La Regadera](https://archivobogota.secretariageneral.gov.co/noticias/embalse-la-regadera)       |     0.274918     |       3.3        |         0.53         |
 |                                                                              | Σ                                                                                                        |    48.049589     |      981.6       |         10.7         |
 
-<div align="center">Embalses reguladores dentro de la cuenca del Río Bogotá<br>(norte hacia arriba)<br><img src=".graph/ArcGISPro_DAM.png" alt="R.SIGE" width="80%" border="0" /></div>
-
 </div>
+
+<div align="center"><img src=".graph/ArcGISPro_DAM.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Embalses reguladores dentro de la cuenca del Río Bogotá<br>(norte hacia arriba)</sub></div>
 
 > Por su localización geográfica en llanura, no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual, no se incluyen en la modelación de descarga súbita y son solo utilizados como cuerpos de amortiguación de crecientes.
 >
@@ -88,6 +88,11 @@ La cuenca del Río Bogotá se compone de los siguientes embalses:
 > El flujo medio de 0.53 m³/s definido en el Embalse La Regadera, corresponde a la resta de 1.2 m³/s descargados en este cuerpo de agua, menos el valor definido en el Embalse Chisacá.
 >
 > El área superficial de cada cuerpo ha sido calculado a partir del área planar, utilizando el CRS 9377.
+
+De acuerdo a la capa geográfica de _Municipios, Distritos y Áreas no municipalizadas de Colombia_ del Instituto Geográfico Agustín Codazzi - IGAC, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, los municipios con influencia geográfica directa sobre la cuenca del Río Bogotá en el Departamento de Cundinamarca son:
+
+<div align="center"><img src=".graph/ArcGISPro_Layer_Municipio2.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Municipios con influencia geográfica sobre la cuenca del Río Bogotá<br>(norte hacia arriba)</sub></div>
+
 
 
 ## 3. Sistema de proyección de coordenadas - CRS
