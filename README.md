@@ -156,6 +156,12 @@ De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municip
 
 </div>
 
+> _**% en cuenca**_: corresponde al porcentaje del área geodésica municipal, con respecto a toda la cuenca del Río Bogotá.
+> 
+> _**% Mpio.**_: corresponde al porcentaje del área geodésica municipal dentro de la cuenca del Río Bogotá, con respecto al área total del municipio.
+
+
+
 ### 2.3. Autoridades ambientales
 
 > Las Corporaciones Autónomas Regionales y de Desarrollo Sostenible, son entes corporativos de carácter público, creados por la ley, integrados por las entidades territoriales que por sus características constituyen geográficamente un mismo ecosistema o conforman una unidad geopolítica, biogeográfica o hidrogeográfica, dotados de autonomía administrativa y financiera, patrimonio propio y personería jurídica, encargados por la ley de administrar, dentro del área de su jurisdicción el medio ambiente y los recursos naturales renovables y propender por su desarrollo sostenible, de conformidad con las disposiciones legales y las políticas del Ministerio del Medio Ambiente.[^1]
@@ -166,15 +172,19 @@ De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colom
 
 <div align="center">
 
-| Autoridad ambiental - AA | Nombre                                        | Área en cuenca (km²) | % Cuenca |  Área AA. (km²)  |   % AA.   |
-|:-------------------------|:----------------------------------------------|:--------------------:|:--------:|:----------------:|:---------:|
-| (n/a)                    | (área no coincidente)                         |         7.29         |   0.12   |       7.29       |    100    |
-| CAR                      | Corporación Autónoma Regional de Cundinamarca |       5331.94        |  89.87   |      18289       |   29.15   |
-| CORPOGUAVIO              | Corporación Autónoma Regional del Guavio      |        209.56        |   3.53   |     3635.01      |   5.77    |
-| SDA                      | Secretaria Distrital de Ambiente Bogotá       |        383.99        |   6.47   |      383.99      |    100    |
-|                          | Σ                                             |       5932.79        |   100    |     22315.3      |     0     |
+| Autoridad ambiental - AA | Nombre                                        | Área en cuenca (km²) | % en cuenca |  Área AA. (km²)  |   % AA.   |
+|:-------------------------|:----------------------------------------------|:--------------------:|:-----------:|:----------------:|:---------:|
+| (n/a)                    | (área no coincidente)                         |         7.29         |    0.12     |       7.29       |    100    |
+| CAR                      | Corporación Autónoma Regional de Cundinamarca |       5331.94        |    89.87    |      18289       |   29.15   |
+| CORPOGUAVIO              | Corporación Autónoma Regional del Guavio      |        209.56        |    3.53     |     3635.01      |   5.77    |
+| SDA                      | Secretaria Distrital de Ambiente Bogotá       |        383.99        |    6.47     |      383.99      |    100    |
+|                          | Σ                                             |       5932.79        |     100     |     22315.3      |     0     |
 
 </div>
+
+> _**% en cuenca**_: corresponde al porcentaje del área geodésica del límite de la autoridad ambiental, con respecto a toda la cuenca del Río Bogotá.
+> 
+> _**% AA.**_: corresponde al porcentaje del área geodésica del límite de la AA dentro de la cuenca del Río Bogotá, con respecto al área total de la AA.
 
 
 ## 3. Sistema de proyección de coordenadas - CRS
