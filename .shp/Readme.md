@@ -451,15 +451,15 @@ Municipios con cobertura geográfica sobre la cuenca del Río Bogotá.
 
 ### Catálogo de objetos
 
-| Campo      | Definición                                                  | Tipo       |
-|:-----------|-------------------------------------------------------------|------------|
-| MpCodigo   | Código DANE del municipio                                   | Text (6)   |
-| MpNombre   | Nombre del municipio                                        | Text (250) |
-| ACuekm2    | Área geodésica total cuenca Río Bogotá                      | Double     |
-| ACueMunkm2 | Área geodésica fracción municipal dentro de la cuenca       | Double     |
-| AMunkm2    | Área geodésica total del municipio                          | Double     |
-| ACueMunPrc | Porcentaje de área municipal respecto al total de la cuenca | Double     |
-| AMunPrc    | Porcentaje de área municipal respecto al total del municpio | Double     |
+| Campo      | Definición                                                                            | Tipo       |
+|:-----------|---------------------------------------------------------------------------------------|------------|
+| MpCodigo   | Código DANE del municipio                                                             | Text (6)   |
+| MpNombre   | Nombre del municipio                                                                  | Text (250) |
+| ACuekm2    | Área geodésica total cuenca Río Bogotá                                                | Double     |
+| ACueMunkm2 | Área geodésica fracción municipal dentro de la cuenca                                 | Double     |
+| AMunkm2    | Área geodésica total del municipio                                                    | Double     |
+| ACueMunPrc | Porcentaje de área municipal respecto al total de la cuenca: `ACueMunkm2 / ACuekm2`   | Double     |
+| AMunPrc    | Porcentaje de área municipal respecto al total del municipio: `ACueMunkm2 / AMunkm2`  | Double     |
 
 Rótulo Arcade: `$feature.MpNombre + " " + Round($feature.ACueMunPrc, 1) + "%" + "\nA: " + Round($feature.ACueMunkm2, 1) + " km²" + " "`
 
@@ -477,15 +477,15 @@ Autoridades ambientales con cobertura geográfica sobre la cuenca del Río Bogot
 
 ### Catálogo de objetos
 
-| Campo     | Definición                                                                 | Tipo       |
-|:----------|----------------------------------------------------------------------------|------------|
-| CAR       | Código DANE del municipio                                                  | Text (30)  |
-| NOMBRE    | Nombre del municipio                                                       | Text (100) |
-| ACuekm2   | Área geodésica total cuenca Río Bogotá                                     | Double     |
-| ACueAAkm2 | Área geodésica fracción autoridad ambiental dentro de la cuenca            | Double     |
-| AAAkm2    | Área geodésica total de la autoridad ambiental                             | Double     |
-| ACueAAPrc | Porcentaje de área autoridad ambiental respecto al total de la cuenca      | Double     |
-| AAAPrc    | Porcentaje de área autoridad ambiental respecto al total del área de la AA | Double     |
+| Campo     | Definición                                                                                       | Tipo       |
+|:----------|--------------------------------------------------------------------------------------------------|------------|
+| CAR       | Código DANE del municipio                                                                        | Text (30)  |
+| NOMBRE    | Nombre del municipio                                                                             | Text (100) |
+| ACuekm2   | Área geodésica total cuenca Río Bogotá                                                           | Double     |
+| ACueAAkm2 | Área geodésica fracción autoridad ambiental dentro de la cuenca                                  | Double     |
+| AAAkm2    | Área geodésica total de la autoridad ambiental                                                   | Double     |
+| ACueAAPrc | Porcentaje de área autoridad ambiental respecto al total de la cuenca: `ACueAAkm2 / ACuekm2`     | Double     |
+| AAAPrc    | Porcentaje de área autoridad ambiental respecto al total del área de la AA: `ACueAAkm2 / AAAkm2` | Double     |
 
 Rótulo Arcade: `$feature.CAR + " " + Round($feature.ACueAAPrc, 1) + "%" + "\nA: " + Round($feature.ACueAAkm2, 1) + " km²" + " "`
 
