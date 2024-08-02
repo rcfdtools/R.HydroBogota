@@ -230,5 +230,23 @@ Las cuencas hidrográficas que entregan o desembocan sus aguas superficiales dir
 * Licencia: desconocida
 
 
+## Municipios, Distritos y Áreas no municipalizadas de Colombia
+
+**Aplicación en esta investigación**: municipio con cobertura geográfica sobre la cuenca del Río Bogotá.
+
+**Autor**: [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/)
+
+:open_file_folder: Capa vectorial: [Zonificacion_Hidrografica_2013.rar](Zonificacion_Hidrografica_2013.rar)
+
+Entidades territoriales fundamentales de la división político y administrativa del Estado, integran los departamentos y su definición, no involucra las fronteras internacionales con otros países. Tienen autonomía política, fiscal y administrativa dentro de los límites que, señalados en la Constitución y las leyes, cuya finalidad es el bienestar general y el mejoramiento de la calidad de vida de la población en su respectivo territorio.
+
+Se representan sobre cartografía del IGAC, acorde a lo establecido en la Ley 1447 de 2011 y su Decreto Reglamentario 1170 de 2015. Para el caso de los Distritos, la definición y modificación de sus límites está estipulado en la Ley 1617 de 2013.
+
+Las áreas No Municipalizadas, hacen parte de la división territorial, pero no son entidades territoriales (artículo 285 y 286 de la Constitución Política de Colombia, 1991); la categorización de cada municipio se establece de conformidad con la Ley 617 de 2000.
+
+> La información sobre los límites municipales, está sujeta a las actualizaciones de los resultados de las operaciones administrativas de deslinde y las decisiones tomadas por los competentes (Asambleas departamentales y Congreso de la República).
+
+
+
 [^1]: http://www.ideam.gov.co/web/agua/zonificacion-hidrografica
 [^2]: http://documentacion.ideam.gov.co/openbiblio/bvirtual/022655/MEMORIASMAPAZONIFICACIONHIDROGRAFICA.pdf
