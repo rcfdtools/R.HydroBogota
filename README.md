@@ -61,9 +61,9 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 1D/2D de operación de los embalses reguladores de la cuenca.
 
 
-## 2. Reseña y municipios sobre cuenca Río Bogotá
+## 2. Reseña y municipios sobre la cuenca Río Bogotá
 
-La cuenca del Río Bogotá se compone de los siguientes embalses:
+La cuenca del Río Bogotá, localizada en el Departamente de Cundinamarca - Colombia, tiene una extensión planar de 5925.89 km² y se compone de los siguientes embalses reguladores en zonas altas:
 
 <div align="center">
 
