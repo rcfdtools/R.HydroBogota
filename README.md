@@ -67,7 +67,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 ### 2.1. Embalses
 
-La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colombia, tiene una extensión planar de 5925.89 km² (5932.79 km² geodésicos) y se compone de los siguientes embalses reguladores en zonas altas:
+La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colombia, tiene una extensión planar de 5925.89 km² (5932.79 km² geodésicos), y dentro de ella se encuentran los siguientes embalses reguladores en zonas altas:
 
 <div align="center">
 
