@@ -8,7 +8,11 @@ Digitalizaciones rcfdtools
 
 Pending task
 	Entrevista - Nodo científico. Cuestionario conjunto (acedémico, técnico, cierre e invitación participación), reunión preliminar: 8 agosto 2024 10:00am, Fecha grabación: por definir.
-	Counties over Bogota basin.
+	Ok. colombiaenmapas.gov.co Municipios, Distritos y Áreas no municipalizadas de Colombia
+	Ok. colombiaenmapas.gov.co Límites autoridades ambientales
+	colombiaenmapas.gov.co Áreas de minería e hidrocarburos
+	colombiaenmapas.gov.co POMCAS con plan adoptado en Colombia
+	colombiaenmapas.gov.co Áreas de minería e hidrocarburos
 	Bogota river profile.
 	Exposición caso de estudio a IDIGER.
 	Identificar otras entidades públicas potenciales para presentar el proyecto.
