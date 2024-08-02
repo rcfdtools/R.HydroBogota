@@ -15,6 +15,10 @@ Pending task
 	
 	Identificar otras entidades públicas potenciales para presentar el proyecto. Municipios (Secretarías de planeación y ambiental, ESP), autoridades ambientales, EAAB e IDIGER. Charla con municipios.
 	
+	Webinar.
+	
+	Publicar mapas HEC-RAS usando ArcGIS OnLine & Story Map.
+
 	Ok. colombiaenmapas.gov.co Municipios, Distritos y Áreas no municipalizadas de Colombia
 	
 	Ok. colombiaenmapas.gov.co Límites autoridades ambientales
@@ -33,7 +37,6 @@ Pending task
 	
 	Curso de educación continuada: "Gestión de riesgos hidráulicos utilizando sistemas de información geográfica y herramientas HEC".
 	
-	Publicar mapas HEC-RAS usando ArcGIS OnLine & Story Map.
 	
 	Revisar publicaciones relacionadas con el mismo tema.
 	
