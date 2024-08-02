@@ -89,7 +89,7 @@ La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colo
 >
 > El área superficial de cada cuerpo ha sido calculado a partir del área planar, utilizando el CRS 9377.
 
-De acuerdo a la capa geográfica de _Municipios, Distritos y Áreas no municipalizadas de Colombia_ del Instituto Geográfico Agustín Codazzi - IGAC, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, los municipios con influencia geográfica directa sobre la cuenca del Río Bogotá en el Departamento de Cundinamarca son:
+De acuerdo a la capa geográfica de _Municipios, Distritos y Áreas no municipalizadas de Colombia versión 2024.06.30_ del Instituto Geográfico Agustín Codazzi - IGAC, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, los municipios con influencia geográfica directa sobre la cuenca del Río Bogotá en el Departamento de Cundinamarca son:
 
 <div align="center"><img src=".graph/ArcGISPro_Layer_Municipio2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Municipios con influencia geográfica sobre la cuenca del Río Bogotá.(norte hacia arriba)</sub></div><br><br>
 
