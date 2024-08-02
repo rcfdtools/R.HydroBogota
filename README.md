@@ -79,7 +79,7 @@ La cuenca del Río Bogotá, localizada en el Departamente de Cundinamarca - Colo
 
 </div>
 
-<div align="center"><img src=".graph/ArcGISPro_DAM.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Embalses reguladores dentro de la cuenca del Río Bogotá<br>(norte hacia arriba)</sub></div>
+<div align="center"><img src=".graph/ArcGISPro_DAM.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Embalses reguladores dentro de la cuenca del Río Bogotá.(norte hacia arriba)</sub></div>
 
 > Por su localización geográfica en llanura, no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual, no se incluyen en la modelación de descarga súbita y son solo utilizados como cuerpos de amortiguación de crecientes.
 >
@@ -91,7 +91,7 @@ La cuenca del Río Bogotá, localizada en el Departamente de Cundinamarca - Colo
 
 De acuerdo a la capa geográfica de _Municipios, Distritos y Áreas no municipalizadas de Colombia_ del Instituto Geográfico Agustín Codazzi - IGAC, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, los municipios con influencia geográfica directa sobre la cuenca del Río Bogotá en el Departamento de Cundinamarca son:
 
-<div align="center"><img src=".graph/ArcGISPro_Layer_Municipio2.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Municipios con influencia geográfica sobre la cuenca del Río Bogotá<br>(norte hacia arriba)</sub></div>
+<div align="center"><img src=".graph/ArcGISPro_Layer_Municipio2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Municipios con influencia geográfica sobre la cuenca del Río Bogotá.(norte hacia arriba)</sub></div>
 
 
 
