@@ -63,7 +63,9 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Simulación hidráulica 1D/2D de operación de los embalses reguladores de la cuenca.
 
 
-## 2. Reseña y municipios sobre la cuenca Río Bogotá
+## 2. Reseña, municipios y autoridades ambientales sobre la cuenca Río Bogotá
+
+### 2.1. Reseña general
 
 La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colombia, tiene una extensión planar de 5925.89 km² (5932.79 km² geodésicos) y se compone de los siguientes embalses reguladores en zonas altas:
 
@@ -90,6 +92,9 @@ La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colo
 > El flujo medio de 0.53 m³/s definido en el Embalse La Regadera, corresponde a la resta de 1.2 m³/s descargados en este cuerpo de agua, menos el valor definido en el Embalse Chisacá.
 >
 > El área superficial de cada cuerpo ha sido calculado a partir del área planar, utilizando el CRS 9377.
+
+
+### 2.2. Municipios y distrito
 
 De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municipalizadas de Colombia versión 2024.06.30_ del Instituto Geográfico Agustín Codazzi - IGAC, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, los municipios con influencia geográfica directa sobre la cuenca del Río Bogotá en el Departamento de Cundinamarca son:
 
@@ -150,6 +155,18 @@ De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municip
 |          | Σ                           |        5932.79         |     100     |      7926.61       |           |
 
 </div>
+
+### 2.3. Autoridades ambientales
+
+De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colobia versión 2019_ del Ministerio de Ambiente y Desarrollo Sostenible, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, las autoridades ambientales con influencia geográfica directa sobre la cuenca del Río Bogotá son:
+
+<div align="center"><img src=".graph/ArcGISPro_Layer_AutoridadAmbiental2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Autoridades ambientales con influencia geográfica sobre la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
+
+<div align="center">
+
+</div>
+
+
 
 
 ## 3. Sistema de proyección de coordenadas - CRS
