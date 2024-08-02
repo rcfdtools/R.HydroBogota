@@ -445,7 +445,7 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 Municipios con cobertura geográfica sobre la cuenca del Río Bogotá.
 
 :open_file_folder:Archivo local de municipios sobre cuenca del Río Bogotá: [MunicipioDistritoAreaInfluencia_9377.shp](MunicipioDistritoAreaInfluencia_9377.rar)  
-:open_file_folder:Archivo local de fracción de municipios sobre cuenca del Río Bogotá:: [MunicipioDistritoAreaInfluencia_9377_Fraccion.shp](MunicipioDistritoAreaInfluencia_9377_Fraccion.rar)
+:open_file_folder:Archivo local de fracciones de municipios sobre cuenca del Río Bogotá:: [MunicipioDistritoAreaInfluencia_9377_Fraccion.shp](MunicipioDistritoAreaInfluencia_9377_Fraccion.rar)
 
 > Tenga en cuenta que los límtes de las subzonas hidrográficas del IDEAM y los municipios no coinciden exactamente en el contorno perimetral de la cuenca del Río Bogotá. En la tabla de atributos, las áreas no coicidentes se han identificado como _(área no coicidente)_.
 

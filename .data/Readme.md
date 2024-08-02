@@ -248,6 +248,12 @@ Las áreas No Municipalizadas, hacen parte de la división territorial, pero no 
 
 > De conformidad a los requerimientos en torno a la soberanía territorial de la República de Colombia realizados por el Ministerio de Relaciones Exteriores acorde a la Ley 1447 de 2011, el límite terrestre internacional de las entidades territoriales en los ríos fronterizos está trazado por la ribera colombiana de estos, por lo que este límite no debe confundirse con el límite terrestre internacional de la República de Colombia, el cual está constituido por el río en su integridad (álveo), la línea del cauce medio o el thalweg o vaguada según lo indique el Tratado y los instrumentos jurídicos correspondientes.
 
+* Fuente: https://www.colombiaenmapas.gov.co/. (Buscar como: _Municipios, Distritos y Áreas no municipalizadas de Colombia_) 
+* Extensión espacial: Colombia - Suramérica
+* Escala: No indicada
+* Fecha de actualización: 2024/06/30
+* Sistema de referencia de coordenadas: 9377
+* Licencia: CC BY 4.0
 
 
 [^1]: http://www.ideam.gov.co/web/agua/zonificacion-hidrografica
