@@ -232,11 +232,11 @@ Las cuencas hidrográficas que entregan o desembocan sus aguas superficiales dir
 
 ## Municipios, Distritos y Áreas no municipalizadas de Colombia
 
-**Aplicación en esta investigación**: municipio con cobertura geográfica sobre la cuenca del Río Bogotá.
+**Aplicación en esta investigación**: municipios con cobertura geográfica sobre la cuenca del Río Bogotá.
 
 **Autor**: [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/)
 
-:open_file_folder: Capa vectorial: [Zonificacion_Hidrografica_2013.rar](Zonificacion_Hidrografica_2013.rar)
+:open_file_folder: Capa vectorial: [Municipios_202406_shp.rar](Municipios_202406_shp.rar)
 
 Entidades territoriales fundamentales de la división político y administrativa del Estado, integran los departamentos y su definición, no involucra las fronteras internacionales con otros países. Tienen autonomía política, fiscal y administrativa dentro de los límites que, señalados en la Constitución y las leyes, cuya finalidad es el bienestar general y el mejoramiento de la calidad de vida de la población en su respectivo territorio.
 
@@ -245,6 +245,8 @@ Se representan sobre cartografía del IGAC, acorde a lo establecido en la Ley 14
 Las áreas No Municipalizadas, hacen parte de la división territorial, pero no son entidades territoriales (artículo 285 y 286 de la Constitución Política de Colombia, 1991); la categorización de cada municipio se establece de conformidad con la Ley 617 de 2000.
 
 > La información sobre los límites municipales, está sujeta a las actualizaciones de los resultados de las operaciones administrativas de deslinde y las decisiones tomadas por los competentes (Asambleas departamentales y Congreso de la República).
+
+> De conformidad a los requerimientos en torno a la soberanía territorial de la República de Colombia realizados por el Ministerio de Relaciones Exteriores acorde a la Ley 1447 de 2011, el límite terrestre internacional de las entidades territoriales en los ríos fronterizos está trazado por la ribera colombiana de estos, por lo que este límite no debe confundirse con el límite terrestre internacional de la República de Colombia, el cual está constituido por el río en su integridad (álveo), la línea del cauce medio o el thalweg o vaguada según lo indique el Tratado y los instrumentos jurídicos correspondientes.
 
 
 
