@@ -447,7 +447,7 @@ Municipios con cobertura geográfica sobre la cuenca del Río Bogotá.
 :open_file_folder:Archivo local de municipios sobre cuenca del Río Bogotá: [MunicipioDistritoAreaInfluencia_9377.shp](MunicipioDistritoAreaInfluencia_9377.rar)  
 :open_file_folder:Archivo local de fracciones de municipios sobre cuenca del Río Bogotá:: [MunicipioDistritoAreaInfluencia_9377_Fraccion.shp](MunicipioDistritoAreaInfluencia_9377_Fraccion.rar)
 
-> Tenga en cuenta que los límtes de las subzonas hidrográficas del IDEAM y los municipios no coinciden exactamente en el contorno perimetral de la cuenca del Río Bogotá. En la tabla de atributos, las áreas no coicidentes se han identificado como _(área no coicidente)_.
+> Tenga en cuenta que los límites de las subzonas hidrográficas del IDEAM y los municipios no coinciden exactamente en el contorno perimetral de la cuenca del Río Bogotá. En la tabla de atributos, las áreas no coincidentes se han identificado como _(área no coincidente)_.
 
 ### Catálogo de objetos
 
@@ -461,7 +461,33 @@ Municipios con cobertura geográfica sobre la cuenca del Río Bogotá.
 | ACueMunPrc | Porcentaje de área municipal respecto al total de la cuenca | Double     |
 | AMunPrc    | Porcentaje de área municipal respecto al total del municpio | Double     |
 
-Rótulo Arcade: `$feature.MpNombre + " " + Round($feature.ACueMunPrc, 1) + "%" + "\nA: " + Round($feature.ACueMunkm2, 1) + " km²" + " " `
+Rótulo Arcade: `$feature.MpNombre + " " + Round($feature.ACueMunPrc, 1) + "%" + "\nA: " + Round($feature.ACueMunkm2, 1) + " km²" + " "`
 
 ![R.HydroBogota](../.graph/ArcGISPro_Layer_Municipio1.png)
+
+
+## Auroridades ambientales sobre cuenca Río Bogotá (polígono)
+
+Autoridades ambientales con cobertura geográfica sobre la cuenca del Río Bogotá.
+
+:open_file_folder:Archivo local de autoridades ambientales sobre cuenca del Río Bogotá: [AutoridadAmbientalAreaInfluencia_9377.shp](MunicipioDistritoAreaInfluencia_9377.rar)  
+:open_file_folder:Archivo local de fracciones de autoridades ambientales sobre cuenca del Río Bogotá:: [AutoridadAmbientalAreaInfluencia_9377_Fraccion.shp](MunicipioDistritoAreaInfluencia_9377_Fraccion.rar)
+
+> Tenga en cuenta que los límites de las subzonas hidrográficas del IDEAM y polígonos de autoridades ambientales no coinciden exactamente en el contorno perimetral de la cuenca del Río Bogotá. En la tabla de atributos, las áreas no coincidentes se han identificado como _(área no coincidente)_.
+
+### Catálogo de objetos
+
+| Campo     | Definición                                                                 | Tipo       |
+|:----------|----------------------------------------------------------------------------|------------|
+| CAR       | Código DANE del municipio                                                  | Text (30)  |
+| NOMBRE    | Nombre del municipio                                                       | Text (100) |
+| ACuekm2   | Área geodésica total cuenca Río Bogotá                                     | Double     |
+| ACueAAkm2 | Área geodésica fracción autoridad ambiental dentro de la cuenca            | Double     |
+| AAAkm2    | Área geodésica total de la autoridad ambiental                             | Double     |
+| ACueAAPrc | Porcentaje de área autoridad ambiental respecto al total de la cuenca      | Double     |
+| AAAPrc    | Porcentaje de área autoridad ambiental respecto al total del área de la AA | Double     |
+
+Rótulo Arcade: `$feature.CAR + " " + Round($feature.ACueAAPrc, 1) + "%" + "\nA: " + Round($feature.ACueAAkm2, 1) + " km²" + " "`
+
+![R.HydroBogota](../.graph/ArcGISPro_Layer_AutoridadAmbiental1.png)
 

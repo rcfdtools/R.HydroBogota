@@ -256,5 +256,24 @@ Las áreas No Municipalizadas, hacen parte de la división territorial, pero no 
 * Licencia: CC BY 4.0
 
 
+## Autoridades ambientales en Colombia
+
+**Aplicación en esta investigación**: autoridades ambientales con cobertura geográfica sobre la cuenca del Río Bogotá.
+
+**Autor**: [Ministerio de Ambiente y Desarrollo Sostenible](https://www.minambiente.gov.co/)
+
+:open_file_folder: Capa vectorial: [Lim_AA_25k_2019.zip](Lim_AA_25k_2019.zip)
+
+Contiene de los límites de las Corporaciones Autónomas Regionales, construidos con base en la capa de límites municipales a escala 1:25000 publicados por el Instituto Geográfico Agustín Codazzi - IGAC del año 2018 y de la sinergia con la propuesta de los límites de las corporaciones Autónomas Regionales construido por el IDEAM. Cubre toda la extensión continental del territorio colombiano, además del archipiélago de San Andrés y Providencia.
+
+* Fuente: https://www.colombiaenmapas.gov.co/. (Buscar como: _Límites autoridades ambientales_) 
+* Extensión espacial: Colombia - Suramérica
+* Escala: 1:25k
+* Fecha de actualización: 2019/12/31
+* Sistema de referencia de coordenadas: 3116
+* Licencia: desconocida
+
+
+
 [^1]: http://www.ideam.gov.co/web/agua/zonificacion-hidrografica
 [^2]: http://documentacion.ideam.gov.co/openbiblio/bvirtual/022655/MEMORIASMAPAZONIFICACIONHIDROGRAFICA.pdf
