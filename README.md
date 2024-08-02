@@ -158,6 +158,8 @@ De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municip
 
 ### 2.3. Autoridades ambientales
 
+Las Corporaciones Autónomas Regionales y de Desarrollo Sostenible, son entes corporativos de carácter público, creados por la ley, integrados por las entidades territoriales que por sus características constituyen geográficamente un mismo ecosistema o conforman una unidad geopolítica, biogeográfica o hidrogeográfica, dotados de autonomía administrativa y financiera, patrimonio propio y personería jurídica, encargados por la ley de administrar, dentro del área de su jurisdicción el medio ambiente y los recursos naturales renovables y propender por su desarrollo sostenible, de conformidad con las disposiciones legales y las políticas del Ministerio del Medio Ambiente.[^1]
+
 De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colombia (versión 2019)_ del Ministerio de Ambiente y Desarrollo Sostenible, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, las autoridades ambientales con influencia geográfica directa sobre la cuenca del Río Bogotá son:
 
 <div align="center"><img src=".graph/ArcGISPro_Layer_AutoridadAmbiental2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Autoridades ambientales con influencia geográfica sobre la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
@@ -165,8 +167,6 @@ De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colom
 <div align="center">
 
 </div>
-
-
 
 
 ## 3. Sistema de proyección de coordenadas - CRS
@@ -269,6 +269,9 @@ Para las simulaciones hidráulicas se utilizarán las siguientes herramientas co
 * 
 
 Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](.ref/Readme.md) de este repositorio.
+
+
+[^1]: https://archivo.minambiente.gov.co/index.php/noticias/2067
 
 
 
