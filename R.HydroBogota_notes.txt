@@ -7,7 +7,7 @@ Digitalizaciones rcfdtools
 	Total:	1667.6
 
 Pending task
-	Ok. Lista de correo para invitación a seminario.
+	Ok. Lista de correo para invitación a seminario y divulgación, identificando otras entidades públicas potenciales para presentar el proyecto: Municipios (Secretarías de planeación y ambiental, obra públicas, ESP), autoridades ambientales (CAR, SDA, CORPOGUAVIO), IDEAM, EAAB, IDIGER, UNGRD. Charla con municipios.
 	
 	Entrevista - Nodo científico. Cuestionario conjunto (acedémico, técnico, cierre e invitación participación), reunión preliminar: 8 agosto 2024 15:00am, Fecha grabación: por definir.
 	
@@ -15,11 +15,9 @@ Pending task
 	
 	Charla Seminario de hidráulica Hydro-Bogotá, 12 sept 14:00 17:30. Revisar cronograma. 45 minutos, 10 minutos de preguntas.
 	
-	Identificar otras entidades públicas potenciales para presentar el proyecto. Municipios (Secretarías de planeación y ambiental, obra públicas, ESP), autoridades ambientales (CAR, SDA, CORPOGUAVIO), IDEAM, EAAB, IDIGER, UNGRD. Charla con municipios.
-	
 	Webinar.
 	
-	Publicar mapas HEC-RAS usando ArcGIS OnLine & Story Map.
+	Publicar mapas HEC-RAS usando ArcGIS OnLine & Story Map con pestaña página web con proyecto Hydro-Bogotá.
 
 	Guía técnica para la elaboración de mapas de inundación, IDEAM.
 	http://documentacion.ideam.gov.co/openbiblio/bvirtual/023774/GUIA_METODOLOGICA_MAPAS_INUNDACION_MARZO_2018.pdf
@@ -34,7 +32,7 @@ Pending task
 	
 	colombiaenmapas.gov.co Áreas de minería e hidrocarburos
 	
-	Bogota river profile.
+	Bogota river and main tributaries profiles.
 	
 	Definir estudios específicos a realizar utilizando HydroBogota:
 		Hydrualic structures modeling: bridges, border protection, junctions...
@@ -42,10 +40,8 @@ Pending task
 	
 	Curso de educación continuada: "Gestión de riesgos hidráulicos utilizando sistemas de información geográfica y herramientas HEC".
 	
-	
 	Revisar publicaciones relacionadas con el mismo tema.
 	
-	Pestaña página web con proyecto HydroBogota.
 	
 	Predro Nel, Cesar Quiroga, Dam branching tesis.
 	
@@ -57,7 +53,7 @@ Pending task
 	
 	DEM satellital 5m or 1m.
 	
-	LTWB requires checked drainage lines and edition all over the basin.
+	LTWB requires checked drainage lines and their edition all over the basin.
 	
 	Ok.Body water discharge values, check the CAR report
 	Ok.Breaklines: main channels & banks
