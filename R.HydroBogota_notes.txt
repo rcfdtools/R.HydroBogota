@@ -15,11 +15,13 @@ Pending task
 	
 	Charla Seminario de hidráulica Hydro-Bogotá, 12 sept 14:00 17:30. Revisar cronograma. 45 minutos, 10 minutos de preguntas.
 	
-	Identificar otras entidades públicas potenciales para presentar el proyecto. Municipios (Secretarías de planeación y ambiental, obra públicas, ESP), autoridades ambientales, EAAB, IDIGER, UNGR. Charla con municipios.
+	Identificar otras entidades públicas potenciales para presentar el proyecto. Municipios (Secretarías de planeación y ambiental, obra públicas, ESP), autoridades ambientales (CAR, SDA, CORPOGIAVIO), EAAB, IDIGER, UNGR. Charla con municipios.
 	
 	Webinar.
 	
 	Publicar mapas HEC-RAS usando ArcGIS OnLine & Story Map.
+
+	Guía técnica para la elaboración de mapas de inundación, IDEAM.
 
 	Ok. colombiaenmapas.gov.co Municipios, Distritos y Áreas no municipalizadas de Colombia
 	
@@ -85,6 +87,15 @@ References
 	https://levees.sec.usace.army.mil/flood-basics/about-flooding/
 	https://recordcenter.sgc.gov.co/B7/21003002502799/Documento/pdf/2105027991102000.pdf
 	Adding an Internal Structure to a 2D Mesh in HEC-RAS https://www.youtube.com/watch?v=fnJrZVRwCks
-	
+
+Otros sitios de interÃ©s para descargar informaciÃ³n:
+
+GuÃ­a metodolÃ³gica para la elaboraciÃ³n de mapas de inundaciÃ³n. Ideam. 2018. Disponible en: http://documentacion.ideam.gov.co/openbiblio/bvirtual/023774/GUIA_METODOLOGICA_MAPAS_INUNDACION_MARZO_2018.pdf
+Mapas de inundaciÃ³n de Colombia IDEAM. Los mapas de inundaciÃ³n a escala 1:100.000 estÃ¡n disponibles para 22 departamentos de Colombia y se basan en la interpretaciÃ³n de imÃ¡genes de sensores remotos para los aÃ±os 1988, 2000, 2011 y 2012. Disponible en: http://www.siac.gov.co/inundaciones
+Flood Management Tools Series. OMM. Disponible en:http://www.floodmanagement.info/tools/
+Manual sobre predicciÃ³n y avisos de crecidas. OMM. Disponible en:https://library.wmo.int/doc_num.php?explnum_id=4089
+Humedales para la reducciÃ³n del riesgo de desastres: Opciones eficaces para comunidades resilientes. RAMSAR. Disponible en:https://www.ramsar.org/sites/default/files/documents/library/rpb_wetlands_and_drr_s.pdf
+
+
 Sentinel
 Modis
