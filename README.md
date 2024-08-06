@@ -260,6 +260,8 @@ Dentro de la carpeta [.shp](.shp/Readme.md) podrá encontrar las siguientes capa
 * Red de muestreo para ajuste de DSM NASA ALOS PALSAR (punto)
 * Intersección Drenaje - Vía (punto)
 * Subzona hidrográfica 2120 - Río Bogotá (polígono)
+* Municipios y distrito sobre cuenca Río Bogotá (polígono)
+* Autoridades ambientales sobre cuenca Río Bogotá (polígono)
 
 Ejemplo de capas vectoriales disponibles  
 ![R.HydroBogota](.graph/ArcGISPro_shp.png)
