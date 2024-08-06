@@ -87,7 +87,7 @@ La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colo
 
 > Por su localización geográfica en llanura, en esta investigación no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual, no se incluyen en la modelación de descarga súbita y son solo utilizados como cuerpos de amortiguación de crecientes.
 >
-> En el embalse seco de Cantarrana, no se han incluído descargas súbitas directas; lo anterior debido a que es utilizado solo para atenuación de las crecientes provenientes de la parte alta del Río Tunjuelo y desde los embalses Chisacá y La Regadera, los cuales sí inclúyen hidrogramas de descarga.
+> En el embalse seco de Cantarrana, no se han incluído descargas súbitas directas; lo anterior debido a que es utilizado solo para atenuación de las crecientes provenientes de la parte alta del Río Tunjuelo y desde los embalses Chisacá y La Regadera, los cuales sí incluyen hidrogramas de descarga.
 > 
 > Los valores indicados en la tabla han sido recopilados de diferentes fuentes de información y están sujetos a futuras actualizaciones, cuando se disponga de la información topo-batimétrica de cada uno de estos cuerpos de agua.
 > 
@@ -104,57 +104,57 @@ De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municip
 
 <div align="center">
 
-| Código | Nombre                      |  Área en cuenca (km²)  | % en cuenca |  Área Mpio. (km²)  |  % Mpio.  |
-|:------:|:----------------------------|:----------------------:|:-----------:|:------------------:|:---------:|
-| (n/a)  | (área no coicidente)        |         13.17          |    0.22     |       13.17        |    100    |
-| 25001  | Agua de Dios                |         71.02          |     1.2     |       85.95        |   82.63   |
-| 25035  | Anapoima                    |         123.39         |    2.08     |       123.95       |   99.55   |
-| 25040  | Anolaima                    |         110.28         |    1.86     |       120.95       |   91.18   |
-| 25599  | Apulo                       |         121.92         |    2.06     |       121.97       |   99.95   |
-| 11001  | Bogotá D.C.                 |         845.34         |    14.25    |      1620.07       |   52.18   |
-| 25099  | Bojacá                      |         102.32         |    1.72     |       102.32       |    100    |
-| 25123  | Cachipay                    |         53.45          |     0.9     |       53.45        |    100    |
-| 25126  | Cajicá                      |         51.32          |    0.87     |       51.32        |    100    |
-| 25175  | Chía                        |         80.13          |    1.35     |       80.13        |    100    |
-| 25178  | Chipaque                    |          5.49          |    0.09     |       150.55       |   3.65    |
-| 25183  | Chocontá                    |         254.51         |    4.29     |       300.09       |   84.81   |
-| 25200  | Cogua                       |         132.75         |    2.24     |       132.88       |   99.91   |
-| 25214  | Cota                        |         53.74          |    0.91     |       53.74        |    100    |
-| 25224  | Cucunubá                    |         24.13          |    0.41     |       109.84       |   21.97   |
-| 25245  | El Colegio                  |         118.27         |    1.99     |       118.27       |    100    |
-| 25260  | El Rosal                    |         70.55          |    1.19     |       87.22        |   80.89   |
-| 25269  | Facatativá                  |         154.98         |    2.61     |       158.05       |   98.06   |
-| 25286  | Funza                       |         70.05          |    1.18     |       70.05        |    100    |
-| 25295  | Gachancipá                  |         42.92          |    0.72     |       42.92        |    100    |
-| 25307  | Girardot                    |         74.84          |    1.26     |       130.33       |   57.42   |
-| 25312  | Granada                     |         11.46          |    0.19     |        60.7        |   18.88   |
-| 25322  | Guasca                      |         209.56         |    3.53     |       360.58       |   58.12   |
-| 25326  | Guatavita                   |         153.96         |     2.6     |       252.35       |   61.01   |
-| 25377  | La Calera                   |         189.19         |    3.19     |       326.78       |   57.89   |
-| 25386  | La Mesa                     |         148.09         |     2.5     |       148.27       |   99.88   |
-| 25430  | Madrid                      |         119.58         |    2.02     |       119.58       |    100    |
-| 25473  | Mosquera                    |         106.13         |    1.79     |       106.13       |    100    |
-| 25486  | Nemocón                     |         98.36          |    1.66     |       98.36        |    100    |
-| 25596  | Quipile                     |         30.98          |    0.52     |       127.7        |   24.26   |
-| 25612  | Ricaurte                    |         92.81          |    1.56     |       128.01       |   72.5    |
-| 25645  | San Antonio del Tequendama  |         88.14          |    1.49     |       88.57        |   99.52   |
-| 25736  | Sesquilé                    |         140.97         |    2.38     |       141.19       |   99.85   |
-| 25740  | Sibaté                      |         93.76          |    1.58     |       122.04       |   76.83   |
-| 25754  | Soacha                      |         176.15         |    2.97     |       187.45       |   93.97   |
-| 25758  | Sopó                        |         111.04         |    1.87     |       111.04       |    100    |
-| 25769  | Subachoque                  |         188.52         |    3.18     |       209.22       |   90.11   |
-| 25772  | Suesca                      |         137.04         |    2.31     |       173.26       |   79.09   |
-| 25785  | Tabio                       |         75.22          |    1.27     |       75.22        |    100    |
-| 25793  | Tausa                       |         138.74         |    2.34     |       201.87       |   68.73   |
-| 25797  | Tena                        |         51.44          |    0.87     |       51.44        |    100    |
-| 25799  | Tenjo                       |         114.15         |    1.92     |       114.15       |    100    |
-| 25815  | Tocaima                     |         243.54         |     4.1     |       245.77       |   99.09   |
-| 25817  | Tocancipá                   |         73.25          |    1.23     |       73.25        |    100    |
-| 25873  | Villapinzón                 |         128.6          |    2.17     |       226.14       |   56.87   |
-| 25878  | Viotá                       |         200.85         |    3.39     |       201.29       |   99.78   |
-| 25898  | Zipacón                     |          54.2          |    0.91     |        54.2        |    100    |
-| 25899  | Zipaquirá                   |         182.49         |    3.08     |       194.83       |   93.66   |
-|        | Σ                           |        5932.79         |     100     |      7926.61       |           |
+| Código | Nombre                     |  Área en cuenca (km²)  | % en cuenca |  Área Mpio. (km²)  |  % Mpio.  |
+|:------:|:---------------------------|:----------------------:|:-----------:|:------------------:|:---------:|
+| (n/a)  | (área no coincidente)      |         13.17          |    0.22     |       13.17        |    100    |
+| 25001  | Agua de Dios               |         71.02          |     1.2     |       85.95        |   82.63   |
+| 25035  | Anapoima                   |         123.39         |    2.08     |       123.95       |   99.55   |
+| 25040  | Anolaima                   |         110.28         |    1.86     |       120.95       |   91.18   |
+| 25599  | Apulo                      |         121.92         |    2.06     |       121.97       |   99.95   |
+| 11001  | Bogotá D.C.                |         845.34         |    14.25    |      1620.07       |   52.18   |
+| 25099  | Bojacá                     |         102.32         |    1.72     |       102.32       |    100    |
+| 25123  | Cachipay                   |         53.45          |     0.9     |       53.45        |    100    |
+| 25126  | Cajicá                     |         51.32          |    0.87     |       51.32        |    100    |
+| 25175  | Chía                       |         80.13          |    1.35     |       80.13        |    100    |
+| 25178  | Chipaque                   |          5.49          |    0.09     |       150.55       |   3.65    |
+| 25183  | Chocontá                   |         254.51         |    4.29     |       300.09       |   84.81   |
+| 25200  | Cogua                      |         132.75         |    2.24     |       132.88       |   99.91   |
+| 25214  | Cota                       |         53.74          |    0.91     |       53.74        |    100    |
+| 25224  | Cucunubá                   |         24.13          |    0.41     |       109.84       |   21.97   |
+| 25245  | El Colegio                 |         118.27         |    1.99     |       118.27       |    100    |
+| 25260  | El Rosal                   |         70.55          |    1.19     |       87.22        |   80.89   |
+| 25269  | Facatativá                 |         154.98         |    2.61     |       158.05       |   98.06   |
+| 25286  | Funza                      |         70.05          |    1.18     |       70.05        |    100    |
+| 25295  | Gachancipá                 |         42.92          |    0.72     |       42.92        |    100    |
+| 25307  | Girardot                   |         74.84          |    1.26     |       130.33       |   57.42   |
+| 25312  | Granada                    |         11.46          |    0.19     |        60.7        |   18.88   |
+| 25322  | Guasca                     |         209.56         |    3.53     |       360.58       |   58.12   |
+| 25326  | Guatavita                  |         153.96         |     2.6     |       252.35       |   61.01   |
+| 25377  | La Calera                  |         189.19         |    3.19     |       326.78       |   57.89   |
+| 25386  | La Mesa                    |         148.09         |     2.5     |       148.27       |   99.88   |
+| 25430  | Madrid                     |         119.58         |    2.02     |       119.58       |    100    |
+| 25473  | Mosquera                   |         106.13         |    1.79     |       106.13       |    100    |
+| 25486  | Nemocón                    |         98.36          |    1.66     |       98.36        |    100    |
+| 25596  | Quipile                    |         30.98          |    0.52     |       127.7        |   24.26   |
+| 25612  | Ricaurte                   |         92.81          |    1.56     |       128.01       |   72.5    |
+| 25645  | San Antonio del Tequendama |         88.14          |    1.49     |       88.57        |   99.52   |
+| 25736  | Sesquilé                   |         140.97         |    2.38     |       141.19       |   99.85   |
+| 25740  | Sibaté                     |         93.76          |    1.58     |       122.04       |   76.83   |
+| 25754  | Soacha                     |         176.15         |    2.97     |       187.45       |   93.97   |
+| 25758  | Sopó                       |         111.04         |    1.87     |       111.04       |    100    |
+| 25769  | Subachoque                 |         188.52         |    3.18     |       209.22       |   90.11   |
+| 25772  | Suesca                     |         137.04         |    2.31     |       173.26       |   79.09   |
+| 25785  | Tabio                      |         75.22          |    1.27     |       75.22        |    100    |
+| 25793  | Tausa                      |         138.74         |    2.34     |       201.87       |   68.73   |
+| 25797  | Tena                       |         51.44          |    0.87     |       51.44        |    100    |
+| 25799  | Tenjo                      |         114.15         |    1.92     |       114.15       |    100    |
+| 25815  | Tocaima                    |         243.54         |     4.1     |       245.77       |   99.09   |
+| 25817  | Tocancipá                  |         73.25          |    1.23     |       73.25        |    100    |
+| 25873  | Villapinzón                |         128.6          |    2.17     |       226.14       |   56.87   |
+| 25878  | Viotá                      |         200.85         |    3.39     |       201.29       |   99.78   |
+| 25898  | Zipacón                    |          54.2          |    0.91     |        54.2        |    100    |
+| 25899  | Zipaquirá                  |         182.49         |    3.08     |       194.83       |   93.66   |
+|        | Σ                          |        5932.79         |     100     |      7926.61       |           |
 
 </div>
 
