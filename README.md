@@ -87,7 +87,7 @@ La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colo
 
 > Por su localización geográfica en llanura, en esta investigación no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual, no se incluyen en la modelación de descarga súbita y son solo utilizados como cuerpos de amortiguación de crecientes.
 >
-> En el embalse seco de Cantarrana, no se han incluído descargas súbitas directas, debido a que es utilizado solo para atenuación de crecientes provenientes de la parte alta del Río Tunjuelo y desde los embalses Chisacá y La Regadera, los cuales sí inclúyen descargas súbitas.
+> En el embalse seco de Cantarrana, no se han incluído descargas súbitas directas; lo anterior debido a que es utilizado solo para atenuación de las crecientes provenientes de la parte alta del Río Tunjuelo y desde los embalses Chisacá y La Regadera, los cuales sí inclúyen hidrogramas de descarga.
 > 
 > Los valores indicados en la tabla han sido recopilados de diferentes fuentes de información y están sujetos a futuras actualizaciones, cuando se disponga de la información topo-batimétrica de cada uno de estos cuerpos de agua.
 > 
