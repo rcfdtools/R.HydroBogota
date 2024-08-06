@@ -15,13 +15,14 @@ Pending task
 	
 	Charla Seminario de hidráulica Hydro-Bogotá, 12 sept 14:00 17:30. Revisar cronograma. 45 minutos, 10 minutos de preguntas.
 	
-	Identificar otras entidades públicas potenciales para presentar el proyecto. Municipios (Secretarías de planeación y ambiental, obra públicas, ESP), autoridades ambientales (CAR, SDA, CORPOGIAVIO), EAAB, IDIGER, UNGR. Charla con municipios.
+	Identificar otras entidades públicas potenciales para presentar el proyecto. Municipios (Secretarías de planeación y ambiental, obra públicas, ESP), autoridades ambientales (CAR, SDA, CORPOGUAVIO), IDEAM, EAAB, IDIGER, UNGRD. Charla con municipios.
 	
 	Webinar.
 	
 	Publicar mapas HEC-RAS usando ArcGIS OnLine & Story Map.
 
 	Guía técnica para la elaboración de mapas de inundación, IDEAM.
+	http://documentacion.ideam.gov.co/openbiblio/bvirtual/023774/GUIA_METODOLOGICA_MAPAS_INUNDACION_MARZO_2018.pdf
 
 	Ok. colombiaenmapas.gov.co Municipios, Distritos y Áreas no municipalizadas de Colombia
 	
