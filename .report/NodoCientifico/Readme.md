@@ -97,6 +97,7 @@ En el corto plazo que ya ha sido ejecutado, se creó un prototipo hidráulico 2D
 
 <div align="center"><img src="graph/HECRAS_Model0_2DFlowArea.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Mallado y refinamiento en prototipo a partir de ejes.</sub></div><br>
 
+### Y como en todo importante proyecto de esta magnitud, vienen más etapas?.
 
 ### Horizonte 2 - Mediano plazo
 
