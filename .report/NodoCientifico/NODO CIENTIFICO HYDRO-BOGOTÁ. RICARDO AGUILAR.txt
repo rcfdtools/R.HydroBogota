@@ -49,9 +49,10 @@ D. Otro aspecto fue la homologación de los mapas de suelos y coberturas por uso
 
 E. Finalmente, en este corto plazo se realizó la creación del prototipo de simulación 2D incluyendo todos estos elementos, y evaluando el tránsito hidráulico en 124 mil celdas (con un tamaño aproximado de 79 m² por celda) con la incorporación de los ejes de cauces principales como breaklines en el refinamiento del mallado, en una longitud de 906 kilómetros.
 
-4. Y como en todo importante proyecto de esta magnitud, vienen más etapas.
+¿Y como en todo importante proyecto de esta magnitud, vienen más etapas?
 
 Sí Esperanza. 
+
 Horizonte 2 - Mediano plazo
 
 Para el mediano plazo, se ha planteado el ajuste detallado de los mapas de suelos y usos, la incorporación de información Lidar o de alto detalle topográfico en zonas estratégicas del modelo (como la descarga hacia el Salto del Tequendama y corredores de drenaje en cauces principales fuera de la ciudad de Bogotá), el refinamiento del mallado, la calibración del modelo, la inclusión de estructuras hidráulicas, la modelación de eventos extremos para diferentes periodos de recurrencia y la generación de mapas de amenazas.
@@ -72,7 +73,7 @@ B. Las descargas provenientes del Embalse del Neusa y las combinadas proveniente
 
 C. Las descargas súbitas y flujos que vienen del Embalse San Rafael se encuentran con las que vienen del Embalse de Tominé, justo en la zona de llanura baja, cerca de la cabecera municipal del Municipio de Sopó. El flujo y su desplazamiento es dominado por las descargas del Tominé.
 
-6. Y el flujo el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael)
+6. Y el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael)
 
 Sí, es el punto D. Ingresa a Bogotá por la garganta que genera el sistema montañoso del Río Bogotá y Río Frío; al llegar al área urbana, este se bifurca por la formación de los Cerros de Suba, y parte se descarga en contraflujo por el canal Guaymaral hasta que el frente de onda pasa, luego, el sentido del flujo se invierte hacia el Río Bogotá hasta drenar la inundación producida.
 
@@ -84,6 +85,7 @@ F. Luego de la inundación, gran parte de los flujos de excesos que se descargan
 7. Importante trabajo el que se está desarrollado en la Escuela. Podría, ingeniero Aguilar, explicar brevemente, ¿de qué manera los estudiantes y los demás centros de estudios e interesados pueden participar en este proyecto de investigación?
 
 El proyecto Hydro-Bogotá dispone de un repositorio público en GitHub, allí se encuentra en detalle el contenido de la investigación y los avances realizados, también dispone de los datos fuente y los ensambles generados.
+
 Para conocer más en detalle este proyecto, los interesados en participar en esta iniciativa, desarrollando p. ej., trabajos de grado y estudios de casos particulares, pueden acercarse al Centro de Estudios Hidráulicos de la Escuela Colombiana de Ingeniería.
 
 
