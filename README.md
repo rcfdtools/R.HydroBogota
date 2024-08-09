@@ -1,4 +1,4 @@
-<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src=".graph/IconCEHBanner.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src=".graph/IconCEHBanner.jpg" alt="R.HydroBogota" width="100%" border="0" /></a></div>
 
 # Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
 Keywords: `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `iber` `ansys-fluent` `hydraulic-modeling` `2D-modeling` `dam-branching` `newtonian` `non-newtonian` `hydraulic-hazard`
@@ -23,7 +23,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 ### 1.1. A corto plazo
 
-* Integrar un modelo digital de elevación híbrido (DEM) combinando información de sensores remotos satelitales (ALOS PALSAR 12.5m con ajuste de elevaciones a partir de información Lidar o Copernicus 30m), levantamientos Lidar Bogotá (5m y 0.5m) y bloques de obstrucción generados a partir del catastro de construcciones urbanas y rurales en zonas con información Lidar.
+* Integrar un modelo digital de elevación híbrido (DEM) combinando información de sensores remotos satelitales (ALOS PALSAR 12.5 m con ajuste de elevaciones a partir de información Lidar o Copernicus 30 m), levantamientos Lidar Bogotá (5 m y 0.5 m) y bloques de obstrucción generados a partir del catastro de construcciones urbanas y rurales en zonas con información Lidar.
 * Localizar las intersecciones de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en el área urbana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) sobre canales y drenajes en el área urbana de Bogotá.
 * Digitalizar los alineamientos de las coronas de diques en canales (en zonas con cobertura Lidar) para utilizarlas como líneas de refinamiento (Breaklines) del mallado 2D. Digitalizar líneas de transición de mallado al rededor de los corredores de drenaje.
@@ -40,12 +40,12 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 ### 1.2. A mediano plazo
 
 * Ajustar los mapas de suelos y usos incluyendo la digitalización (escala 1:25000 o inferior) de los corredores de canales a superficie libre para optimizar los valores asociados de infiltración, rugosidad de Manning e impermeabilidad.
-* Incorporación de levantamiento Lidar (0.5m) de la zona de descarga del Río Bogotá entre la descarga del Río Tunjuelo y el Salto del Tequendama. El modelo de terreno ensamblado no dispone de información detallada de este corredor, lo que ocasiona que el flujo de la llanura no pueda ser drenado completamente luego de la descarga súbita desde los embalses.
+* Incorporación de levantamiento Lidar (0.5 m) de la zona de descarga del Río Bogotá entre la descarga del Río Tunjuelo y el Salto del Tequendama. El modelo de terreno ensamblado no dispone de información detallada de este corredor, lo que ocasiona que el flujo de la llanura no pueda ser drenado completamente luego de la descarga súbita desde los embalses.
 * Crear la _Versión v1_ del prototipo funcional de simulación hidráulica 2D en HEC-RAS con inclusión de líneas de banca para direccionamiento de flujo y líneas de transición de mallado (actualmente, ya se encuentra creado el mallado y se están ajustando las celdas con más de 8 caras).
 * Calibrar el modelo numérico construído a partir de información de eventos históricos documentados.
 * Fomentar la participación de entidades gubernamentales locales (Alcaldías, Empresas de Servicios Públicos, Corporaciones Autónomas, cuerpos de atención de emergencias y desastres, gestores del riesgo y cambio climático como el IDIGER) y áreas adscritas a centros de educación superior (centros de estudios, semilleros, grupos de investigación), para la optimización del modelo y la difusión del conocimiento obtenido en la presente investigación.
 * Desarrollar casos de estudios específicos dentro de la zona de estudio (trabajos de grado, investigación de semilleros).
-* Incorporar gradualmente al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios y zonas ubicadas en las llanuras de inundación del Río Bogotá, Río Neusa, Río Tominé, Río Sisga, Río Teusacá (desde el Embalse San Rafael), Río Chisacá y Río Tunjuelo (hasta el límite del Lidar 0.5m extendido 2020). 
+* Incorporar gradualmente al modelo digital de elevación híbrido (DEM), levantamientos Lidar complementarios de los municipios y zonas ubicadas en las llanuras de inundación del Río Bogotá, Río Neusa, Río Tominé, Río Sisga, Río Teusacá (desde el Embalse San Rafael), Río Chisacá y Río Tunjuelo (hasta el límite del Lidar 0.5 m extendido 2020). 
 * Localizar las intersecciones de pasos de vía con canales y drenajes a superficie libre, del sistema de alcantarillado pluvial en la zona rural y en municipios de la sabana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) en las zonas Lidar complementarias incorporadas (incorporación gradual a partir de información suministrada por entidades).
 * Inclusión de estructuras y equipos hidráulicos: diques, culverts, compuertas, bombeos, zonas de amortiguación.
@@ -190,8 +190,7 @@ De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colom
 
 Para las clases de entidad, mapas y modelos utilizados en esta investigación, se utilizará el sistema de referencia de coordenadas correspondiente al Origen Nacional Único Colombia EPSG: 9377.
 
-El establecimiento de las condiciones técnicas mínimas que deben tener los productos básicos de cartografía oficial, serán los definidos de conformidad con lo dispuesto por la Resolución 471 del 14 de mayo de 2020 y la posterior Resolución 529 del 05 de junio de 2020, emitidas por el Instituto Geográfico Agustín Codazzi - IGAC, o la norma que la modifique y sustituya, para ello y para garantizar la homogeneidad y continuidad en la representación de los elementos del territorio, así como facilitar los trabajos relacionados con la gestión de coordenadas en el país. En tal sentido, los proyectos, obras o actividades, sujetos al licenciamiento ambiental, deben ajustar su información geográfica a los lineamientos establecidos en la referida normatividad, para la evaluación y seguimiento de los estudios ambientales y/o presentación de los Informes de Cumplimiento Ambiental. El sistema de proyección cartográfico para Colombia, con un único origen, consiste en una proyección cartográfica Transversa de Mercator Secante, cuyos parámetros están establecidos en el literal i Sistema de Referencia del artículo 4
-de la resolución 471 de 2020, los cuales pueden configurarse en software especializado para procesamiento de información geográfica.
+El establecimiento de las condiciones técnicas mínimas que deben tener los productos básicos de cartografía oficial, serán los definidos de conformidad con lo dispuesto por la Resolución 471 del 14 de mayo de 2020 y la posterior Resolución 529 del 05 de junio de 2020, emitidas por el Instituto Geográfico Agustín Codazzi - IGAC, o la norma que la modifique y sustituya, para ello y para garantizar la homogeneidad y continuidad en la representación de los elementos del territorio, así como facilitar los trabajos relacionados con la gestión de coordenadas en el país. En tal sentido, los proyectos, obras o actividades, sujetos al licenciamiento ambiental, deben ajustar su información geográfica a los lineamientos establecidos en la referida normatividad, para la evaluación y seguimiento de los estudios ambientales y/o presentación de los Informes de Cumplimiento Ambiental. El sistema de proyección cartográfico para Colombia, con un único origen, consiste en una proyección cartográfica Transversa de Mercator Secante, cuyos parámetros están establecidos en el literal i Sistema de Referencia del artículo 4 de la resolución 471 de 2020, los cuales pueden configurarse en software especializado para procesamiento de información geográfica.
 
 * Proyección cartográfica: origen nacional único Colombia EPSG: 9377 o ESRI: 103599
 * Archivo: MAGNA_OrigenNacional.prj (disponible en la carpeta .`data` o `.projectionfile` del modelo hidráulico)
@@ -230,12 +229,12 @@ https://github.com/user-attachments/assets/b08fd7ae-8f4a-4b59-bc0d-b3ce6d48ecdd
 
 Dentro de la carpeta [_.dem_](.dem/Readme.md) y en [_Releases_](https://github.com/rcfdtools/R.HydroBogota/releases) podrá encontrar los siguientes modelos digitales de elevación e información detalladas de sus metadatos:
 
-* Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5m)
-* Modelo digital de superficie DSM satelital Copernicus (30m)
-* Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5m)
-* Modelo digital de construcciones DSM (0.5m)
-* Modelo digital de terreno DTM Híbrido Lidar Extendido con Construcciones (0.5m)
-* Modelo digital de canales en pasos de vía (0.5m)
+* Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5 m)
+* Modelo digital de superficie DSM satelital Copernicus (30 m)
+* Modelo digital de terreno DTM Lidar Bogotá 2014 - 2020 extendido (0.5 m)
+* Modelo digital de construcciones DSM (0.5 m)
+* Modelo digital de terreno DTM Híbrido Lidar Extendido con Construcciones (0.5 m)
+* Modelo digital de canales en pasos de vía (0.5 m)
 * Modelo digital de terreno DTM Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
 
 Ejemplo de modelo digital de terreno sin y con ajuste  
