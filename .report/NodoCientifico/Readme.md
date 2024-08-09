@@ -1,4 +1,4 @@
-<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="../../.graph/IconCEHBanner.jpg" alt="R.LTWB" width="100%" border="0" /></a></div>
+<div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="../../.graph/IconCEHBanner.jpg" alt="R.HydroBogota" width="100%" border="0" /></a></div>
 
 
 # :clapper:Entrevista en _NODO CIENTÍFICO_ (script)
@@ -32,7 +32,7 @@ Con respecto a de donde surgió esta idea, en alguna ocasión me preguntaron, **
 
 <div align="center"><img src="graph/DamFailureSample.png" alt="R.SIGE" width="70%" border="0" /><br><sub>California DWR - Represa Orosville U.S. & ABC News - Fallo The Rapid Dam en Blue County U.S. Tomado de: California DWR y ABC News</sub></div>
 
-<div align="center"><a href="video/DAM_Failure.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
+<div align="center"><a href="video/DAM_Failure.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br>
 
 > Investigando este tema, encontramos que en todo el mundo han ocurrido múltiples eventos relacionados con el fallo o colapso de represas, muchos de esos casos de estudio se encuentran documentados en un sitio web muy interesante, llamado https://damfailures.org/, los invito para que exploren su contenido. [^2]
 
@@ -67,9 +67,9 @@ En el corto plazo que ya ha sido ejecutado, se creó un prototipo hidráulico 2D
 
 <div align="center"><img src="graph/ArcGISPro_DTM_Bogota2020_9377_Extent_Building3D.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Modelo digital híbrido de elevación, vista 3D.</sub></div>
 
-<div align="center"><a href="video/DEM_EmbalsesSur.md" target="_blank">:clapper:<sub>Animación en video.</a></sub></div>
+<div align="center"><a href="video/DEM_EmbalsesSur.md" target="_blank">:clapper:<sub>Animación en video.</sub></a></div>
 
-<div align="center"><a href="video/DEM_Integrado_1920.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br><br>
+<div align="center"><a href="video/DEM_Integrado_1920.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br><br>
 
 
 **B.** Otro elemento importante por considerar, son las intersecciones de los ríos y/o canales con pasos de vía, en estos lugares existen puentes y alcantarillas que deben ser incorporadas o ajustadas en el modelo. Las identificamos, y solo en Bogotá hay 310 pasos de vía, de los cuales 217 requirieron de ajuste en el modelo de terreno.
@@ -125,20 +125,20 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 
 <div align="center"><img src="graph/ResultadoA_FrenteOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Frente de onda de inundación proveniente de Tominé, Neusa y Sisga .</sub></div>
 
-<div align="center"><a href="video/Model0_Results_Depth1.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Depth1.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br>
 
 
 **B.** Las descargas provenientes del Embalse del Neusa y las combinadas provenientes de los Embalses Tominé y Sisga, viajan casi a la misma velocidad hasta encontrarse cerca al Embalse de Aposentos en el Municipio de Sopó, esto a pesar de que la llanura inundable del Río Bogotá es más amplia en el corredor de descarga del Tominé y que los volúmenes descargados son mayores.
 
 <div align="center"><img src="graph/ResultadoB_VelocidadOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Velocidad de onda de inundación – Zona Tominé, Neusa y Sisga.</sub></div>
 
-<div align="center"><a href="video/Model0_Results_Velocity1.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Velocity1.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br>
 
 **C.** Las descargas súbitas y flujos que vienen del Embalse San Rafael se encuentran con las que vienen del Embalse de Tominé, justo en la zona de llanura baja, cerca de la cabecera municipal del Municipio de Sopó. El flujo y su desplazamiento es dominado por las descargas del Tominé.
 
 <div align="center"><img src="graph/ResultadoC_ChoqueOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Encuentro de ondas de inundación Tominé a San Rafael.</sub></div>
 
-<div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br>
 
 ### ¿Y el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael)?
 
@@ -148,25 +148,25 @@ Sí, en el punto...
 
 <div align="center"><img src="graph/ResultadoD_BifurcacionFrenteOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Velocidad de onda de inundación y bifurcación del flujo ingresando a la ciudad de Bogotá.</sub></div>
 
-<div align="center"><a href="video/Model0_Results_Velocity3.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Velocity3.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br>
 
 
 **E.** El flujo de descarga proveniente desde los embalses Chisacá y La Regadera, es drenado o amortiguado en la llanura, antes de que los flujos provenientes del sistema norte llegan al área urbana de Bogotá.
 
 <div align="center"><img src="graph/ResultadoE_FrenteOndaChisacaRegadera.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Flujo drenado sistema sur desde Chisacá y La Regadera.</sub></div>
 
-<div align="center"><a href="video/Model0_Results_Depth2.md" target="_blank">:clapper:<sub>Animación en video.</a></sub></div>
+<div align="center"><a href="video/Model0_Results_Depth2.md" target="_blank">:clapper:<sub>Animación en video.</sub></a></div>
 
-<div align="center"><a href="video/Model0_Results_Depth2_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Depth2_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br>
 
 
 **F.** Luego de la inundación, gran parte de los flujos de excesos que se descargan sobre los humedales y canales de la ciudad de Bogotá son drenados hasta volver casi a su estado regular. Sin embargo, la zona de descarga del embalse del Muña hasta el Santo del Tequendama no dispone actualmente de información Lidar de alta precisión, para poder simular completamente la descarga y vaciado de la llanura inundable remanente. Es por ello por lo que, a mediano plazo, se ha propuesto incorporar al modelo digital de elevación híbrido, esta información de detalle.
 
 <div align="center"><img src="graph/ResultadoF_FlujoHumedalBogota.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Flujo de inundaciones en humedales y zonas bajas de Bogotá.</sub></div>
 
-<div align="center"><a href="video/Model0_Results_Depth3.md" target="_blank">:clapper:<sub>Animación en video. </a></sub><br></div>
+<div align="center"><a href="video/Model0_Results_Depth3.md" target="_blank">:clapper:<sub>Animación en video.</sub></a><br></div>
 
-<div align="center"><a href="video/Model0_Results_Depth3_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
+<div align="center"><a href="video/Model0_Results_Depth3_3840.mp4" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br>
 
 
 ## 5. Importante trabajo el que se está desarrollado en la Escuela. Podría, ingeniero Aguilar, explicar brevemente, ¿de qué manera los estudiantes y los demás centros de estudios e interesados pueden participar en este proyecto de investigación?
