@@ -97,7 +97,7 @@ En el corto plazo que ya ha sido ejecutado, se creó un prototipo hidráulico 2D
 
 <div align="center"><img src="graph/HECRAS_Model0_2DFlowArea.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Mallado y refinamiento en prototipo a partir de ejes.</sub></div><br>
 
-### Y como en todo importante proyecto de esta magnitud, vienen más etapas?.
+### ¿Y como en todo importante proyecto de esta magnitud, vienen más etapas?.
 
 Sí Esperanza.
 
@@ -140,7 +140,7 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 
 <div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
 
-### Y el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael)?
+### ¿Y el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael)?
 
 Sí, en el punto...
 
