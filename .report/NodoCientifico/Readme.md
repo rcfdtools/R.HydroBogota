@@ -99,6 +99,8 @@ En el corto plazo que ya ha sido ejecutado, se creó un prototipo hidráulico 2D
 
 ### Y como en todo importante proyecto de esta magnitud, vienen más etapas?.
 
+Sí Esperanza.
+
 ### Horizonte 2 - Mediano plazo
 
 Para el mediano plazo, se ha planteado el ajuste detallado de los mapas de suelos y usos, la incorporación de información Lidar o de alto detalle topográfico en zonas estratégicas del modelo (como la descarga hacia el Salto del Tequendama y corredores de drenaje en cauces principales fuera de la ciudad de Bogotá), el refinamiento del mallado, la calibración del modelo, la inclusión de estructuras hidráulicas, la modelación de eventos extremos para diferentes periodos de recurrencia y la generación de mapas de amenazas.
@@ -132,13 +134,15 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 
 <div align="center"><a href="video/Model0_Results_Velocity1.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
 
-
 **C.** Las descargas súbitas y flujos que vienen del Embalse San Rafael se encuentran con las que vienen del Embalse de Tominé, justo en la zona de llanura baja, cerca de la cabecera municipal del Municipio de Sopó. El flujo y su desplazamiento es dominado por las descargas del Tominé.
 
 <div align="center"><img src="graph/ResultadoC_ChoqueOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Encuentro de ondas de inundación Tominé a San Rafael.</sub></div>
 
 <div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</a></sub></div><br>
 
+### Y el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael)?
+
+Sí, en el punto...
 
 **D.** Todo el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael), ingresa a Bogotá por la garganta que genera el sistema montañoso del Río Bogotá y Río Frío; al llegar al área urbana, este se bifurca por la formación de los Cerros de Suba, y parte se descarga en contraflujo por el canal Guaymaral hasta que el frente de onda pasa, luego, el sentido del flujo se invierte hacia el Río Bogotá hasta drenar la inundación producida.
 
