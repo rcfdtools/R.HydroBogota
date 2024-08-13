@@ -224,6 +224,8 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 
 ## 5. Modelos digitales de elevación [(.dem)](.dem/Readme.md)
 
+Para el ensamble del modelo digital de elevación híbrido de la cuenca, se ha utilizado el modelo digital de superficie – DSM Copernicus (resolución de 30 metros), los modelos digitales de terreno LIDAR de la ciudad de Bogotá D.C. (resoluciones de 5 y 0.5 metros), un modelo de elevación generado a partir de polígonos de construcciones (resolución de 0.5 metros) y un modelo digital de terreno con los canales a superficie libre en puntos de intersección de drenajes con pasos de vía (resolución 0.5 metros). 
+
 Los modelos digitales de elevación (de terreno o DTM, de superficie o DSM e híbridos), han sido utilizados en las simulaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizados en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
 https://github.com/user-attachments/assets/b08fd7ae-8f4a-4b59-bc0d-b3ce6d48ecdd
