@@ -223,7 +223,7 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 
 ## 5. Modelos digitales de elevación [(.dem)](.dem/Readme.md)
 
-Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las simulaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizado en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
+Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las simulaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizados en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
 https://github.com/user-attachments/assets/b08fd7ae-8f4a-4b59-bc0d-b3ce6d48ecdd
 
@@ -237,7 +237,7 @@ Dentro de la carpeta [_.dem_](.dem/Readme.md) y en [_Releases_](https://github.c
 * Modelo digital de canales en pasos de vía (0.5 m)
 * Modelo digital de terreno DTM Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
 
-Ejemplo de modelo digital de terreno sin y con ajuste  
+Ejemplo de modelo digital de terreno con y sin ajuste  
 ![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)
 
 
@@ -284,7 +284,6 @@ Para las simulaciones hidráulicas se utilizarán las siguientes herramientas co
 * https://www.usgs.gov/faqs/what-liquefaction
 * https://damfailures.org/wp-content/uploads/2021/11/conduits_embankment_dams.pdf
 * https://datosgeograficos.car.gov.co/
-* 
 
 Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](.ref/Readme.md) de este repositorio.
 
