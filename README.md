@@ -1,7 +1,7 @@
 <div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src=".graph/IconCEHBanner.jpg" alt="R.HydroBogota" width="100%" border="0" /></a></div>
 
 # Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
-Keywords: `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `iber` `ansys-fluent` `hydraulic-modeling` `2D-modeling` `dam-branching` `newtonian` `non-newtonian` `hydraulic-hazard`
+Keywords: `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `iber` `ansys-fluent` `hydraulic-modeling` `2D-modeling` `dam-branching` `newtonian-fluid` `non-newtonian-fluid` `hydraulic-hazard`
 
 **_R.HydroBogota_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
@@ -87,18 +87,18 @@ La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colo
 
 > Por su localización geográfica en llanura, en esta investigación no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual, no se incluyen en la modelación de descarga súbita y son solo utilizados como cuerpos de amortiguación de crecientes.
 >
-> En el embalse seco de Cantarrana, no se han incluído descargas súbitas directas; lo anterior debido a que es utilizado solo para atenuación de las crecientes provenientes de la parte alta del Río Tunjuelo y desde los embalses Chisacá y La Regadera, los cuales sí incluyen hidrogramas de descarga.
+> En el embalse seco de Cantarrana, no se han incluido descargas súbitas directas; lo anterior debido a que es utilizado solo para atenuación de las crecientes provenientes de la parte alta del Río Tunjuelo y desde los embalses Chisacá y La Regadera, los cuales sí incluyen hidrogramas de descarga.
 > 
 > Los valores indicados en la tabla han sido recopilados de diferentes fuentes de información y están sujetos a futuras actualizaciones, cuando se disponga de la información topo-batimétrica de cada uno de estos cuerpos de agua.
 > 
 > El flujo medio de 0.53 m³/s definido en el Embalse La Regadera, corresponde a la resta de 1.2 m³/s descargados en este cuerpo de agua, menos el valor definido en el Embalse Chisacá.
 >
-> El área superficial de cada cuerpo ha sido calculado a partir del área planar, utilizando el CRS 9377.
+> El área superficial de cada cuerpo ha sido calculado a partir del área planar, utilizando el sistema de proyección de coordenadas Magna Origen único Nacional (EPSG 9377).
 
 
 ### 2.2. Municipios y distrito
 
-De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municipalizadas de Colombia (versión 2024.06.30)_ del Instituto Geográfico Agustín Codazzi - IGAC, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, los 47 municipios con influencia geográfica directa sobre la cuenca del Río Bogotá en el Departamento de Cundinamarca son:
+De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municipalizadas de Colombia (versión 2024.06.30)_ del Instituto Geográfico Agustín Codazzi - IGAC, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, los 47 municipios (incluido el distrito capital) con influencia geográfica directa sobre la cuenca del Río Bogotá en el Departamento de Cundinamarca son:
 
 <div align="center"><img src=".graph/ArcGISPro_Layer_Municipio2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Municipios con influencia geográfica sobre la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
 
@@ -158,6 +158,7 @@ De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municip
 
 </div>
 
+> Dentro de estos municipios y el distrito capital, existen asentamientos humanos que por su localización geográfica, pueden estar expuestos a amenazas de inundación.
 > _**% en cuenca**_: corresponde al porcentaje del área geodésica municipal, con respecto a toda la cuenca del Río Bogotá.   
 > _**% Mpio.**_: corresponde al porcentaje del área geodésica municipal dentro de la cuenca del Río Bogotá, con respecto al área total del municipio.
 
@@ -188,7 +189,7 @@ De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colom
 
 ## 3. Sistema de proyección de coordenadas - CRS
 
-Para las clases de entidad, mapas y modelos utilizados en esta investigación, se utilizará el sistema de referencia de coordenadas correspondiente al Origen Nacional Único Colombia EPSG: 9377.
+Para las clases de entidad, mapas y modelos utilizados en esta investigación, se utilizará el sistema de referencia de coordenadas correspondiente al Origen Nacional Único Colombia (EPSG 9377).
 
 El establecimiento de las condiciones técnicas mínimas que deben tener los productos básicos de cartografía oficial, serán los definidos de conformidad con lo dispuesto por la Resolución 471 del 14 de mayo de 2020 y la posterior Resolución 529 del 05 de junio de 2020, emitidas por el Instituto Geográfico Agustín Codazzi - IGAC, o la norma que la modifique y sustituya, para ello y para garantizar la homogeneidad y continuidad en la representación de los elementos del territorio, así como facilitar los trabajos relacionados con la gestión de coordenadas en el país. En tal sentido, los proyectos, obras o actividades, sujetos al licenciamiento ambiental, deben ajustar su información geográfica a los lineamientos establecidos en la referida normatividad, para la evaluación y seguimiento de los estudios ambientales y/o presentación de los Informes de Cumplimiento Ambiental. El sistema de proyección cartográfico para Colombia, con un único origen, consiste en una proyección cartográfica Transversa de Mercator Secante, cuyos parámetros están establecidos en el literal i Sistema de Referencia del artículo 4 de la resolución 471 de 2020, los cuales pueden configurarse en software especializado para procesamiento de información geográfica.
 
