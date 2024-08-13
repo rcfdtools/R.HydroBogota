@@ -1,6 +1,6 @@
 # Modelos digitales de elevación - DEM
 
-Esta carpeta contiene los modelos digitales de elevación (DTM, DSM, Híbridos) que son utilizados en las modelaciones hidráulicas 2D para objeter las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales en puntos de intersección de pasos de vía con drenajes, generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
+Esta carpeta contiene los modelos digitales de elevación (de terreno o DTM, de superficie o DSM e híbridos) que son utilizados en las modelaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales en puntos de intersección de pasos de vía con drenajes, generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
 > Para conocer los archivos fuente a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [.data](../.data) de este repositorio.
 > 
@@ -38,7 +38,7 @@ DSM_AlosPalsar_9377_Fit.tif
 
 Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. 
 
-> Durante la revisión de las cotas de los modelos digitales de elevación que cubren toda la cuenca, se pudo evidenciar que la calidad del modelo [COPERNICUS](https://www.copernicus.eu/en) (30m) es superior a la mostrada en el modelo NASA ALOS PALSAR (12.5m), por lo que se puede observar en algunas zonas sin vegetación el corredor del río Bogotá, lo anterior debido a la tecnología SAR de alta resolución empleada por la [ESA](https://www.esa.int/). La diferencia de elevaciones encontrada entre el modelo de superficie COPERNICUS y LIDAR Bogota D.C. 2020 es de máximo +1 metro, mientras que la diferencia con respecto al modelo NASA ALOS PALSAR está al rededor de +21 metros.
+> Durante la revisión de cotas, se pudo evidenciar que la calidad del modelo [Copernicus](https://www.copernicus.eu/en), es superior a la contenida en el modelo NASA ALOS PALSAR (resolución 12.5 metros), pudiéndose observar en algunas zonas sin vegetación el corredor del Río Bogotá y de varios de sus afluentes principales; lo anterior debido a la tecnología SAR (Synthetic-aperture radar) de alta resolución empleada por la [Agencia Espacial Europea - ESA](https://www.esa.int/). La diferencia de elevaciones encontradas entre el modelo de superficie Copernicus y el modelo digital de terreno LIDAR Bogotá D.C. 2020, es de máximo +1 metro, mientras que la diferencia con respecto al modelo NASA ALOS PALSAR, está alrededor de +21 metros y sin el mismo nivel de detalle, a pesar de que su resolución es mayor.
 
 :open_file_folder: Ráster reproyectado:  [DSM_Copernicus30_9377.tif](DSM_Copernicus30_9377.rar)
 

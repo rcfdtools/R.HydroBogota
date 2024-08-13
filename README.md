@@ -189,7 +189,7 @@ De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colom
 
 ## 3. Sistema de proyección de coordenadas - CRS
 
-Para las clases de entidad, mapas y modelos utilizados en esta investigación, se utilizará el sistema de referencia de coordenadas correspondiente al Origen Nacional Único Colombia (EPSG 9377).
+Para las clases de entidad, mapas y modelos utilizados en esta investigación, se ha utilizado el sistema de referencia de coordenadas Magna Origen Único Nacional de Colombia (EPSG 9377).
 
 El establecimiento de las condiciones técnicas mínimas que deben tener los productos básicos de cartografía oficial, serán los definidos de conformidad con lo dispuesto por la Resolución 471 del 14 de mayo de 2020 y la posterior Resolución 529 del 05 de junio de 2020, emitidas por el Instituto Geográfico Agustín Codazzi - IGAC, o la norma que la modifique y sustituya, para ello y para garantizar la homogeneidad y continuidad en la representación de los elementos del territorio, así como facilitar los trabajos relacionados con la gestión de coordenadas en el país. En tal sentido, los proyectos, obras o actividades, sujetos al licenciamiento ambiental, deben ajustar su información geográfica a los lineamientos establecidos en la referida normatividad, para la evaluación y seguimiento de los estudios ambientales y/o presentación de los Informes de Cumplimiento Ambiental. El sistema de proyección cartográfico para Colombia, con un único origen, consiste en una proyección cartográfica Transversa de Mercator Secante, cuyos parámetros están establecidos en el literal i Sistema de Referencia del artículo 4 de la resolución 471 de 2020, los cuales pueden configurarse en software especializado para procesamiento de información geográfica.
 
@@ -224,7 +224,7 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 
 ## 5. Modelos digitales de elevación [(.dem)](.dem/Readme.md)
 
-Los modelos digitales de elevación (DTM, DSM, Híbridos), son utilizados en las simulaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizados en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
+Los modelos digitales de elevación (de terreno o DTM, de superficie o DSM e híbridos), han sido utilizados en las simulaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales (localizados en puntos de intersección de pasos de vía con drenajes) generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
 https://github.com/user-attachments/assets/b08fd7ae-8f4a-4b59-bc0d-b3ce6d48ecdd
 
