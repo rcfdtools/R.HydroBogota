@@ -26,3 +26,4 @@ Icons
 * https://www.flaticon.com/free-icon/creek_10873840?term=river&page=1&position=6&origin=search&related_id=10873840
 * https://www.flaticon.com/free-icon/videoplayer_2633389?related_id=2633389
 * https://logowik.com/vs-versus-symbol-logo-vector-70965.html
+* https://www.pngwing.com/en/search?q=COMPASS

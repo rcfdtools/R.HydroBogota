@@ -75,7 +75,7 @@ Para la obtención de los límites de cada DEM, se realizó un proceso de binari
 
 ## Modelo digital de construcciones DSM (0.5m)
 
-Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o [SUDS](https://www.susdrain.org/delivering-suds/using-suds/background/sustainable-drainage.html)) en este tipo de elementos.
+Las construcciones son utilizadas como complemento en la creación del modelo de terreno híbrido y son consideradas como bloques de obstrucción del modelo hidráulico; también son utilizadas para el ajuste del mapa general de rugosidades debido a que en las caras de mallado, son requeridos valores altos de rugosidad e impermeabilidades en cero (excepto en construcciones con cubiertas ecológicas o [SUDS](https://www.susdrain.org/delivering-suds/using-suds/background/sustainable-drainage.html)).
 
 Utilizando los polígonos de construcciones [.shp/Construccion_9377.shp](../.shp) y a partir de las cotas de cubierta calculadas con la cota de cada centroide + la altura de la edificación y semisótano, se ha generado la grilla de elevación de construcciones.
 
