@@ -14,7 +14,7 @@
 * Esta versión no incluye la modelación de pasos de vía como estructura hidráulica 1D. El flujo es transitado en canales a superficie libre.
 * Modelo prototipo sin calibración.
 * Modelación de infiltración. No modelación de lluvia directa sobre celdas ni cargas de viento.
-* En esta versión no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volúmen ya transportado, reduce su capacidad hidráulica.
+* En esta versión no se considera el ajuste de los fondos Lidar (a partir de planos de ingeniería de detalle o utilizando levantamientos topo-batimétricos) en canales debidas al transporte regular del flujo, considerando que ante eventos extremos, la fracción correspondiente al volumen ya transportado, reduce su capacidad hidráulica.
 
 > Para evitar errores en la representación y almacenamiento de los elementos del modelo hidráulica, se han reemplazado u omitido las tildes, eñes y caracteres especiales, por caracteres compatibles con el idioma inglés.
 
@@ -107,7 +107,7 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 
 #### 1.5.1. Hidrograma unitario - Unit Hydrograph UH
 
-Para la distribución del volúmen almacenado y descargado súbitamente desde cada embalse, se han utilizado los factores del hidrograma unitario de la [Natural Resources Conservation Service NRCS del U.S. Department of Agriculture](https://www.nrcs.usda.gov/) de los Estados Unidos de América, correspondiente al hidrograma ajustado utilizado en el estado de Michigan. Se han distribuido los puntos horarios para una duración total de 8 horas.
+Para la distribución del volumen almacenado y descargado súbitamente desde cada embalse, se han utilizado los factores del hidrograma unitario de la [Natural Resources Conservation Service NRCS del U.S. Department of Agriculture](https://www.nrcs.usda.gov/) de los Estados Unidos de América, correspondiente al hidrograma ajustado utilizado en el estado de Michigan. Se han distribuido los pulsos horarios para una duración total de 8 horas.
 
 Mas información en https://learn.hydrologystudio.com/hydrology-studio/knowledge-base/nrcs-unit-hydrograph-peak-factors/
 
@@ -133,7 +133,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 
 </div>
 
-> Para obtener el total del volúmen descargado en cada embalse, se ha estimado (función objetivo en Microsoft Excel) un factor de distribución de 0.285714285714286.
+> Para obtener el total del volumen descargado en cada embalse, se ha estimado (función objetivo en Microsoft Excel) un factor de distribución de 0.285714285714286.
 
 
 #### 1.5.2. Hidrogramas y caudales pico en Embalses por descarga súbita - Condiciones de frontera

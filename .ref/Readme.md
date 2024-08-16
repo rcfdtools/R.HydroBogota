@@ -20,6 +20,8 @@
 * [Corporaciones Autónomas de Colombia](https://archivo.minambiente.gov.co/index.php/noticias/2067)
 * https://www.idiger.gov.co/rinundacion
 * https://www.escuelaing.edu.co/es/eventos/seminario-de-hidraulica-disponibilidad-de-agua-en-colombia-abastecimiento-generacion-riego-y-drenaje/
+* https://www.hec.usace.army.mil/software/hec-ras/documentation/RD-52_HEC-RAS%20Verification%20and%20Validation.pdf
+* https://www.hec.usace.army.mil/publications/TechnicalPapers/TP-69.pdf
 
 
 Icons
