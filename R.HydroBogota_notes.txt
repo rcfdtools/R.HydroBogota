@@ -7,53 +7,77 @@ Digitalizaciones rcfdtools
 	Total:	1667.6
 
 Pending task
+
+	Artículo: características morfométricas de la cuenca, perfiles drenajes principales.
+
+	Suelos Cundinamarca
+		https://mapas.cundinamarca.gov.co/
+		https://mapas.cundinamarca.gov.co/ buscar como Uso_Propuesto_del_Suelo
+		Infraestructura de Datos Espaciales Cundinamarca IDEC
+		https://mapasyestadisticas-cundinamarca-map.opendata.arcgis.com/maps/bab642ad389244b5859484d8ab0920f9
+
+	Mapa de Referencia para Bogotá D.C.
+		Ordenamiento Territorial
+		https://www.ideca.gov.co/recursos/mapas/mapa-de-referencia-para-bogota-dc
+
+	World Countries Generalized - ESRI
+		World Countries Generalized represents generalized boundaries for the countries of the world.
+		https://hub.arcgis.com/datasets/esri::world-countries-generalized
+
+	Departamentos de Colombia https://www.colombiaenmapas.gov.co/
+
+	Zonas Amenaza NSR 10
+		https://datos.sgc.gov.co/datasets/56414abc854c4575882e0c7fc8c745b4/about
+
+	Documentar capas: Puntos de análisis, uso propuesto suelo Cundinamarca, UsoPropuesto2007_9377, mapa POT Bogota, AsentamientoHumano_9377, SueloPOTBogota_9377, esri_world_countries_generalized, Colombia202406_9377, Departamento202406_9377
+
 	Ok. Entrevista - Nodo científico. Cuestionario conjunto (académico, técnico, cierre e invitación participación), reunión preliminar: 9 agosto 2024 15:00, Fecha grabación: 20240815..
-	
+
 	Ok. Lista de correo para invitación a seminario y divulgación, identificando otras entidades públicas potenciales para presentar el proyecto: Municipios (Secretarías de planeación y ambiental, obra públicas, ESP), autoridades ambientales (CAR, SDA, CORPOGUAVIO), IDEAM, EAAB, IDIGER, UNGRD. Charla con municipios.
-	
+
 	Artículo en revista indexada mostrando el caso de estudio general y el prototipo 0. 12 octubre fecha límite. Pubicación noviembre.
-	
+
 	Charla Seminario de hidráulica Hydro-Bogotá, 12 sept 14:00 17:30. Revisar cronograma. 45 minutos, 10 minutos de preguntas.
-	
+
 	Webinar.
-	
+
 	Publicar mapas HEC-RAS usando ArcGIS OnLine & Story Map con pestaña página web con proyecto Hydro-Bogotá.
 
 	Guía técnica para la elaboración de mapas de inundación, IDEAM.
 	http://documentacion.ideam.gov.co/openbiblio/bvirtual/023774/GUIA_METODOLOGICA_MAPAS_INUNDACION_MARZO_2018.pdf
 
 	Ok. colombiaenmapas.gov.co Municipios, Distritos y Áreas no municipalizadas de Colombia
-	
+
 	Ok. colombiaenmapas.gov.co Límites autoridades ambientales
-	
+
 	colombiaenmapas.gov.co Áreas de minería e hidrocarburos
-	
+
 	colombiaenmapas.gov.co POMCAS con plan adoptado en Colombia
-	
+
 	colombiaenmapas.gov.co Áreas de minería e hidrocarburos
-	
+
 	Bogota river and main tributaries profiles.
-	
+
 	Definir estudios específicos a realizar utilizando HydroBogota:
 		Hydrualic structures modeling: bridges, border protection, junctions...
 		Modelación hidráulica de casos particulares en la sabana de Bogotá.
-	
+
 	Curso de educación continuada: "Gestión de riesgos hidráulicos utilizando sistemas de información geográfica y herramientas HEC".
-	
+
 	Revisar publicaciones relacionadas con el mismo tema.
-		
+
 	Predro Nel, Cesar Quiroga, Dam branching tesis.
-	
+
 	Flujo de detritos.
-	
+
 	Python script for remove spanish characters as accents, enes.
-	
+
 	Remove my user from all ArcGIS Pro & Excel screenshots.
-	
+
 	DEM satellital 5m or 1m.
-	
+
 	LTWB requires checked drainage lines and their edition all over the basin.
-	
+
 	Ok.Body water discharge values, check the CAR report
 	Ok.Breaklines: main channels & banks
 	Ok. RAS Mapper bridge intersections cleaning
@@ -84,13 +108,13 @@ References
 	https://recordcenter.sgc.gov.co/B7/21003002502799/Documento/pdf/2105027991102000.pdf
 	Adding an Internal Structure to a 2D Mesh in HEC-RAS https://www.youtube.com/watch?v=fnJrZVRwCks
 
-Otros sitios de interÃ©s para descargar informaciÃ³n:
+Otros sitios de interÃ©s para descargar información:
 
-GuÃ­a metodolÃ³gica para la elaboraciÃ³n de mapas de inundaciÃ³n. Ideam. 2018. Disponible en: http://documentacion.ideam.gov.co/openbiblio/bvirtual/023774/GUIA_METODOLOGICA_MAPAS_INUNDACION_MARZO_2018.pdf
-Mapas de inundaciÃ³n de Colombia IDEAM. Los mapas de inundaciÃ³n a escala 1:100.000 estÃ¡n disponibles para 22 departamentos de Colombia y se basan en la interpretaciÃ³n de imÃ¡genes de sensores remotos para los aÃ±os 1988, 2000, 2011 y 2012. Disponible en: http://www.siac.gov.co/inundaciones
+Guía metodológica para la elaboración de mapas de inundación. Ideam. 2018. Disponible en: http://documentacion.ideam.gov.co/openbiblio/bvirtual/023774/GUIA_METODOLOGICA_MAPAS_INUNDACION_MARZO_2018.pdf
+Mapas de inundación de Colombia IDEAM. Los mapas de inundación a escala 1:100.000 están disponibles para 22 departamentos de Colombia y se basan en la interpretación de imágenes de sensores remotos para los años 1988, 2000, 2011 y 2012. Disponible en: http://www.siac.gov.co/inundaciones
 Flood Management Tools Series. OMM. Disponible en:http://www.floodmanagement.info/tools/
-Manual sobre predicciÃ³n y avisos de crecidas. OMM. Disponible en:https://library.wmo.int/doc_num.php?explnum_id=4089
-Humedales para la reducciÃ³n del riesgo de desastres: Opciones eficaces para comunidades resilientes. RAMSAR. Disponible en:https://www.ramsar.org/sites/default/files/documents/library/rpb_wetlands_and_drr_s.pdf
+Manual sobre predicción y avisos de crecidas. OMM. Disponible en:https://library.wmo.int/doc_num.php?explnum_id=4089
+Humedales para la reducción del riesgo de desastres: Opciones eficaces para comunidades resilientes. RAMSAR. Disponible en:https://www.ramsar.org/sites/default/files/documents/library/rpb_wetlands_and_drr_s.pdf
 
 
 Sentinel
