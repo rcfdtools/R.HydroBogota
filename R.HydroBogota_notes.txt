@@ -8,7 +8,7 @@ Digitalizaciones rcfdtools
 
 Pending task
 
-	Artículo: características morfométricas de la cuenca, perfiles drenajes principales.
+	Documentar capas: Puntos de análisis, uso propuesto suelo Cundinamarca, UsoPropuesto2007_9377, mapa POT Bogota, AsentamientoHumano_9377, SueloPOTBogota_9377, esri_world_countries_generalized, Colombia202406_9377, Departamento202406_9377
 
 	Suelos Cundinamarca
 		https://mapas.cundinamarca.gov.co/
@@ -29,7 +29,7 @@ Pending task
 	Zonas Amenaza NSR 10
 		https://datos.sgc.gov.co/datasets/56414abc854c4575882e0c7fc8c745b4/about
 
-	Documentar capas: Puntos de análisis, uso propuesto suelo Cundinamarca, UsoPropuesto2007_9377, mapa POT Bogota, AsentamientoHumano_9377, SueloPOTBogota_9377, esri_world_countries_generalized, Colombia202406_9377, Departamento202406_9377
+	Artículo: características morfométricas de la cuenca.
 
 	Ok. Entrevista - Nodo científico. Cuestionario conjunto (académico, técnico, cierre e invitación participación), reunión preliminar: 9 agosto 2024 15:00, Fecha grabación: 20240815..
 
