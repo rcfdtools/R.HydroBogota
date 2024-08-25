@@ -1,0 +1,78 @@
+Créditos multimedia (en orden de aparición en el video)
+
+Figura 1. Cuenca Río Bogotá y sistema de embalses.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 2. Cuenca Río Bogotá y sistema de embalses zona norte: Tominé, Neusa y Sisga.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 3. Cuenca Río Bogotá y sistema de embalses zona centro y sur: San Rafael, Chisacá y La Regadera.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 4. Equivalente de hectómetro cúbico en número de piscinas olímpicas.
+Tomado de: Consumo diario de agua, Canal de Panamá.
+
+(incorporación pendiente) Video 1. Represa Orosville y fallo de la represa The Rapid Dam.
+Fuente: California DWR - Represa Orosville U.S. & ABC News - Fallo The Rapid Dam en Blue County U.S. Tomado de: California DWR y ABC News.
+
+Figura 5. Lecciones aprendidas de incidentes y fallos en represas. Tomado de: https://damfailures.org/.
+
+Figura 6. Modelo digital híbrido de elevación, vista en planta.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Video 2. Modelo digital híbrido de elevación, vista 3D.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 7. Ajuste de pasos de vía en Canal Molinos.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 8. Ajuste de pasos de vía.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 9. Pasos de vía identificados en la ciudad de Bogotá.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 10. Digitalización de drenajes, coronas y líneas de transición.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 11. Suelos con asociación de grupos hidrológicos y tasas de infiltración.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 12. Usos del suelo, rugosidades de Manning y porcentajes de impermeabilidad.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 13. Mallado y refinamiento en prototipo a partir de ejes.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 14. Zona Embalse del Muña hacia el Salto del Tequendama.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 15. Refinamiento de mallado incluyendo coronas y líneas de transición.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 16. HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Video 3. Frente de onda de inundación proveniente de Tominé, Neusa y Sisga.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Video 4. Velocidad de onda de inundación – Zona Tominé, Neusa y Sisga.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Video 5. Encuentro de ondas de inundación Tominé a San Rafael.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Video 6. Velocidad de onda de inundación y bifurcación del flujo ingresando a la ciudad de Bogotá.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Video 7. Flujo drenado sistema sur desde Chisacá y La Regadera.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Video 8. Flujo de inundaciones en humedales y zonas bajas de Bogotá.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Figura 17. Hydro-Bogotá en GitHub.
+Fuente: Centro de Estudios Hidráulicos. Escuela Colombiana de Ingeniería Julio Garavito.
+
+Foto 1 y 2. Estudiantes en aula
+Fuente: (incorporado en edición, incluir fuente multimedia)
