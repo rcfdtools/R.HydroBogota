@@ -5,11 +5,11 @@ Keywords: `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `i
 
 **_Hydro-Bogotá_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
-<div align="center"><a href="http://www.youtube.com/watch?feature=player_embedded&v=3x50uoyNs5E" target="_blank"><img src="http://img.youtube.com/vi/3x50uoyNs5E/0.jpg" alt="Hydro-Bogotá" width="480" border="0" /></a><sub><br>https://www.youtube.com/watch?v=3x50uoyNs5E</sub><br><br></div>
-
 ![R.HydroBogota](.graph/ArcGISPro_R.HydroBogota.png)
 
 _**Descargos de responsabilidad:** rcfdtools y los demás investigadores asociados a este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y las herramientas computacionales utilizadas, o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, geo-procesos aplicados y resultados, cumplen con las metodologías, normas y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
+
+<div align="center"><a href="http://www.youtube.com/watch?feature=player_embedded&v=3x50uoyNs5E" target="_blank"><img src="http://img.youtube.com/vi/3x50uoyNs5E/0.jpg" alt="Hydro-Bogotá" width="480" border="0" /></a><sub><br>Hydro-Bogotá en Nodo Científico de la Universidad Escuela Colombiana de Ingeniería<br>https://www.youtube.com/watch?v=3x50uoyNs5E</sub><br><br></div>
 
 
 ## 1. Objetivos
