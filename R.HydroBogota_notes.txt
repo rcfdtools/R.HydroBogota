@@ -6,6 +6,13 @@ Digitalizaciones rcfdtools
 	Rivers: 53.7 km
 	Total:	1667.6
 
+Article 1
+	https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810
+	https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia
+	https://doi.org/10.22206/cyap.2024.v7i2.3283
+	https://dialnet.unirioja.es/servlet/articulo?codigo=10016155
+
+
 Pending task
 
 	Documentar capas: Puntos de análisis, uso propuesto suelo Cundinamarca, UsoPropuesto2007_9377, mapa POT Bogota, AsentamientoHumano_9377, SueloPOTBogota_9377, esri_world_countries_generalized, Colombia202406_9377, Departamento202406_9377
