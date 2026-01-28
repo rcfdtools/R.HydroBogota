@@ -1,11 +1,11 @@
-<div align="center"><img alt="R.HydroBogota" src=".graph/R.HydroBogota.svg" width="300px"></div>
+<div align="center"><img alt="R.HydroBogota" src="file/graph/R.HydroBogota.svg" width="300px"></div>
 
 # Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia
 Keywords: `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `iber` `ansys-fluent` `hydraulic-modeling` `2D-modeling` `dam-branching` `newtonian-fluid` `non-newtonian-fluid` `hydraulic-hazard`
 
 **_Hydro-Bogotá_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
-![R.HydroBogota](.graph/ArcGISPro_R.HydroBogota.png)
+![R.HydroBogota](file/graph/ArcGISPro_R.HydroBogota.png)
 
 _**Descargos de responsabilidad:** rcfdtools y los demás investigadores asociados a este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y las herramientas computacionales utilizadas, o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, geo-procesos aplicados y resultados, cumplen con las metodologías, normas y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
 
@@ -28,7 +28,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 * Integrar un modelo digital de elevación híbrido (DEM) combinando información de sensores remotos satelitales (ALOS PALSAR 12.5 m con ajuste de elevaciones a partir de información Lidar o Copernicus 30 m), levantamientos Lidar Bogotá (5 m y 0.5 m) y bloques de obstrucción generados a partir del catastro de construcciones urbanas y rurales en zonas con información Lidar.
 * Localizar las intersecciones de pasos de vía, con canales y drenajes a superficie libre del sistema de alcantarillado pluvial en el área urbana de Bogotá.
 * Ajustar el modelo digital de elevación removiendo las sobreelevaciones producidas por pasos de vía (vehiculares y peatonales) sobre canales y drenajes en el área urbana de Bogotá.
-* Digitalizar los alineamientos de las coronas de diques en canales (en zonas con cobertura Lidar) para utilizarlas como líneas de refinamiento (Breaklines) del mallado 2D. Digitalizar líneas de transición de mallado al rededor de los corredores de drenaje.
+* Digitalizar los alineamientos de las coronas de diques en canales (en zonas con cobertura Lidar) para utilizarlas como líneas de refinamiento (Breaklines) del mallado 2D. Digitalizar líneas de transición de mallado alrededor de los corredores de drenaje.
 * Complementar la red de drenaje urbana y rural de la cuenca del Río Bogotá, incluyendo las conexiones de descarga de los sistemas de embalses (reguladores y generación eléctrica), a los drenajes principales receptores de la red hídrica. La red de drenaje se utiliza como elemento de refinamiento (Breaklines) del mallado 2D.
 * Homologar el [Mapa de Suelos del Territorio Colombiano a escala 1:100.000 con cubrimiento a Cundinamarca](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/), a los grupos hidrológicos del SCS de la [USDA](https://www.usda.gov/) o departamento de Agricultura de los Estados Unidos de América y establecer tasas de infiltración.
 * Homologar el [Mapa de Clasificación de las Tierras por su Vocación de Uso a escala 1:100.000](https://geoportal.igac.gov.co/contenido/datos-abiertos-agrologia) del [Instituto Geográfico Agustín Codazzi - IGAC](https://www.igac.gov.co/) a tipos de cobertura estableciendo valores asociados de rugosidad de Manning y porcentajes de impermeabilidad.
@@ -67,6 +67,7 @@ El objetivo principal de esta investigación, es ensamblar un modelo numérico d
 
 ## 2. Embalses, municipios y autoridades ambientales sobre la cuenca Río Bogotá
 
+
 ### 2.1. Embalses
 
 La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colombia, tiene una extensión planar de 5925.89 km² (5932.79 km² geodésicos), y dentro de ella se encuentran los siguientes embalses reguladores en zonas altas:
@@ -85,7 +86,7 @@ La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colo
 
 </div>
 
-<div align="center"><img src=".graph/ArcGISPro_DAM.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Embalses reguladores dentro de la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
+<div align="center"><img src="file/graph/ArcGISPro_DAM.png" alt="R.SIGE" width="80%" border="0" /><br><sub>Embalses reguladores dentro de la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
 
 > Por su localización geográfica en llanura, en esta investigación no se consideran los Embalses de Aposentos, Muña y humedales de Bogotá como elementos generadores de riesgo, razón por la cual, no se incluyen en la modelación de descarga súbita y son solo utilizados como cuerpos de amortiguación de crecientes.
 >
@@ -102,7 +103,7 @@ La cuenca del Río Bogotá, localizada en el Departamento de Cundinamarca - Colo
 
 De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municipalizadas de Colombia (versión 2024.06.30)_ del Instituto Geográfico Agustín Codazzi - IGAC, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, los 47 municipios (incluido el distrito capital) con influencia geográfica directa sobre la cuenca del Río Bogotá en el Departamento de Cundinamarca son:
 
-<div align="center"><img src=".graph/ArcGISPro_Layer_Municipio2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Municipios con influencia geográfica sobre la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
+<div align="center"><img src="file/graph/ArcGISPro_Layer_Municipio2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Municipios con influencia geográfica sobre la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
 
 <div align="center">
 
@@ -171,7 +172,7 @@ De acuerdo con la capa geográfica de _Municipios, Distritos y Áreas no municip
 
 De acuerdo con la capa geográfica de _Límites autoridades ambientales de Colombia (versión 2019)_ del Ministerio de Ambiente y Desarrollo Sostenible, y tomando como referencia el límite de la subzona hidrográfica 2120 del IDEAM, las 3 autoridades ambientales con influencia geográfica directa sobre la cuenca del Río Bogotá son:
 
-<div align="center"><img src=".graph/ArcGISPro_Layer_AutoridadAmbiental2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Autoridades ambientales con influencia geográfica sobre la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
+<div align="center"><img src="file/graph/ArcGISPro_Layer_AutoridadAmbiental2.png" alt="R.SIGE" width="90%" border="0" /><br><sub>Autoridades ambientales con influencia geográfica sobre la cuenca del Río Bogotá (norte hacia arriba).</sub></div><br><br>
 
 <div align="center">
 
@@ -206,9 +207,9 @@ El establecimiento de las condiciones técnicas mínimas que deben tener los pro
 > :lady_beetle:Atención: para la correcta asociación de las clases de entidad o vectores y los modelos digitales de elevación utilizados para la construcción del modelo hidráulico utilizando RAS Mapper en HEC-RAS, todos los archivos deberán utilizar el sistema de proyección único 9377 definidos a partir del archivo _MAGNA_OrigenNacional.prj_.
 
 
-## 4. Fuentes de información [(.data)](.data/Readme.md)
+## 4. Fuentes de información [(.data)](file/data/Readme.md)
 
-La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación. Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](.data/Readme.md) de este repositorio.
+La siguiente tabla contiene la identificación de fuentes de datos (vectoriales, grillas, series de datos) utilizadas en el desarrollo de la presente investigación. Para conocer los datos fuente recopilados para este estudio, diríjase a la carpeta [.data](file/data/Readme.md) de este repositorio.
 
 > Tablas de datos y clases de entidad, incluyen un campo numérico entero largo denominado `DSourceID` que contiene el código de la fuente de datos. Tenga en cuenta que no todos los registros pueden estar asociados a una única fuente, p. ej., la red de drenaje cuya fuente principal es la Empresa de Acueducto y Alcantarillado de Bogotá - EAAB, puede contener registros de la fuente 1 debidas a nuevas incorporaciones de elementos de la red o por ajuste o re-digitalización de los mismos.
 
@@ -224,7 +225,7 @@ La siguiente tabla contiene la identificación de fuentes de datos (vectoriales,
 |     7     | Copernicus | [Copernicus Europe's Eyes on Earth](https://www.copernicus.eu/en): modelo digital de elevación - DEM, synthetic aperture radar - [SAR](https://asf.alaska.edu/information/sar-information/what-is-sar/) de alta resolución     |
 
 
-## 5. Modelos digitales de elevación [(.dem)](.dem/Readme.md)
+## 5. Modelos digitales de elevación [(.dem)](file/dem/Readme.md)
 
 Para el ensamble del modelo digital de elevación híbrido de la cuenca, se ha utilizado el modelo digital de superficie – DSM Copernicus (resolución de 30 metros), los modelos digitales de terreno LIDAR de la ciudad de Bogotá D.C. (resoluciones de 5 y 0.5 metros), un modelo de elevación generado a partir de polígonos de construcciones (resolución de 0.5 metros) y un modelo digital de terreno con los canales a superficie libre en puntos de intersección de drenajes con pasos de vía (resolución 0.5 metros). 
 
@@ -232,7 +233,7 @@ Los modelos digitales de elevación (de terreno o DTM, de superficie o DSM e hí
 
 https://github.com/user-attachments/assets/b08fd7ae-8f4a-4b59-bc0d-b3ce6d48ecdd
 
-Dentro de la carpeta [_.dem_](.dem/Readme.md) y en [_Releases_](https://github.com/rcfdtools/R.HydroBogota/releases) podrá encontrar los siguientes modelos digitales de elevación e información detalladas de sus metadatos:
+Dentro de la carpeta [_.dem_](file/dem/Readme.md) y en [_Releases_](https://github.com/rcfdtools/R.HydroBogota/releases) podrá encontrar los siguientes modelos digitales de elevación e información detalladas de sus metadatos:
 
 * Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5 m)
 * Modelo digital de superficie DSM satelital Copernicus (30 m)
@@ -243,14 +244,14 @@ Dentro de la carpeta [_.dem_](.dem/Readme.md) y en [_Releases_](https://github.c
 * Modelo digital de terreno DTM Híbrido Copernicus, Lidar con Construcciones y Canales ajustados en pasos de vía
 
 Ejemplo de modelo digital de terreno con y sin ajuste  
-![R.HydroBogota](.graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)
+![R.HydroBogota](file/graph/ArcGISPro_DTM_ChannelUnderBridge_9377_3.png)
 
 
-## 6. Capas vectoriales Shapefile  [(.shp)](.shp/Readme.md)
+## 6. Capas vectoriales Shapefile  [(.shp)](file/shp/Readme.md)
 
 Los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
 
-Dentro de la carpeta [.shp](.shp/Readme.md) podrá encontrar las siguientes capas e información detalladas de sus metadatos:
+Dentro de la carpeta [.shp](file/shp/Readme.md) podrá encontrar las siguientes capas e información detalladas de sus metadatos:
 
 * Construcciones (polígono y centroide)
 * Cuerpos de agua (polígono)
@@ -268,21 +269,21 @@ Dentro de la carpeta [.shp](.shp/Readme.md) podrá encontrar las siguientes capa
 * Autoridades ambientales sobre cuenca Río Bogotá (polígono)
 
 Ejemplo de capas vectoriales disponibles  
-![R.HydroBogota](.graph/ArcGISPro_shp.png)
+![R.HydroBogota](file/graph/ArcGISPro_shp.png)
 
 
 ## 7. Modelos numéricos hidráulicos
 
 Para las simulaciones hidráulicas se utilizarán las siguientes herramientas computacionales y modelos:
 
-* Modelo [HEC-RAS](.model/HEC-RAS.md)
+* Modelo [HEC-RAS](file/hec/HEC-RAS.md)
 * Modelo IBER (disponible para implementación por investigador externo)
 * Modelo Mike (disponible para implementación por investigador externo)
 
-<br><div align="center"><img src=".graph/HECRASvsIBERvsMIKE.png" alt="R.SIGE" width="80%" border="0" /><br><sub>HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).</sub></div><br>
+<br><div align="center"><img src="file/graph/HECRASvsIBERvsMIKE.png" alt="R.SIGE" width="80%" border="0" /><br><sub>HEC-RAS vs. Iber vs. Mike. Tomado de: íconos oficiales de aplicaciones (ajustados a B/N).</sub></div><br>
 
 
-## Referencias generales [(.ref)](.ref/Readme.md)
+## Referencias generales [(.ref)](file/ref/Readme.md)
 
 * https://damfailures.org/
 * [Austrailian Emergency Management Handbook Series - Techinical flood risk mangement guideline: Flood Hazard.](https://www.hec.usace.army.mil/confluence/rasdocs/rmum/latest/raster-calculator)
@@ -290,10 +291,8 @@ Para las simulaciones hidráulicas se utilizarán las siguientes herramientas co
 * https://damfailures.org/wp-content/uploads/2021/11/conduits_embankment_dams.pdf
 * https://datosgeograficos.car.gov.co/
 
-Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](.ref/Readme.md) de este repositorio.
+Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](file/ref/Readme.md) de este repositorio.
 
 
 [^1]: https://archivo.minambiente.gov.co/index.php/noticias/2067
-
-
 
