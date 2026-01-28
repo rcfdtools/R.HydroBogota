@@ -78,7 +78,8 @@ file/shp/*.shp.*
 # Video exclusions
 #Section02/FdrDEM/FdrDEM.mp4
 
-# Large files exclusions
+
+# Large files exclusions (old)
 #.dem/ASTER/ASTGTMV003Mosaic.tif
 #.dem/ASTER/ASTGTMV003Mosaic.tif.*
 #HECHMS/terrain/
@@ -93,6 +94,24 @@ file/shp/*.shp.*
 #.dem/*.7z
 file/hec/HECRAS_v0/
 file/hec/HECRAS_v0/*.rar
+file/hec/*.rar
+
+# Large files exclusions (new)
+#.dem/ASTER/ASTGTMV003Mosaic.tif
+#.dem/ASTER/ASTGTMV003Mosaic.tif.*
+#HECHMS/terrain/
+#HECHMS/gis/
+.dem/*.tif
+.dem/*.tif.*
+.data/DTM_Bogota2020_4326*.rar
+.dem/DTM_Bogota2020_9377_Extent*.rar
+.dem/DTM_Bogota2020_9377_Extent_Building*.rar
+#.dem/*.zip
+#.dem/*.rar
+#.dem/*.7z
+file/hec/HECRAS_v0/
+file/hec/HECRAS_v0/*.rar
+
 
 # Some samples
 # http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
