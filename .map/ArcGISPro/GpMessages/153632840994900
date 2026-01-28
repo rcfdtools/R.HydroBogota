@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: viernes, 2 de agosto de 2024 7:30:57 a. m.</msg><msg code="539" type="100">ERROR 000539: ﻿  File "&lt;expression&gt;", line 1
-    2024/06/31
-         ^
-﻿SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
-</msg><msg code="-2147467259" type="100">Failed to execute (CalculateField).</msg><msg code="0" type="3">Failed at viernes, 2 de agosto de 2024 7:30:57 a. m. (Elapsed Time: 0.15 seconds)</msg></messages>
