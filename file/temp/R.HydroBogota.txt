@@ -129,12 +129,14 @@ Modis
 
 .graph/
 file/graph/
+../graph/
 
 .data/
 file/data/
 
 .dem/
 file/dem/
+../dem/
 
 .shp/
 file/shp/
