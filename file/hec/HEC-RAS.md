@@ -40,14 +40,14 @@ La creación de proyectos en HEC-RAS usando RAS Mapper requiere de los siguiente
 
 <div align="center"><img src="../graph/HECRAS_Model0_Project.png" alt="R.HydroBogota" width="80%" border="0" /><sub><br>Ventana principal de proyecto</sub><br><br></div>
 
-> Para conocer el detalle del modelo de terreno híbrido ensamblado, consulte la documentación disponible en [.dem](../dem/Readme.md)
+> Para conocer el detalle del modelo de terreno híbrido ensamblado, consulte la documentación disponible en [dem](../dem/Readme.md)
 >
-> Para conocer el detalle de los mapas de usos, suelos, infiltración, impermeabilidad y sus homologaciones, consulte la documentación disponible en [.shp](../shp/Readme.md)
+> Para conocer el detalle de los mapas de usos, suelos, infiltración, impermeabilidad y sus homologaciones, consulte la documentación disponible en [shp](../shp/Readme.md)
 
 
 ### 1.3 Mallado y mapas asociados
 
-El mallado ha sido refinado utilizando los alineamientos de los cauces principales de la red de drenaje de la cuenca contenidos en [Breakline_9377_v0.shp](../shp/Breakline_9377_v0.rar). Para mayor información, consulte la documentación disponible de _Breaklines_ en la carpeta [.shp](../shp/Readme.md)
+El mallado ha sido refinado utilizando los alineamientos de los cauces principales de la red de drenaje de la cuenca contenidos en [Breakline_9377_v0.shp](../shp/Breakline_9377_v0.rar). Para mayor información, consulte la documentación disponible de _Breaklines_ en la carpeta [shp](../shp/Readme.md)
 
 <div align="center">
 
