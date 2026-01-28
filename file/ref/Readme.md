@@ -22,6 +22,24 @@
 * https://www.escuelaing.edu.co/es/eventos/seminario-de-hidraulica-disponibilidad-de-agua-en-colombia-abastecimiento-generacion-riego-y-drenaje/
 * https://www.hec.usace.army.mil/software/hec-ras/documentation/RD-52_HEC-RAS%20Verification%20and%20Validation.pdf
 * https://www.hec.usace.army.mil/publications/TechnicalPapers/TP-69.pdf
+* https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/files/118099517/118099546/1/1665679165857/HydrologicSoilGroup_DominantCondition.pdf
+* https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/overview-of-optional-capabilities/modeling-precipitation-and-infiltration/deficit-and-constant#:~:text=where%20Ev%20is%20the,to%20unreasonably%20high%20infiltration%20rates.
+* https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/transform/scs-unit-hydrograph-model
+* http://www.ideam.gov.co/web/ecosistemas/metodologia-corine-land-cover
+* https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/erosion-and-sediment-transport-under-construction/sediment-transport-methods/linear-reservoir
+* http://www.ideam.gov.co/web/ecosistemas/coberturas-nacionales
+* https://link.springer.com/article/10.1007/s11104-022-05322-7#:~:text=The%20average%20infiltration%20rate%20of,rainstorms%2C%20leading%20to%20overland%20flow.
+* https://datosabiertos.bogota.gov.co/organization/idebogota
+* https://levees.sec.usace.army.mil/levee-basics/what-is-a-levee/
+* https://levees.sec.usace.army.mil/flood-basics/about-flooding/
+* https://recordcenter.sgc.gov.co/B7/21003002502799/Documento/pdf/2105027991102000.pdf
+* Adding an Internal Structure to a 2D Mesh in HEC-RAS https://www.youtube.com/watch?v=fnJrZVRwCks
+* Guía metodológica para la elaboración de mapas de inundación. Ideam. 2018. Disponible en: http://documentacion.ideam.gov.co/openbiblio/bvirtual/023774/GUIA_METODOLOGICA_MAPAS_INUNDACION_MARZO_2018.pdf
+* Mapas de inundación de Colombia IDEAM. Los mapas de inundación a escala 1:100.000 están disponibles para 22 departamentos de Colombia y se basan en la interpretación de imágenes de sensores remotos para los años 1988, 2000, 2011 y 2012. Disponible en: http://www.siac.gov.co/inundaciones
+* Flood Management Tools Series. OMM. Disponible en:http://www.floodmanagement.info/tools/
+* Manual sobre predicción y avisos de crecidas. OMM. Disponible en:https://library.wmo.int/doc_num.php?explnum_id=4089
+* Humedales para la reducción del riesgo de desastres: Opciones eficaces para comunidades resilientes. RAMSAR. Disponible en:https://www.ramsar.org/sites/default/files/documents/library/rpb_wetlands_and_drr_s.pdf
+* USLE sedimentos
 
 
 **Icons**
