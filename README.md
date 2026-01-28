@@ -6,9 +6,9 @@ Keywords: `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `i
 
 **_Hydro-Bogotá_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
 
-![R.HydroBogota](file/graph/ArcGISPro_R.HydroBogota.png)
+**Artículo en** [Revistas intec](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810), [Rearchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia), [doi](https://doi.org/10.22206/cyap.2024.v7i2.3283), [Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155).
 
-**Artículo 1:** [•Revistas intec](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810) [•Rearchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia) [•doi](https://doi.org/10.22206/cyap.2024.v7i2.3283) [•Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155)
+![R.HydroBogota](file/graph/ArcGISPro_R.HydroBogota.png)
 
 _**Descargos de responsabilidad:** rcfdtools y los demás investigadores asociados a este estudio, No se responsabilizan de la aplicación y uso de los resultados obtenidos a través de sus modelos y las herramientas computacionales utilizadas, o de los contenidos presentados en esta investigación. Es responsabilidad de los usuarios: verificar, comparar, evaluar y analizar Sí los scripts, algoritmos, funciones, geo-procesos aplicados y resultados, cumplen con las metodologías, normas y estándares de análisis aplicables en ingeniería, estadística, hidrología e hidráulica y demás profesiones afines involucradas._
 
