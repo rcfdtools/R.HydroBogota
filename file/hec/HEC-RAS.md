@@ -1,7 +1,7 @@
 # Modelos HEC-RAS
 
 
-## 1. Modelo Versión v0 - Prototipo funcional (Model0)
+## 1. Modelo versión v0 - Prototipo funcional (Model0)
 
 
 ### 1.1. Características generales del modelo
