@@ -57,7 +57,7 @@ Lib/
 #.dem/*.7z
 HECRAS_v0/
 HECRAS/
-file/hec/HECRAS/
+file/hec/HECRAS_v0/
 file/hec/HECRAS/*.rar
 
 # Some samples
