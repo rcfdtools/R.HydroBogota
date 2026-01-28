@@ -97,18 +97,18 @@ file/hec/HECRAS_v0/*.rar
 file/hec/*.rar
 
 # Large files exclusions (new)
-#.dem/ASTER/ASTGTMV003Mosaic.tif
-#.dem/ASTER/ASTGTMV003Mosaic.tif.*
+#file/dem/ASTER/ASTGTMV003Mosaic.tif
+#file/dem/ASTER/ASTGTMV003Mosaic.tif.*
 #HECHMS/terrain/
 #HECHMS/gis/
-.dem/*.tif
-.dem/*.tif.*
-.data/DTM_Bogota2020_4326*.rar
-.dem/DTM_Bogota2020_9377_Extent*.rar
-.dem/DTM_Bogota2020_9377_Extent_Building*.rar
-#.dem/*.zip
-#.dem/*.rar
-#.dem/*.7z
+file/dem/*.tif
+file/dem/*.tif.*
+file/data/DTM_Bogota2020_4326*.rar
+file/dem/DTM_Bogota2020_9377_Extent*.rar
+file/dem/DTM_Bogota2020_9377_Extent_Building*.rar
+#file/dem/*.zip
+#file/dem/*.rar
+#file/dem/*.7z
 file/hec/HECRAS_v0/
 file/hec/HECRAS_v0/*.rar
 
