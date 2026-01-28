@@ -30,14 +30,14 @@ Lib/
 *.tif.ovr
 *Copia_de_seguridad_de*
 #Shapefiles uncompressed
-file/shp/*.shp
-file/shp/*.shx
-file/shp/*.dbf
-file/shp/*.prj
-file/shp/*.CPG
-file/shp/*.sbn
-file/shp/*.sbx
-file/shp/*.shp.*
+.shp/*.shp
+.shp/*.shx
+.shp/*.dbf
+.shp/*.prj
+.shp/*.CPG
+.shp/*.sbn
+.shp/*.sbx
+.shp/*.shp.*
 
 
 # General exclusions (new)
@@ -65,14 +65,14 @@ Lib/
 *.tif.ovr
 *Copia_de_seguridad_de*
 #Shapefiles uncompressed
-file/shp/*.shp
-file/shp/*.shx
-file/shp/*.dbf
-file/shp/*.prj
-file/shp/*.CPG
-file/shp/*.sbn
-file/shp/*.sbx
-file/shp/*.shp.*
+.shp/*.shp
+.shp/*.shx
+.shp/*.dbf
+.shp/*.prj
+.shp/*.CPG
+.shp/*.sbn
+.shp/*.sbx
+.shp/*.shp.*
 
 
 # Video exclusions
