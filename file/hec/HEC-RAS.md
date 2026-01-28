@@ -10,7 +10,7 @@
 * Modelación bidimensional con cobertura de toda la cuenca del Río Bogotá a partir del límite geográfico de la Subzona Hidrográfica SZH 2120 del IDEAM.
 * Modelo de terreno híbrido combinando el modelo digital de superficie DSM Copernicus (30m), Lidar extendido 2020 de Bogotá (0.5m), Construcciones Bogotá (0.5m) y canales abiertos en pasos de vía (0.5m).
 * Refinamiento de mallado a partir de los alineamientos de cauces principales en toda la cuenca.
-* Modelación bidimensional (2D) de canales a superficie libre de toda la cuenca del Río Bogotá por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluído los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas. Pulsos en hidrogramas cada 1 hora y resultados cada 30 minutos.
+* Modelación bidimensional (2D) de canales a superficie libre de toda la cuenca del Río Bogotá por descarga súbita en los embalses: Neusa, Tominé, Sisga, San Rafael, Chisacá y La Regadera. En los hidrogramas se han incluido los caudales medios descargados en cada cuerpo, antes y después de las descargas súbitas. Pulsos en hidrogramas cada 1 hora y resultados cada 30 minutos.
 * Esta versión no incluye la modelación de pasos de vía como estructura hidráulica 1D. El flujo es transitado en canales a superficie libre.
 * Modelo prototipo sin calibración.
 * Modelación de infiltración. No modelación de lluvia directa sobre celdas ni cargas de viento.
@@ -38,16 +38,16 @@ La creación de proyectos en HEC-RAS usando RAS Mapper requiere de los siguiente
 
 </div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Project.png" alt="R.HydroBogota" width="80%" border="0" /><sub><br>Ventana principal de proyecto</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Project.png" alt="R.HydroBogota" width="80%" border="0" /><sub><br>Ventana principal de proyecto</sub><br><br></div>
 
-> Para conocer el detalle del modelo de terreno híbrido ensamblado, consulte la documentación disponible en [.dem](../.dem/Readme.md)
+> Para conocer el detalle del modelo de terreno híbrido ensamblado, consulte la documentación disponible en [.dem](../dem/Readme.md)
 >
-> Para conocer el detalle de los mapas de usos, suelos, infiltración, impermeabilidad y sus homologaciones, consulte la documentación disponible en [.shp](../.shp/Readme.md)
+> Para conocer el detalle de los mapas de usos, suelos, infiltración, impermeabilidad y sus homologaciones, consulte la documentación disponible en [.shp](../shp/Readme.md)
 
 
 ### 1.3 Mallado y mapas asociados
 
-El mallado ha sido refinado utilizando los alineamientos de los cauces principales de la red de drenaje de la cuenca contenidos en [Breakline_9377_v0.shp](../.shp/Breakline_9377_v0.rar). Para mayor información, consulte la documentación disponible de _Breaklines_ en la carpeta [.shp](../.shp/Readme.md)
+El mallado ha sido refinado utilizando los alineamientos de los cauces principales de la red de drenaje de la cuenca contenidos en [Breakline_9377_v0.shp](../shp/Breakline_9377_v0.rar). Para mayor información, consulte la documentación disponible de _Breaklines_ en la carpeta [.shp](../shp/Readme.md)
 
 <div align="center">
 
@@ -64,19 +64,19 @@ El mallado ha sido refinado utilizando los alineamientos de los cauces principal
 
 </div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_2DFlowArea.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>2D Flow Area</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_2DFlowArea.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>2D Flow Area</sub><br><br></div>
 
 > El valor global definido de Coeficiente de Rugosidad de Manning, únicamente es aplicable a celdas en la que no exista cobertura en el mapa de usos del suelo. Para este estudio se ha definido un mapa global con cobertura sobre todo el Departamento de Cundinamarca y la cuenca del Río Bogotá.
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Manning.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Mapa de rugosidad de Manning</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Manning.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Mapa de rugosidad de Manning</sub><br><br></div>
 
 > El valor de tolerancia de longitud de celda se define en RAS Mapper desde el menú _Tools / Options… / Mesh Tolerances / Maximum Face Length Tolerance (Percent)_. De acuerdo a las recomendaciones del manual técnico de HEC-RAS, en modelos cuyo propósito es también la modelación de sedimentos, el porcentaje de tolerancia debe ser definido al rededor del 15%, sin embargo, al realizar pruebas de mallado se pudo observar que para la topología de la red que combina diferentes tipos de ancho de sección, la definición de este porcentaje generaba celdas triangulares con terminaciones muy alargadas y con traslapo sobre otras celdas.
 
-<div align="center"><img src="../.graph/HECRAS_Model0_MeshTolerances.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Mesh Tolerances</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_MeshTolerances.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>Mesh Tolerances</sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Infiltration.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Infiltration</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Infiltration.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Infiltration</sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Impervious.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Percent impervious</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Impervious.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Percent impervious</sub><br><br></div>
 
 
 ### 1.4. Tiempos de cómputo - Computational interval
@@ -85,7 +85,7 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 
 > El valor máximo de velocidad ha sido asumido y requiere de investigation complementaria.
 
-<div align="center"><img src="../.graph/Parameter_CourantNumber.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Tomado de: <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/performing-a-dam-break-study-with-hec-ras/computational-time-step">Manual de Referencia Hidráulica de HEC-RAS</a></sub><br><br></div>
+<div align="center"><img src="../graph/Parameter_CourantNumber.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Tomado de: <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/performing-a-dam-break-study-with-hec-ras/computational-time-step">Manual de Referencia Hidráulica de HEC-RAS</a></sub><br><br></div>
 
 <div align="center">
 
@@ -100,7 +100,7 @@ El intervalo computacional de modelación se ha definido adaptativo utilizando l
 
 </div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_AdvancedTimeStepControl.png" alt="R.HydroBogota" width="80%" border="0" /><sub><br>Advanced Time Step Control</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_AdvancedTimeStepControl.png" alt="R.HydroBogota" width="80%" border="0" /><sub><br>Advanced Time Step Control</sub><br><br></div>
 
 
 ### 1.5. Hidrogramas
@@ -128,7 +128,7 @@ NRCS Unit Hydrograph Shape Factors - Michigan
 | 6     | 0.2    |
 | 7     | 0      |
 
-<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png" alt="R.HydroBogota" width="65%" border="0" /><sub></sub><br><br></div>
+<div align="center"><img src="../graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan.png" alt="R.HydroBogota" width="65%" border="0" /><sub></sub><br><br></div>
 
 
 </div>
@@ -153,11 +153,11 @@ Las líneas de condición de frontera han sido trazadas aguas abajo de la pantal
 
 </div>
 
-<div align="center"><img src="../.graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png" alt="R.HydroBogota" width="65%" border="0" /><sub></sub><br><br></div>
+<div align="center"><img src="../graph/Excel_UnitHydrographShapeFactors_NRCS_Michigan_DAM.png" alt="R.HydroBogota" width="65%" border="0" /><sub></sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowData.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Unsteady Flow Data</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_UnsteadyFlowData.png" alt="R.HydroBogota" width="50%" border="0" /><sub><br>Unsteady Flow Data</sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_UnsteadyFlowBoundaryFiles.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br> Unsteady Flow Boundary Files</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_UnsteadyFlowBoundaryFiles.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br> Unsteady Flow Boundary Files</sub><br><br></div>
 
 
 ### 1.6. Ejecución y resultados
@@ -179,16 +179,16 @@ Parámetros generales para cálculo y presentación de resultados<br>
 
 </div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_2DFlowOptions.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>2D Flow Options</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_2DFlowOptions.png" alt="R.HydroBogota" width="70%" border="0" /><sub><br>2D Flow Options</sub><br><br></div>
 
-<div align="center"><img src="../.graph/HECRAS_Model0_2DOptions.png" alt="R.HydroBogota" width="60%" border="0" /><sub><br>2D Options</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_2DOptions.png" alt="R.HydroBogota" width="60%" border="0" /><sub><br>2D Options</sub><br><br></div>
 
 <div align="center">
 Ventana de ejecución<br>
-<img src="../.graph/HECRAS_Model0_Computations1.png" alt="R.HydroBogota" width="480" border="0" />
-<img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
-<img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
-<img src="../.graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
+<img src="../graph/HECRAS_Model0_Computations1.png" alt="R.HydroBogota" width="480" border="0" />
+<img src="../graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
+<img src="../graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
+<img src="../graph/HECRAS_Model0_Computations2.png" alt="R.HydroBogota" width="480" border="0" />
 </div>
 
 
@@ -196,28 +196,28 @@ Ventana de ejecución<br>
 
 Elevación máxima de la lámina de agua expresada en metros sobre el nivel del mar (m.s.n.m).
 
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m)</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Ciudad de Bogotá</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse del Neusa</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse Tominé</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse del Sisga</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse San Rafael</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_WSE_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse Chisacá y La Regadera</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_WSE_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m)</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_WSE_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Ciudad de Bogotá</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_WSE_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_WSE_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse del Neusa</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_WSE_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse Tominé</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_WSE_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse del Sisga</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_WSE_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse San Rafael</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_WSE_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Surface Elevation - WSE (m.s.n.m) - Embalse Chisacá y La Regadera</sub><br><br></div>
 
 
 #### 1.6.2. Profundidad del flujo - Depth
 
 Profundidad máxima de la lámina de agua expresada en metros.
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m)</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Ciudad de Bogotá</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse del Neusa</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse Tominé</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse del Sisga</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse San Rafael</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Depth_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse Chisacá y La Regadera</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Depth_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m)</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Depth_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Ciudad de Bogotá</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Depth_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Depth_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse del Neusa</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Depth_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse Tominé</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Depth_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse del Sisga</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Depth_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse San Rafael</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Depth_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Water Depth (m) - Embalse Chisacá y La Regadera</sub><br><br></div>
 
 Frente de onda de inundación
 
@@ -228,14 +228,14 @@ https://github.com/user-attachments/assets/33a96298-985c-46e6-8fa8-64835d2de713
 
 Velocidad del flujo expresado en metros / segundo.
 
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s)</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Neusa</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Tominé</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Sisga</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse San Rafael</sub><br><br></div>
-<div align="center"><img src="../.graph/HECRAS_Model0_Velocity_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Chisacá y La Regadera</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Velocity_Max.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s)</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Velocity_BogotaDCSample.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Velocity_BogotaDCCanalGuaymaral.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Ciudad de Bogotá - Canal Guaymaral</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Velocity_Max_NeusaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Neusa</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Velocity_Max_TomineDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Tominé</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Velocity_Max_SisgaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse del Sisga</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Velocity_Max_SanRafaelDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse San Rafael</sub><br><br></div>
+<div align="center"><img src="../graph/HECRAS_Model0_Velocity_Max_ChisacaLaRegaderaDAM.png" alt="R.HydroBogota" width="100%" border="0" /><sub><br>Maximum Velocity (m/s) - Embalse Chisacá y La Regadera</sub><br><br></div>
 
 Velocidad de onda de inundación
 
