@@ -57,7 +57,8 @@ Lib/
 #.dem/*.7z
 HECRAS_v0/
 HECRAS/
-
+file/hec/HECRAS/
+file/hec/HECRAS/*.rar
 
 # Some samples
 # http://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files
