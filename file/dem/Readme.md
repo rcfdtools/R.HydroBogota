@@ -2,7 +2,7 @@
 
 Esta carpeta contiene los modelos digitales de elevación (de terreno o DTM, de superficie o DSM e híbridos) que son utilizados en las modelaciones hidráulicas 2D para obtener las propiedades geométricas de las celdas del modelo. Los modelos digitales de terreno en canales en puntos de intersección de pasos de vía con drenajes, generados a partir de secciones de muestreo y ejes, son utilizados para la corrección o limpieza de canales en pasos de vía.
 
-> Para conocer los archivos fuente a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [../data](../data) de este repositorio.
+> Para conocer los archivos fuente a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [data](../data) de este repositorio.
 > 
 > :lady_beetle:Atención: Para la correcta creación de terrenos en RAS Mapper, los archivos de modelos digitales de terreno deberán proyectarse utilizando el CRS MAGNA_OrigenNacional.prj disponible en la carpeta [../data](../data) o en la carpeta .projectionfile del modelo hidráulico HEC-RAS.
 > 
@@ -11,7 +11,7 @@ Esta carpeta contiene los modelos digitales de elevación (de terreno o DTM, de 
 
 ## Modelo digital de superficie DSM satelital NASA ALOS PALSAR (12.5m)
 
-Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. Debido a que corresponde a un modelo DSM, es necesario realizar el ajuste de las elevaciones utilizando la ecuación obtenida de la regresión lineal obtenida a partir de la red de muestreo FishNet, generada, procesada y documentada en la carpeta de archivos vectoriales [.shp](../shp).
+Modelo de superficie con cobertura completa sobre toda la zona de estudio y utilizado para modelación hidráulica, requerido para la creación del modelo híbrido de elevación de toda la cuenca del Río Bogotá. Debido a que corresponde a un modelo DSM, es necesario realizar el ajuste de las elevaciones utilizando la ecuación obtenida de la regresión lineal obtenida a partir de la red de muestreo FishNet, generada, procesada y documentada en la carpeta de archivos vectoriales [shp](../shp).
 
 :open_file_folder: Ráster original DSM_AlosPalsar_9377.tif en mosaico reproyectado, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377.part1.rar), [P2](DSM_AlosPalsar_9377.part2.rar)  
 :open_file_folder: Ráster con relleno de sumideros DSM_AlosPalsar_9377_Fil.tif, comprimido en 2 partes de 99MB: [P1](DSM_AlosPalsar_9377_Fil.part1.rar), [P2](DSM_AlosPalsar_9377_Fil.part2.rar)  

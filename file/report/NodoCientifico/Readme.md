@@ -1,6 +1,5 @@
 <div align="center"><a href="https://www.escuelaing.edu.co/es/investigacion-e-innovacion/centro-de-estudios-hidraulicos/" target="_blank"><img src="../../.graph/IconCEHBanner.jpg" alt="R.HydroBogota" width="100%" border="0" /></a></div>
 
-
 # :clapper:Entrevista en _NODO CIENTÍFICO_ (script)
 
 <div align="center"><img src="graph/NodoCientificoPresentaInvitado.png" alt="R.SIGE" width="50%" border="0" /></div><br>
@@ -97,9 +96,11 @@ En el corto plazo que ya ha sido ejecutado, se creó un prototipo hidráulico 2D
 
 <div align="center"><img src="graph/HECRAS_Model0_2DFlowArea.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Mallado y refinamiento en prototipo a partir de ejes.</sub></div><br>
 
+
 ### ¿Y cómo en todo importante proyecto de esta magnitud, vienen más etapas?
 
 Sí Esperanza.
+
 
 ### Horizonte 2 - Mediano plazo
 
@@ -139,6 +140,7 @@ Esperanza, hemos encontrado preliminarmente resultados muy interesantes, si bien
 <div align="center"><img src="graph/ResultadoC_ChoqueOnda.png" alt="R.SIGE" width="100%" border="0" /><br><sub>Encuentro de ondas de inundación Tominé a San Rafael.</sub></div>
 
 <div align="center"><a href="video/Model0_Results_Velocity2.md" target="_blank">:clapper:<sub>Animación en video para incorporación en entrevista.</sub></a></div><br>
+
 
 ### ¿Y el flujo proveniente desde los embalses del norte (Tominé, Neusa, Sisga y San Rafael)?
 

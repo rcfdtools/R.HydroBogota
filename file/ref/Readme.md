@@ -1,4 +1,4 @@
-# Reference files
+# References
 
 * https://damfailures.org/wp-content/uploads/2018/02/EQPerfo2_v3.pdf
 * http://logina.sire.gov.co/riobogota/documentos/docs/infoRecorridoAcuaticoAereo.pdf
@@ -24,7 +24,7 @@
 * https://www.hec.usace.army.mil/publications/TechnicalPapers/TP-69.pdf
 
 
-Icons
+**Icons**
 
 * https://www.flaticon.com/free-icon/creek_10873840?term=river&page=1&position=6&origin=search&related_id=10873840
 * https://www.flaticon.com/free-icon/videoplayer_2633389?related_id=2633389
