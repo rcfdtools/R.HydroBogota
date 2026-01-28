@@ -1,5 +1,5 @@
 <div align="center"><img alt="R.HydroBogota" src="file/graph/R.HydroBogota.svg" width="300px"></div>
-<div align="center"><sub>"Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia."</sub></div>
+<div align="center"><sub>Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia</sub></div>
 
 # RESEARCH: Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia  
 Keywords: `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `iber` `ansys-fluent` `hydraulic-modeling` `2D-modeling` `dam-branching` `newtonian-fluid` `non-newtonian-fluid` `hydraulic-hazard`
