@@ -1,8 +1,8 @@
 # Capas vectoriales Shapefile (.shp)
 
-Esta carpeta contiene los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, las cuales han sido re-proyectados al sistema de coordenadas 9377 Magna Orígen Único Nacional de Colombia.
+Esta carpeta contiene los archivos vectoriales o capas shapefile (.shp) procesadas para el ensamble y validación del modelo hidráulico, las cuales han sido re-proyectados al sistema de coordenadas 9377 Magna Origen Único Nacional de Colombia.
 
-> Para conocer los archivos fuente a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [.data](../.data) de este repositorio.
+> Para conocer los archivos fuente a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [data](../data) de este repositorio.
 > 
 > Para incorporar construcciones adicionales de otros municipios, actualización de construcciones existentes o incorporar elementos complementarios en otras capas, es necesario incluir los atributos definidos en el catálogo de objetos de cada capa o clase de entidad.
 
@@ -14,7 +14,7 @@ Las construcciones son utilizadas como complemento en la creación del modelo de
 :open_file_folder:Archivo local _Construccion_9377.shp_ en 4 partes: [P1](Construccion_9377.part01.rar), [P2](Construccion_9377.part02.rar), [P3](Construccion_9377.part03.rar), [P4](Construccion_9377.part04.rar)  
 :open_file_folder:Archivo local de centroides en construcciones: [Construccion_9377_Point.shp](Construccion_9377.rar)
 
-![](../.graph/ArcGISPro_Layer_Construcciones.png)
+![](../graph/ArcGISPro_Layer_Construcciones.png)
 
 > Para el cálculo correcto de la altura de cada construcción y para generar la grilla de elevaciones, es necesario primero ejecutar el geo-proceso _Multipart to Singlepart Conversion_ que permite separar las entidades multiparte.
 > 
@@ -47,7 +47,7 @@ Para el cálculo de la cota superior de cada edificación, se utiliza como valor
 
 **Expresión ArcGIS Pro:** `!CZDEM!+(!CONNPISOS!*3+!CONTSEMIS!*1.5)`
 
-![R.HydroBogota](../.graph/ArcGISPro_CalculateField_BuildElevm.png)
+![R.HydroBogota](../graph/ArcGISPro_CalculateField_BuildElevm.png)
 
 > La altura de las construcciones también puede ser obtenida a partir de la diferencia de elevación entre el modelo digital de superficie Lidar DSM y el modelo digital de terreno Lidar DTM. 
 
@@ -71,7 +71,7 @@ Localización visual de cuerpos de agua principal en RAS Mapper y polígonos gu�
 
 :open_file_folder:Archivo local: [CuerpoAgua_9377.shp](CuerpoAgua_9377.rar)
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_CuerpoAgua.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_CuerpoAgua.png)
 
 
 ### Catálogo de objetos
@@ -88,7 +88,7 @@ Alineamientos para refinamiento de mallado en RAS Mapper y ejes para visualizaci
 
 :open_file_folder:Archivo local: [Drenaje_9377.shp](Drenaje_9377.rar)
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_Drenaje.png)
 
 
 ### Longitudes de drenajes digitalizados por fuente de datos
@@ -129,7 +129,7 @@ Alineamientos para refinamiento de mallado en RAS Mapper correspondientes a la l
 
 :open_file_folder:Archivo local: [Banks_9377.shp](Banks_9377.rar)
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Banks.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_Banks.png)
 
 
 ### Longitudes de bancas digitalizadas por fuente de datos
@@ -178,12 +178,12 @@ Utilizando los drenajes y líneas de banca marcadas como `Breakline=1` y/o `Brea
 | [Breakline_9377_v1.shp](Breakline_9377_v1.rar) | 2224686.05 | Combinación entre líneas de drenaje identificadas como `Breakline = 1` y todas las bancas (izquierda, derecha y transición de mallado). Parámetros de mallado `FarSpace = NearSpace`, `NearRepeat = 0` e idénticos a los valores originales definidos en la capa de bancas y drenajes.                                                       |
 
 Breakline_9377_v0.shp  
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline_v0.png)  
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline_v0a.png)  
+![R.HydroBogota](../graph/ArcGISPro_Layer_Breakline_v0.png)  
+![R.HydroBogota](../graph/ArcGISPro_Layer_Breakline_v0a.png)  
 
 Breakline_9377_v1.shp
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline_v1.png)  
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Breakline_v1a.png)  
+![R.HydroBogota](../graph/ArcGISPro_Layer_Breakline_v1.png)  
+![R.HydroBogota](../graph/ArcGISPro_Layer_Breakline_v1a.png)  
 
 
 ### Catálogo de objetos
@@ -206,7 +206,7 @@ Delimitación territorial a partir de la disolución del Mapa Digital de Suelos 
 
 :open_file_folder:Archivo local: [Cundinamarca_9377.shp](Cundinamarca_9377.rar)
 
-![](../.graph/ArcGISPro_Layer_Cundinamarca.png)
+![](../graph/ArcGISPro_Layer_Cundinamarca.png)
 
 **Geo-procesos ArcGIS Pro**    
 * Data Management Tools / Generalization / Dissolve
@@ -218,7 +218,7 @@ Mapa para asociación de coeficientes de rugosidad de Manning y porcentajes de i
 
 :open_file_folder:Archivo local: [Cundinamarca_ag_100k_vocacion_uso_2017_9377.shp](Cundinamarca_ag_100k_vocacion_uso_2017_9377.rar)
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_LandCover.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_LandCover.png)
 
 
 ### Catálogo de objetos
@@ -292,7 +292,7 @@ Asociación del Mapa Digital de Suelos de Cundinamarca del IGAC a grupos hidrol�
 
 :open_file_folder:Archivo local: [Cundinamarca_Suelos_VF_9377.shp](Cundinamarca_Suelos_VF_9377.rar)
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Soils.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_Soils.png)
 
 
 ### Catálogo de objetos
@@ -340,10 +340,10 @@ Delimitación para recorte e integración de modelos digitales de elevación. Es
 
 > El modelo digital de terreno _DTM_Bogota2020_9377_Extent.tif_ corresponde a la combinación de los modelos _DTM_Bogota2014_9377_Limit.shp_ y _DTM_Bogota2020_9377_Limit.shp_.
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_9377_Limit.png)
-![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit.png)
-![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_BufferIn5m.png)
-![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2014_2020_9377_Limit.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_DTM_Bogota2014_9377_Limit.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_BufferIn5m.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_DTM_Bogota2014_2020_9377_Limit.png)
 
 **Geo-procesos ArcGIS Pro**    
 * Image Analyst Tools / Map Agebra / Raster Calculator: binarización de cada mapa a partir de valores mayores o iguales al valor mínimo
@@ -356,7 +356,7 @@ A partir del límite geográfico del modelo digital de terreno Lidar DTM_Bogota2
 
 :open_file_folder:Archivo local: [DTM_Bogota2020_9377_Limit_Fishnet100m.shp](DTM_Bogota2020_9377_Limit_Fishnet100m.rar)
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_Fishnet100m.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_DTM_Bogota2020_9377_Limit_Fishnet100m.png)
 
 
 ### Catálogo de objetos
@@ -385,7 +385,7 @@ A partir de las capas de Drenajes y Puentes, se obtiene la intersección espacia
 
 :open_file_folder:Archivo local: [Drenaje_PasoVia_9377.shp](Drenaje_PasoVia_9377.rar)
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Drenaje_PasoVia.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_Drenaje_PasoVia.png)
 
 
 ### Intersecciones por localización
@@ -420,7 +420,7 @@ Delimitación cuenca Río Bogotá correspondiente a la subzona hidrográfica 212
 :open_file_folder:Archivo local de SZH: [SZH2120_9377.shp](SZH2120_9377.rar)  
 :open_file_folder:Archivo local de envolvente SZH: [SZH2120_9377_Envelope_Buffer250m.shp](SZH2120_9377_Envelope_Buffer250m.rar)
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_SZH.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_SZH.png)
 
 
 ### Catálogo de objetos
@@ -463,7 +463,7 @@ Municipios con cobertura geográfica sobre la cuenca del Río Bogotá.
 
 Rótulo Arcade: `$feature.MpNombre + " " + Round($feature.ACueMunPrc, 1) + "%" + "\nA: " + Round($feature.ACueMunkm2, 1) + " km²" + " "`
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_Municipio1.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_Municipio1.png)
 
 
 ## Auroridades ambientales sobre cuenca Río Bogotá (polígono)
@@ -489,5 +489,5 @@ Autoridades ambientales con cobertura geográfica sobre la cuenca del Río Bogot
 
 Rótulo Arcade: `$feature.CAR + " " + Round($feature.ACueAAPrc, 1) + "%" + "\nA: " + Round($feature.ACueAAkm2, 1) + " km²" + " "`
 
-![R.HydroBogota](../.graph/ArcGISPro_Layer_AutoridadAmbiental1.png)
+![R.HydroBogota](../graph/ArcGISPro_Layer_AutoridadAmbiental1.png)
 
