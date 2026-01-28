@@ -1,7 +1,7 @@
 <div align="center"><img alt="R.HydroBogota" src="file/graph/R.HydroBogota.svg" width="300px"></div>
+<div align="center"><sub>"Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia."</sub></div>
 
 # RESEARCH: Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia  
-<sub>"Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia."</sub>  
 Keywords: `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `iber` `ansys-fluent` `hydraulic-modeling` `2D-modeling` `dam-branching` `newtonian-fluid` `non-newtonian-fluid` `hydraulic-hazard`
 
 **_Hydro-Bogotá_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
