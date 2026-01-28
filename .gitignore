@@ -5,7 +5,7 @@
 # Large files over 100MB have be compress in 95MB file parts.
 
 
-# General exclusions
+# General exclusions (old)
 .idea/
 .git/
 .venv/
@@ -30,14 +30,50 @@ Lib/
 *.tif.ovr
 *Copia_de_seguridad_de*
 #Shapefiles uncompressed
-.shp/*.shp
-.shp/*.shx
-.shp/*.dbf
-.shp/*.prj
-.shp/*.CPG
-.shp/*.sbn
-.shp/*.sbx
-.shp/*.shp.*
+file/shp/*.shp
+file/shp/*.shx
+file/shp/*.dbf
+file/shp/*.prj
+file/shp/*.CPG
+file/shp/*.sbn
+file/shp/*.sbx
+file/shp/*.shp.*
+
+
+# General exclusions (new)
+.idea/
+.git/
+.venv/
+.github/
+.venvPython312/
+Lib/
+#.refs/GitHubRefs/
+# Grid pyramid
+*.ovr
+*.lock
+*__pycache__*
+# Compiled Python Files
+*.pyc
+# TIFF world file
+*.tfw
+# Grid temporal metadata
+*.aux.xml
+*.tif.xml
+*.tif.aux.xml
+*.tif.vat.cpg
+*.tif.vat.dbf
+*.tif.ovr
+*Copia_de_seguridad_de*
+#Shapefiles uncompressed
+file/shp/*.shp
+file/shp/*.shx
+file/shp/*.dbf
+file/shp/*.prj
+file/shp/*.CPG
+file/shp/*.sbn
+file/shp/*.sbx
+file/shp/*.shp.*
+
 
 # Video exclusions
 #Section02/FdrDEM/FdrDEM.mp4
@@ -55,8 +91,6 @@ Lib/
 #.dem/*.zip
 #.dem/*.rar
 #.dem/*.7z
-HECRAS_v0/
-HECRAS/
 file/hec/HECRAS_v0/
 file/hec/HECRAS_v0/*.rar
 
