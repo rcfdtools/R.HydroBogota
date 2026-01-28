@@ -126,3 +126,22 @@ Humedales para la reducción del riesgo de desastres: Opciones eficaces para com
 
 Sentinel
 Modis
+
+.graph/
+file/graph/
+
+.data/
+file/data/
+
+.dem/
+file/dem/
+
+.shp/
+file/shp/
+
+.model/
+file/hec/
+
+.ref/
+file/ref/
+
