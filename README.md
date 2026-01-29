@@ -3,7 +3,7 @@
 
 <div align="center">
 
-Paper on [Revistas Intec](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810), [Rearchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia), [DOI](https://doi.org/10.22206/cyap.2024.v7i2.3283), [Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155)
+Paper: [Revistas Intec](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810), [Rearchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia), [DOI](https://doi.org/10.22206/cyap.2024.v7i2.3283), [Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155)
 
 </div>
 
