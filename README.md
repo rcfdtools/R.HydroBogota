@@ -305,4 +305,4 @@ Referencias complementarias y documentación de uso libre recopilada y disponibl
 
 [^1]: https://archivo.minambiente.gov.co/index.php/noticias/2067
 
-<div align="center"><img alt="rcfdtools" src="file/graph/R.HydroBogota.svg" height="32px"></div>
+<div align="center"><img alt="rcfdtools" src="file/graph/R.HydroBogota.svg" height="46px"></div>
