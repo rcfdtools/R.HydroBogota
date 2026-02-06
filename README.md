@@ -301,9 +301,8 @@ Para las simulaciones hidráulicas se utilizarán las siguientes herramientas co
 * https://damfailures.org/wp-content/uploads/2021/11/conduits_embankment_dams.pdf
 * https://datosgeograficos.car.gov.co/
 
-Referencias complementarias y documentación de uso libre recopilada y disponible en [.ref](file/ref/Readme.md) de este repositorio.
-
+Referencias complementarias y documentación de uso libre recopilada y disponible en [/ref](file/ref/Readme.md) de este repositorio.
 
 [^1]: https://archivo.minambiente.gov.co/index.php/noticias/2067
 
-<div align="right"><img alt="rcfdtools" src="file/graph/R.HydroBogota.svg" width="120px"></div>
+<div align="right"><img alt="rcfdtools" src="file/graph/R.HydroBogota.svg" width="130px"></div>
