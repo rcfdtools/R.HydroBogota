@@ -1,14 +1,14 @@
 <div align="center"><a href="https://github.com/rcfdtools" target="_blank"><img src="https://github.com/rcfdtools/rcfdtools/blob/main/graph/rcfdtools_banner.png" alt="R.LTWB" width="100%" border="0" /></a></div>
-<div align="center"><sub><i>RESEARCH: _“Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America - HydroBogota”_</i></sub></div>
+<div align="center"><sub><i>RESEARCH: “Study of hydraulic hazards in the floodplain of the Bogotá River basin - Cundinamarca - Colombia - South America - HydroBogota”</i></sub></div>
 
 <div align="center">
 
-Paper: [Revistas Intec](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810), [Rearchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia), [DOI](https://doi.org/10.22206/cyap.2024.v7i2.3283), [Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155)
+:scroll: Paper: [Revistas Intec](https://revistas.intec.edu.do/index.php/cite/article/view/3283/3810), [Rearchgate](https://www.researchgate.net/publication/387680423_Estudio_de_amenazas_hidraulicas_en_la_llanura_de_inundacion_de_la_cuenca_del_rio_Bogota_-_Cundinamarca_-_Colombia), [DOI](https://doi.org/10.22206/cyap.2024.v7i2.3283), [Dialnet](https://dialnet.unirioja.es/servlet/articulo?codigo=10016155)
 
 </div>
 
 
-# RESEARCH: Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota
+# RESEARCH: _“Estudio de amenazas hidráulicas en la llanura de inundación de la cuenca del Río Bogotá - Cundinamarca - Colombia - Suramérica - HydroBogota”_
 Keywords: `research-and-development` `case-study` `colombia` `bogota-river` `sudden-discharge` `hec-ras` `iber` `ansys-fluent` `hydraulic-modeling` `2D-modeling` `dam-branching` `newtonian-fluid` `non-newtonian-fluid` `hydraulic-hazard`
 
 **_Hydro-Bogotá_** es un proyecto de investigación colaborativa que busca integrar y generar conocimiento científico alrededor del estudio del ciclo hidrológico y su asociación con los fenómenos producidos por la escorrentía en la cuenca hidrográfica del Río Bogotá.
