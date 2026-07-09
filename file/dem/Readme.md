@@ -4,7 +4,7 @@ Esta carpeta contiene los modelos digitales de elevación (de terreno o DTM, de 
 
 > Para conocer los archivos fuente a partir de los cuales se generaron los diferentes shapefile, diríjase a la sección [data](../data) de este repositorio.
 > 
-> :lady_beetle:Atención: Para la correcta creación de terrenos en RAS Mapper, los archivos de modelos digitales de terreno deberán proyectarse utilizando el CRS MAGNA_OrigenNacional.prj disponible en la carpeta [../data](../data) o en la carpeta .projectionfile del modelo hidráulico HEC-RAS.
+> :lady_beetle:Atención: para la correcta creación de terrenos en RAS Mapper, los archivos de modelos digitales de terreno deberán proyectarse utilizando el CRS MAGNA_OrigenNacional.prj disponible en la carpeta [../data](../data) o en la carpeta .projectionfile del modelo hidráulico HEC-RAS.
 > 
 > Debido al tamaño de los modelos digitales, modelos superiores a 500MB han sido publicados en este repositorio a través de _Releases_, los archivos menores son incluídos directamente en la carpeta _.DEM_ en comprimidos de 99MB.
 
