@@ -22,8 +22,7 @@
 * https://www.escuelaing.edu.co/es/eventos/seminario-de-hidraulica-disponibilidad-de-agua-en-colombia-abastecimiento-generacion-riego-y-drenaje/
 * https://www.hec.usace.army.mil/software/hec-ras/documentation/RD-52_HEC-RAS%20Verification%20and%20Validation.pdf
 * https://www.hec.usace.army.mil/publications/TechnicalPapers/TP-69.pdf
-* https://www.hec.usace.army.mil/confluence/hmsdocs/hmsguides/files/118099517/118099546/1/1665679165857/HydrologicSoilGroup_DominantCondition.pdf
-* https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/overview-of-optional-capabilities/modeling-precipitation-and-infiltration/deficit-and-constant#:~:text=where%20Ev%20is%20the,to%20unreasonably%20high%20infiltration%20rates.
+* https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/overview-of-optional-capabilities/modeling-precipitation-and-infiltration/deficit-and-constant
 * https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/transform/scs-unit-hydrograph-model
 * http://www.ideam.gov.co/web/ecosistemas/metodologia-corine-land-cover
 * https://www.hec.usace.army.mil/confluence/hmsdocs/hmstrm/erosion-and-sediment-transport-under-construction/sediment-transport-methods/linear-reservoir
