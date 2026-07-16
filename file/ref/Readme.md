@@ -40,6 +40,7 @@
 * Manual sobre predicción y avisos de crecidas. OMM. Disponible en:https://library.wmo.int/doc_num.php?explnum_id=4089
 * Humedales para la reducción del riesgo de desastres: Opciones eficaces para comunidades resilientes. RAMSAR. Disponible en:https://www.ramsar.org/sites/default/files/documents/library/rpb_wetlands_and_drr_s.pdf
 * USLE sedimentos
+* https://www.cursosgis.com/comparacion-modelos-hidraulicos-bidimiensionales-iber-hec-ras/
 
 
 **Icons**
